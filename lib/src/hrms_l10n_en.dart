@@ -1,0 +1,567 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+import 'hrms_l10n.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for English (`en`).
+class HrmsL10nEn extends HrmsL10n {
+  HrmsL10nEn([String locale = 'en']) : super(locale);
+
+  @override
+  String get appName => 'HRMS';
+
+  @override
+  String get ok => 'OK';
+
+  @override
+  String get cancel => 'Cancel';
+
+  @override
+  String get save => 'Save';
+
+  @override
+  String get submit => 'Submit';
+
+  @override
+  String get close => 'Close';
+
+  @override
+  String get search => 'Search';
+
+  @override
+  String get loading => 'Loading...';
+
+  @override
+  String get noData => 'No data found';
+
+  @override
+  String get error => 'Something went wrong';
+
+  @override
+  String get retry => 'Retry';
+
+  @override
+  String get yes => 'Yes';
+
+  @override
+  String get no => 'No';
+
+  @override
+  String get back => 'Back';
+
+  @override
+  String get next => 'Next';
+
+  @override
+  String get done => 'Done';
+
+  @override
+  String get edit => 'Edit';
+
+  @override
+  String get delete => 'Delete';
+
+  @override
+  String get view => 'View';
+
+  @override
+  String get download => 'Download';
+
+  @override
+  String get upload => 'Upload';
+
+  @override
+  String get filter => 'Filter';
+
+  @override
+  String get apply => 'Apply';
+
+  @override
+  String get clear => 'Clear';
+
+  @override
+  String get logout => 'Logout';
+
+  @override
+  String get navHome => 'Home';
+
+  @override
+  String get navAttendance => 'Attendance';
+
+  @override
+  String get navLeave => 'Leave';
+
+  @override
+  String get navPayroll => 'Payroll';
+
+  @override
+  String get navProfile => 'Profile';
+
+  @override
+  String get navTasks => 'Tasks';
+
+  @override
+  String get navReports => 'Reports';
+
+  @override
+  String get navHolidays => 'Holidays';
+
+  @override
+  String get navDocuments => 'Documents';
+
+  @override
+  String get navAnnouncements => 'Announcements';
+
+  @override
+  String get attendance => 'Attendance';
+
+  @override
+  String get punchIn => 'Punch In';
+
+  @override
+  String get punchOut => 'Punch Out';
+
+  @override
+  String get markAttendance => 'Mark Attendance';
+
+  @override
+  String get attendanceHistory => 'Attendance History';
+
+  @override
+  String get todayAttendance => 'Today\'s Attendance';
+
+  @override
+  String get present => 'Present';
+
+  @override
+  String get absent => 'Absent';
+
+  @override
+  String get late => 'Late';
+
+  @override
+  String get halfDay => 'Half Day';
+
+  @override
+  String get workFromHome => 'Work From Home';
+
+  @override
+  String get onLeave => 'On Leave';
+
+  @override
+  String get checkInTime => 'Check-in Time';
+
+  @override
+  String get checkOutTime => 'Check-out Time';
+
+  @override
+  String get totalHours => 'Total Hours';
+
+  @override
+  String get overtimeHours => 'Overtime Hours';
+
+  @override
+  String get regularizeAttendance => 'Regularize Attendance';
+
+  @override
+  String get attendanceSummary => 'Attendance Summary';
+
+  @override
+  String get workingDays => 'Working Days';
+
+  @override
+  String get presentDays => 'Present Days';
+
+  @override
+  String get absentDays => 'Absent Days';
+
+  @override
+  String get leave => 'Leave';
+
+  @override
+  String get applyLeave => 'Apply Leave';
+
+  @override
+  String get leaveRequest => 'Leave Request';
+
+  @override
+  String get leaveBalance => 'Leave Balance';
+
+  @override
+  String get leaveHistory => 'Leave History';
+
+  @override
+  String get leaveType => 'Leave Type';
+
+  @override
+  String get casualLeave => 'Casual Leave';
+
+  @override
+  String get sickLeave => 'Sick Leave';
+
+  @override
+  String get earnedLeave => 'Earned Leave';
+
+  @override
+  String get maternityLeave => 'Maternity Leave';
+
+  @override
+  String get paternityLeave => 'Paternity Leave';
+
+  @override
+  String get compensatoryLeave => 'Compensatory Leave';
+
+  @override
+  String get approvedLeave => 'Approved';
+
+  @override
+  String get pendingLeave => 'Pending';
+
+  @override
+  String get rejectedLeave => 'Rejected';
+
+  @override
+  String get cancelledLeave => 'Cancelled';
+
+  @override
+  String get leaveReason => 'Reason';
+
+  @override
+  String get fromDate => 'From Date';
+
+  @override
+  String get toDate => 'To Date';
+
+  @override
+  String leaveDays(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count days',
+      one: '1 day',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get availableBalance => 'Available Balance';
+
+  @override
+  String get usedLeave => 'Used';
+
+  @override
+  String get approveLeave => 'Approve';
+
+  @override
+  String get rejectLeave => 'Reject';
+
+  @override
+  String get payroll => 'Payroll';
+
+  @override
+  String get payslip => 'Payslip';
+
+  @override
+  String get salary => 'Salary';
+
+  @override
+  String get basicSalary => 'Basic Salary';
+
+  @override
+  String get hra => 'HRA';
+
+  @override
+  String get da => 'DA';
+
+  @override
+  String get ta => 'TA';
+
+  @override
+  String get specialAllowance => 'Special Allowance';
+
+  @override
+  String get grossSalary => 'Gross Salary';
+
+  @override
+  String get netSalary => 'Net Salary';
+
+  @override
+  String get deductions => 'Deductions';
+
+  @override
+  String get pf => 'PF';
+
+  @override
+  String get esi => 'ESI';
+
+  @override
+  String get tds => 'TDS';
+
+  @override
+  String get professionalTax => 'Professional Tax';
+
+  @override
+  String get downloadPayslip => 'Download Payslip';
+
+  @override
+  String get payrollMonth => 'Payroll Month';
+
+  @override
+  String get earnings => 'Earnings';
+
+  @override
+  String get bankAccount => 'Bank Account';
+
+  @override
+  String get ifscCode => 'IFSC Code';
+
+  @override
+  String get employee => 'Employee';
+
+  @override
+  String get employeeId => 'Employee ID';
+
+  @override
+  String get employeeName => 'Employee Name';
+
+  @override
+  String get department => 'Department';
+
+  @override
+  String get designation => 'Designation';
+
+  @override
+  String get joiningDate => 'Joining Date';
+
+  @override
+  String get reportingManager => 'Reporting Manager';
+
+  @override
+  String get contactNumber => 'Contact Number';
+
+  @override
+  String get emailAddress => 'Email Address';
+
+  @override
+  String get dateOfBirth => 'Date of Birth';
+
+  @override
+  String get gender => 'Gender';
+
+  @override
+  String get male => 'Male';
+
+  @override
+  String get female => 'Female';
+
+  @override
+  String get address => 'Address';
+
+  @override
+  String get city => 'City';
+
+  @override
+  String get state => 'State';
+
+  @override
+  String get pincode => 'Pincode';
+
+  @override
+  String get employeeType => 'Employee Type';
+
+  @override
+  String get permanent => 'Permanent';
+
+  @override
+  String get contract => 'Contract';
+
+  @override
+  String get intern => 'Intern';
+
+  @override
+  String get holidays => 'Holidays';
+
+  @override
+  String get publicHoliday => 'Public Holiday';
+
+  @override
+  String get restrictedHoliday => 'Restricted Holiday';
+
+  @override
+  String get upcomingHolidays => 'Upcoming Holidays';
+
+  @override
+  String get holidayCalendar => 'Holiday Calendar';
+
+  @override
+  String get tasks => 'Tasks';
+
+  @override
+  String get myTasks => 'My Tasks';
+
+  @override
+  String get taskTitle => 'Task Title';
+
+  @override
+  String get dueDate => 'Due Date';
+
+  @override
+  String get priority => 'Priority';
+
+  @override
+  String get high => 'High';
+
+  @override
+  String get medium => 'Medium';
+
+  @override
+  String get low => 'Low';
+
+  @override
+  String get completed => 'Completed';
+
+  @override
+  String get inProgress => 'In Progress';
+
+  @override
+  String get notStarted => 'Not Started';
+
+  @override
+  String get overdue => 'Overdue';
+
+  @override
+  String get assignedTo => 'Assigned To';
+
+  @override
+  String get assignedBy => 'Assigned By';
+
+  @override
+  String get documents => 'Documents';
+
+  @override
+  String get uploadDocument => 'Upload Document';
+
+  @override
+  String get offerLetter => 'Offer Letter';
+
+  @override
+  String get appointmentLetter => 'Appointment Letter';
+
+  @override
+  String get experienceLetter => 'Experience Letter';
+
+  @override
+  String get relievingLetter => 'Relieving Letter';
+
+  @override
+  String get aadhaarCard => 'Aadhaar Card';
+
+  @override
+  String get panCard => 'PAN Card';
+
+  @override
+  String get loginTitle => 'Welcome Back';
+
+  @override
+  String get loginSubtitle => 'Sign in to your HRMS account';
+
+  @override
+  String get username => 'Username';
+
+  @override
+  String get password => 'Password';
+
+  @override
+  String get forgotPassword => 'Forgot Password?';
+
+  @override
+  String get signIn => 'Sign In';
+
+  @override
+  String get signOut => 'Sign Out';
+
+  @override
+  String get changePassword => 'Change Password';
+
+  @override
+  String get currentPassword => 'Current Password';
+
+  @override
+  String get newPassword => 'New Password';
+
+  @override
+  String get confirmPassword => 'Confirm Password';
+
+  @override
+  String get settings => 'Settings';
+
+  @override
+  String get language => 'Language';
+
+  @override
+  String get chooseLanguage => 'Choose Language';
+
+  @override
+  String get notifications => 'Notifications';
+
+  @override
+  String get theme => 'Theme';
+
+  @override
+  String get darkMode => 'Dark Mode';
+
+  @override
+  String get about => 'About';
+
+  @override
+  String get version => 'Version';
+
+  @override
+  String get privacyPolicy => 'Privacy Policy';
+
+  @override
+  String get termsOfService => 'Terms of Service';
+
+  @override
+  String welcomeUser(String name) {
+    return 'Welcome, $name!';
+  }
+
+  @override
+  String goodMorning(String name) {
+    return 'Good Morning, $name';
+  }
+
+  @override
+  String goodAfternoon(String name) {
+    return 'Good Afternoon, $name';
+  }
+
+  @override
+  String goodEvening(String name) {
+    return 'Good Evening, $name';
+  }
+
+  @override
+  String employeeCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count employees',
+      one: '1 employee',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String pendingRequests(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count pending requests',
+      one: '1 pending request',
+    );
+    return '$_temp0';
+  }
+}

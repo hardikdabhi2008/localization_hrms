@@ -1,0 +1,38 @@
+name: hrms_localization
+description: >-
+  Complete localization package for HRMS Flutter apps supporting 11 major Indian
+  languages. Includes bundled ARB strings (offline-safe), remote patch layer
+  (fix wrong translations without app store release), version-locked critical
+  strings (salary, legal, leave status), and force/soft/silent update modes.
+version: 1.0.0
+homepage: https://github.com/hardikdabhi2008/hrms_localization
+repository: https://github.com/hardikdabhi2008/hrms_localization
+issue_tracker: https://github.com/hardikdabhi2008/hrms_localization/issues
+
+topics:
+  - localization
+  - i18n
+  - hrms
+  - indian-languages
+  - flutter
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  shared_preferences: ^2.5.5
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  generate: true

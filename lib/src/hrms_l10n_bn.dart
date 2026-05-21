@@ -1,0 +1,567 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+import 'hrms_l10n.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for Bengali Bangla (`bn`).
+class HrmsL10nBn extends HrmsL10n {
+  HrmsL10nBn([String locale = 'bn']) : super(locale);
+
+  @override
+  String get appName => 'HRMS';
+
+  @override
+  String get ok => 'ঠিক আছে';
+
+  @override
+  String get cancel => 'বাতিল করুন';
+
+  @override
+  String get save => 'সংরক্ষণ করুন';
+
+  @override
+  String get submit => 'জমা দিন';
+
+  @override
+  String get close => 'বন্ধ করুন';
+
+  @override
+  String get search => 'খুঁজুন';
+
+  @override
+  String get loading => 'লোড হচ্ছে...';
+
+  @override
+  String get noData => 'কোনো ডেটা পাওয়া যায়নি';
+
+  @override
+  String get error => 'কিছু একটা ভুল হয়েছে';
+
+  @override
+  String get retry => 'আবার চেষ্টা করুন';
+
+  @override
+  String get yes => 'হ্যাঁ';
+
+  @override
+  String get no => 'না';
+
+  @override
+  String get back => 'পিছনে';
+
+  @override
+  String get next => 'পরবর্তী';
+
+  @override
+  String get done => 'সম্পন্ন';
+
+  @override
+  String get edit => 'সম্পাদনা করুন';
+
+  @override
+  String get delete => 'মুছুন';
+
+  @override
+  String get view => 'দেখুন';
+
+  @override
+  String get download => 'ডাউনলোড';
+
+  @override
+  String get upload => 'আপলোড';
+
+  @override
+  String get filter => 'ফিল্টার';
+
+  @override
+  String get apply => 'প্রয়োগ করুন';
+
+  @override
+  String get clear => 'পরিষ্কার করুন';
+
+  @override
+  String get logout => 'লগ আউট';
+
+  @override
+  String get navHome => 'হোম';
+
+  @override
+  String get navAttendance => 'উপস্থিতি';
+
+  @override
+  String get navLeave => 'ছুটি';
+
+  @override
+  String get navPayroll => 'বেতন';
+
+  @override
+  String get navProfile => 'প্রোফাইল';
+
+  @override
+  String get navTasks => 'কাজ';
+
+  @override
+  String get navReports => 'রিপোর্ট';
+
+  @override
+  String get navHolidays => 'ছুটির দিন';
+
+  @override
+  String get navDocuments => 'নথি';
+
+  @override
+  String get navAnnouncements => 'ঘোষণা';
+
+  @override
+  String get attendance => 'উপস্থিতি';
+
+  @override
+  String get punchIn => 'পাঞ্চ ইন';
+
+  @override
+  String get punchOut => 'পাঞ্চ আউট';
+
+  @override
+  String get markAttendance => 'উপস্থিতি চিহ্নিত করুন';
+
+  @override
+  String get attendanceHistory => 'উপস্থিতি ইতিহাস';
+
+  @override
+  String get todayAttendance => 'আজকের উপস্থিতি';
+
+  @override
+  String get present => 'উপস্থিত';
+
+  @override
+  String get absent => 'অনুপস্থিত';
+
+  @override
+  String get late => 'দেরি';
+
+  @override
+  String get halfDay => 'অর্ধ দিন';
+
+  @override
+  String get workFromHome => 'বাড়ি থেকে কাজ';
+
+  @override
+  String get onLeave => 'ছুটিতে';
+
+  @override
+  String get checkInTime => 'চেক-ইন সময়';
+
+  @override
+  String get checkOutTime => 'চেক-আউট সময়';
+
+  @override
+  String get totalHours => 'মোট ঘণ্টা';
+
+  @override
+  String get overtimeHours => 'ওভারটাইম ঘণ্টা';
+
+  @override
+  String get regularizeAttendance => 'উপস্থিতি নিয়মিত করুন';
+
+  @override
+  String get attendanceSummary => 'উপস্থিতি সারসংক্ষেপ';
+
+  @override
+  String get workingDays => 'কর্মদিবস';
+
+  @override
+  String get presentDays => 'উপস্থিত দিন';
+
+  @override
+  String get absentDays => 'অনুপস্থিত দিন';
+
+  @override
+  String get leave => 'ছুটি';
+
+  @override
+  String get applyLeave => 'ছুটির আবেদন';
+
+  @override
+  String get leaveRequest => 'ছুটির অনুরোধ';
+
+  @override
+  String get leaveBalance => 'ছুটির ব্যালেন্স';
+
+  @override
+  String get leaveHistory => 'ছুটির ইতিহাস';
+
+  @override
+  String get leaveType => 'ছুটির ধরন';
+
+  @override
+  String get casualLeave => 'নৈমিত্তিক ছুটি';
+
+  @override
+  String get sickLeave => 'অসুস্থতার ছুটি';
+
+  @override
+  String get earnedLeave => 'অর্জিত ছুটি';
+
+  @override
+  String get maternityLeave => 'মাতৃত্বকালীন ছুটি';
+
+  @override
+  String get paternityLeave => 'পিতৃত্বকালীন ছুটি';
+
+  @override
+  String get compensatoryLeave => 'ক্ষতিপূরণ ছুটি';
+
+  @override
+  String get approvedLeave => 'অনুমোদিত';
+
+  @override
+  String get pendingLeave => 'মুলতুবি';
+
+  @override
+  String get rejectedLeave => 'প্রত্যাখ্যাত';
+
+  @override
+  String get cancelledLeave => 'বাতিল করা হয়েছে';
+
+  @override
+  String get leaveReason => 'কারণ';
+
+  @override
+  String get fromDate => 'তারিখ থেকে';
+
+  @override
+  String get toDate => 'তারিখ পর্যন্ত';
+
+  @override
+  String leaveDays(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count দিন',
+      one: '1 দিন',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get availableBalance => 'উপলব্ধ ব্যালেন্স';
+
+  @override
+  String get usedLeave => 'ব্যবহৃত ছুটি';
+
+  @override
+  String get approveLeave => 'অনুমোদন করুন';
+
+  @override
+  String get rejectLeave => 'প্রত্যাখ্যান করুন';
+
+  @override
+  String get payroll => 'বেতন';
+
+  @override
+  String get payslip => 'বেতন স্লিপ';
+
+  @override
+  String get salary => 'বেতন';
+
+  @override
+  String get basicSalary => 'মূল বেতন';
+
+  @override
+  String get hra => 'HRA';
+
+  @override
+  String get da => 'DA';
+
+  @override
+  String get ta => 'TA';
+
+  @override
+  String get specialAllowance => 'বিশেষ ভাতা';
+
+  @override
+  String get grossSalary => 'মোট বেতন';
+
+  @override
+  String get netSalary => 'নিট বেতন';
+
+  @override
+  String get deductions => 'কর্তন';
+
+  @override
+  String get pf => 'PF';
+
+  @override
+  String get esi => 'ESI';
+
+  @override
+  String get tds => 'TDS';
+
+  @override
+  String get professionalTax => 'পেশাদার কর';
+
+  @override
+  String get downloadPayslip => 'বেতন স্লিপ ডাউনলোড';
+
+  @override
+  String get payrollMonth => 'বেতন মাস';
+
+  @override
+  String get earnings => 'আয়';
+
+  @override
+  String get bankAccount => 'ব্যাংক অ্যাকাউন্ট';
+
+  @override
+  String get ifscCode => 'IFSC';
+
+  @override
+  String get employee => 'কর্মচারী';
+
+  @override
+  String get employeeId => 'কর্মচারী ID';
+
+  @override
+  String get employeeName => 'কর্মচারীর নাম';
+
+  @override
+  String get department => 'বিভাগ';
+
+  @override
+  String get designation => 'পদবী';
+
+  @override
+  String get joiningDate => 'যোগদানের তারিখ';
+
+  @override
+  String get reportingManager => 'রিপোর্টিং ম্যানেজার';
+
+  @override
+  String get contactNumber => 'যোগাযোগ নম্বর';
+
+  @override
+  String get emailAddress => 'ইমেইল ঠিকানা';
+
+  @override
+  String get dateOfBirth => 'জন্ম তারিখ';
+
+  @override
+  String get gender => 'লিঙ্গ';
+
+  @override
+  String get male => 'পুরুষ';
+
+  @override
+  String get female => 'মহিলা';
+
+  @override
+  String get address => 'ঠিকানা';
+
+  @override
+  String get city => 'শহর';
+
+  @override
+  String get state => 'রাজ্য';
+
+  @override
+  String get pincode => 'পিন কোড';
+
+  @override
+  String get employeeType => 'কর্মচারীর ধরন';
+
+  @override
+  String get permanent => 'স্থায়ী';
+
+  @override
+  String get contract => 'চুক্তি';
+
+  @override
+  String get intern => 'ইন্টার্ন';
+
+  @override
+  String get holidays => 'ছুটির দিন';
+
+  @override
+  String get publicHoliday => 'সরকারি ছুটি';
+
+  @override
+  String get restrictedHoliday => 'সীমাবদ্ধ ছুটি';
+
+  @override
+  String get upcomingHolidays => 'আসন্ন ছুটির দিন';
+
+  @override
+  String get holidayCalendar => 'ছুটির ক্যালেন্ডার';
+
+  @override
+  String get tasks => 'কাজ';
+
+  @override
+  String get myTasks => 'আমার কাজ';
+
+  @override
+  String get taskTitle => 'কাজের শিরোনাম';
+
+  @override
+  String get dueDate => 'নির্ধারিত তারিখ';
+
+  @override
+  String get priority => 'অগ্রাধিকার';
+
+  @override
+  String get high => 'উচ্চ';
+
+  @override
+  String get medium => 'মাঝারি';
+
+  @override
+  String get low => 'কম';
+
+  @override
+  String get completed => 'সম্পন্ন';
+
+  @override
+  String get inProgress => 'চলছে';
+
+  @override
+  String get notStarted => 'শুরু হয়নি';
+
+  @override
+  String get overdue => 'মেয়াদ পেরিয়ে গেছে';
+
+  @override
+  String get assignedTo => 'নিয়োজিত';
+
+  @override
+  String get assignedBy => 'দ্বারা নিয়োজিত';
+
+  @override
+  String get documents => 'নথি';
+
+  @override
+  String get uploadDocument => 'নথি আপলোড করুন';
+
+  @override
+  String get offerLetter => 'অফার লেটার';
+
+  @override
+  String get appointmentLetter => 'নিয়োগপত্র';
+
+  @override
+  String get experienceLetter => 'অভিজ্ঞতার চিঠি';
+
+  @override
+  String get relievingLetter => 'বিদায় পত্র';
+
+  @override
+  String get aadhaarCard => 'আধার কার্ড';
+
+  @override
+  String get panCard => 'প্যান কার্ড';
+
+  @override
+  String get loginTitle => 'আবার স্বাগতম';
+
+  @override
+  String get loginSubtitle => 'আপনার HRMS অ্যাকাউন্টে সাইন ইন করুন';
+
+  @override
+  String get username => 'ব্যবহারকারীর নাম';
+
+  @override
+  String get password => 'পাসওয়ার্ড';
+
+  @override
+  String get forgotPassword => 'পাসওয়ার্ড ভুলে গেছেন?';
+
+  @override
+  String get signIn => 'সাইন ইন';
+
+  @override
+  String get signOut => 'সাইন আউট';
+
+  @override
+  String get changePassword => 'পাসওয়ার্ড পরিবর্তন করুন';
+
+  @override
+  String get currentPassword => 'বর্তমান পাসওয়ার্ড';
+
+  @override
+  String get newPassword => 'নতুন পাসওয়ার্ড';
+
+  @override
+  String get confirmPassword => 'পাসওয়ার্ড নিশ্চিত করুন';
+
+  @override
+  String get settings => 'সেটিংস';
+
+  @override
+  String get language => 'ভাষা';
+
+  @override
+  String get chooseLanguage => 'ভাষা বেছে নিন';
+
+  @override
+  String get notifications => 'বিজ্ঞপ্তি';
+
+  @override
+  String get theme => 'থিম';
+
+  @override
+  String get darkMode => 'ডার্ক মোড';
+
+  @override
+  String get about => 'সম্পর্কে';
+
+  @override
+  String get version => 'সংস্করণ';
+
+  @override
+  String get privacyPolicy => 'গোপনীয়তা নীতি';
+
+  @override
+  String get termsOfService => 'পরিষেবার শর্তাবলী';
+
+  @override
+  String welcomeUser(String name) {
+    return 'স্বাগতম, $name!';
+  }
+
+  @override
+  String goodMorning(String name) {
+    return 'শুভ সকাল, $name';
+  }
+
+  @override
+  String goodAfternoon(String name) {
+    return 'শুভ দুপুর, $name';
+  }
+
+  @override
+  String goodEvening(String name) {
+    return 'শুভ সন্ধ্যা, $name';
+  }
+
+  @override
+  String employeeCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count কর্মচারী',
+      one: '1 কর্মচারী',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String pendingRequests(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count মুলতুবি অনুরোধ',
+      one: '1 মুলতুবি অনুরোধ',
+    );
+    return '$_temp0';
+  }
+}
