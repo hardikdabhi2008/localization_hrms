@@ -1,3 +1,7 @@
+## 1.0.1
+
+* Fixed pubspec.yaml description length to comply with pub.dev scoring requirements (kept within 60–180 characters)
+
 ## 1.0.0
 
 * Initial release
