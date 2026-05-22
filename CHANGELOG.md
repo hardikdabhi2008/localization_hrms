@@ -1,3 +1,11 @@
+## 1.0.1
+
+* Remove null assertion (`!`) on non-nullable `HrmsL10n.of()` calls in tests
+* Add `dart_test.yaml` to scope `dart test` to pure-Dart suites only
+* Add `test/dart/hrms_version_lock_test.dart` — pure-Dart unit tests for `HrmsVersionLock`
+* Add `test: ^1.30.0` dev dependency
+* Clean up repo: untrack `.dart_tool/`, `.idea/`, `build/`, and lock files from git
+
 ## 1.0.0
 
 * Initial release of `localization_hrms`
