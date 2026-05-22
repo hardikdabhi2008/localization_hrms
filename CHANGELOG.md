@@ -1,3 +1,8 @@
+## 1.0.2
+
+* Add 100+ new localization keys across all 11 languages
+* New keys cover: location permissions, support tickets, resignation flow, loans & advances, tax declaration (Section 80C/80D), payroll breakdown (YTD, net pay, TDS), app usage tracking, attendance regularization, issue categories (approvals, workforce, finance, etc.), and common UI strings (create, manage, dismiss, crop image, etc.)
+
 ## 1.0.1
 
 * Remove null assertion (`!`) on non-nullable `HrmsL10n.of()` calls in tests
