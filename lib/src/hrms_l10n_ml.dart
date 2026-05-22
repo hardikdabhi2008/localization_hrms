@@ -564,4 +564,364 @@ class HrmsL10nMl extends HrmsL10n {
     );
     return '$_temp0';
   }
+
+  @override
+  String get noAnnouncementsFound => 'ഒരു അറിയിപ്പും കണ്ടെത്തിയില്ല';
+
+  @override
+  String get applyRegularization => 'റഗുലറൈസേഷൻ അപേക്ഷിക്കുക';
+
+  @override
+  String get noCelebrationsFound => 'ആഘോഷങ്ങളൊന്നുമില്ല...';
+
+  @override
+  String get noDocumentFound => 'ഒരു രേഖയും കണ്ടെത്തിയില്ല';
+
+  @override
+  String get noLeaveRequestsFound => 'ലീവ് അഭ്യർത്ഥനകളൊന്നും കണ്ടെത്തിയില്ല';
+
+  @override
+  String get noLoansFound => 'ഒരു വായ്പയും കണ്ടെത്തിയില്ല';
+
+  @override
+  String get noExpensesFound => 'ഒരു ചെലവും കണ്ടെത്തിയില്ല';
+
+  @override
+  String get turnOnLocation => 'ലൊക്കേഷൻ ഓണാക്കുക';
+
+  @override
+  String get locationTurnedOffMessage => 'ലൊക്കേഷൻ ഓഫ് ആണ്. പഞ്ച് ഇൻ/ഔട്ട് തുടരാൻ ലൊക്കേഷൻ സേവനങ്ങൾ പ്രവർത്തനക്ഷമമാക്കുക.';
+
+  @override
+  String get locationPermissionBlocked => 'ലൊക്കേഷൻ അനുമതി തടഞ്ഞിരിക്കുന്നു';
+
+  @override
+  String get locationPermissionDeniedMessage => 'ലൊക്കേഷൻ അനുമതി സ്ഥിരമായി നിരസിക്കപ്പെട്ടു. ആപ്പ് ക്രമീകരണങ്ങൾ തുറന്ന് ലൊക്കേഷൻ അനുമതി നൽകുക.';
+
+  @override
+  String get openLocationSettings => 'ലൊക്കേഷൻ ക്രമീകരണങ്ങൾ തുറക്കുക';
+
+  @override
+  String get openAppSettings => 'ആപ്പ് ക്രമീകരണങ്ങൾ തുറക്കുക';
+
+  @override
+  String get appUsage => 'ആപ്പ് ഉപയോഗം';
+
+  @override
+  String get androidOnly => 'Android മാത്രം';
+
+  @override
+  String get myTickets => 'എന്റെ ടിക്കറ്റുകൾ';
+
+  @override
+  String get raiseTicket => 'ടിക്കറ്റ് ഉന്നയിക്കുക';
+
+  @override
+  String get applyResignation => 'രാജിക്ക് അപേക്ഷിക്കുക';
+
+  @override
+  String get selectPreferredLanguage => 'നിങ്ങളുടെ ഇഷ്ടഭാഷ തിരഞ്ഞെടുക്കുക';
+
+  @override
+  String get loansAndAdvances => 'വായ്പകളും അഡ്വാൻസുകളും';
+
+  @override
+  String get yearToDateSummary => 'വർഷാന്ത സംഗ്രഹം';
+
+  @override
+  String get statutoryInformation => 'നിstatutory വിവരങ്ങൾ';
+
+  @override
+  String get noAlertsFound => 'ഒരു അലർട്ടും കണ്ടെത്തിയില്ല';
+
+  @override
+  String get noRepaymentSchedulesFound => 'ഒരു തിരിച്ചടവ് ഷെഡ്യൂളും കണ്ടെത്തിയില്ല.';
+
+  @override
+  String get noApprovalsFound => 'ഒരു അ承認നും കണ്ടെത്തിയില്ല';
+
+  @override
+  String get noUpcomingHolidays => 'വരാനിരിക്കുന്ന അവധി ദിനങ്ങളൊന്നുമില്ല';
+
+  @override
+  String get noTicketsYet => 'ഇതുവരെ ടിക്കറ്റുകളൊന്നുമില്ല';
+
+  @override
+  String get failedToLoadTickets => 'ടിക്കറ്റുകൾ ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു';
+
+  @override
+  String get noTrackedAppUsage => 'ട്രാക്ക് ചെയ്ത ആപ്പ് ഉപയോഗം ഇല്ല';
+
+  @override
+  String get noAlerts => 'അലർട്ടുകളൊന്നുമില്ല !';
+
+  @override
+  String get noLeaveLedgerEntriesFound => 'ലീവ് ലെഡ്ജർ എൻട്രികളൊന്നും കണ്ടെത്തിയില്ല';
+
+  @override
+  String get noSummaryAvailable => 'സംഗ്രഹം ലഭ്യമല്ല';
+
+  @override
+  String get noStatutoryDetailsAvailable => 'നിstatutory വിശദാംശങ്ങൾ ലഭ്യമല്ല.';
+
+  @override
+  String get unableToLoadLoans => 'വായ്പകൾ ലോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല';
+
+  @override
+  String get dataNotShowing => 'ഡേറ്റ കാണിക്കുന്നില്ല';
+
+  @override
+  String get approvalsIssue => 'അ承認 പ്രശ്നം';
+
+  @override
+  String get workforceIssue => 'തൊഴിലാളി പ്രശ്നം';
+
+  @override
+  String get attendanceIssue => 'ഹാജർ പ്രശ്നം';
+
+  @override
+  String get financeIssue => 'ധനകാര്യ പ്രശ്നം';
+
+  @override
+  String get reportsIssue => 'റിപ്പോർട്ട് പ്രശ്നം';
+
+  @override
+  String get productivityIssue => 'ഉൽപ്പാദനക്ഷമത പ്രശ്നം';
+
+  @override
+  String get securityIssue => 'സുരക്ഷ പ്രശ്നം';
+
+  @override
+  String get orgSetupIssue => 'ഓർഗ് സെറ്റപ്പ് പ്രശ്നം';
+
+  @override
+  String get salaryIssue => 'ശമ്പള പ്രശ്നം';
+
+  @override
+  String get directoryIssue => 'ഡയറക്ടറി പ്രശ്നം';
+
+  @override
+  String get leaveIssue => 'ലീവ് പ്രശ്നം';
+
+  @override
+  String get requestIssue => 'അഭ്യർഥന പ്രശ്നം';
+
+  @override
+  String get onDuty => 'ഡ്യൂട്ടിയിൽ';
+
+  @override
+  String get regularization => 'ക്രമവൽക്കരണം';
+
+  @override
+  String get loan => 'വായ്പ';
+
+  @override
+  String get wfh => 'WFH';
+
+  @override
+  String get taxDeclaration => 'നികുതി പ്രഖ്യാപനം';
+
+  @override
+  String get resignation => 'രാജി';
+
+  @override
+  String get pending => 'തീർപ്പാക്കാത്തത്';
+
+  @override
+  String get approved => 'അ承認ഡ്';
+
+  @override
+  String get rejected => 'നിരസിച്ചു';
+
+  @override
+  String get attendanceHeader => 'ഹാജർ';
+
+  @override
+  String get leaveHeader => 'ലീവ്';
+
+  @override
+  String get holiday => 'അവധി ദിനം';
+
+  @override
+  String get totalPresent => 'ആകെ ഹാജർ';
+
+  @override
+  String get totalAbsent => 'ആകെ ഗൈർഹാജർ';
+
+  @override
+  String get avgAttendance => 'ശരാശരി ഹാജർ';
+
+  @override
+  String get section80D => 'സെക്ഷൻ 80D';
+
+  @override
+  String get aboutSection80C => 'സെക്ഷൻ 80C കുറിച്ച്';
+
+  @override
+  String get eligible => 'അർഹൻ:';
+
+  @override
+  String get declared => 'പ്രഖ്യാപിച്ചു:';
+
+  @override
+  String get financialYear => 'സാമ്പത്തിക വർഷം';
+
+  @override
+  String get taxRegime => 'നികുതി ഭരണക്രമം';
+
+  @override
+  String get newTaxRegime => 'പുതിയ നികുതി ഭരണക്രമം';
+
+  @override
+  String get estimateAnnualTax => 'ഏകദേശ വാർഷിക നികുതി';
+
+  @override
+  String get monthlyTdsDeduction => 'പ്രതിമാസ TDS കിഴിവ്';
+
+  @override
+  String get chooseTaxRegime => 'ഈ FY-നായി നിങ്ങളുടെ നികുതി ഭരണക്രമം തിരഞ്ഞെടുക്കുക';
+
+  @override
+  String get taxSavingTip => 'നിങ്ങൾക്ക് ₹50,000 വരെ നികുതി ലാഭിക്കാം';
+
+  @override
+  String get netPay => 'നെറ്റ് ശമ്പളം';
+
+  @override
+  String get totalGross => 'ആകെ മൊത്തം';
+
+  @override
+  String get totalDeduction => 'ആകെ കിഴിവ്';
+
+  @override
+  String get month => 'മാസം';
+
+  @override
+  String get netPayHeader => 'നെറ്റ് ശമ്പളം';
+
+  @override
+  String get details => 'വിശദാംശങ്ങൾ';
+
+  @override
+  String get old => 'പഴയ';
+
+  @override
+  String get estEarnings => 'ഏകദേശ വരുമാനം';
+
+  @override
+  String get earnedTillNow => 'ഇതുവരെ നേടിയ';
+
+  @override
+  String get viewBreakdown => 'വിശദ വിവരങ്ങൾ കാണുക';
+
+  @override
+  String get asOn => 'ആ തീയതി വരെ';
+
+  @override
+  String get limit => 'പരിധി:';
+
+  @override
+  String get due => 'കുടിശ്ശിക:';
+
+  @override
+  String get id => 'ഐഡി:';
+
+  @override
+  String get withdrawLoanConfirmation => 'നിങ്ങളുടെ വായ്പ പിൻവലിക്കണോ?';
+
+  @override
+  String get workingFromOffice => 'ഓഫീസിൽ നിന്ന് ജോലി';
+
+  @override
+  String get shift => 'ഷിഫ്റ്റ്';
+
+  @override
+  String get labelIn => 'ഇൻ';
+
+  @override
+  String get out => 'ഔട്ട്';
+
+  @override
+  String get allowAppUsageAccess => 'ആപ്പ് ഉപയോഗ ആക്സസ് അനുവദിക്കുക';
+
+  @override
+  String get grantAccess => 'ആക്സസ് നൽകുക';
+
+  @override
+  String get later => 'പിന്നീട്';
+
+  @override
+  String get trackShiftTime => 'നിങ്ങളുടെ ഷിഫ്റ്റ് സമയം എങ്ങനെ ചെലവഴിക്കുന്നു ട്രാക്ക് ചെയ്യുക';
+
+  @override
+  String get categoryBreakdown => 'വിഭാഗ വിഭജനം';
+
+  @override
+  String get backgroundCollectionTip => 'ബാക്ക്ഗ്രൗണ്ട് ശേഖരണ നുറുങ്ങ്';
+
+  @override
+  String get openSettings => 'ക്രമീകരണങ്ങൾ തുറക്കുക';
+
+  @override
+  String get dismiss => 'നിരസിക്കുക';
+
+  @override
+  String get syncFailed => 'സിൻക് പരാജയപ്പെട്ടു';
+
+  @override
+  String get emailOrMobile => 'ഇമെയിൽ വിലാസം അല്ലെങ്കിൽ മൊബൈൽ നമ്പർ';
+
+  @override
+  String get enterMessage => 'സന്ദേശം നൽകുക';
+
+  @override
+  String get writeYourMessage => 'നിങ്ങളുടെ സന്ദേശം എഴുതുക';
+
+  @override
+  String get docType => 'ഡോക്യുമെന്റ് തരം';
+
+  @override
+  String get reasonForResignation => 'രാജിയുടെ കാരണം';
+
+  @override
+  String get category => 'വിഭാഗം';
+
+  @override
+  String get date => 'തീയതി';
+
+  @override
+  String get amount => 'തുക';
+
+  @override
+  String get description => 'വിവരണം';
+
+  @override
+  String get step => 'ഘട്ടം';
+
+  @override
+  String get labelOf => 'ൽ';
+
+  @override
+  String get create => 'സൃഷ്ടിക്കുക';
+
+  @override
+  String get attachImage => 'ചിത്രം അറ്റാച്ച് ചെയ്യുക';
+
+  @override
+  String get cropImage => 'ചിത്രം ക്രോപ്പ് ചെയ്യുക';
+
+  @override
+  String get selectAll => 'എല്ലാം തിരഞ്ഞെടുക്കുക';
+
+  @override
+  String get manage => 'നിയന്ത്രിക്കുക';
+
+  @override
+  String get lastWorkingDay => 'അവസാന ജോലി ദിവസം';
+
+  @override
+  String get changes => 'മാറ്റങ്ങൾ';
+
+  @override
+  String get labelNew => 'പുതിയ';
 }

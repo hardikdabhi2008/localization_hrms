@@ -564,4 +564,364 @@ class HrmsL10nUr extends HrmsL10n {
     );
     return '$_temp0';
   }
+
+  @override
+  String get noAnnouncementsFound => 'کوئی اعلانات نہیں ملے';
+
+  @override
+  String get applyRegularization => 'ریگولرائزیشن کے لیے درخواست دیں';
+
+  @override
+  String get noCelebrationsFound => 'کوئی تقریبات نہیں...';
+
+  @override
+  String get noDocumentFound => 'کوئی دستاویز نہیں ملا';
+
+  @override
+  String get noLeaveRequestsFound => 'کوئی چھٹی کی درخواست نہیں ملی';
+
+  @override
+  String get noLoansFound => 'کوئی قرض نہیں ملا';
+
+  @override
+  String get noExpensesFound => 'کوئی اخراجات نہیں ملے';
+
+  @override
+  String get turnOnLocation => 'لوکیشن آن کریں';
+
+  @override
+  String get locationTurnedOffMessage => 'لوکیشن بند ہے۔ پنچ ان/آؤٹ جاری رکھنے کے لیے لوکیشن سروسز فعال کریں۔';
+
+  @override
+  String get locationPermissionBlocked => 'لوکیشن کی اجازت بلاک ہے';
+
+  @override
+  String get locationPermissionDeniedMessage => 'لوکیشن کی اجازت مستقل طور پر مسترد ہے۔ ایپ سیٹنگز کھولیں اور لوکیشن کی اجازت دیں۔';
+
+  @override
+  String get openLocationSettings => 'لوکیشن سیٹنگز کھولیں';
+
+  @override
+  String get openAppSettings => 'ایپ سیٹنگز کھولیں';
+
+  @override
+  String get appUsage => 'ایپ استعمال';
+
+  @override
+  String get androidOnly => 'صرف Android';
+
+  @override
+  String get myTickets => 'میری ٹکٹیں';
+
+  @override
+  String get raiseTicket => 'ٹکٹ اٹھائیں';
+
+  @override
+  String get applyResignation => 'استعفیٰ کے لیے درخواست دیں';
+
+  @override
+  String get selectPreferredLanguage => 'اپنی پسندیدہ زبان منتخب کریں';
+
+  @override
+  String get loansAndAdvances => 'قرضے اور ایڈوانس';
+
+  @override
+  String get yearToDateSummary => 'سال سے اب تک خلاصہ';
+
+  @override
+  String get statutoryInformation => 'قانونی معلومات';
+
+  @override
+  String get noAlertsFound => 'کوئی الرٹ نہیں ملے';
+
+  @override
+  String get noRepaymentSchedulesFound => 'کوئی ادائیگی کا شیڈول نہیں ملا۔';
+
+  @override
+  String get noApprovalsFound => 'کوئی منظوری نہیں ملی';
+
+  @override
+  String get noUpcomingHolidays => 'کوئی آنے والی چھٹیاں نہیں';
+
+  @override
+  String get noTicketsYet => 'ابھی کوئی ٹکٹ نہیں';
+
+  @override
+  String get failedToLoadTickets => 'ٹکٹیں لوڈ کرنے میں ناکامی';
+
+  @override
+  String get noTrackedAppUsage => 'کوئی ٹریک کردہ ایپ استعمال نہیں';
+
+  @override
+  String get noAlerts => 'کوئی الرٹ نہیں !';
+
+  @override
+  String get noLeaveLedgerEntriesFound => 'کوئی چھٹی کھاتہ اندراج نہیں ملا';
+
+  @override
+  String get noSummaryAvailable => 'کوئی خلاصہ دستیاب نہیں';
+
+  @override
+  String get noStatutoryDetailsAvailable => 'کوئی قانونی تفصیلات دستیاب نہیں۔';
+
+  @override
+  String get unableToLoadLoans => 'قرضے لوڈ کرنے سے قاصر';
+
+  @override
+  String get dataNotShowing => 'ڈیٹا نظر نہیں آ رہا';
+
+  @override
+  String get approvalsIssue => 'منظوری کا مسئلہ';
+
+  @override
+  String get workforceIssue => 'افرادی قوت کا مسئلہ';
+
+  @override
+  String get attendanceIssue => 'حاضری کا مسئلہ';
+
+  @override
+  String get financeIssue => 'مالی مسئلہ';
+
+  @override
+  String get reportsIssue => 'رپورٹ کا مسئلہ';
+
+  @override
+  String get productivityIssue => 'پیداواریت کا مسئلہ';
+
+  @override
+  String get securityIssue => 'سیکیورٹی کا مسئلہ';
+
+  @override
+  String get orgSetupIssue => 'ادارہ سیٹ اپ کا مسئلہ';
+
+  @override
+  String get salaryIssue => 'تنخواہ کا مسئلہ';
+
+  @override
+  String get directoryIssue => 'ڈائریکٹری کا مسئلہ';
+
+  @override
+  String get leaveIssue => 'چھٹی کا مسئلہ';
+
+  @override
+  String get requestIssue => 'درخواست کا مسئلہ';
+
+  @override
+  String get onDuty => 'ڈیوٹی پر';
+
+  @override
+  String get regularization => 'ریگولرائزیشن';
+
+  @override
+  String get loan => 'قرضہ';
+
+  @override
+  String get wfh => 'WFH';
+
+  @override
+  String get taxDeclaration => 'ٹیکس اعلان';
+
+  @override
+  String get resignation => 'استعفیٰ';
+
+  @override
+  String get pending => 'زیر التوا';
+
+  @override
+  String get approved => 'منظور شدہ';
+
+  @override
+  String get rejected => 'مسترد';
+
+  @override
+  String get attendanceHeader => 'حاضری';
+
+  @override
+  String get leaveHeader => 'چھٹی';
+
+  @override
+  String get holiday => 'چھٹی';
+
+  @override
+  String get totalPresent => 'کل حاضر';
+
+  @override
+  String get totalAbsent => 'کل غیر حاضر';
+
+  @override
+  String get avgAttendance => 'اوسط حاضری';
+
+  @override
+  String get section80D => 'دفعہ 80D';
+
+  @override
+  String get aboutSection80C => 'دفعہ 80C کے بارے میں';
+
+  @override
+  String get eligible => 'اہل:';
+
+  @override
+  String get declared => 'اعلان کردہ:';
+
+  @override
+  String get financialYear => 'مالی سال';
+
+  @override
+  String get taxRegime => 'ٹیکس نظام';
+
+  @override
+  String get newTaxRegime => 'نیا ٹیکس نظام';
+
+  @override
+  String get estimateAnnualTax => 'تخمینی سالانہ ٹیکس';
+
+  @override
+  String get monthlyTdsDeduction => 'ماہانہ TDS کٹوتی';
+
+  @override
+  String get chooseTaxRegime => 'اس مالی سال کے لیے اپنا ٹیکس نظام منتخب کریں';
+
+  @override
+  String get taxSavingTip => 'آپ ₹50,000 تک ٹیکس بچا سکتے ہیں';
+
+  @override
+  String get netPay => 'خالص تنخواہ';
+
+  @override
+  String get totalGross => 'کل مجموعی';
+
+  @override
+  String get totalDeduction => 'کل کٹوتی';
+
+  @override
+  String get month => 'مہینہ';
+
+  @override
+  String get netPayHeader => 'خالص تنخواہ';
+
+  @override
+  String get details => 'تفصیلات';
+
+  @override
+  String get old => 'پرانا';
+
+  @override
+  String get estEarnings => 'تخمینی آمدنی';
+
+  @override
+  String get earnedTillNow => 'ابھی تک کمائی';
+
+  @override
+  String get viewBreakdown => 'تفصیل دیکھیں';
+
+  @override
+  String get asOn => 'بتاریخ';
+
+  @override
+  String get limit => 'حد:';
+
+  @override
+  String get due => 'واجب الادا:';
+
+  @override
+  String get id => 'آئی ڈی:';
+
+  @override
+  String get withdrawLoanConfirmation => 'کیا آپ اپنا قرضہ واپس لینا چاہتے ہیں؟';
+
+  @override
+  String get workingFromOffice => 'دفتر سے کام';
+
+  @override
+  String get shift => 'شفٹ';
+
+  @override
+  String get labelIn => 'اندر';
+
+  @override
+  String get out => 'باہر';
+
+  @override
+  String get allowAppUsageAccess => 'ایپ استعمال تک رسائی کی اجازت دیں';
+
+  @override
+  String get grantAccess => 'رسائی دیں';
+
+  @override
+  String get later => 'بعد میں';
+
+  @override
+  String get trackShiftTime => 'ٹریک کریں کہ آپ کی شفٹ کا وقت کہاں گزرا';
+
+  @override
+  String get categoryBreakdown => 'زمرہ کی تقسیم';
+
+  @override
+  String get backgroundCollectionTip => 'بیک گراؤنڈ کلیکشن ٹپ';
+
+  @override
+  String get openSettings => 'سیٹنگز کھولیں';
+
+  @override
+  String get dismiss => 'مسترد کریں';
+
+  @override
+  String get syncFailed => 'سنک ناکام';
+
+  @override
+  String get emailOrMobile => 'ای میل یا موبائل نمبر';
+
+  @override
+  String get enterMessage => 'پیغام درج کریں';
+
+  @override
+  String get writeYourMessage => 'اپنا پیغام لکھیں';
+
+  @override
+  String get docType => 'دستاویز کی قسم';
+
+  @override
+  String get reasonForResignation => 'استعفیٰ کی وجہ';
+
+  @override
+  String get category => 'زمرہ';
+
+  @override
+  String get date => 'تاریخ';
+
+  @override
+  String get amount => 'رقم';
+
+  @override
+  String get description => 'تفصیل';
+
+  @override
+  String get step => 'قدم';
+
+  @override
+  String get labelOf => 'کا';
+
+  @override
+  String get create => 'بنائیں';
+
+  @override
+  String get attachImage => 'تصویر منسلک کریں';
+
+  @override
+  String get cropImage => 'تصویر کاٹیں';
+
+  @override
+  String get selectAll => 'سب منتخب کریں';
+
+  @override
+  String get manage => 'منظم کریں';
+
+  @override
+  String get lastWorkingDay => 'آخری کام کا دن';
+
+  @override
+  String get changes => 'تبدیلیاں';
+
+  @override
+  String get labelNew => 'نیا';
 }

@@ -564,4 +564,364 @@ class HrmsL10nTa extends HrmsL10n {
     );
     return '$_temp0';
   }
+
+  @override
+  String get noAnnouncementsFound => 'அறிவிப்புகள் எதுவும் கிடைக்கவில்லை';
+
+  @override
+  String get applyRegularization => 'ரெகுலரைசேஷன் விண்ணப்பிக்கவும்';
+
+  @override
+  String get noCelebrationsFound => 'கொண்டாட்டங்கள் இல்லை...';
+
+  @override
+  String get noDocumentFound => 'ஆவணம் எதுவும் கிடைக்கவில்லை';
+
+  @override
+  String get noLeaveRequestsFound => 'விடுப்பு கோரிக்கைகள் எதுவும் கிடைக்கவில்லை';
+
+  @override
+  String get noLoansFound => 'கடன்கள் எதுவும் கிடைக்கவில்லை';
+
+  @override
+  String get noExpensesFound => 'செலவுகள் எதுவும் கிடைக்கவில்லை';
+
+  @override
+  String get turnOnLocation => 'இருப்பிடத்தை இயக்கவும்';
+
+  @override
+  String get locationTurnedOffMessage => 'இருப்பிடம் அணைக்கப்பட்டுள்ளது. பஞ்ச் இன்/அவுட் தொடர இருப்பிட சேவைகளை இயக்கவும்.';
+
+  @override
+  String get locationPermissionBlocked => 'இருப்பிட அனுமதி தடுக்கப்பட்டது';
+
+  @override
+  String get locationPermissionDeniedMessage => 'இருப்பிட அனுமதி நிரந்தரமாக மறுக்கப்பட்டது. ஆப் அமைப்புகளை திறந்து இருப்பிட அனுமதி அளிக்கவும்.';
+
+  @override
+  String get openLocationSettings => 'இருப்பிட அமைப்புகளை திறக்கவும்';
+
+  @override
+  String get openAppSettings => 'ஆப் அமைப்புகளை திறக்கவும்';
+
+  @override
+  String get appUsage => 'ஆப் பயன்பாடு';
+
+  @override
+  String get androidOnly => 'Android மட்டும்';
+
+  @override
+  String get myTickets => 'என் டிக்கெட்கள்';
+
+  @override
+  String get raiseTicket => 'டிக்கெட் உயர்த்தவும்';
+
+  @override
+  String get applyResignation => 'ராஜினாமா விண்ணப்பிக்கவும்';
+
+  @override
+  String get selectPreferredLanguage => 'உங்கள் விருப்பமான மொழியை தேர்ந்தெடுக்கவும்';
+
+  @override
+  String get loansAndAdvances => 'கடன்கள் & முன்பணம்';
+
+  @override
+  String get yearToDateSummary => 'ஆண்டு-இதுவரை சுருக்கம்';
+
+  @override
+  String get statutoryInformation => 'சட்டப்பூர்வ தகவல்';
+
+  @override
+  String get noAlertsFound => 'எச்சரிக்கைகள் எதுவும் கிடைக்கவில்லை';
+
+  @override
+  String get noRepaymentSchedulesFound => 'திருப்பிச் செலுத்தும் அட்டவணை எதுவும் கிடைக்கவில்லை.';
+
+  @override
+  String get noApprovalsFound => 'ஒப்புதல்கள் எதுவும் கிடைக்கவில்லை';
+
+  @override
+  String get noUpcomingHolidays => 'வரவிருக்கும் விடுமுறைகள் இல்லை';
+
+  @override
+  String get noTicketsYet => 'இதுவரை டிக்கெட்கள் இல்லை';
+
+  @override
+  String get failedToLoadTickets => 'டிக்கெட்களை ஏற்றுவதில் தோல்வி';
+
+  @override
+  String get noTrackedAppUsage => 'கண்காணிக்கப்பட்ட ஆப் பயன்பாடு இல்லை';
+
+  @override
+  String get noAlerts => 'எச்சரிக்கைகள் இல்லை !';
+
+  @override
+  String get noLeaveLedgerEntriesFound => 'விடுப்பு பேரேடு உள்ளீடுகள் எதுவும் கிடைக்கவில்லை';
+
+  @override
+  String get noSummaryAvailable => 'சுருக்கம் எதுவும் கிடைக்கவில்லை';
+
+  @override
+  String get noStatutoryDetailsAvailable => 'சட்டப்பூர்வ விவரங்கள் எதுவும் கிடைக்கவில்லை.';
+
+  @override
+  String get unableToLoadLoans => 'கடன்களை ஏற்ற முடியவில்லை';
+
+  @override
+  String get dataNotShowing => 'தரவு காட்டப்படவில்லை';
+
+  @override
+  String get approvalsIssue => 'ஒப்புதல் சிக்கல்';
+
+  @override
+  String get workforceIssue => 'பணியாளர் சிக்கல்';
+
+  @override
+  String get attendanceIssue => 'வருகை சிக்கல்';
+
+  @override
+  String get financeIssue => 'நிதி சிக்கல்';
+
+  @override
+  String get reportsIssue => 'அறிக்கை சிக்கல்';
+
+  @override
+  String get productivityIssue => 'உற்பத்தித்திறன் சிக்கல்';
+
+  @override
+  String get securityIssue => 'பாதுகாப்பு சிக்கல்';
+
+  @override
+  String get orgSetupIssue => 'நிறுவன அமைப்பு சிக்கல்';
+
+  @override
+  String get salaryIssue => 'சம்பள சிக்கல்';
+
+  @override
+  String get directoryIssue => 'கோப்பகம் சிக்கல்';
+
+  @override
+  String get leaveIssue => 'விடுப்பு சிக்கல்';
+
+  @override
+  String get requestIssue => 'கோரிக்கை சிக்கல்';
+
+  @override
+  String get onDuty => 'கடமையில்';
+
+  @override
+  String get regularization => 'ஒழுங்குபடுத்தல்';
+
+  @override
+  String get loan => 'கடன்';
+
+  @override
+  String get wfh => 'WFH';
+
+  @override
+  String get taxDeclaration => 'வரி அறிவிப்பு';
+
+  @override
+  String get resignation => 'ராஜினாமா';
+
+  @override
+  String get pending => 'நிலுவை';
+
+  @override
+  String get approved => 'அங்கீகரிக்கப்பட்டது';
+
+  @override
+  String get rejected => 'நிராகரிக்கப்பட்டது';
+
+  @override
+  String get attendanceHeader => 'வருகை';
+
+  @override
+  String get leaveHeader => 'விடுப்பு';
+
+  @override
+  String get holiday => 'விடுமுறை';
+
+  @override
+  String get totalPresent => 'மொத்த வருகை';
+
+  @override
+  String get totalAbsent => 'மொத்த இல்லாமை';
+
+  @override
+  String get avgAttendance => 'சராசரி வருகை';
+
+  @override
+  String get section80D => 'பிரிவு 80D';
+
+  @override
+  String get aboutSection80C => 'பிரிவு 80C பற்றி';
+
+  @override
+  String get eligible => 'தகுதி:';
+
+  @override
+  String get declared => 'அறிவிக்கப்பட்டது:';
+
+  @override
+  String get financialYear => 'நிதி ஆண்டு';
+
+  @override
+  String get taxRegime => 'வரி முறை';
+
+  @override
+  String get newTaxRegime => 'புதிய வரி முறை';
+
+  @override
+  String get estimateAnnualTax => 'மதிப்பீட்டு வருடாந்திர வரி';
+
+  @override
+  String get monthlyTdsDeduction => 'மாதாந்திர TDS கழிவு';
+
+  @override
+  String get chooseTaxRegime => 'இந்த நிதியாண்டுக்கு உங்கள் வரி முறையை தேர்ந்தெடுக்கவும்';
+
+  @override
+  String get taxSavingTip => 'நீங்கள் ₹50,000 வரை வரி மிச்சப்படுத்தலாம்';
+
+  @override
+  String get netPay => 'நிகர ஊதியம்';
+
+  @override
+  String get totalGross => 'மொத்த மொத்தம்';
+
+  @override
+  String get totalDeduction => 'மொத்த கழிவு';
+
+  @override
+  String get month => 'மாதம்';
+
+  @override
+  String get netPayHeader => 'நிகர ஊதியம்';
+
+  @override
+  String get details => 'விவரங்கள்';
+
+  @override
+  String get old => 'பழைய';
+
+  @override
+  String get estEarnings => 'மதிப்பீட்டு வருவாய்';
+
+  @override
+  String get earnedTillNow => 'இப்போது வரை சம்பாதித்தது';
+
+  @override
+  String get viewBreakdown => 'விவரங்களை பார்க்கவும்';
+
+  @override
+  String get asOn => 'தேதி நிலவரப்படி';
+
+  @override
+  String get limit => 'வரம்பு:';
+
+  @override
+  String get due => 'செலுத்த வேண்டியது:';
+
+  @override
+  String get id => 'ஐடி:';
+
+  @override
+  String get withdrawLoanConfirmation => 'உங்கள் கடனை திரும்பப் பெற விரும்புகிறீர்களா?';
+
+  @override
+  String get workingFromOffice => 'அலுவலகத்தில் இருந்து பணி';
+
+  @override
+  String get shift => 'ஷிஃப்ட்';
+
+  @override
+  String get labelIn => 'உள்ளே';
+
+  @override
+  String get out => 'வெளியே';
+
+  @override
+  String get allowAppUsageAccess => 'ஆப் பயன்பாட்டு அணுகலை அனுமதிக்கவும்';
+
+  @override
+  String get grantAccess => 'அணுகல் வழங்கவும்';
+
+  @override
+  String get later => 'பிறகு';
+
+  @override
+  String get trackShiftTime => 'உங்கள் ஷிஃப்ட் நேரம் எவ்வாறு செலவிடப்படுகிறது என்பதை கண்காணிக்கவும்';
+
+  @override
+  String get categoryBreakdown => 'வகை பிரிவு';
+
+  @override
+  String get backgroundCollectionTip => 'பின்னணி சேகரிப்பு உதவிக்குறிப்பு';
+
+  @override
+  String get openSettings => 'அமைப்புகளை திறக்கவும்';
+
+  @override
+  String get dismiss => 'நிராகரிக்கவும்';
+
+  @override
+  String get syncFailed => 'ஒத்திசைவு தோல்வி';
+
+  @override
+  String get emailOrMobile => 'மின்னஞ்சல் முகவரி அல்லது மொபைல் எண்';
+
+  @override
+  String get enterMessage => 'செய்தி உள்ளிடவும்';
+
+  @override
+  String get writeYourMessage => 'உங்கள் செய்தியை எழுதவும்';
+
+  @override
+  String get docType => 'ஆவண வகை';
+
+  @override
+  String get reasonForResignation => 'ராஜினாமாவிற்கான காரணம்';
+
+  @override
+  String get category => 'வகை';
+
+  @override
+  String get date => 'தேதி';
+
+  @override
+  String get amount => 'தொகை';
+
+  @override
+  String get description => 'விளக்கம்';
+
+  @override
+  String get step => 'படி';
+
+  @override
+  String get labelOf => 'இல்';
+
+  @override
+  String get create => 'உருவாக்கவும்';
+
+  @override
+  String get attachImage => 'படத்தை இணைக்கவும்';
+
+  @override
+  String get cropImage => 'படத்தை வெட்டவும்';
+
+  @override
+  String get selectAll => 'அனைத்தையும் தேர்ந்தெடுக்கவும்';
+
+  @override
+  String get manage => 'நிர்வகிக்கவும்';
+
+  @override
+  String get lastWorkingDay => 'கடைசி பணி நாள்';
+
+  @override
+  String get changes => 'மாற்றங்கள்';
+
+  @override
+  String get labelNew => 'புதிய';
 }

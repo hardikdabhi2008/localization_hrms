@@ -1,3 +1,10 @@
+## 1.0.3
+
+* Fix: expose all new localization keys in the Dart API (`HrmsL10n` abstract class and all 11 language implementations)
+* Previously added keys (noAnnouncementsFound, turnOnLocation, loansAndAdvances, taxDeclaration, etc.) were in ARB files but inaccessible via `context.l10n` — now fully accessible
+* Renamed ARB keys `in`/`new`/`of` to `labelIn`/`labelNew`/`labelOf` to avoid Dart reserved-word conflicts
+* Total API surface: 288 localized string getters across 11 languages
+
 ## 1.0.2
 
 * Add 100+ new localization keys across all 11 languages

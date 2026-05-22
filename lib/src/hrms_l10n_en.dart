@@ -564,4 +564,364 @@ class HrmsL10nEn extends HrmsL10n {
     );
     return '$_temp0';
   }
+
+  @override
+  String get noAnnouncementsFound => 'No Announcements found';
+
+  @override
+  String get applyRegularization => 'Apply Regularization';
+
+  @override
+  String get noCelebrationsFound => 'No celebrations...';
+
+  @override
+  String get noDocumentFound => 'No document found';
+
+  @override
+  String get noLeaveRequestsFound => 'No leave requests found';
+
+  @override
+  String get noLoansFound => 'No loans found';
+
+  @override
+  String get noExpensesFound => 'No expenses found';
+
+  @override
+  String get turnOnLocation => 'Turn on location';
+
+  @override
+  String get locationTurnedOffMessage => 'Location is turned off. Please enable location services to continue punch in/out.';
+
+  @override
+  String get locationPermissionBlocked => 'Location permission blocked';
+
+  @override
+  String get locationPermissionDeniedMessage => 'Location permission is permanently denied. Open app settings and allow location permission.';
+
+  @override
+  String get openLocationSettings => 'Open Location Settings';
+
+  @override
+  String get openAppSettings => 'Open App Settings';
+
+  @override
+  String get appUsage => 'App Usage';
+
+  @override
+  String get androidOnly => 'Android only';
+
+  @override
+  String get myTickets => 'My Tickets';
+
+  @override
+  String get raiseTicket => 'Raise Ticket';
+
+  @override
+  String get applyResignation => 'Apply Resignation';
+
+  @override
+  String get selectPreferredLanguage => 'Select your preferred language';
+
+  @override
+  String get loansAndAdvances => 'Loans & Advances';
+
+  @override
+  String get yearToDateSummary => 'Year-To-Date Summary';
+
+  @override
+  String get statutoryInformation => 'Statutory Information';
+
+  @override
+  String get noAlertsFound => 'No Alerts found';
+
+  @override
+  String get noRepaymentSchedulesFound => 'No repayment schedules found.';
+
+  @override
+  String get noApprovalsFound => 'No approvals found';
+
+  @override
+  String get noUpcomingHolidays => 'No upcoming holidays';
+
+  @override
+  String get noTicketsYet => 'No tickets yet';
+
+  @override
+  String get failedToLoadTickets => 'Failed to load tickets';
+
+  @override
+  String get noTrackedAppUsage => 'No tracked app usage';
+
+  @override
+  String get noAlerts => 'No alerts !';
+
+  @override
+  String get noLeaveLedgerEntriesFound => 'No leave ledger entries found';
+
+  @override
+  String get noSummaryAvailable => 'No Summary Available';
+
+  @override
+  String get noStatutoryDetailsAvailable => 'No statutory details available.';
+
+  @override
+  String get unableToLoadLoans => 'Unable to load loans';
+
+  @override
+  String get dataNotShowing => 'Data Not Showing';
+
+  @override
+  String get approvalsIssue => 'Approvals Issue';
+
+  @override
+  String get workforceIssue => 'Workforce Issue';
+
+  @override
+  String get attendanceIssue => 'Attendance Issue';
+
+  @override
+  String get financeIssue => 'Finance Issue';
+
+  @override
+  String get reportsIssue => 'Reports Issue';
+
+  @override
+  String get productivityIssue => 'Productivity Issue';
+
+  @override
+  String get securityIssue => 'Security Issue';
+
+  @override
+  String get orgSetupIssue => 'Org Setup Issue';
+
+  @override
+  String get salaryIssue => 'Salary Issue';
+
+  @override
+  String get directoryIssue => 'Directory Issue';
+
+  @override
+  String get leaveIssue => 'Leave Issue';
+
+  @override
+  String get requestIssue => 'Request Issue';
+
+  @override
+  String get onDuty => 'On Duty';
+
+  @override
+  String get regularization => 'Regularization';
+
+  @override
+  String get loan => 'Loan';
+
+  @override
+  String get wfh => 'WFH';
+
+  @override
+  String get taxDeclaration => 'Tax Declaration';
+
+  @override
+  String get resignation => 'Resignation';
+
+  @override
+  String get pending => 'Pending';
+
+  @override
+  String get approved => 'Approved';
+
+  @override
+  String get rejected => 'Rejected';
+
+  @override
+  String get attendanceHeader => 'ATTENDANCE';
+
+  @override
+  String get leaveHeader => 'LEAVE';
+
+  @override
+  String get holiday => 'Holiday';
+
+  @override
+  String get totalPresent => 'Total Present';
+
+  @override
+  String get totalAbsent => 'Total Absent';
+
+  @override
+  String get avgAttendance => 'Avg Attendance';
+
+  @override
+  String get section80D => 'Section 80D';
+
+  @override
+  String get aboutSection80C => 'About Section 80C';
+
+  @override
+  String get eligible => 'Eligible: ';
+
+  @override
+  String get declared => 'Declared: ';
+
+  @override
+  String get financialYear => 'Financial Year';
+
+  @override
+  String get taxRegime => 'Tax Regime';
+
+  @override
+  String get newTaxRegime => 'New Tax Regime';
+
+  @override
+  String get estimateAnnualTax => 'Estimate Annual Tax';
+
+  @override
+  String get monthlyTdsDeduction => 'Monthly TDS Deduction';
+
+  @override
+  String get chooseTaxRegime => 'Choose your tax regime for this FY';
+
+  @override
+  String get taxSavingTip => 'You can save up to ₹50,000 in tax';
+
+  @override
+  String get netPay => 'Net Pay';
+
+  @override
+  String get totalGross => 'Total Gross';
+
+  @override
+  String get totalDeduction => 'Total Deduction';
+
+  @override
+  String get month => 'MONTH';
+
+  @override
+  String get netPayHeader => 'NET PAY';
+
+  @override
+  String get details => 'Details';
+
+  @override
+  String get old => 'Old';
+
+  @override
+  String get estEarnings => 'EST. EARNINGS';
+
+  @override
+  String get earnedTillNow => 'EARNED TILL NOW';
+
+  @override
+  String get viewBreakdown => 'View Breakdown';
+
+  @override
+  String get asOn => 'As on ';
+
+  @override
+  String get limit => 'Limit : ';
+
+  @override
+  String get due => 'Due:';
+
+  @override
+  String get id => 'ID:';
+
+  @override
+  String get withdrawLoanConfirmation => 'Do you want to withdraw your loan?';
+
+  @override
+  String get workingFromOffice => 'Working From Office';
+
+  @override
+  String get shift => 'Shift';
+
+  @override
+  String get labelIn => 'In';
+
+  @override
+  String get out => 'Out';
+
+  @override
+  String get allowAppUsageAccess => 'Allow App Usage Access';
+
+  @override
+  String get grantAccess => 'Grant Access';
+
+  @override
+  String get later => 'Later';
+
+  @override
+  String get trackShiftTime => 'Track how your shift time is spent';
+
+  @override
+  String get categoryBreakdown => 'Category breakdown';
+
+  @override
+  String get backgroundCollectionTip => 'Background collection tip';
+
+  @override
+  String get openSettings => 'Open Settings';
+
+  @override
+  String get dismiss => 'Dismiss';
+
+  @override
+  String get syncFailed => 'Sync failed';
+
+  @override
+  String get emailOrMobile => 'Email address or mobile number';
+
+  @override
+  String get enterMessage => 'Enter message';
+
+  @override
+  String get writeYourMessage => 'Write your message';
+
+  @override
+  String get docType => 'Doc Type';
+
+  @override
+  String get reasonForResignation => 'Reason for Resignation';
+
+  @override
+  String get category => 'Category';
+
+  @override
+  String get date => 'Date';
+
+  @override
+  String get amount => 'Amount';
+
+  @override
+  String get description => 'Description';
+
+  @override
+  String get step => 'Step';
+
+  @override
+  String get labelOf => ' of';
+
+  @override
+  String get create => 'Create';
+
+  @override
+  String get attachImage => 'Attach Image';
+
+  @override
+  String get cropImage => 'Crop Image';
+
+  @override
+  String get selectAll => 'Select all';
+
+  @override
+  String get manage => 'Manage';
+
+  @override
+  String get lastWorkingDay => 'Last Working Day';
+
+  @override
+  String get changes => 'Changes';
+
+  @override
+  String get labelNew => 'New';
 }

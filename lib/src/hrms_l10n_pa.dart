@@ -564,4 +564,364 @@ class HrmsL10nPa extends HrmsL10n {
     );
     return '$_temp0';
   }
+
+  @override
+  String get noAnnouncementsFound => 'ਕੋਈ ਘੋਸ਼ਣਾ ਨਹੀਂ ਮਿਲੀ';
+
+  @override
+  String get applyRegularization => 'ਨਿਯਮਤੀਕਰਨ ਲਈ ਅਰਜ਼ੀ ਦਿਓ';
+
+  @override
+  String get noCelebrationsFound => 'ਕੋਈ ਜਸ਼ਨ ਨਹੀਂ...';
+
+  @override
+  String get noDocumentFound => 'ਕੋਈ ਦਸਤਾਵੇਜ਼ ਨਹੀਂ ਮਿਲਿਆ';
+
+  @override
+  String get noLeaveRequestsFound => 'ਕੋਈ ਛੁੱਟੀ ਬੇਨਤੀ ਨਹੀਂ ਮਿਲੀ';
+
+  @override
+  String get noLoansFound => 'ਕੋਈ ਕਰਜ਼ਾ ਨਹੀਂ ਮਿਲਿਆ';
+
+  @override
+  String get noExpensesFound => 'ਕੋਈ ਖਰਚਾ ਨਹੀਂ ਮਿਲਿਆ';
+
+  @override
+  String get turnOnLocation => 'ਲੋਕੇਸ਼ਨ ਚਾਲੂ ਕਰੋ';
+
+  @override
+  String get locationTurnedOffMessage => 'ਲੋਕੇਸ਼ਨ ਬੰਦ ਹੈ। ਪੰਚ ਇਨ/ਆਉਟ ਜਾਰੀ ਰੱਖਣ ਲਈ ਲੋਕੇਸ਼ਨ ਸੇਵਾਵਾਂ ਚਾਲੂ ਕਰੋ।';
+
+  @override
+  String get locationPermissionBlocked => 'ਲੋਕੇਸ਼ਨ ਇਜਾਜ਼ਤ ਬਲੌਕ ਕੀਤੀ';
+
+  @override
+  String get locationPermissionDeniedMessage => 'ਲੋਕੇਸ਼ਨ ਇਜਾਜ਼ਤ ਸਥਾਈ ਤੌਰ \'ਤੇ ਰੱਦ ਕੀਤੀ ਗਈ ਹੈ। ਐਪ ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ ਅਤੇ ਲੋਕੇਸ਼ਨ ਇਜਾਜ਼ਤ ਦਿਓ।';
+
+  @override
+  String get openLocationSettings => 'ਲੋਕੇਸ਼ਨ ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ';
+
+  @override
+  String get openAppSettings => 'ਐਪ ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ';
+
+  @override
+  String get appUsage => 'ਐਪ ਵਰਤੋਂ';
+
+  @override
+  String get androidOnly => 'ਸਿਰਫ਼ Android';
+
+  @override
+  String get myTickets => 'ਮੇਰੀਆਂ ਟਿਕਟਾਂ';
+
+  @override
+  String get raiseTicket => 'ਟਿਕਟ ਚੁੱਕੋ';
+
+  @override
+  String get applyResignation => 'ਅਸਤੀਫ਼ਾ ਅਰਜ਼ੀ ਦਿਓ';
+
+  @override
+  String get selectPreferredLanguage => 'ਆਪਣੀ ਪਸੰਦੀਦਾ ਭਾਸ਼ਾ ਚੁਣੋ';
+
+  @override
+  String get loansAndAdvances => 'ਕਰਜ਼ੇ ਅਤੇ ਅਗਾਊਂ ਭੁਗਤਾਨ';
+
+  @override
+  String get yearToDateSummary => 'ਸਾਲ-ਤੋਂ-ਹੁਣ ਤੱਕ ਸਾਰਾਂਸ਼';
+
+  @override
+  String get statutoryInformation => 'ਕਾਨੂੰਨੀ ਜਾਣਕਾਰੀ';
+
+  @override
+  String get noAlertsFound => 'ਕੋਈ ਅਲਰਟ ਨਹੀਂ ਮਿਲੇ';
+
+  @override
+  String get noRepaymentSchedulesFound => 'ਕੋਈ ਅਦਾਇਗੀ ਅਨੁਸੂਚੀ ਨਹੀਂ ਮਿਲੀ।';
+
+  @override
+  String get noApprovalsFound => 'ਕੋਈ ਮਨਜ਼ੂਰੀ ਨਹੀਂ ਮਿਲੀ';
+
+  @override
+  String get noUpcomingHolidays => 'ਕੋਈ ਆਉਣ ਵਾਲੀਆਂ ਛੁੱਟੀਆਂ ਨਹੀਂ';
+
+  @override
+  String get noTicketsYet => 'ਅਜੇ ਕੋਈ ਟਿਕਟ ਨਹੀਂ';
+
+  @override
+  String get failedToLoadTickets => 'ਟਿਕਟਾਂ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ';
+
+  @override
+  String get noTrackedAppUsage => 'ਕੋਈ ਟ੍ਰੈਕ ਕੀਤੀ ਐਪ ਵਰਤੋਂ ਨਹੀਂ';
+
+  @override
+  String get noAlerts => 'ਕੋਈ ਅਲਰਟ ਨਹੀਂ !';
+
+  @override
+  String get noLeaveLedgerEntriesFound => 'ਕੋਈ ਛੁੱਟੀ ਖਾਤਾ ਐਂਟਰੀ ਨਹੀਂ ਮਿਲੀ';
+
+  @override
+  String get noSummaryAvailable => 'ਕੋਈ ਸਾਰਾਂਸ਼ ਉਪਲਬਧ ਨਹੀਂ';
+
+  @override
+  String get noStatutoryDetailsAvailable => 'ਕੋਈ ਕਾਨੂੰਨੀ ਵੇਰਵੇ ਉਪਲਬਧ ਨਹੀਂ।';
+
+  @override
+  String get unableToLoadLoans => 'ਕਰਜ਼ੇ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ';
+
+  @override
+  String get dataNotShowing => 'ਡੇਟਾ ਨਹੀਂ ਦਿਖ ਰਿਹਾ';
+
+  @override
+  String get approvalsIssue => 'ਮਨਜ਼ੂਰੀ ਸਮੱਸਿਆ';
+
+  @override
+  String get workforceIssue => 'ਕਾਰਜਬਲ ਸਮੱਸਿਆ';
+
+  @override
+  String get attendanceIssue => 'ਹਾਜ਼ਰੀ ਸਮੱਸਿਆ';
+
+  @override
+  String get financeIssue => 'ਵਿੱਤੀ ਸਮੱਸਿਆ';
+
+  @override
+  String get reportsIssue => 'ਰਿਪੋਰਟ ਸਮੱਸਿਆ';
+
+  @override
+  String get productivityIssue => 'ਉਤਪਾਦਕਤਾ ਸਮੱਸਿਆ';
+
+  @override
+  String get securityIssue => 'ਸੁਰੱਖਿਆ ਸਮੱਸਿਆ';
+
+  @override
+  String get orgSetupIssue => 'ਸੰਗਠਨ ਸੈਟਅੱਪ ਸਮੱਸਿਆ';
+
+  @override
+  String get salaryIssue => 'ਤਨਖਾਹ ਸਮੱਸਿਆ';
+
+  @override
+  String get directoryIssue => 'ਡਾਇਰੈਕਟਰੀ ਸਮੱਸਿਆ';
+
+  @override
+  String get leaveIssue => 'ਛੁੱਟੀ ਸਮੱਸਿਆ';
+
+  @override
+  String get requestIssue => 'ਬੇਨਤੀ ਸਮੱਸਿਆ';
+
+  @override
+  String get onDuty => 'ਡਿਊਟੀ \'ਤੇ';
+
+  @override
+  String get regularization => 'ਨਿਯਮਤੀਕਰਨ';
+
+  @override
+  String get loan => 'ਕਰਜ਼ਾ';
+
+  @override
+  String get wfh => 'WFH';
+
+  @override
+  String get taxDeclaration => 'ਟੈਕਸ ਘੋਸ਼ਣਾ';
+
+  @override
+  String get resignation => 'ਅਸਤੀਫ਼ਾ';
+
+  @override
+  String get pending => 'ਲੰਬਿਤ';
+
+  @override
+  String get approved => 'ਮਨਜ਼ੂਰ';
+
+  @override
+  String get rejected => 'ਰੱਦ ਕੀਤਾ';
+
+  @override
+  String get attendanceHeader => 'ਹਾਜ਼ਰੀ';
+
+  @override
+  String get leaveHeader => 'ਛੁੱਟੀ';
+
+  @override
+  String get holiday => 'ਛੁੱਟੀ';
+
+  @override
+  String get totalPresent => 'ਕੁੱਲ ਹਾਜ਼ਰ';
+
+  @override
+  String get totalAbsent => 'ਕੁੱਲ ਗੈਰਹਾਜ਼ਰ';
+
+  @override
+  String get avgAttendance => 'ਔਸਤ ਹਾਜ਼ਰੀ';
+
+  @override
+  String get section80D => 'ਧਾਰਾ 80D';
+
+  @override
+  String get aboutSection80C => 'ਧਾਰਾ 80C ਬਾਰੇ';
+
+  @override
+  String get eligible => 'ਯੋਗ:';
+
+  @override
+  String get declared => 'ਘੋਸ਼ਿਤ:';
+
+  @override
+  String get financialYear => 'ਵਿੱਤੀ ਸਾਲ';
+
+  @override
+  String get taxRegime => 'ਟੈਕਸ ਪ੍ਰਣਾਲੀ';
+
+  @override
+  String get newTaxRegime => 'ਨਵੀਂ ਟੈਕਸ ਪ੍ਰਣਾਲੀ';
+
+  @override
+  String get estimateAnnualTax => 'ਅਨੁਮਾਨਿਤ ਸਾਲਾਨਾ ਟੈਕਸ';
+
+  @override
+  String get monthlyTdsDeduction => 'ਮਾਸਿਕ TDS ਕਟੌਤੀ';
+
+  @override
+  String get chooseTaxRegime => 'ਇਸ FY ਲਈ ਆਪਣੀ ਟੈਕਸ ਪ੍ਰਣਾਲੀ ਚੁਣੋ';
+
+  @override
+  String get taxSavingTip => 'ਤੁਸੀਂ ₹50,000 ਤੱਕ ਟੈਕਸ ਬਚਾ ਸਕਦੇ ਹੋ';
+
+  @override
+  String get netPay => 'ਨੈੱਟ ਤਨਖਾਹ';
+
+  @override
+  String get totalGross => 'ਕੁੱਲ ਕੁੱਲ';
+
+  @override
+  String get totalDeduction => 'ਕੁੱਲ ਕਟੌਤੀ';
+
+  @override
+  String get month => 'ਮਹੀਨਾ';
+
+  @override
+  String get netPayHeader => 'ਨੈੱਟ ਤਨਖਾਹ';
+
+  @override
+  String get details => 'ਵੇਰਵੇ';
+
+  @override
+  String get old => 'ਪੁਰਾਣਾ';
+
+  @override
+  String get estEarnings => 'ਅਨੁਮਾਨਿਤ ਕਮਾਈ';
+
+  @override
+  String get earnedTillNow => 'ਹੁਣ ਤੱਕ ਕਮਾਈ';
+
+  @override
+  String get viewBreakdown => 'ਵੇਰਵੇ ਦੇਖੋ';
+
+  @override
+  String get asOn => 'ਤਾਰੀਖ ਅਨੁਸਾਰ';
+
+  @override
+  String get limit => 'ਸੀਮਾ:';
+
+  @override
+  String get due => 'ਦੇਯ:';
+
+  @override
+  String get id => 'ਆਈਡੀ:';
+
+  @override
+  String get withdrawLoanConfirmation => 'ਕੀ ਤੁਸੀਂ ਆਪਣਾ ਕਰਜ਼ਾ ਵਾਪਸ ਲੈਣਾ ਚਾਹੁੰਦੇ ਹੋ?';
+
+  @override
+  String get workingFromOffice => 'ਦਫ਼ਤਰ ਤੋਂ ਕੰਮ';
+
+  @override
+  String get shift => 'ਸ਼ਿਫਟ';
+
+  @override
+  String get labelIn => 'ਅੰਦਰ';
+
+  @override
+  String get out => 'ਬਾਹਰ';
+
+  @override
+  String get allowAppUsageAccess => 'ਐਪ ਵਰਤੋਂ ਪਹੁੰਚ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ';
+
+  @override
+  String get grantAccess => 'ਪਹੁੰਚ ਦਿਓ';
+
+  @override
+  String get later => 'ਬਾਅਦ ਵਿੱਚ';
+
+  @override
+  String get trackShiftTime => 'ਟ੍ਰੈਕ ਕਰੋ ਕਿ ਤੁਹਾਡਾ ਸ਼ਿਫਟ ਸਮਾਂ ਕਿਵੇਂ ਬੀਤਿਆ';
+
+  @override
+  String get categoryBreakdown => 'ਸ਼੍ਰੇਣੀ ਵਿਭਾਜਨ';
+
+  @override
+  String get backgroundCollectionTip => 'ਬੈਕਗ੍ਰਾਊਂਡ ਕੁਲੈਕਸ਼ਨ ਟਿਪ';
+
+  @override
+  String get openSettings => 'ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ';
+
+  @override
+  String get dismiss => 'ਬਰਖਾਸਤ ਕਰੋ';
+
+  @override
+  String get syncFailed => 'ਸਿੰਕ ਅਸਫਲ';
+
+  @override
+  String get emailOrMobile => 'ਈਮੇਲ ਪਤਾ ਜਾਂ ਮੋਬਾਈਲ ਨੰਬਰ';
+
+  @override
+  String get enterMessage => 'ਸੁਨੇਹਾ ਦਰਜ ਕਰੋ';
+
+  @override
+  String get writeYourMessage => 'ਆਪਣਾ ਸੁਨੇਹਾ ਲਿਖੋ';
+
+  @override
+  String get docType => 'ਦਸਤਾਵੇਜ਼ ਕਿਸਮ';
+
+  @override
+  String get reasonForResignation => 'ਅਸਤੀਫ਼ੇ ਦਾ ਕਾਰਨ';
+
+  @override
+  String get category => 'ਸ਼੍ਰੇਣੀ';
+
+  @override
+  String get date => 'ਤਾਰੀਖ';
+
+  @override
+  String get amount => 'ਰਕਮ';
+
+  @override
+  String get description => 'ਵਰਣਨ';
+
+  @override
+  String get step => 'ਕਦਮ';
+
+  @override
+  String get labelOf => 'ਦਾ';
+
+  @override
+  String get create => 'ਬਣਾਓ';
+
+  @override
+  String get attachImage => 'ਤਸਵੀਰ ਲਗਾਓ';
+
+  @override
+  String get cropImage => 'ਤਸਵੀਰ ਕ੍ਰੌਪ ਕਰੋ';
+
+  @override
+  String get selectAll => 'ਸਾਰੇ ਚੁਣੋ';
+
+  @override
+  String get manage => 'ਪ੍ਰਬੰਧ ਕਰੋ';
+
+  @override
+  String get lastWorkingDay => 'ਆਖਰੀ ਕੰਮ ਦਾ ਦਿਨ';
+
+  @override
+  String get changes => 'ਤਬਦੀਲੀਆਂ';
+
+  @override
+  String get labelNew => 'ਨਵਾਂ';
 }

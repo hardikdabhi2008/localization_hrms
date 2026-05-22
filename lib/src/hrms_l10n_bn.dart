@@ -564,4 +564,364 @@ class HrmsL10nBn extends HrmsL10n {
     );
     return '$_temp0';
   }
+
+  @override
+  String get noAnnouncementsFound => 'কোনো ঘোষণা পাওয়া যায়নি';
+
+  @override
+  String get applyRegularization => 'নিয়মিতকরণের জন্য আবেদন করুন';
+
+  @override
+  String get noCelebrationsFound => 'কোনো উদযাপন নেই...';
+
+  @override
+  String get noDocumentFound => 'কোনো নথি পাওয়া যায়নি';
+
+  @override
+  String get noLeaveRequestsFound => 'কোনো ছুটির অনুরোধ পাওয়া যায়নি';
+
+  @override
+  String get noLoansFound => 'কোনো ঋণ পাওয়া যায়নি';
+
+  @override
+  String get noExpensesFound => 'কোনো ব্যয় পাওয়া যায়নি';
+
+  @override
+  String get turnOnLocation => 'লোকেশন চালু করুন';
+
+  @override
+  String get locationTurnedOffMessage => 'লোকেশন বন্ধ আছে। পাঞ্চ ইন/আউট চালিয়ে যেতে লোকেশন সার্ভিস সক্ষম করুন।';
+
+  @override
+  String get locationPermissionBlocked => 'লোকেশন অনুমতি ব্লক করা হয়েছে';
+
+  @override
+  String get locationPermissionDeniedMessage => 'লোকেশন অনুমতি স্থায়ীভাবে অস্বীকার করা হয়েছে। অ্যাপ সেটিংস খুলুন এবং লোকেশন অনুমতি দিন।';
+
+  @override
+  String get openLocationSettings => 'লোকেশন সেটিংস খুলুন';
+
+  @override
+  String get openAppSettings => 'অ্যাপ সেটিংস খুলুন';
+
+  @override
+  String get appUsage => 'অ্যাপ ব্যবহার';
+
+  @override
+  String get androidOnly => 'শুধুমাত্র অ্যান্ড্রয়েড';
+
+  @override
+  String get myTickets => 'আমার টিকেট';
+
+  @override
+  String get raiseTicket => 'টিকেট তৈরি করুন';
+
+  @override
+  String get applyResignation => 'পদত্যাগ আবেদন করুন';
+
+  @override
+  String get selectPreferredLanguage => 'আপনার পছন্দের ভাষা নির্বাচন করুন';
+
+  @override
+  String get loansAndAdvances => 'ঋণ ও অগ্রিম';
+
+  @override
+  String get yearToDateSummary => 'বছর-থেকে-তারিখ সারসংক্ষেপ';
+
+  @override
+  String get statutoryInformation => 'বিধিবদ্ধ তথ্য';
+
+  @override
+  String get noAlertsFound => 'কোনো সতর্কতা পাওয়া যায়নি';
+
+  @override
+  String get noRepaymentSchedulesFound => 'কোনো পরিশোধের সময়সূচি পাওয়া যায়নি।';
+
+  @override
+  String get noApprovalsFound => 'কোনো অনুমোদন পাওয়া যায়নি';
+
+  @override
+  String get noUpcomingHolidays => 'কোনো আসন্ন ছুটি নেই';
+
+  @override
+  String get noTicketsYet => 'এখনো কোনো টিকেট নেই';
+
+  @override
+  String get failedToLoadTickets => 'টিকেট লোড করতে ব্যর্থ';
+
+  @override
+  String get noTrackedAppUsage => 'কোনো ট্র্যাক করা অ্যাপ ব্যবহার নেই';
+
+  @override
+  String get noAlerts => 'কোনো সতর্কতা নেই !';
+
+  @override
+  String get noLeaveLedgerEntriesFound => 'কোনো ছুটির খাতা এন্ট্রি পাওয়া যায়নি';
+
+  @override
+  String get noSummaryAvailable => 'কোনো সারসংক্ষেপ পাওয়া যাচ্ছে না';
+
+  @override
+  String get noStatutoryDetailsAvailable => 'কোনো বিধিবদ্ধ বিবরণ পাওয়া যাচ্ছে না।';
+
+  @override
+  String get unableToLoadLoans => 'ঋণ লোড করতে অক্ষম';
+
+  @override
+  String get dataNotShowing => 'ডেটা দেখাচ্ছে না';
+
+  @override
+  String get approvalsIssue => 'অনুমোদন সমস্যা';
+
+  @override
+  String get workforceIssue => 'কর্মীবাহিনী সমস্যা';
+
+  @override
+  String get attendanceIssue => 'উপস্থিতি সমস্যা';
+
+  @override
+  String get financeIssue => 'আর্থিক সমস্যা';
+
+  @override
+  String get reportsIssue => 'রিপোর্ট সমস্যা';
+
+  @override
+  String get productivityIssue => 'উৎপাদনশীলতা সমস্যা';
+
+  @override
+  String get securityIssue => 'নিরাপত্তা সমস্যা';
+
+  @override
+  String get orgSetupIssue => 'সংগঠন সেটআপ সমস্যা';
+
+  @override
+  String get salaryIssue => 'বেতন সমস্যা';
+
+  @override
+  String get directoryIssue => 'ডিরেক্টরি সমস্যা';
+
+  @override
+  String get leaveIssue => 'ছুটি সমস্যা';
+
+  @override
+  String get requestIssue => 'অনুরোধ সমস্যা';
+
+  @override
+  String get onDuty => 'দায়িত্বে';
+
+  @override
+  String get regularization => 'নিয়মিতকরণ';
+
+  @override
+  String get loan => 'ঋণ';
+
+  @override
+  String get wfh => 'WFH';
+
+  @override
+  String get taxDeclaration => 'কর ঘোষণা';
+
+  @override
+  String get resignation => 'পদত্যাগ';
+
+  @override
+  String get pending => 'মুলতুবি';
+
+  @override
+  String get approved => 'অনুমোদিত';
+
+  @override
+  String get rejected => 'প্রত্যাখ্যাত';
+
+  @override
+  String get attendanceHeader => 'উপস্থিতি';
+
+  @override
+  String get leaveHeader => 'ছুটি';
+
+  @override
+  String get holiday => 'ছুটির দিন';
+
+  @override
+  String get totalPresent => 'মোট উপস্থিত';
+
+  @override
+  String get totalAbsent => 'মোট অনুপস্থিত';
+
+  @override
+  String get avgAttendance => 'গড় উপস্থিতি';
+
+  @override
+  String get section80D => 'ধারা 80D';
+
+  @override
+  String get aboutSection80C => 'ধারা 80C সম্পর্কে';
+
+  @override
+  String get eligible => 'যোগ্য:';
+
+  @override
+  String get declared => 'ঘোষিত:';
+
+  @override
+  String get financialYear => 'আর্থিক বছর';
+
+  @override
+  String get taxRegime => 'কর ব্যবস্থা';
+
+  @override
+  String get newTaxRegime => 'নতুন কর ব্যবস্থা';
+
+  @override
+  String get estimateAnnualTax => 'আনুমানিক বার্ষিক কর';
+
+  @override
+  String get monthlyTdsDeduction => 'মাসিক TDS কর্তন';
+
+  @override
+  String get chooseTaxRegime => 'এই FY-এর জন্য আপনার কর ব্যবস্থা বেছে নিন';
+
+  @override
+  String get taxSavingTip => 'আপনি ₹50,000 পর্যন্ত কর বাঁচাতে পারেন';
+
+  @override
+  String get netPay => 'নেট বেতন';
+
+  @override
+  String get totalGross => 'মোট মোট';
+
+  @override
+  String get totalDeduction => 'মোট কর্তন';
+
+  @override
+  String get month => 'মাস';
+
+  @override
+  String get netPayHeader => 'নেট বেতন';
+
+  @override
+  String get details => 'বিবরণ';
+
+  @override
+  String get old => 'পুরনো';
+
+  @override
+  String get estEarnings => 'আনুমানিক আয়';
+
+  @override
+  String get earnedTillNow => 'এখন পর্যন্ত আয়';
+
+  @override
+  String get viewBreakdown => 'বিস্তারিত দেখুন';
+
+  @override
+  String get asOn => 'তারিখ হিসেবে';
+
+  @override
+  String get limit => 'সীমা:';
+
+  @override
+  String get due => 'প্রদেয়:';
+
+  @override
+  String get id => 'আইডি:';
+
+  @override
+  String get withdrawLoanConfirmation => 'আপনি কি আপনার ঋণ প্রত্যাহার করতে চান?';
+
+  @override
+  String get workingFromOffice => 'অফিস থেকে কাজ';
+
+  @override
+  String get shift => 'শিফট';
+
+  @override
+  String get labelIn => 'ইন';
+
+  @override
+  String get out => 'আউট';
+
+  @override
+  String get allowAppUsageAccess => 'অ্যাপ ব্যবহার অ্যাক্সেসের অনুমতি দিন';
+
+  @override
+  String get grantAccess => 'অ্যাক্সেস দিন';
+
+  @override
+  String get later => 'পরে';
+
+  @override
+  String get trackShiftTime => 'আপনার শিফটের সময় কীভাবে কাটছে ট্র্যাক করুন';
+
+  @override
+  String get categoryBreakdown => 'বিভাগ বিভাজন';
+
+  @override
+  String get backgroundCollectionTip => 'ব্যাকগ্রাউন্ড কালেকশন টিপ';
+
+  @override
+  String get openSettings => 'সেটিংস খুলুন';
+
+  @override
+  String get dismiss => 'বরখাস্ত করুন';
+
+  @override
+  String get syncFailed => 'সিঙ্ক ব্যর্থ';
+
+  @override
+  String get emailOrMobile => 'ইমেইল ঠিকানা বা মোবাইল নম্বর';
+
+  @override
+  String get enterMessage => 'বার্তা লিখুন';
+
+  @override
+  String get writeYourMessage => 'আপনার বার্তা লিখুন';
+
+  @override
+  String get docType => 'ডকুমেন্ট ধরন';
+
+  @override
+  String get reasonForResignation => 'পদত্যাগের কারণ';
+
+  @override
+  String get category => 'বিভাগ';
+
+  @override
+  String get date => 'তারিখ';
+
+  @override
+  String get amount => 'পরিমাণ';
+
+  @override
+  String get description => 'বিবরণ';
+
+  @override
+  String get step => 'ধাপ';
+
+  @override
+  String get labelOf => 'এর';
+
+  @override
+  String get create => 'তৈরি করুন';
+
+  @override
+  String get attachImage => 'ছবি সংযুক্ত করুন';
+
+  @override
+  String get cropImage => 'ছবি ক্রপ করুন';
+
+  @override
+  String get selectAll => 'সব নির্বাচন করুন';
+
+  @override
+  String get manage => 'পরিচালনা করুন';
+
+  @override
+  String get lastWorkingDay => 'শেষ কর্মদিবস';
+
+  @override
+  String get changes => 'পরিবর্তন';
+
+  @override
+  String get labelNew => 'নতুন';
 }
