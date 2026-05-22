@@ -1,4 +1,4 @@
-/// hrms_localization
+/// localization_hrms
 ///
 /// A complete localization package for HRMS Flutter apps.
 /// Supports 11 major Indian languages with:
@@ -9,7 +9,7 @@
 ///
 /// ## Quick start
 /// ```dart
-/// import 'package:hrms_localization/hrms_localization.dart';
+/// import 'package:localization_hrms/localization_hrms.dart';
 ///
 /// // main.dart
 /// void main() async {
@@ -38,7 +38,7 @@
 /// Text(l.leaveDays(3))
 /// Text(l.welcomeUser('Ravi'))
 /// ```
-library hrms_localization;
+library localization_hrms;
 
 // Core generated class
 export 'src/hrms_l10n.dart';

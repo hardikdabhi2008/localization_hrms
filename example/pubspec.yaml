@@ -1,5 +1,5 @@
-name: hrms_localization_example
-description: Example app demonstrating hrms_localization package usage.
+name: localization_hrms_example
+description: Example app demonstrating localization_hrms package usage.
 publish_to: 'none'
 version: 1.0.0
 
@@ -11,7 +11,7 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  hrms_localization:
+  localization_hrms:
     path: ../          # references the local package
   shared_preferences: ^2.2.0
 

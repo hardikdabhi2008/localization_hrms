@@ -1,6 +1,6 @@
-# hrms_localization
+# localization_hrms
 
-[![pub version](https://img.shields.io/pub/v/hrms_localization.svg)](https://pub.dev/packages/hrms_localization)
+[![pub version](https://img.shields.io/pub/v/localization_hrms.svg)](https://pub.dev/packages/localization_hrms)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A complete localization package for HRMS Flutter apps, supporting **11 major Indian languages** with hybrid offline + remote patch support.
@@ -37,16 +37,16 @@ A complete localization package for HRMS Flutter apps, supporting **11 major Ind
 ### From GitHub
 ```yaml
 dependencies:
-  hrms_localization:
+  localization_hrms:
     git:
-      url: https://github.com/hardikdabhi2008/hrms_localization.git
+      url: https://github.com/hardikdabhi2008/localization_hrms.git
       ref: v1.0.0
 ```
 
 ### From pub.dev (after publishing)
 ```yaml
 dependencies:
-  hrms_localization: ^1.0.0
+  localization_hrms: ^1.0.0
 ```
 
 Then run:
@@ -59,7 +59,7 @@ flutter pub get
 ### 1. Initialize in main.dart
 
 ```dart
-import 'package:hrms_localization/hrms_localization.dart';
+import 'package:localization_hrms/localization_hrms.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -96,7 +96,7 @@ MaterialApp(
 ### 3. Use in widgets
 
 ```dart
-import 'package:hrms_localization/hrms_localization.dart';
+import 'package:localization_hrms/localization_hrms.dart';
 
 class AttendanceScreen extends StatelessWidget {
   @override
