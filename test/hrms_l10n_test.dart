@@ -8,7 +8,7 @@ void main() {
     testWidgets('English strings load correctly', (tester) async {
       await tester.pumpWidget(_TestApp(const Locale('en')));
       await tester.pump();
-      final l10n = HrmsL10n.of(tester.element(find.byType(Container)))!;
+      final l10n = HrmsL10n.of(tester.element(find.byType(Container)));
 
       expect(l10n.attendance, 'Attendance');
       expect(l10n.punchIn, 'Punch In');
@@ -26,7 +26,7 @@ void main() {
     testWidgets('English plural strings work correctly', (tester) async {
       await tester.pumpWidget(_TestApp(const Locale('en')));
       await tester.pump();
-      final l10n = HrmsL10n.of(tester.element(find.byType(Container)))!;
+      final l10n = HrmsL10n.of(tester.element(find.byType(Container)));
 
       expect(l10n.leaveDays(1), '1 day');
       expect(l10n.leaveDays(3), '3 days');
@@ -38,7 +38,7 @@ void main() {
     testWidgets('English interpolated strings work correctly', (tester) async {
       await tester.pumpWidget(_TestApp(const Locale('en')));
       await tester.pump();
-      final l10n = HrmsL10n.of(tester.element(find.byType(Container)))!;
+      final l10n = HrmsL10n.of(tester.element(find.byType(Container)));
 
       expect(l10n.welcomeUser('Ravi'), 'Welcome, Ravi!');
       expect(l10n.goodMorning('Priya'), 'Good Morning, Priya');
@@ -47,7 +47,7 @@ void main() {
     testWidgets('Hindi strings load correctly', (tester) async {
       await tester.pumpWidget(_TestApp(const Locale('hi')));
       await tester.pump();
-      final l10n = HrmsL10n.of(tester.element(find.byType(Container)))!;
+      final l10n = HrmsL10n.of(tester.element(find.byType(Container)));
 
       expect(l10n.attendance, 'उपस्थिति');
       expect(l10n.punchIn, 'पंच इन');
@@ -59,7 +59,7 @@ void main() {
     testWidgets('Hindi plural strings work correctly', (tester) async {
       await tester.pumpWidget(_TestApp(const Locale('hi')));
       await tester.pump();
-      final l10n = HrmsL10n.of(tester.element(find.byType(Container)))!;
+      final l10n = HrmsL10n.of(tester.element(find.byType(Container)));
 
       expect(l10n.leaveDays(1), '1 दिन');
       expect(l10n.leaveDays(5), '5 दिन');
@@ -69,7 +69,7 @@ void main() {
     testWidgets('Tamil strings load correctly', (tester) async {
       await tester.pumpWidget(_TestApp(const Locale('ta')));
       await tester.pump();
-      final l10n = HrmsL10n.of(tester.element(find.byType(Container)))!;
+      final l10n = HrmsL10n.of(tester.element(find.byType(Container)));
 
       expect(l10n.attendance, 'வருகை');
       expect(l10n.leave, 'விடுப்பு');
@@ -79,7 +79,7 @@ void main() {
     testWidgets('Urdu strings load correctly (RTL)', (tester) async {
       await tester.pumpWidget(_TestApp(const Locale('ur')));
       await tester.pump();
-      final l10n = HrmsL10n.of(tester.element(find.byType(Container)))!;
+      final l10n = HrmsL10n.of(tester.element(find.byType(Container)));
 
       expect(l10n.attendance, 'حاضری');
       expect(l10n.leave, 'چھٹی');

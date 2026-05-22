@@ -1,0 +1,5 @@
+# `dart test` runs on the standalone Dart VM (no `dart:ui`), so it can't execute
+# Flutter/widget tests. Keep `dart test` focused on pure Dart suites.
+paths:
+  - test/dart
+
