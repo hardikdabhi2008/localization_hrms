@@ -1,4 +1,10 @@
-﻿## 1.0.5
+﻿## 1.0.6
+
+* Add 44 new localization keys across all 11 languages
+* New keys cover: payroll (Total Earnings, Total Deductions, Reimbursements, Loan EMI, Payslips), leave balance states (Availed, Accrued, Credited, Adjusted, Lapsed, Carry Forward, First Half, Second Half), approval actions (Approve All, Approve Selected, Reject All, Reject Selected, Approval Accepted/Rejected), time labels (y ago, mo ago, d ago, h ago, m ago, Just now), loan lifecycle (Loan request submitted, Loan withdrawn successfully), and common UI (Something went wrong, EMP ID, DEPT, LEAVE BALANCE, REQUESTS, No requests found, You're all caught up)
+* Total API surface: 369 localized strings/methods across 11 languages
+
+## 1.0.5
 
 * Add workedDaysOfTotal(int worked, int total) localization method across all 11 languages
 * Used for displaying worked-days progress, e.g. "5 of 30 days"

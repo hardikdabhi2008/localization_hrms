@@ -1,4 +1,4 @@
-﻿// ignore: unused_import
+// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'hrms_l10n.dart';
 
@@ -1033,6 +1033,131 @@ class HrmsL10nBn extends HrmsL10n {
   @override
   String get signingIn => 'সাইন ইন হচ্ছে...';
 
+  @override
+  String get totalEarnings => 'মোট আয়';
+
+  @override
+  String get totalDeductions => 'মোট কর্তন';
+
+  @override
+  String get reimbursements => 'প্রতিদান';
+
+  @override
+  String get loanEmi => 'ঋণ ইএমআই';
+
+  @override
+  String get payslips => 'বেতন স্লিপ';
+
+  @override
+  String get availed => 'গ্রহণ করা হয়েছে';
+
+  @override
+  String get accrued => 'অর্জিত';
+
+  @override
+  String get credited => 'জমা';
+
+  @override
+  String get adjusted => 'সমন্বিত';
+
+  @override
+  String get lapsed => 'মেয়াদোত্তীর্ণ';
+
+  @override
+  String get carryForward => 'পরবর্তী মাসে';
+
+  @override
+  String get firstHalf => 'প্রথম অর্ধ';
+
+  @override
+  String get secondHalf => 'দ্বিতীয় অর্ধ';
+
+  @override
+  String get today => 'আজ';
+
+  @override
+  String get requestWithdrawnSuccessfully => 'অনুরোধ সফলভাবে প্রত্যাহার করা হয়েছে';
+
+  @override
+  String get approvalAccepted => 'অনুমোদন গৃহীত';
+
+  @override
+  String get approvalRejected => 'অনুমোদন প্রত্যাখ্যাত';
+
+  @override
+  String get rejectSelected => 'নির্বাচিত প্রত্যাখ্যান করুন';
+
+  @override
+  String get rejectAll => 'সব প্রত্যাখ্যান করুন';
+
+  @override
+  String get approveSelected => 'নির্বাচিত অনুমোদন করুন';
+
+  @override
+  String get approveAll => 'সব অনুমোদন করুন';
+
+  @override
+  String get primary => 'প্রাথমিক';
+
+  @override
+  String get field => 'ফিল্ড:';
+
+  @override
+  String get somethingWentWrong => 'কিছু ভুল হয়েছে।';
+
+  @override
+  String get document => 'নথি';
+
+  @override
+  String get labelId => 'আইডি:';
+
+  @override
+  String get loanWithdrawnSuccessfully => 'ঋণ সফলভাবে প্রত্যাহার করা হয়েছে';
+
+  @override
+  String get months => 'মাস';
+
+  @override
+  String get loanRequestSubmitted => 'ঋণ অনুরোধ জমা দেওয়া হয়েছে';
+
+  @override
+  String get yearsAgo => 'বছর আগে';
+
+  @override
+  String get monthsAgo => 'মাস আগে';
+
+  @override
+  String get daysAgo => 'দিন আগে';
+
+  @override
+  String get hoursAgo => 'ঘণ্টা আগে';
+
+  @override
+  String get minutesAgo => 'মিনিট আগে';
+
+  @override
+  String get justNow => 'এইমাত্র';
+
+  @override
+  String get allCaughtUp => 'সব আপডেট!';
+
+  @override
+  String get approvalRequired => 'অনুমোদন প্রয়োজন';
+
+  @override
+  String get empId => 'কর্মী আইডি';
+
+  @override
+  String get joined => 'যোগ দিয়েছেন';
+
+  @override
+  String get dept => 'বিভাগ';
+
+  @override
+  String get requests => 'অনুরোধ';
+
+  @override
+  String get noRequestsFound => 'কোনো অনুরোধ পাওয়া যায়নি';
   @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total দিন';

@@ -1,4 +1,4 @@
-﻿// ignore: unused_import
+// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'hrms_l10n.dart';
 
@@ -1033,6 +1033,131 @@ class HrmsL10nEn extends HrmsL10n {
   @override
   String get signingIn => 'Signing in...';
 
+  @override
+  String get totalEarnings => 'Total Earnings';
+
+  @override
+  String get totalDeductions => 'Total Deductions';
+
+  @override
+  String get reimbursements => 'Reimbursements';
+
+  @override
+  String get loanEmi => 'Loan EMI';
+
+  @override
+  String get payslips => 'Payslips';
+
+  @override
+  String get availed => 'Availed';
+
+  @override
+  String get accrued => 'Accrued';
+
+  @override
+  String get credited => 'Credited';
+
+  @override
+  String get adjusted => 'Adjusted';
+
+  @override
+  String get lapsed => 'Lapsed';
+
+  @override
+  String get carryForward => 'Carry Forward';
+
+  @override
+  String get firstHalf => 'First Half';
+
+  @override
+  String get secondHalf => 'Second Half';
+
+  @override
+  String get today => 'TODAY';
+
+  @override
+  String get requestWithdrawnSuccessfully => 'Request withdrawn successfully';
+
+  @override
+  String get approvalAccepted => 'Approval accepted';
+
+  @override
+  String get approvalRejected => 'Approval rejected';
+
+  @override
+  String get rejectSelected => 'Reject Selected';
+
+  @override
+  String get rejectAll => 'Reject All';
+
+  @override
+  String get approveSelected => 'Approve Selected';
+
+  @override
+  String get approveAll => 'Approve All';
+
+  @override
+  String get primary => 'Primary';
+
+  @override
+  String get field => 'Field:';
+
+  @override
+  String get somethingWentWrong => 'Something went wrong.';
+
+  @override
+  String get document => 'Document';
+
+  @override
+  String get labelId => 'ID:';
+
+  @override
+  String get loanWithdrawnSuccessfully => 'Loan withdrawn successfully';
+
+  @override
+  String get months => 'months';
+
+  @override
+  String get loanRequestSubmitted => 'Loan request submitted';
+
+  @override
+  String get yearsAgo => 'y ago';
+
+  @override
+  String get monthsAgo => 'mo ago';
+
+  @override
+  String get daysAgo => 'd ago';
+
+  @override
+  String get hoursAgo => 'h ago';
+
+  @override
+  String get minutesAgo => 'm ago';
+
+  @override
+  String get justNow => 'Just now';
+
+  @override
+  String get allCaughtUp => 'You\'re all caught up!';
+
+  @override
+  String get approvalRequired => 'approval required';
+
+  @override
+  String get empId => 'EMP ID';
+
+  @override
+  String get joined => 'JOINED';
+
+  @override
+  String get dept => 'DEPT';
+
+  @override
+  String get requests => 'REQUESTS';
+
+  @override
+  String get noRequestsFound => 'No requests found';
   @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked of $total days';

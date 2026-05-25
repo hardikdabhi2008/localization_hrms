@@ -1,4 +1,4 @@
-﻿// ignore: unused_import
+// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'hrms_l10n.dart';
 
@@ -1033,6 +1033,131 @@ class HrmsL10nMl extends HrmsL10n {
   @override
   String get signingIn => 'സൈൻ ഇൻ ചെയ്യുന്നു...';
 
+  @override
+  String get totalEarnings => 'ആകെ വരുമാനം';
+
+  @override
+  String get totalDeductions => 'ആകെ കിഴിവുകൾ';
+
+  @override
+  String get reimbursements => 'തിരിച്ചടവുകൾ';
+
+  @override
+  String get loanEmi => 'ലോൺ EMI';
+
+  @override
+  String get payslips => 'ശമ്പള സ്ലിപ്പുകൾ';
+
+  @override
+  String get availed => 'ഉപയോഗിച്ചു';
+
+  @override
+  String get accrued => 'സഞ്ചിതം';
+
+  @override
+  String get credited => 'ക്രെഡിറ്റ് ചെയ്തു';
+
+  @override
+  String get adjusted => 'ക്രമീകരിച്ചു';
+
+  @override
+  String get lapsed => 'കാലഹരണപ്പെട്ടു';
+
+  @override
+  String get carryForward => 'മുന്നോട്ട് കൊണ്ടുപോകൂ';
+
+  @override
+  String get firstHalf => 'ആദ്യ പകുതി';
+
+  @override
+  String get secondHalf => 'രണ്ടാം പകുതി';
+
+  @override
+  String get today => 'ഇന്ന്';
+
+  @override
+  String get requestWithdrawnSuccessfully => 'അഭ്യർത്ഥന വിജയകരമായി പിൻവലിച്ചു';
+
+  @override
+  String get approvalAccepted => 'അംഗീകാരം സ്വീകരിച്ചു';
+
+  @override
+  String get approvalRejected => 'അംഗീകാരം നിരസിച്ചു';
+
+  @override
+  String get rejectSelected => 'തിരഞ്ഞെടുത്തത് നിരസിക്കൂ';
+
+  @override
+  String get rejectAll => 'എല്ലാം നിരസിക്കൂ';
+
+  @override
+  String get approveSelected => 'തിരഞ്ഞെടുത്തത് അംഗീകരിക്കൂ';
+
+  @override
+  String get approveAll => 'എല്ലാം അംഗീകരിക്കൂ';
+
+  @override
+  String get primary => 'പ്രാഥമിക';
+
+  @override
+  String get field => 'ഫീൽഡ്:';
+
+  @override
+  String get somethingWentWrong => 'എന്തോ കുഴപ്പം സംഭവിച്ചു.';
+
+  @override
+  String get document => 'രേഖ';
+
+  @override
+  String get labelId => 'ഐഡി:';
+
+  @override
+  String get loanWithdrawnSuccessfully => 'ലോൺ വിജയകരമായി പിൻവലിച്ചു';
+
+  @override
+  String get months => 'മാസങ്ങൾ';
+
+  @override
+  String get loanRequestSubmitted => 'ലോൺ അഭ്യർത്ഥന സമർപ്പിച്ചു';
+
+  @override
+  String get yearsAgo => 'വർഷങ്ങൾ മുമ്പ്';
+
+  @override
+  String get monthsAgo => 'മാസങ്ങൾ മുമ്പ്';
+
+  @override
+  String get daysAgo => 'ദിവസങ്ങൾ മുമ്പ്';
+
+  @override
+  String get hoursAgo => 'മണിക്കൂറുകൾ മുമ്പ്';
+
+  @override
+  String get minutesAgo => 'മിനിറ്റുകൾ മുമ്പ്';
+
+  @override
+  String get justNow => 'ഇപ്പോൾ';
+
+  @override
+  String get allCaughtUp => 'എല്ലാം അപ്‌ഡേറ്റ്!';
+
+  @override
+  String get approvalRequired => 'അംഗീകാരം ആവശ്യം';
+
+  @override
+  String get empId => 'ജീവനക്കാരൻ ഐഡി';
+
+  @override
+  String get joined => 'ചേർന്നു';
+
+  @override
+  String get dept => 'വകുപ്പ്';
+
+  @override
+  String get requests => 'അഭ്യർത്ഥനകൾ';
+
+  @override
+  String get noRequestsFound => 'അഭ്യർത്ഥനകൾ ഒന്നും കണ്ടെത്തിയില്ല';
   @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total ദിവസം';
