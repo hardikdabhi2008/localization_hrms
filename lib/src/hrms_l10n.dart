@@ -1285,6 +1285,42 @@ abstract class HrmsL10n {
   String get lastWorkingDay;
   String get changes;
   String get labelNew;
+  String get salaryBreakup;
+  String get salaryBreakupLabel;
+  String get noPayslipsAvailable;
+  String get payslipsEmptyMessage;
+  String get downloadCancelled;
+  String get payslipDownloadedSuccessfully;
+  String get notDeclared;
+  String get percentOfMonthEarned;
+  String get salaryCalculationsNote;
+  String get salaryBreakupNotAvailable;
+  String get weeklyOff;
+  String get attendanceRegularizationSubmitted;
+  String get leaveRequestSubmitted;
+  String get leaveRequestWithdrawn;
+  String get requestCopied;
+  String get personal;
+  String get work;
+  String get experience;
+  String get payouts;
+  String get assets;
+  String get raisedOn;
+  String get workDate;
+  String get appliedFor;
+  String get fromTime;
+  String get toTime;
+  String get destination;
+  String get onDutyType;
+  String get odType;
+  String get punchSource;
+  String get originalLog;
+  String get requestedLog;
+  String get approver;
+  String get noChangesFound;
+  String get withdrawRequestConfirmation;
+  String get adminView;
+  String get signingIn;
 }
 
 class _HrmsL10nDelegate extends LocalizationsDelegate<HrmsL10n> {

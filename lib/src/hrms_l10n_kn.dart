@@ -924,4 +924,112 @@ class HrmsL10nKn extends HrmsL10n {
 
   @override
   String get labelNew => 'ಹೊಸ';
+
+  @override
+  String get salaryBreakup => 'ವೇತನ ವಿವರ';
+
+  @override
+  String get salaryBreakupLabel => 'ವೇತನ ವಿವರ -';
+
+  @override
+  String get noPayslipsAvailable => 'ಯಾವುದೇ ವೇತನ ಚೀಟಿ ಲಭ್ಯವಿಲ್ಲ';
+
+  @override
+  String get payslipsEmptyMessage => 'ನಿಮ್ಮ ವೇತನ ಪ್ರಕ್ರಿಯೆ ಆದ ನಂತರ ವೇತನ ಚೀಟಿಗಳು ಇಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆ.';
+
+  @override
+  String get downloadCancelled => 'ಡೌನ್‌ಲೋಡ್ ರದ್ದಾಯಿತು';
+
+  @override
+  String get payslipDownloadedSuccessfully => 'ವೇತನ ಚೀಟಿ ಯಶಸ್ವಿಯಾಗಿ ಡೌನ್‌ಲೋಡ್ ಆಯಿತು';
+
+  @override
+  String get notDeclared => 'ಘೋಷಿಸಲಾಗಿಲ್ಲ';
+
+  @override
+  String get percentOfMonthEarned => 'ತಿಂಗಳಿನ % ಗಳಿಕೆ';
+
+  @override
+  String get salaryCalculationsNote => 'ಇದು ನಿಮ್ಮ ವೇತನ ಲೆಕ್ಕಾಚಾರಕ್ಕೆ ಅನ್ವಯಿಸುತ್ತದೆ';
+
+  @override
+  String get salaryBreakupNotAvailable => 'ವೇತನ ವಿವರ ಡೇಟಾ ಪ್ರಸ್ತುತ ಲಭ್ಯವಿಲ್ಲ.';
+
+  @override
+  String get weeklyOff => 'ಸಾಪ್ತಾಹಿಕ ರಜೆ';
+
+  @override
+  String get attendanceRegularizationSubmitted => 'ಹಾಜರಾತಿ ನಿಯಮಿತೀಕರಣ ಯಶಸ್ವಿಯಾಗಿ ಸಲ್ಲಿಸಲಾಗಿದೆ';
+
+  @override
+  String get leaveRequestSubmitted => 'ರಜೆ ವಿನಂತಿ ಯಶಸ್ವಿಯಾಗಿ ಸಲ್ಲಿಸಲಾಗಿದೆ';
+
+  @override
+  String get leaveRequestWithdrawn => 'ರಜೆ ವಿನಂತಿ ಹಿಂಪಡೆಯಲಾಗಿದೆ';
+
+  @override
+  String get requestCopied => 'ವಿನಂತಿ ನಕಲಿಸಲಾಗಿದೆ';
+
+  @override
+  String get personal => 'ವೈಯಕ್ತಿಕ';
+
+  @override
+  String get work => 'ಕೆಲಸ';
+
+  @override
+  String get experience => 'ಅನುಭವ';
+
+  @override
+  String get payouts => 'ಪಾವತಿಗಳು';
+
+  @override
+  String get assets => 'ಆಸ್ತಿಗಳು';
+
+  @override
+  String get raisedOn => 'ಎತ್ತಲಾಯಿತು:';
+
+  @override
+  String get workDate => 'ಕೆಲಸದ ದಿನಾಂಕ:';
+
+  @override
+  String get appliedFor => 'ಅರ್ಜಿ ಸಲ್ಲಿಸಿದ:';
+
+  @override
+  String get fromTime => 'ಪ್ರಾರಂಭ ಸಮಯ';
+
+  @override
+  String get toTime => 'ಮುಕ್ತಾಯ ಸಮಯ';
+
+  @override
+  String get destination => 'ಗಮ್ಯಸ್ಥಾನ';
+
+  @override
+  String get onDutyType => 'ಕರ್ತವ್ಯ ಪ್ರಕಾರ';
+
+  @override
+  String get odType => 'OD ಪ್ರಕಾರ';
+
+  @override
+  String get punchSource => 'ಪಂಚ್ ಮೂಲ';
+
+  @override
+  String get originalLog => 'ಮೂಲ ಲಾಗ್';
+
+  @override
+  String get requestedLog => 'ವಿನಂತಿಸಿದ ಲಾಗ್';
+
+  @override
+  String get approver => 'ಅನುಮೋದಕ:';
+
+  @override
+  String get noChangesFound => 'ಬದಲಾವಣೆಗಳು ಕಂಡುಬಂದಿಲ್ಲ';
+
+  @override
+  String get withdrawRequestConfirmation => 'ನೀವು ನಿಜವಾಗಿಯೂ ವಿನಂತಿಯನ್ನು ಹಿಂಪಡೆಯಲು ಬಯಸುತ್ತೀರಾ?';
+
+  @override
+  String get adminView => 'ನಿರ್ವಾಹಕ ವೀಕ್ಷಣೆ';
+
+  @override
+  String get signingIn => 'ಸೈನ್ ಇನ್ ಆಗುತ್ತಿದೆ...';
 }

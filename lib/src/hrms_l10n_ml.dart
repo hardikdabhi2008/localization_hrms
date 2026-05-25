@@ -924,4 +924,112 @@ class HrmsL10nMl extends HrmsL10n {
 
   @override
   String get labelNew => 'പുതിയ';
+
+  @override
+  String get salaryBreakup => 'ശമ്പള വിവരണം';
+
+  @override
+  String get salaryBreakupLabel => 'ശമ്പള വിവരണം -';
+
+  @override
+  String get noPayslipsAvailable => 'പേ സ്ലിപ്പുകൾ ലഭ്യമല്ല';
+
+  @override
+  String get payslipsEmptyMessage => 'ശമ്പളം പ്രോസസ്സ് ചെയ്ത ശേഷം പേ സ്ലിപ്പുകൾ ഇവിടെ കാണും.';
+
+  @override
+  String get downloadCancelled => 'ഡൗൺലോഡ് റദ്ദാക്കി';
+
+  @override
+  String get payslipDownloadedSuccessfully => 'പേ സ്ലിപ്പ് വിജയകരമായി ഡൗൺലോഡ് ചെയ്തു';
+
+  @override
+  String get notDeclared => 'പ്രഖ്യാപിക്കപ്പെട്ടിട്ടില്ല';
+
+  @override
+  String get percentOfMonthEarned => 'മാസത്തിൽ നേടിയ %';
+
+  @override
+  String get salaryCalculationsNote => 'ഇത് ശമ്പള കണക്കുകൂട്ടലിൽ ബാധകമാകും';
+
+  @override
+  String get salaryBreakupNotAvailable => 'ശമ്പള വിവരണ ഡേറ്റ ലഭ്യമല്ല.';
+
+  @override
+  String get weeklyOff => 'വാരാന്ത്യ ഒഴിവ്';
+
+  @override
+  String get attendanceRegularizationSubmitted => 'ഹാജർ ക്രമീകരണം വിജയകരമായി സമർപ്പിച്ചു';
+
+  @override
+  String get leaveRequestSubmitted => 'അവധി അഭ്യർഥന വിജയകരമായി സമർപ്പിച്ചു';
+
+  @override
+  String get leaveRequestWithdrawn => 'അവധി അഭ്യർഥന പിൻവലിച്ചു';
+
+  @override
+  String get requestCopied => 'അഭ്യർഥന പകർത്തി';
+
+  @override
+  String get personal => 'വ്യക്തിഗതം';
+
+  @override
+  String get work => 'ജോലി';
+
+  @override
+  String get experience => 'അനുഭവം';
+
+  @override
+  String get payouts => 'പേ‌ഔട്ടുകൾ';
+
+  @override
+  String get assets => 'ആസ്തികൾ';
+
+  @override
+  String get raisedOn => 'ഉയർത്തിയ:';
+
+  @override
+  String get workDate => 'ജോലി തീയതി:';
+
+  @override
+  String get appliedFor => 'അപേക്ഷിച്ചത്:';
+
+  @override
+  String get fromTime => 'ആരംഭ സമയം';
+
+  @override
+  String get toTime => 'അവസാന സമയം';
+
+  @override
+  String get destination => 'ലക്ഷ്യസ്ഥാനം';
+
+  @override
+  String get onDutyType => 'ഓൺ-ഡ്യൂട്ടി തരം';
+
+  @override
+  String get odType => 'OD തരം';
+
+  @override
+  String get punchSource => 'പഞ്ച് ഉറവിടം';
+
+  @override
+  String get originalLog => 'യഥാർഥ ലോഗ്';
+
+  @override
+  String get requestedLog => 'അഭ്യർഥിച്ച ലോഗ്';
+
+  @override
+  String get approver => 'അനുമതി:';
+
+  @override
+  String get noChangesFound => 'മാറ്റങ്ങൾ കണ്ടെത്തിയില്ല';
+
+  @override
+  String get withdrawRequestConfirmation => 'അഭ്യർഥന പിൻവലിക്കണമോ?';
+
+  @override
+  String get adminView => 'അഡ്മിൻ വ്യൂ';
+
+  @override
+  String get signingIn => 'സൈൻ ഇൻ ചെയ്യുന്നു...';
 }

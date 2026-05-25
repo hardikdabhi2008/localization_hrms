@@ -924,4 +924,112 @@ class HrmsL10nEn extends HrmsL10n {
 
   @override
   String get labelNew => 'New';
+
+  @override
+  String get salaryBreakup => 'Salary Breakup';
+
+  @override
+  String get salaryBreakupLabel => 'Salary Breakup -';
+
+  @override
+  String get noPayslipsAvailable => 'No Payslips Available';
+
+  @override
+  String get payslipsEmptyMessage => 'Your payslips will appear here once your salary is processed.';
+
+  @override
+  String get downloadCancelled => 'Download cancelled';
+
+  @override
+  String get payslipDownloadedSuccessfully => 'Payslip downloaded successfully';
+
+  @override
+  String get notDeclared => 'Not Declared';
+
+  @override
+  String get percentOfMonthEarned => '% of month earned';
+
+  @override
+  String get salaryCalculationsNote => 'This Will Apply To Your Salary Calculations';
+
+  @override
+  String get salaryBreakupNotAvailable => 'Salary breakup data is currently not available.';
+
+  @override
+  String get weeklyOff => 'Weekly Off';
+
+  @override
+  String get attendanceRegularizationSubmitted => 'Attendance regularization submitted successfully';
+
+  @override
+  String get leaveRequestSubmitted => 'Leave request submitted successfully';
+
+  @override
+  String get leaveRequestWithdrawn => 'Leave request withdrawn';
+
+  @override
+  String get requestCopied => 'Request copied';
+
+  @override
+  String get personal => 'Personal';
+
+  @override
+  String get work => 'Work';
+
+  @override
+  String get experience => 'Experience';
+
+  @override
+  String get payouts => 'Payouts';
+
+  @override
+  String get assets => 'Assets';
+
+  @override
+  String get raisedOn => 'Raised On:';
+
+  @override
+  String get workDate => 'Work Date:';
+
+  @override
+  String get appliedFor => 'Applied For:';
+
+  @override
+  String get fromTime => 'From Time';
+
+  @override
+  String get toTime => 'To Time';
+
+  @override
+  String get destination => 'Destination';
+
+  @override
+  String get onDutyType => 'On-Duty type';
+
+  @override
+  String get odType => 'OD Type';
+
+  @override
+  String get punchSource => 'Punch Source';
+
+  @override
+  String get originalLog => 'Original Log';
+
+  @override
+  String get requestedLog => 'Requested Log';
+
+  @override
+  String get approver => 'Approver:';
+
+  @override
+  String get noChangesFound => 'No changes found';
+
+  @override
+  String get withdrawRequestConfirmation => 'Are you sure you want to withdraw request?';
+
+  @override
+  String get adminView => 'Admin View';
+
+  @override
+  String get signingIn => 'Signing in...';
 }

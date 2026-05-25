@@ -924,4 +924,112 @@ class HrmsL10nUr extends HrmsL10n {
 
   @override
   String get labelNew => 'نیا';
+
+  @override
+  String get salaryBreakup => 'تنخواہ کی تفصیل';
+
+  @override
+  String get salaryBreakupLabel => 'تنخواہ کی تفصیل -';
+
+  @override
+  String get noPayslipsAvailable => 'کوئی پے سلپ دستیاب نہیں';
+
+  @override
+  String get payslipsEmptyMessage => 'تنخواہ کی پروسیسنگ کے بعد آپ کی پے سلپیں یہاں ظاہر ہوں گی۔';
+
+  @override
+  String get downloadCancelled => 'ڈاؤن لوڈ منسوخ';
+
+  @override
+  String get payslipDownloadedSuccessfully => 'پے سلپ کامیابی سے ڈاؤن لوڈ ہوئی';
+
+  @override
+  String get notDeclared => 'اعلان نہیں کیا گیا';
+
+  @override
+  String get percentOfMonthEarned => 'مہینے کی % کمائی';
+
+  @override
+  String get salaryCalculationsNote => 'یہ آپ کی تنخواہ کے حساب پر لاگو ہوگا';
+
+  @override
+  String get salaryBreakupNotAvailable => 'تنخواہ کی تفصیل کا ڈیٹا فی الحال دستیاب نہیں۔';
+
+  @override
+  String get weeklyOff => 'ہفتہ وار چھٹی';
+
+  @override
+  String get attendanceRegularizationSubmitted => 'حاضری ریگولرائزیشن کامیابی سے جمع';
+
+  @override
+  String get leaveRequestSubmitted => 'چھٹی کی درخواست کامیابی سے جمع';
+
+  @override
+  String get leaveRequestWithdrawn => 'چھٹی کی درخواست واپس لی';
+
+  @override
+  String get requestCopied => 'درخواست کاپی';
+
+  @override
+  String get personal => 'ذاتی';
+
+  @override
+  String get work => 'کام';
+
+  @override
+  String get experience => 'تجربہ';
+
+  @override
+  String get payouts => 'ادائیگیاں';
+
+  @override
+  String get assets => 'اثاثے';
+
+  @override
+  String get raisedOn => 'درج:';
+
+  @override
+  String get workDate => 'کام کی تاریخ:';
+
+  @override
+  String get appliedFor => 'کے لیے درخواست:';
+
+  @override
+  String get fromTime => 'ابتدائی وقت';
+
+  @override
+  String get toTime => 'اختتامی وقت';
+
+  @override
+  String get destination => 'منزل';
+
+  @override
+  String get onDutyType => 'آن ڈیوٹی قسم';
+
+  @override
+  String get odType => 'OD قسم';
+
+  @override
+  String get punchSource => 'پنچ ذریعہ';
+
+  @override
+  String get originalLog => 'اصل لاگ';
+
+  @override
+  String get requestedLog => 'درخواست شدہ لاگ';
+
+  @override
+  String get approver => 'منظور کنندہ:';
+
+  @override
+  String get noChangesFound => 'کوئی تبدیلی نہیں ملی';
+
+  @override
+  String get withdrawRequestConfirmation => 'کیا آپ واقعی درخواست واپس لینا چاہتے ہیں؟';
+
+  @override
+  String get adminView => 'ایڈمن ویو';
+
+  @override
+  String get signingIn => 'سائن ان ہو رہا ہے...';
 }

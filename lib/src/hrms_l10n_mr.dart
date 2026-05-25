@@ -924,4 +924,112 @@ class HrmsL10nMr extends HrmsL10n {
 
   @override
   String get labelNew => 'नवीन';
+
+  @override
+  String get salaryBreakup => 'पगार तपशील';
+
+  @override
+  String get salaryBreakupLabel => 'पगार तपशील -';
+
+  @override
+  String get noPayslipsAvailable => 'कोणतेही पगार पत्रक उपलब्ध नाही';
+
+  @override
+  String get payslipsEmptyMessage => 'तुमचा पगार प्रक्रिया झाल्यावर पगार पत्रक येथे दिसेल.';
+
+  @override
+  String get downloadCancelled => 'डाउनलोड रद्द';
+
+  @override
+  String get payslipDownloadedSuccessfully => 'पगार पत्रक यशस्वीरित्या डाउनलोड';
+
+  @override
+  String get notDeclared => 'घोषित नाही';
+
+  @override
+  String get percentOfMonthEarned => 'महिन्याच्या % कमाई';
+
+  @override
+  String get salaryCalculationsNote => 'हे तुमच्या पगार गणनेस लागू होईल';
+
+  @override
+  String get salaryBreakupNotAvailable => 'पगार तपशील डेटा सध्या उपलब्ध नाही.';
+
+  @override
+  String get weeklyOff => 'साप्ताहिक सुट्टी';
+
+  @override
+  String get attendanceRegularizationSubmitted => 'उपस्थिती नियमितीकरण यशस्वीरित्या सबमिट केले';
+
+  @override
+  String get leaveRequestSubmitted => 'रजा विनंती यशस्वीरित्या सबमिट केली';
+
+  @override
+  String get leaveRequestWithdrawn => 'रजा विनंती मागे घेतली';
+
+  @override
+  String get requestCopied => 'विनंती कॉपी केली';
+
+  @override
+  String get personal => 'वैयक्तिक';
+
+  @override
+  String get work => 'काम';
+
+  @override
+  String get experience => 'अनुभव';
+
+  @override
+  String get payouts => 'देयके';
+
+  @override
+  String get assets => 'मालमत्ता';
+
+  @override
+  String get raisedOn => 'उठवले:';
+
+  @override
+  String get workDate => 'कामाची तारीख:';
+
+  @override
+  String get appliedFor => 'साठी अर्ज:';
+
+  @override
+  String get fromTime => 'प्रारंभ वेळ';
+
+  @override
+  String get toTime => 'शेवट वेळ';
+
+  @override
+  String get destination => 'गंतव्यस्थान';
+
+  @override
+  String get onDutyType => 'ऑन-ड्यूटी प्रकार';
+
+  @override
+  String get odType => 'OD प्रकार';
+
+  @override
+  String get punchSource => 'पंच स्रोत';
+
+  @override
+  String get originalLog => 'मूळ लॉग';
+
+  @override
+  String get requestedLog => 'विनंती केलेला लॉग';
+
+  @override
+  String get approver => 'मंजूर करणारा:';
+
+  @override
+  String get noChangesFound => 'कोणतेही बदल आढळले नाहीत';
+
+  @override
+  String get withdrawRequestConfirmation => 'तुम्हाला नक्की विनंती मागे घ्यायची आहे का?';
+
+  @override
+  String get adminView => 'प्रशासक दृश्य';
+
+  @override
+  String get signingIn => 'साइन इन होत आहे...';
 }

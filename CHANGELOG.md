@@ -1,3 +1,9 @@
+## 1.0.4
+
+* Add 36 new localization keys across all 11 languages
+* New keys cover: salary breakup, payslip availability/download states, attendance regularization, leave request lifecycle (submitted/withdrawn/copied), profile tabs (Personal, Work, Experience, Payouts, Assets), on-duty request fields (Raised On, Work Date, Applied For, From/To Time, Destination, OD Type, Punch Source, Original/Requested Log, Approver), and auth/admin strings (Admin View, Signing in...)
+* Total API surface: 324 localized string getters across 11 languages
+
 ## 1.0.3
 
 * Fix: expose all new localization keys in the Dart API (`HrmsL10n` abstract class and all 11 language implementations)

@@ -924,4 +924,112 @@ class HrmsL10nTe extends HrmsL10n {
 
   @override
   String get labelNew => 'కొత్త';
+
+  @override
+  String get salaryBreakup => 'జీతం వివరాలు';
+
+  @override
+  String get salaryBreakupLabel => 'జీతం వివరాలు -';
+
+  @override
+  String get noPayslipsAvailable => 'పేస్లిప్‌లు అందుబాటులో లేవు';
+
+  @override
+  String get payslipsEmptyMessage => 'మీ జీతం ప్రాసెస్ అయిన తర్వాత పేస్లిప్‌లు ఇక్కడ కనిపిస్తాయి.';
+
+  @override
+  String get downloadCancelled => 'డౌన్‌లోడ్ రద్దు చేయబడింది';
+
+  @override
+  String get payslipDownloadedSuccessfully => 'పేస్లిప్ విజయవంతంగా డౌన్‌లోడ్ అయింది';
+
+  @override
+  String get notDeclared => 'ప్రకటించబడలేదు';
+
+  @override
+  String get percentOfMonthEarned => 'నెలలో సంపాదించిన %';
+
+  @override
+  String get salaryCalculationsNote => 'ఇది మీ జీతం లెక్కలకు వర్తిస్తుంది';
+
+  @override
+  String get salaryBreakupNotAvailable => 'జీతం వివరాల డేటా ప్రస్తుతం అందుబాటులో లేదు.';
+
+  @override
+  String get weeklyOff => 'వారపు సెలవు';
+
+  @override
+  String get attendanceRegularizationSubmitted => 'హాజరు రెగ్యులరైజేషన్ విజయవంతంగా సమర్పించబడింది';
+
+  @override
+  String get leaveRequestSubmitted => 'సెలవు అభ్యర్థన విజయవంతంగా సమర్పించబడింది';
+
+  @override
+  String get leaveRequestWithdrawn => 'సెలవు అభ్యర్థన ఉపసంహరించబడింది';
+
+  @override
+  String get requestCopied => 'అభ్యర్థన కాపీ చేయబడింది';
+
+  @override
+  String get personal => 'వ్యక్తిగత';
+
+  @override
+  String get work => 'పని';
+
+  @override
+  String get experience => 'అనుభవం';
+
+  @override
+  String get payouts => 'చెల్లింపులు';
+
+  @override
+  String get assets => 'ఆస్తులు';
+
+  @override
+  String get raisedOn => 'సమర్పించిన తేదీ:';
+
+  @override
+  String get workDate => 'పని తేదీ:';
+
+  @override
+  String get appliedFor => 'దరఖాస్తు చేసిన:';
+
+  @override
+  String get fromTime => 'నుండి సమయం';
+
+  @override
+  String get toTime => 'వరకు సమయం';
+
+  @override
+  String get destination => 'గమ్యస్థానం';
+
+  @override
+  String get onDutyType => 'అన్-డ్యూటీ రకం';
+
+  @override
+  String get odType => 'OD రకం';
+
+  @override
+  String get punchSource => 'పంచ్ మూలం';
+
+  @override
+  String get originalLog => 'అసలు లాగ్';
+
+  @override
+  String get requestedLog => 'అభ్యర్థించిన లాగ్';
+
+  @override
+  String get approver => 'ఆమోదకర్త:';
+
+  @override
+  String get noChangesFound => 'మార్పులు కనుగొనబడలేదు';
+
+  @override
+  String get withdrawRequestConfirmation => 'మీరు నిజంగా అభ్యర్థనను ఉపసంహరించాలనుకుంటున్నారా?';
+
+  @override
+  String get adminView => 'అడ్మిన్ వ్యూ';
+
+  @override
+  String get signingIn => 'సైన్ ఇన్ అవుతోంది...';
 }

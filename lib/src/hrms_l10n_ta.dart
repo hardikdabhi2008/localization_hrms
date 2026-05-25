@@ -924,4 +924,112 @@ class HrmsL10nTa extends HrmsL10n {
 
   @override
   String get labelNew => 'புதிய';
+
+  @override
+  String get salaryBreakup => 'சம்பள விவரம்';
+
+  @override
+  String get salaryBreakupLabel => 'சம்பள விவரம் -';
+
+  @override
+  String get noPayslipsAvailable => 'சம்பள சீட்டு இல்லை';
+
+  @override
+  String get payslipsEmptyMessage => 'உங்கள் சம்பளம் செயலாக்கப்பட்டவுடன் சம்பள சீட்டுகள் இங்கே தோன்றும்.';
+
+  @override
+  String get downloadCancelled => 'பதிவிறக்கம் ரத்து செய்யப்பட்டது';
+
+  @override
+  String get payslipDownloadedSuccessfully => 'சம்பள சீட்டு வெற்றிகரமாக பதிவிறக்கம் செய்யப்பட்டது';
+
+  @override
+  String get notDeclared => 'அறிவிக்கப்படவில்லை';
+
+  @override
+  String get percentOfMonthEarned => 'மாதத்தில் சம்பாதித்த %';
+
+  @override
+  String get salaryCalculationsNote => 'இது உங்கள் சம்பள கணக்கீட்டிற்கு பொருந்தும்';
+
+  @override
+  String get salaryBreakupNotAvailable => 'சம்பள விவர தரவு தற்போது கிடைக்கவில்லை.';
+
+  @override
+  String get weeklyOff => 'வாராந்திர விடுமுறை';
+
+  @override
+  String get attendanceRegularizationSubmitted => 'வருகை முறைப்படுத்தல் வெற்றிகரமாக சமர்பிக்கப்பட்டது';
+
+  @override
+  String get leaveRequestSubmitted => 'விடுப்பு கோரிக்கை வெற்றிகரமாக சமர்பிக்கப்பட்டது';
+
+  @override
+  String get leaveRequestWithdrawn => 'விடுப்பு கோரிக்கை திரும்பப் பெறப்பட்டது';
+
+  @override
+  String get requestCopied => 'கோரிக்கை நகலெடுக்கப்பட்டது';
+
+  @override
+  String get personal => 'தனிப்பட்ட';
+
+  @override
+  String get work => 'பணி';
+
+  @override
+  String get experience => 'அனுபவம்';
+
+  @override
+  String get payouts => 'கொடுப்பனவுகள்';
+
+  @override
+  String get assets => 'சொத்துக்கள்';
+
+  @override
+  String get raisedOn => 'எழுப்பப்பட்டது:';
+
+  @override
+  String get workDate => 'பணி தேதி:';
+
+  @override
+  String get appliedFor => 'விண்ணப்பித்தது:';
+
+  @override
+  String get fromTime => 'தொடக்க நேரம்';
+
+  @override
+  String get toTime => 'முடிவு நேரம்';
+
+  @override
+  String get destination => 'இலக்கு';
+
+  @override
+  String get onDutyType => 'கடமை வகை';
+
+  @override
+  String get odType => 'OD வகை';
+
+  @override
+  String get punchSource => 'பஞ்ச் மூலம்';
+
+  @override
+  String get originalLog => 'அசல் பதிவு';
+
+  @override
+  String get requestedLog => 'கோரப்பட்ட பதிவு';
+
+  @override
+  String get approver => 'அனுமோதனர்:';
+
+  @override
+  String get noChangesFound => 'மாற்றங்கள் எதுவும் கிடைக்கவில்லை';
+
+  @override
+  String get withdrawRequestConfirmation => 'நீங்கள் கோரிக்கையை திரும்பப் பெற விரும்புகிறீர்களா?';
+
+  @override
+  String get adminView => 'நிர்வாக பார்வை';
+
+  @override
+  String get signingIn => 'உள்நுழைகிறது...';
 }

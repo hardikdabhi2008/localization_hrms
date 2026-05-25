@@ -924,4 +924,112 @@ class HrmsL10nGu extends HrmsL10n {
 
   @override
   String get labelNew => 'navo';
+
+  @override
+  String get salaryBreakup => 'પગાર બ્રેકઅપ';
+
+  @override
+  String get salaryBreakupLabel => 'પગાર બ્રેકઅપ -';
+
+  @override
+  String get noPayslipsAvailable => 'કોઈ પગારપત્રક ઉપલબ્ધ નથી';
+
+  @override
+  String get payslipsEmptyMessage => 'તમારો પગાર પ્રોસેસ થાય પછી પગારપત્રક અહીં દેખાશે.';
+
+  @override
+  String get downloadCancelled => 'ડાઉનલોડ રદ';
+
+  @override
+  String get payslipDownloadedSuccessfully => 'પગારપત્રક સફળતાપૂર્વક ડાઉનલોડ થઈ ગઈ';
+
+  @override
+  String get notDeclared => 'જાહેર નથી';
+
+  @override
+  String get percentOfMonthEarned => 'મહિનાના % ની કમાણી';
+
+  @override
+  String get salaryCalculationsNote => 'આ તમારી સૅલૅરી ગણતરીઓ પર લાગુ થશે';
+
+  @override
+  String get salaryBreakupNotAvailable => 'પગાર બ્રેકઅપ ડેટા હાલ ઉપલબ્ધ નથી.';
+
+  @override
+  String get weeklyOff => 'સાપ્તાહિક બંધ';
+
+  @override
+  String get attendanceRegularizationSubmitted => 'હાજરી નિયમિતીકરણ સફળતાપૂર્વક સબમિટ';
+
+  @override
+  String get leaveRequestSubmitted => 'રજા વિનંતી સફળતાપૂર્વક સબમિટ';
+
+  @override
+  String get leaveRequestWithdrawn => 'રજા વિનંતી પાછી ખેંચી';
+
+  @override
+  String get requestCopied => 'વિનંતી નકલ';
+
+  @override
+  String get personal => 'વ્યક્તિગત';
+
+  @override
+  String get work => 'કાર્ય';
+
+  @override
+  String get experience => 'અનુભવ';
+
+  @override
+  String get payouts => 'ચૂકવણી';
+
+  @override
+  String get assets => 'સ્થાવર';
+
+  @override
+  String get raisedOn => 'ઉઠાવ્યું:';
+
+  @override
+  String get workDate => 'કામ તારીખ:';
+
+  @override
+  String get appliedFor => 'માટે અરજી:';
+
+  @override
+  String get fromTime => 'શરૂ સમય';
+
+  @override
+  String get toTime => 'સ્ટૉપ સમય';
+
+  @override
+  String get destination => 'ગંત્વ્ય';
+
+  @override
+  String get onDutyType => 'ઑન-ડ્યૂટી પ્રકાર';
+
+  @override
+  String get odType => 'OD પ્રકાર';
+
+  @override
+  String get punchSource => 'પંચ સ્ત્રોત';
+
+  @override
+  String get originalLog => 'મૂળ લૉગ';
+
+  @override
+  String get requestedLog => 'વિનંતી કરેલ લૉગ';
+
+  @override
+  String get approver => 'મંજૂરી:';
+
+  @override
+  String get noChangesFound => 'કોઈ ફેરફાર નહીં';
+
+  @override
+  String get withdrawRequestConfirmation => 'શું તમે ખરેખર વિનંતી પાછી ખેંચવા ઇચ્છો?';
+
+  @override
+  String get adminView => 'એડ્મિન વ્યૂ';
+
+  @override
+  String get signingIn => 'સાઇન ઇન...';
 }

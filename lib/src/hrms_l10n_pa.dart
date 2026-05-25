@@ -924,4 +924,112 @@ class HrmsL10nPa extends HrmsL10n {
 
   @override
   String get labelNew => 'ਨਵਾਂ';
+
+  @override
+  String get salaryBreakup => 'ਤਨਖ਼ਾਹ ਬ੍ਰੇਕਅੱਪ';
+
+  @override
+  String get salaryBreakupLabel => 'ਤਨਖ਼ਾਹ ਬ੍ਰੇਕਅੱਪ -';
+
+  @override
+  String get noPayslipsAvailable => 'ਕੋਈ ਤਨਖ਼ਾਹ ਸਲਿੱਪ ਉਪਲਬਧ ਨਹੀਂ';
+
+  @override
+  String get payslipsEmptyMessage => 'ਤੁਹਾਡੀ ਤਨਖ਼ਾਹ ਪ੍ਰੋਸੈੱਸ ਹੋਣ ਤੋਂ ਬਾਅਦ ਤਨਖ਼ਾਹ ਸਲਿੱਪਾਂ ਇੱਥੇ ਦਿਖਾਈ ਦੇਣਗੀਆਂ।';
+
+  @override
+  String get downloadCancelled => 'ਡਾਊਨਲੋਡ ਰੱਦ ਕੀਤਾ';
+
+  @override
+  String get payslipDownloadedSuccessfully => 'ਤਨਖ਼ਾਹ ਸਲਿੱਪ ਸਫਲਤਾਪੂਰਵਕ ਡਾਊਨਲੋਡ ਕੀਤੀ ਗਈ';
+
+  @override
+  String get notDeclared => 'ਘੋਸ਼ਿਤ ਨਹੀਂ';
+
+  @override
+  String get percentOfMonthEarned => 'ਮਹੀਨੇ ਦੀ % ਕਮਾਈ';
+
+  @override
+  String get salaryCalculationsNote => 'ਇਹ ਤੁਹਾਡੀ ਤਨਖ਼ਾਹ ਗਣਨਾ ਉੱਤੇ ਲਾਗੂ ਹੋਵੇਗਾ';
+
+  @override
+  String get salaryBreakupNotAvailable => 'ਤਨਖ਼ਾਹ ਬ੍ਰੇਕਅੱਪ ਡੇਟਾ ਵਰਤਮਾਨ ਵਿੱਚ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।';
+
+  @override
+  String get weeklyOff => 'ਹਫ਼ਤਾਵਾਰੀ ਛੁੱਟੀ';
+
+  @override
+  String get attendanceRegularizationSubmitted => 'ਹਾਜ਼ਰੀ ਨਿਯਮਿਤੀਕਰਣ ਸਫਲਤਾਪੂਰਵਕ ਜਮ੍ਹਾਂ ਕੀਤਾ';
+
+  @override
+  String get leaveRequestSubmitted => 'ਛੁੱਟੀ ਬੇਨਤੀ ਸਫਲਤਾਪੂਰਵਕ ਜਮ੍ਹਾਂ ਕੀਤੀ';
+
+  @override
+  String get leaveRequestWithdrawn => 'ਛੁੱਟੀ ਬੇਨਤੀ ਵਾਪਸ ਲਈ';
+
+  @override
+  String get requestCopied => 'ਬੇਨਤੀ ਕਾਪੀ ਕੀਤੀ';
+
+  @override
+  String get personal => 'ਨਿੱਜੀ';
+
+  @override
+  String get work => 'ਕੰਮ';
+
+  @override
+  String get experience => 'ਤਜਰਬਾ';
+
+  @override
+  String get payouts => 'ਭੁਗਤਾਨ';
+
+  @override
+  String get assets => 'ਸੰਪਤੀਆਂ';
+
+  @override
+  String get raisedOn => 'ਉਠਾਇਆ:';
+
+  @override
+  String get workDate => 'ਕੰਮ ਦੀ ਮਿਤੀ:';
+
+  @override
+  String get appliedFor => 'ਲਈ ਅਰਜ਼ੀ:';
+
+  @override
+  String get fromTime => 'ਸ਼ੁਰੂਆਤ ਸਮਾਂ';
+
+  @override
+  String get toTime => 'ਸਮਾਪਤੀ ਸਮਾਂ';
+
+  @override
+  String get destination => 'ਮੰਜ਼ਿਲ';
+
+  @override
+  String get onDutyType => 'ਆਨ-ਡਿਊਟੀ ਕਿਸਮ';
+
+  @override
+  String get odType => 'OD ਕਿਸਮ';
+
+  @override
+  String get punchSource => 'ਪੰਚ ਸਰੋਤ';
+
+  @override
+  String get originalLog => 'ਮੂਲ ਲੌਗ';
+
+  @override
+  String get requestedLog => 'ਬੇਨਤੀ ਕੀਤਾ ਲੌਗ';
+
+  @override
+  String get approver => 'ਮਨਜ਼ੂਰ ਕਰਤਾ:';
+
+  @override
+  String get noChangesFound => 'ਕੋਈ ਬਦਲਾਅ ਨਹੀਂ ਮਿਲਿਆ';
+
+  @override
+  String get withdrawRequestConfirmation => 'ਕੀ ਤੁਸੀਂ ਸੱਚਮੁੱਚ ਬੇਨਤੀ ਵਾਪਸ ਲੈਣਾ ਚਾਹੁੰਦੇ ਹੋ?';
+
+  @override
+  String get adminView => 'ਐਡਮਿਨ ਵਿਊ';
+
+  @override
+  String get signingIn => 'ਸਾਈਨ ਇਨ ਹੋ ਰਿਹਾ ਹੈ...';
 }
