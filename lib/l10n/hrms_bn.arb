@@ -422,5 +422,17 @@
   "shorten": "সংক্ষিপ্ত করুন",
   "updateAvailableMessage": "একটি নতুন আপডেট পাওয়া যাচ্ছে। চালিয়ে যেতে অ্যাপ আপডেট করুন।",
   "completeProfileMessage": "বেতন, বেতন স্লিপ এবং সুবিধা সময়মতো পেতে আপনার প্রোফাইল সম্পূর্ণ করুন।",
+  "myRequest": "আমার অনুরোধ",
+  "myProfile": "আমার প্রোফাইল",
+  "myTeam": "আমার দল",
+  "labelApp": "অ্যাপ",
+  "approvals": "অনুমোদন",
+  "peopleDirectory": "কর্মীদের তালিকা",
+  "helpDesk": "হেল্প ডেস্ক",
+  "workingHours": "কাজের সময়",
+  "clockIn": "ক্লক ইন",
+  "clockOut": "ক্লক আউট",
+  "shiftTimings": "শিফটের সময়",
+  "regularize": "নিয়মিতকরণ",
   "workedDaysOfTotal": "{worked}/{total} দিন"
 }

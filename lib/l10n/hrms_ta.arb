@@ -422,5 +422,17 @@
   "shorten": "சுருக்கு",
   "updateAvailableMessage": "புதிய புதுப்பிப்பு கிடைக்கிறது. தொடர ஆப்பை புதுப்பிக்கவும்.",
   "completeProfileMessage": "சம்பளம், சம்பள சீட்டுகள் மற்றும் சலுகைகளை தாமதமின்றி பெற உங்கள் சுயவிவரத்தை பூர்த்தி செய்யுங்கள்.",
+  "myRequest": "என் கோரிக்கை",
+  "myProfile": "என் சுயவிவரம்",
+  "myTeam": "என் குழு",
+  "labelApp": "செயலி",
+  "approvals": "அங்கீகாரங்கள்",
+  "peopleDirectory": "நபர்கள் அட்டவணை",
+  "helpDesk": "உதவி மேசை",
+  "workingHours": "வேலை நேரம்",
+  "clockIn": "நேரத்தில் வர",
+  "clockOut": "நேரத்தில் போக",
+  "shiftTimings": "பணி நேரங்கள்",
+  "regularize": "முறைப்படுத்து",
   "workedDaysOfTotal": "{worked}/{total} நாட்கள்"
 }

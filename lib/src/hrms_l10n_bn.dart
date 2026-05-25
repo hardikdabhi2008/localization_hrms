@@ -1254,6 +1254,30 @@ class HrmsL10nBn extends HrmsL10n {
   @override
   String get completeProfileMessage => 'বেতন, বেতন স্লিপ এবং সুবিধা সময়মতো পেতে আপনার প্রোফাইল সম্পূর্ণ করুন।';
   @override
+  String get myRequest => 'আমার অনুরোধ';
+  @override
+  String get myProfile => 'আমার প্রোফাইল';
+  @override
+  String get myTeam => 'আমার দল';
+  @override
+  String get labelApp => 'অ্যাপ';
+  @override
+  String get approvals => 'অনুমোদন';
+  @override
+  String get peopleDirectory => 'কর্মীদের তালিকা';
+  @override
+  String get helpDesk => 'হেল্প ডেস্ক';
+  @override
+  String get workingHours => 'কাজের সময়';
+  @override
+  String get clockIn => 'ক্লক ইন';
+  @override
+  String get clockOut => 'ক্লক আউট';
+  @override
+  String get shiftTimings => 'শিফটের সময়';
+  @override
+  String get regularize => 'নিয়মিতকরণ';
+  @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total দিন';
   }

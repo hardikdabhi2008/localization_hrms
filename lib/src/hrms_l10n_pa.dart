@@ -1254,6 +1254,30 @@ class HrmsL10nPa extends HrmsL10n {
   @override
   String get completeProfileMessage => 'ਤਨਖ਼ਾਹ, ਤਨਖ਼ਾਹ ਸਲਿੱਪਾਂ ਅਤੇ ਲਾਭ ਬਿਨਾਂ ਦੇਰੀ ਦੇ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਪ੍ਰੋਫਾਈਲ ਪੂਰੀ ਕਰੋ।';
   @override
+  String get myRequest => 'ਮੇਰੀ ਬੇਨਤੀ';
+  @override
+  String get myProfile => 'ਮੇਰੀ ਪ੍ਰੋਫਾਈਲ';
+  @override
+  String get myTeam => 'ਮੇਰੀ ਟੀਮ';
+  @override
+  String get labelApp => 'ਐਪ';
+  @override
+  String get approvals => 'ਮਨਜ਼ੂਰੀਆਂ';
+  @override
+  String get peopleDirectory => 'ਲੋਕਾਂ ਦੀ ਡਾਇਰੈਕਟਰੀ';
+  @override
+  String get helpDesk => 'ਮਦਦ ਡੈਸਕ';
+  @override
+  String get workingHours => 'ਕੰਮ ਦੇ ਘੰਟੇ';
+  @override
+  String get clockIn => 'ਕਲੌਕ ਇਨ';
+  @override
+  String get clockOut => 'ਕਲੌਕ ਆਊਟ';
+  @override
+  String get shiftTimings => 'ਸ਼ਿਫਟ ਸਮਾਂ';
+  @override
+  String get regularize => 'ਨਿਯਮਿਤ ਕਰੋ';
+  @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total ਦਿਨ';
   }

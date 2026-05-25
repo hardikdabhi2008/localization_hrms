@@ -422,5 +422,17 @@
   "shorten": "संक्षिप्त करा",
   "updateAvailableMessage": "नवीन अपडेट उपलब्ध आहे. सुरू ठेवण्यासाठी ॲप अपडेट करा.",
   "completeProfileMessage": "पगार, पगारचिठ्ठ्या आणि लाभ वेळेवर मिळवण्यासाठी कृपया तुमची प्रोफाइल पूर्ण करा.",
+  "myRequest": "माझी विनंती",
+  "myProfile": "माझी प्रोफाइल",
+  "myTeam": "माझी टीम",
+  "labelApp": "अॅप",
+  "approvals": "मंजुरी",
+  "peopleDirectory": "लोकांची यादी",
+  "helpDesk": "मदत केंद्र",
+  "workingHours": "कामाचे तास",
+  "clockIn": "क्लॉक इन",
+  "clockOut": "क्लॉक आउट",
+  "shiftTimings": "शिफ्ट वेळ",
+  "regularize": "नियमित करा",
   "workedDaysOfTotal": "{worked}/{total} दिवस"
 }

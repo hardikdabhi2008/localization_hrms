@@ -1254,6 +1254,30 @@ class HrmsL10nUr extends HrmsL10n {
   @override
   String get completeProfileMessage => 'تنخواہ، تنخواہ کی پرچیاں اور فوائد بروقت حاصل کرنے کے لیے براہ کرم اپنی پروفائل مکمل کریں۔';
   @override
+  String get myRequest => 'میری درخواست';
+  @override
+  String get myProfile => 'میرا پروفائل';
+  @override
+  String get myTeam => 'میری ٹیم';
+  @override
+  String get labelApp => 'ایپ';
+  @override
+  String get approvals => 'منظوریاں';
+  @override
+  String get peopleDirectory => 'لوگوں کی فہرست';
+  @override
+  String get helpDesk => 'مدد میز';
+  @override
+  String get workingHours => 'کام کے گھنٹے';
+  @override
+  String get clockIn => 'کلاک ان';
+  @override
+  String get clockOut => 'کلاک آؤٹ';
+  @override
+  String get shiftTimings => 'شفٹ اوقات';
+  @override
+  String get regularize => 'باقاعدہ کریں';
+  @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total دن';
   }

@@ -422,5 +422,17 @@
   "shorten": "ಸಂಕ್ಷೇಪಿಸಿ",
   "updateAvailableMessage": "ಹೊಸ ಅಪ್‌ಡೇಟ್ ಲಭ್ಯವಿದೆ. ಮುಂದುವರಿಯಲು ಆ್ಯಪ್ ಅಪ್‌ಡೇಟ್ ಮಾಡಿ.",
   "completeProfileMessage": "ಸಂಬಳ, ವೇತನ ಚೀಟಿ ಮತ್ತು ಸೌಲಭ್ಯಗಳನ್ನು ತಡವಿಲ್ಲದೆ ಪಡೆಯಲು ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಪೂರ್ಣಗೊಳಿಸಿ.",
+  "myRequest": "ನನ್ನ ವಿನಂತಿ",
+  "myProfile": "ನನ್ನ ಪ್ರೊಫೈಲ್",
+  "myTeam": "ನನ್ನ ತಂಡ",
+  "labelApp": "ಅಪ್ಲಿಕೇಶನ್",
+  "approvals": "ಅನುಮೋದನೆಗಳು",
+  "peopleDirectory": "ಜನರ ಪಟ್ಟಿ",
+  "helpDesk": "ಸಹಾಯ ಕೇಂದ್ರ",
+  "workingHours": "ಕೆಲಸದ ಗಂಟೆಗಳು",
+  "clockIn": "ಕ್ಲಾಕ್ ಇನ್",
+  "clockOut": "ಕ್ಲಾಕ್ ಔಟ್",
+  "shiftTimings": "ಶಿಫ್ಟ್ ಸಮಯಗಳು",
+  "regularize": "ನಿಯಮಿತಗೊಳಿಸು",
   "workedDaysOfTotal": "{worked}/{total} ದಿನಗಳು"
 }

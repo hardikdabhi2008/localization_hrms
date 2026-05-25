@@ -1254,6 +1254,30 @@ class HrmsL10nGu extends HrmsL10n {
   @override
   String get completeProfileMessage => 'પગાર, પગારચિઠ્ઠી અને લાભ સમયસર પ્રાપ્ત કરવા કૃપા કરીને તમારી પ્રોફાઇલ પૂર્ણ કરો.';
   @override
+  String get myRequest => 'મારી વિનંતી';
+  @override
+  String get myProfile => 'મારી પ્રોફ઼ાઇલ';
+  @override
+  String get myTeam => 'મારી ટીમ';
+  @override
+  String get labelApp => 'એપ';
+  @override
+  String get approvals => 'મંજૂરી';
+  @override
+  String get peopleDirectory => 'લોકોની ડિરેક્ટ્રી';
+  @override
+  String get helpDesk => 'હેલ્પ ડેસ્ક';
+  @override
+  String get workingHours => 'કામના કલાક';
+  @override
+  String get clockIn => 'ક્લૉક ઇન';
+  @override
+  String get clockOut => 'ક્લૉક આઉટ';
+  @override
+  String get shiftTimings => 'શિફ્ટ સમય';
+  @override
+  String get regularize => 'નિયમિત કરો';
+  @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total દિવસ';
   }

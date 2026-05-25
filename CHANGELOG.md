@@ -1,4 +1,10 @@
-﻿## 1.0.7
+﻿## 1.0.8
+
+* Add 12 new localization keys across all 11 languages
+* New keys cover: navigation labels (My Request, My Profile, My Team, App, Approvals, People Directory, Help Desk), attendance actions (Clock In, Clock Out, Regularize), and time management (Working Hours, Shift Timings)
+* Total API surface: 428 localized strings/methods across 11 languages
+
+## 1.0.7
 
 * Add 47 new localization keys across all 11 languages
 * New keys cover: expense/reimbursement (Submitted Date, Approved By, Claimed Amount, Approved Amount, Payment Method, Payout Date), policy acknowledgement flow, tax declarations (Standard Deduction, 80CCE, Employer NPS, Medical Insurance 80D, Home Loan Interest, Old/New Tax Regime, Apply Tax Regime), helpdesk chat (Typing, Finish Chat, Ticket Closed), app update prompts (Update Available, Update Required, Update Now, Maybe Later), profile completion nudge, file viewer states (Unable to load file, Preview not available), connectivity (Whoops, No internet connection, Try Again), time picker (Hours, Minutes), and more

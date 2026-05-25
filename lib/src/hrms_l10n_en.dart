@@ -1254,6 +1254,30 @@ class HrmsL10nEn extends HrmsL10n {
   @override
   String get completeProfileMessage => 'Please complete your profile to receive salary, payslips, and benefits without delay.';
   @override
+  String get myRequest => 'My Request';
+  @override
+  String get myProfile => 'My Profile';
+  @override
+  String get myTeam => 'My Team';
+  @override
+  String get labelApp => 'App';
+  @override
+  String get approvals => 'Approvals';
+  @override
+  String get peopleDirectory => 'People Directory';
+  @override
+  String get helpDesk => 'Help Desk';
+  @override
+  String get workingHours => 'Working Hours';
+  @override
+  String get clockIn => 'Clock In';
+  @override
+  String get clockOut => 'Clock Out';
+  @override
+  String get shiftTimings => 'Shift Timings';
+  @override
+  String get regularize => 'Regularize';
+  @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked of $total days';
   }

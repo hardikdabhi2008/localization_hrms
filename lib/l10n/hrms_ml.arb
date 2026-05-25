@@ -422,5 +422,17 @@
   "shorten": "ചുരുക്കൂ",
   "updateAvailableMessage": "പുതിയ അപ്‌ഡേറ്റ് ലഭ്യമാണ്. തുടരാൻ ആപ്പ് അപ്‌ഡേറ്റ് ചെയ്യൂ.",
   "completeProfileMessage": "ശമ്പളം, ശമ്പള സ്ലിപ്പുകൾ, ആനുകൂല്യങ്ങൾ വൈകാതെ ലഭിക്കാൻ ദയവായി നിങ്ങളുടെ പ്രൊഫൈൽ പൂർത്തിയാക്കൂ.",
+  "myRequest": "എന്റെ അഭ്യർഥന",
+  "myProfile": "എന്റെ പ്രൊഫൈൽ",
+  "myTeam": "എന്റെ ടീം",
+  "labelApp": "ആപ്പ്",
+  "approvals": "അംഗീകാരങ്ങൾ",
+  "peopleDirectory": "ആളുകളുടെ ഡയറക്ടറി",
+  "helpDesk": "ഹെൽപ്പ് ഡെസ്ക്",
+  "workingHours": "ജോലി സമയം",
+  "clockIn": "ക്ലോക്ക് ഇൻ",
+  "clockOut": "ക്ലോക്ക് ഔട്ട്",
+  "shiftTimings": "ഷിഫ്റ്റ് സമയം",
+  "regularize": "ക്രമപ്പെടുത്തുക",
   "workedDaysOfTotal": "{worked}/{total} ദിവസം"
 }

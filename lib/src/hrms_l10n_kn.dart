@@ -1254,6 +1254,30 @@ class HrmsL10nKn extends HrmsL10n {
   @override
   String get completeProfileMessage => 'ಸಂಬಳ, ವೇತನ ಚೀಟಿ ಮತ್ತು ಸೌಲಭ್ಯಗಳನ್ನು ತಡವಿಲ್ಲದೆ ಪಡೆಯಲು ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಪೂರ್ಣಗೊಳಿಸಿ.';
   @override
+  String get myRequest => 'ನನ್ನ ವಿನಂತಿ';
+  @override
+  String get myProfile => 'ನನ್ನ ಪ್ರೊಫೈಲ್';
+  @override
+  String get myTeam => 'ನನ್ನ ತಂಡ';
+  @override
+  String get labelApp => 'ಅಪ್ಲಿಕೇಶನ್';
+  @override
+  String get approvals => 'ಅನುಮೋದನೆಗಳು';
+  @override
+  String get peopleDirectory => 'ಜನರ ಪಟ್ಟಿ';
+  @override
+  String get helpDesk => 'ಸಹಾಯ ಕೇಂದ್ರ';
+  @override
+  String get workingHours => 'ಕೆಲಸದ ಗಂಟೆಗಳು';
+  @override
+  String get clockIn => 'ಕ್ಲಾಕ್ ಇನ್';
+  @override
+  String get clockOut => 'ಕ್ಲಾಕ್ ಔಟ್';
+  @override
+  String get shiftTimings => 'ಶಿಫ್ಟ್ ಸಮಯಗಳು';
+  @override
+  String get regularize => 'ನಿಯಮಿತಗೊಳಿಸು';
+  @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total ದಿನಗಳು';
   }

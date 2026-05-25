@@ -1254,6 +1254,30 @@ class HrmsL10nTa extends HrmsL10n {
   @override
   String get completeProfileMessage => 'சம்பளம், சம்பள சீட்டுகள் மற்றும் சலுகைகளை தாமதமின்றி பெற உங்கள் சுயவிவரத்தை பூர்த்தி செய்யுங்கள்.';
   @override
+  String get myRequest => 'என் கோரிக்கை';
+  @override
+  String get myProfile => 'என் சுயவிவரம்';
+  @override
+  String get myTeam => 'என் குழு';
+  @override
+  String get labelApp => 'செயலி';
+  @override
+  String get approvals => 'அங்கீகாரங்கள்';
+  @override
+  String get peopleDirectory => 'நபர்கள் அட்டவணை';
+  @override
+  String get helpDesk => 'உதவி மேசை';
+  @override
+  String get workingHours => 'வேலை நேரம்';
+  @override
+  String get clockIn => 'நேரத்தில் வர';
+  @override
+  String get clockOut => 'நேரத்தில் போக';
+  @override
+  String get shiftTimings => 'பணி நேரங்கள்';
+  @override
+  String get regularize => 'முறைப்படுத்து';
+  @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total நாட்கள்';
   }

@@ -422,5 +422,17 @@
   "shorten": "مختصر کریں",
   "updateAvailableMessage": "ایک نئی اپ ڈیٹ دستیاب ہے۔ جاری رکھنے کے لیے ایپ اپ ڈیٹ کریں۔",
   "completeProfileMessage": "تنخواہ، تنخواہ کی پرچیاں اور فوائد بروقت حاصل کرنے کے لیے براہ کرم اپنی پروفائل مکمل کریں۔",
+  "myRequest": "میری درخواست",
+  "myProfile": "میرا پروفائل",
+  "myTeam": "میری ٹیم",
+  "labelApp": "ایپ",
+  "approvals": "منظوریاں",
+  "peopleDirectory": "لوگوں کی فہرست",
+  "helpDesk": "مدد میز",
+  "workingHours": "کام کے گھنٹے",
+  "clockIn": "کلاک ان",
+  "clockOut": "کلاک آؤٹ",
+  "shiftTimings": "شفٹ اوقات",
+  "regularize": "باقاعدہ کریں",
   "workedDaysOfTotal": "{worked}/{total} دن"
 }

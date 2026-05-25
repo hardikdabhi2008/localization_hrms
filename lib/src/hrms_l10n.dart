@@ -1410,6 +1410,18 @@ abstract class HrmsL10n {
   String get shorten;
   String get updateAvailableMessage;
   String get completeProfileMessage;
+  String get myRequest;
+  String get myProfile;
+  String get myTeam;
+  String get labelApp;
+  String get approvals;
+  String get peopleDirectory;
+  String get helpDesk;
+  String get workingHours;
+  String get clockIn;
+  String get clockOut;
+  String get shiftTimings;
+  String get regularize;
   String workedDaysOfTotal(int worked, int total);
 }
 

@@ -422,5 +422,17 @@
   "shorten": "संक्षिप्त करें",
   "updateAvailableMessage": "एक नया अपडेट उपलब्ध है। जारी रखने के लिए ऐप अपडेट करें।",
   "completeProfileMessage": "वेतन, पगार पर्ची और लाभ समय पर प्राप्त करने के लिए कृपया अपनी प्रोफाइल पूरी करें।",
+  "myRequest": "मेरा अनुरोध",
+  "myProfile": "मेरी प्रोफ़ाइल",
+  "myTeam": "मेरी टीम",
+  "labelApp": "ऐप",
+  "approvals": "अनुमोदन",
+  "peopleDirectory": "लोगों की निर्देशिका",
+  "helpDesk": "हेल्प डेस्क",
+  "workingHours": "कार्य घंटे",
+  "clockIn": "क्लॉक इन",
+  "clockOut": "क्लॉक आउट",
+  "shiftTimings": "शिफ्ट समय",
+  "regularize": "नियमित करें",
   "workedDaysOfTotal": "{worked}/{total} दिन"
 }

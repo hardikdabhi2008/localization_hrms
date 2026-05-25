@@ -422,5 +422,17 @@
   "shorten": "સંક્ષિપ્ત",
   "updateAvailableMessage": "નવું અપડેટ ઉપલબ્ધ છે. ચાલુ રાખવા માટે ઐP અપડેટ કરો.",
   "completeProfileMessage": "પગાર, પગારચિઠ્ઠી અને લાભ સમયસર પ્રાપ્ત કરવા કૃપા કરીને તમારી પ્રોફાઇલ પૂર્ણ કરો.",
+  "myRequest": "મારી વિનંતી",
+  "myProfile": "મારી પ્રોફ઼ાઇલ",
+  "myTeam": "મારી ટીમ",
+  "labelApp": "એપ",
+  "approvals": "મંજૂરી",
+  "peopleDirectory": "લોકોની ડિરેક્ટ્રી",
+  "helpDesk": "હેલ્પ ડેસ્ક",
+  "workingHours": "કામના કલાક",
+  "clockIn": "ક્લૉક ઇન",
+  "clockOut": "ક્લૉક આઉટ",
+  "shiftTimings": "શિફ્ટ સમય",
+  "regularize": "નિયમિત કરો",
   "workedDaysOfTotal": "{worked}/{total} દિવસ"
 }

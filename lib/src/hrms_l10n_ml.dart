@@ -1254,6 +1254,30 @@ class HrmsL10nMl extends HrmsL10n {
   @override
   String get completeProfileMessage => 'ശമ്പളം, ശമ്പള സ്ലിപ്പുകൾ, ആനുകൂല്യങ്ങൾ വൈകാതെ ലഭിക്കാൻ ദയവായി നിങ്ങളുടെ പ്രൊഫൈൽ പൂർത്തിയാക്കൂ.';
   @override
+  String get myRequest => 'എന്റെ അഭ്യർഥന';
+  @override
+  String get myProfile => 'എന്റെ പ്രൊഫൈൽ';
+  @override
+  String get myTeam => 'എന്റെ ടീം';
+  @override
+  String get labelApp => 'ആപ്പ്';
+  @override
+  String get approvals => 'അംഗീകാരങ്ങൾ';
+  @override
+  String get peopleDirectory => 'ആളുകളുടെ ഡയറക്ടറി';
+  @override
+  String get helpDesk => 'ഹെൽപ്പ് ഡെസ്ക്';
+  @override
+  String get workingHours => 'ജോലി സമയം';
+  @override
+  String get clockIn => 'ക്ലോക്ക് ഇൻ';
+  @override
+  String get clockOut => 'ക്ലോക്ക് ഔട്ട്';
+  @override
+  String get shiftTimings => 'ഷിഫ്റ്റ് സമയം';
+  @override
+  String get regularize => 'ക്രമപ്പെടുത്തുക';
+  @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total ദിവസം';
   }

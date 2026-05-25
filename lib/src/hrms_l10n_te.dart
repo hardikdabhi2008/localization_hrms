@@ -1254,6 +1254,30 @@ class HrmsL10nTe extends HrmsL10n {
   @override
   String get completeProfileMessage => 'జీతం, జీతం స్లిప్పులు మరియు ప్రయోజనాలు ఆలస్యం లేకుండా పొందేందుకు దయచేసి మీ ప్రొఫైల్ పూర్తి చేయండి.';
   @override
+  String get myRequest => 'నా అభ్యర్థన';
+  @override
+  String get myProfile => 'నా ప్రొఫైల్';
+  @override
+  String get myTeam => 'నా బృందం';
+  @override
+  String get labelApp => 'యాప్';
+  @override
+  String get approvals => 'ఆమోదాలు';
+  @override
+  String get peopleDirectory => 'వ్యక్తుల జాబితా';
+  @override
+  String get helpDesk => 'సహాయ కేంద్రం';
+  @override
+  String get workingHours => 'పని గంటలు';
+  @override
+  String get clockIn => 'క్లాక్ ఇన్';
+  @override
+  String get clockOut => 'క్లాక్ అవుట్';
+  @override
+  String get shiftTimings => 'షిఫ్ట్ సమయాలు';
+  @override
+  String get regularize => 'క్రమబద్ధీకరించు';
+  @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total రోజులు';
   }

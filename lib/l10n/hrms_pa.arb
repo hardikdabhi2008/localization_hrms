@@ -422,5 +422,17 @@
   "shorten": "ਸੰਖੇਪ ਕਰੋ",
   "updateAvailableMessage": "ਇੱਕ ਨਵਾਂ ਅਪਡੇਟ ਉਪਲਬਧ ਹੈ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਐਪ ਅਪਡੇਟ ਕਰੋ।",
   "completeProfileMessage": "ਤਨਖ਼ਾਹ, ਤਨਖ਼ਾਹ ਸਲਿੱਪਾਂ ਅਤੇ ਲਾਭ ਬਿਨਾਂ ਦੇਰੀ ਦੇ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਪ੍ਰੋਫਾਈਲ ਪੂਰੀ ਕਰੋ।",
+  "myRequest": "ਮੇਰੀ ਬੇਨਤੀ",
+  "myProfile": "ਮੇਰੀ ਪ੍ਰੋਫਾਈਲ",
+  "myTeam": "ਮੇਰੀ ਟੀਮ",
+  "labelApp": "ਐਪ",
+  "approvals": "ਮਨਜ਼ੂਰੀਆਂ",
+  "peopleDirectory": "ਲੋਕਾਂ ਦੀ ਡਾਇਰੈਕਟਰੀ",
+  "helpDesk": "ਮਦਦ ਡੈਸਕ",
+  "workingHours": "ਕੰਮ ਦੇ ਘੰਟੇ",
+  "clockIn": "ਕਲੌਕ ਇਨ",
+  "clockOut": "ਕਲੌਕ ਆਊਟ",
+  "shiftTimings": "ਸ਼ਿਫਟ ਸਮਾਂ",
+  "regularize": "ਨਿਯਮਿਤ ਕਰੋ",
   "workedDaysOfTotal": "{worked}/{total} ਦਿਨ"
 }
