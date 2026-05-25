@@ -1158,6 +1158,101 @@ class HrmsL10nTa extends HrmsL10n {
 
   @override
   String get noRequestsFound => 'கோரிக்கைகள் எதுவும் இல்லை';
+
+  @override
+  String get submittedDate => 'சமர்ப்பித்த தேதி';
+  @override
+  String get approvedBy => 'அங்கீகரித்தவர்';
+  @override
+  String get claimedAmount => 'கோரிய தொகை';
+  @override
+  String get approvedAmount => 'அங்கீகரிக்கப்பட்ட தொகை';
+  @override
+  String get paymentMethod => 'கட்டண முறை';
+  @override
+  String get payoutDate => 'கட்டண தேதி';
+  @override
+  String get labelDate => 'தேதி:';
+  @override
+  String get labelCategory => 'வகை:';
+  @override
+  String get policyReadAcknowledgement => 'மேற்கண்ட கொள்கையை படித்து புரிந்துகொண்டேன்.';
+  @override
+  String get acknowledgeAndContinue => 'ஒப்புகொண்டு தொடரவும்';
+  @override
+  String get acknowledgmentSecurelyRecorded => 'உங்கள் ஒப்புகை பாதுகாப்பாக பதிவு செய்யப்படும்.';
+  @override
+  String get standardDeduction => 'நிலையான கழிவு';
+  @override
+  String get label80cce => '80CCE';
+  @override
+  String get employerNps => 'நிறுவனர் NPS';
+  @override
+  String get medicalInsurance80d => 'மருத்துவ காப்பீடு (80D)';
+  @override
+  String get homeLoanInterest => 'வீட்டு கடன் வட்டி';
+  @override
+  String get oldTaxRegime => 'பழைய வரி முறை';
+  @override
+  String get applyTaxRegime => 'வரி முறை பயன்படுத்து';
+  @override
+  String get seeEarningDeductions => 'வருமான மற்றும் கழிவு கூறுகளைப் பார்க்கவும்';
+  @override
+  String get reviewTaxDeclarations => 'வரி அறிவிப்புகளை மதிப்பாய்வு செய்து புதுப்பிக்கவும்';
+  @override
+  String get salaryAndPayroll => 'சம்பளம் & சம்பள நிர்வாகம்';
+  @override
+  String get finishChatConfirmation => 'இந்த அரட்டையை முடிக்க விரும்புகிறீர்களா?';
+  @override
+  String get finish => 'முடி';
+  @override
+  String get typing => 'தட்டச்சு செய்கிறார்...';
+  @override
+  String get ticketIsClosed => 'இந்த டிக்கெட் மூடப்பட்டது';
+  @override
+  String get updateAvailable => 'புதுப்பிப்பு கிடைக்கிறது';
+  @override
+  String get updateNow => 'இப்போதே புதுப்பி';
+  @override
+  String get maybeLater => 'பின்னர்';
+  @override
+  String get updateRequired => 'புதுப்பிப்பு தேவை';
+  @override
+  String get completeYourProfile => 'உங்கள் சுயவிவரத்தை பூர்த்தி செய்யுங்கள்';
+  @override
+  String get completeNow => 'இப்போதே பூர்த்தி செய்யுங்கள்';
+  @override
+  String get hours => 'மணிநேரம்';
+  @override
+  String get minutes => 'நிமிடங்கள்';
+  @override
+  String get unableToLoadFile => 'கோப்பை ஏற்ற முடியவில்லை';
+  @override
+  String get previewNotAvailable => 'முன்னோட்டம் கிடைக்கவில்லை';
+  @override
+  String get downloadOrShareToView => 'இதை பார்க்க பதிவிறக்கம் செய்யுங்கள் அல்லது பகிருங்கள்';
+  @override
+  String get whoops => 'அடடா!';
+  @override
+  String get noInternetConnection => 'இணைய இணைப்பு இல்லை. உங்கள் இணைப்பை சரிபார்க்கவும் அல்லது மீண்டும் முயற்சிக்கவும்.';
+  @override
+  String get tryAgain => 'மீண்டும் முயற்சி';
+  @override
+  String get noReimbursementFound => 'திருப்பிச் செலுத்துதல் இல்லை';
+  @override
+  String get pendingPolicies => 'நிலுவையில் உள்ள கொள்கைகள்';
+  @override
+  String get noPendingPolicies => 'நிலுவையில் கொள்கைகள் இல்லை';
+  @override
+  String get selectCountry => 'நாட்டைத் தேர்ந்தெடு';
+  @override
+  String get elaborate => 'விரிவாக்கு';
+  @override
+  String get shorten => 'சுருக்கு';
+  @override
+  String get updateAvailableMessage => 'புதிய புதுப்பிப்பு கிடைக்கிறது. தொடர ஆப்பை புதுப்பிக்கவும்.';
+  @override
+  String get completeProfileMessage => 'சம்பளம், சம்பள சீட்டுகள் மற்றும் சலுகைகளை தாமதமின்றி பெற உங்கள் சுயவிவரத்தை பூர்த்தி செய்யுங்கள்.';
   @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total நாட்கள்';

@@ -1158,6 +1158,101 @@ class HrmsL10nGu extends HrmsL10n {
 
   @override
   String get noRequestsFound => 'કોઈ વિનંતી મળી નહીં';
+
+  @override
+  String get submittedDate => 'સબમિટ તારીખ';
+  @override
+  String get approvedBy => 'દ્વારા મંજૂર';
+  @override
+  String get claimedAmount => 'દાવો રકમ';
+  @override
+  String get approvedAmount => 'મંજૂર રકમ';
+  @override
+  String get paymentMethod => 'ચુકવણી પદ્ધતિ';
+  @override
+  String get payoutDate => 'ચુકવણી તારીખ';
+  @override
+  String get labelDate => 'તારીખ:';
+  @override
+  String get labelCategory => 'શ્રેણી:';
+  @override
+  String get policyReadAcknowledgement => 'મેં ઉપરોક્ત નીતિ વાંચી અને સમજી છે.';
+  @override
+  String get acknowledgeAndContinue => 'સ્વીકારો અને ચાલુ રાખો';
+  @override
+  String get acknowledgmentSecurelyRecorded => 'તમારી સ્વીકૃતિ સુરક્ષિત રીતે નોંધવામાં આવશે.';
+  @override
+  String get standardDeduction => 'પ્રમાણભૂત કપાત';
+  @override
+  String get label80cce => '80CCE';
+  @override
+  String get employerNps => 'નિયોક્તા NPS';
+  @override
+  String get medicalInsurance80d => 'તબીબી વીમો (80D)';
+  @override
+  String get homeLoanInterest => 'ઘર ઋણ વ્યાજ';
+  @override
+  String get oldTaxRegime => 'જૂની કર વ્યવસ્થા';
+  @override
+  String get applyTaxRegime => 'કર વ્યવસ્થા લાગુ કરો';
+  @override
+  String get seeEarningDeductions => 'આવક અને કપાત ઘટકો જુઓ';
+  @override
+  String get reviewTaxDeclarations => 'કર ઘોષણાઓ સમીક્ષા અને અપડેટ કરો';
+  @override
+  String get salaryAndPayroll => 'પગાર અને પેરોલ';
+  @override
+  String get finishChatConfirmation => 'શું તમે આ ચેટ સમાપ્ત કરવા માગો છો?';
+  @override
+  String get finish => 'સમાપ્ત';
+  @override
+  String get typing => 'ટાઇપ કરી રહ્યા છે...';
+  @override
+  String get ticketIsClosed => 'આ ટિકિટ બંધ છે';
+  @override
+  String get updateAvailable => 'અપડેટ ઉપલબ્ધ';
+  @override
+  String get updateNow => 'હવે અપડેટ કરો';
+  @override
+  String get maybeLater => 'કદાચ પછી';
+  @override
+  String get updateRequired => 'અપડેટ જરૂરી';
+  @override
+  String get completeYourProfile => 'તમારી પ્રોફાઇલ પૂર્ણ કરો';
+  @override
+  String get completeNow => 'હવે પૂર્ણ કરો';
+  @override
+  String get hours => 'કલાક';
+  @override
+  String get minutes => 'મિનિટ';
+  @override
+  String get unableToLoadFile => 'ફાઇલ લોડ કરવામાં અસમર્થ';
+  @override
+  String get previewNotAvailable => 'પ્રિવ્યૂ ઉપલબ્ધ નથી';
+  @override
+  String get downloadOrShareToView => 'જોવા માટે આ ફાઇલ ડાઉનલોડ અથવા શેર કરો';
+  @override
+  String get whoops => 'અરે!';
+  @override
+  String get noInternetConnection => 'કોઈ ઇન્ટરનેટ કનેક્શન મળ્યું નહીં. તમારું કનેક્શન તપાસો અથવા ફરી પ્રયાસ કરો.';
+  @override
+  String get tryAgain => 'ફરી પ્રયાસ';
+  @override
+  String get noReimbursementFound => 'કોઈ વળતર મળ્યું નહીં';
+  @override
+  String get pendingPolicies => 'બાકી નીતિઓ';
+  @override
+  String get noPendingPolicies => 'કોઈ બાકી નીતિ નથી';
+  @override
+  String get selectCountry => 'દેશ પસંદ કરો';
+  @override
+  String get elaborate => 'વિગતવાર';
+  @override
+  String get shorten => 'સંક્ષિપ્ત';
+  @override
+  String get updateAvailableMessage => 'નવું અપડેટ ઉપલબ્ધ છે. ચાલુ રાખવા માટે ઐP અપડેટ કરો.';
+  @override
+  String get completeProfileMessage => 'પગાર, પગારચિઠ્ઠી અને લાભ સમયસર પ્રાપ્ત કરવા કૃપા કરીને તમારી પ્રોફાઇલ પૂર્ણ કરો.';
   @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total દિવસ';

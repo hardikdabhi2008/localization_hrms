@@ -1,4 +1,10 @@
-﻿## 1.0.6
+﻿## 1.0.7
+
+* Add 47 new localization keys across all 11 languages
+* New keys cover: expense/reimbursement (Submitted Date, Approved By, Claimed Amount, Approved Amount, Payment Method, Payout Date), policy acknowledgement flow, tax declarations (Standard Deduction, 80CCE, Employer NPS, Medical Insurance 80D, Home Loan Interest, Old/New Tax Regime, Apply Tax Regime), helpdesk chat (Typing, Finish Chat, Ticket Closed), app update prompts (Update Available, Update Required, Update Now, Maybe Later), profile completion nudge, file viewer states (Unable to load file, Preview not available), connectivity (Whoops, No internet connection, Try Again), time picker (Hours, Minutes), and more
+* Total API surface: 416 localized strings/methods across 11 languages
+
+## 1.0.6
 
 * Add 44 new localization keys across all 11 languages
 * New keys cover: payroll (Total Earnings, Total Deductions, Reimbursements, Loan EMI, Payslips), leave balance states (Availed, Accrued, Credited, Adjusted, Lapsed, Carry Forward, First Half, Second Half), approval actions (Approve All, Approve Selected, Reject All, Reject Selected, Approval Accepted/Rejected), time labels (y ago, mo ago, d ago, h ago, m ago, Just now), loan lifecycle (Loan request submitted, Loan withdrawn successfully), and common UI (Something went wrong, EMP ID, DEPT, LEAVE BALANCE, REQUESTS, No requests found, You're all caught up)

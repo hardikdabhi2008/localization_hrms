@@ -1158,6 +1158,101 @@ class HrmsL10nUr extends HrmsL10n {
 
   @override
   String get noRequestsFound => 'کوئی درخواست نہیں ملی';
+
+  @override
+  String get submittedDate => 'جمع کی تاریخ';
+  @override
+  String get approvedBy => 'منظور کرنے والے';
+  @override
+  String get claimedAmount => 'درخواست کی گئی رقم';
+  @override
+  String get approvedAmount => 'منظور شدہ رقم';
+  @override
+  String get paymentMethod => 'ادائیگی کا طریقہ';
+  @override
+  String get payoutDate => 'ادائیگی کی تاریخ';
+  @override
+  String get labelDate => 'تاریخ:';
+  @override
+  String get labelCategory => 'زمرہ:';
+  @override
+  String get policyReadAcknowledgement => 'میں نے مذکورہ پالیسی پڑھ لی اور سمجھ لی ہے۔';
+  @override
+  String get acknowledgeAndContinue => 'تسلیم کریں اور جاری رکھیں';
+  @override
+  String get acknowledgmentSecurelyRecorded => 'آپ کی منظوری محفوظ طریقے سے درج کی جائے گی۔';
+  @override
+  String get standardDeduction => 'معیاری کٹوتی';
+  @override
+  String get label80cce => '80CCE';
+  @override
+  String get employerNps => 'آجر NPS';
+  @override
+  String get medicalInsurance80d => 'طبی بیمہ (80D)';
+  @override
+  String get homeLoanInterest => 'گھر کے قرض کا سود';
+  @override
+  String get oldTaxRegime => 'پرانا ٹیکس نظام';
+  @override
+  String get applyTaxRegime => 'ٹیکس نظام لاگو کریں';
+  @override
+  String get seeEarningDeductions => 'آمدنی اور کٹوتی اجزاء دیکھیں';
+  @override
+  String get reviewTaxDeclarations => 'ٹیکس اعلانات کا جائزہ لیں اور اپ ڈیٹ کریں';
+  @override
+  String get salaryAndPayroll => 'تنخواہ اور پے-رول';
+  @override
+  String get finishChatConfirmation => 'کیا آپ یہ چیٹ ختم کرنا چاہتے ہیں؟';
+  @override
+  String get finish => 'ختم کریں';
+  @override
+  String get typing => 'ٹائپ ہو رہا ہے...';
+  @override
+  String get ticketIsClosed => 'یہ ٹکٹ بند ہے';
+  @override
+  String get updateAvailable => 'اپ ڈیٹ دستیاب ہے';
+  @override
+  String get updateNow => 'ابھی اپ ڈیٹ کریں';
+  @override
+  String get maybeLater => 'شاید بعد میں';
+  @override
+  String get updateRequired => 'اپ ڈیٹ ضروری ہے';
+  @override
+  String get completeYourProfile => 'اپنی پروفائل مکمل کریں';
+  @override
+  String get completeNow => 'ابھی مکمل کریں';
+  @override
+  String get hours => 'گھنٹے';
+  @override
+  String get minutes => 'منٹ';
+  @override
+  String get unableToLoadFile => 'فائل لوڈ کرنے میں ناکام';
+  @override
+  String get previewNotAvailable => 'پیش نظارہ دستیاب نہیں';
+  @override
+  String get downloadOrShareToView => 'دیکھنے کے لیے یہ فائل ڈاؤن لوڈ یا شیئر کریں';
+  @override
+  String get whoops => 'ارے!';
+  @override
+  String get noInternetConnection => 'کوئی انٹرنیٹ کنکشن نہیں ملا۔ اپنا کنکشن چیک کریں یا دوبارہ کوشش کریں۔';
+  @override
+  String get tryAgain => 'دوبارہ کوشش';
+  @override
+  String get noReimbursementFound => 'کوئی رقم واپسی نہیں ملی';
+  @override
+  String get pendingPolicies => 'زیر التواء پالیسیاں';
+  @override
+  String get noPendingPolicies => 'کوئی زیر التواء پالیسی نہیں';
+  @override
+  String get selectCountry => 'ملک منتخب کریں';
+  @override
+  String get elaborate => 'تفصیل بیان کریں';
+  @override
+  String get shorten => 'مختصر کریں';
+  @override
+  String get updateAvailableMessage => 'ایک نئی اپ ڈیٹ دستیاب ہے۔ جاری رکھنے کے لیے ایپ اپ ڈیٹ کریں۔';
+  @override
+  String get completeProfileMessage => 'تنخواہ، تنخواہ کی پرچیاں اور فوائد بروقت حاصل کرنے کے لیے براہ کرم اپنی پروفائل مکمل کریں۔';
   @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total دن';

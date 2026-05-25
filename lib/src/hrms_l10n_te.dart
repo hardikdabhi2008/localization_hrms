@@ -1158,6 +1158,101 @@ class HrmsL10nTe extends HrmsL10n {
 
   @override
   String get noRequestsFound => 'అభ్యర్థనలు కనుగొనబడలేదు';
+
+  @override
+  String get submittedDate => 'సమర్పించిన తేదీ';
+  @override
+  String get approvedBy => 'ఆమోదించిన వ్యక్తి';
+  @override
+  String get claimedAmount => 'క్లెయిమ్ చేసిన మొత్తం';
+  @override
+  String get approvedAmount => 'ఆమోదించిన మొత్తం';
+  @override
+  String get paymentMethod => 'చెల్లింపు పద్ధతి';
+  @override
+  String get payoutDate => 'చెల్లింపు తేదీ';
+  @override
+  String get labelDate => 'తేదీ:';
+  @override
+  String get labelCategory => 'వర్గం:';
+  @override
+  String get policyReadAcknowledgement => 'నేను పైన పేర్కొన్న విధానాన్ని చదివి అర్థం చేసుకున్నాను.';
+  @override
+  String get acknowledgeAndContinue => 'అంగీకరించి కొనసాగించు';
+  @override
+  String get acknowledgmentSecurelyRecorded => 'మీ అంగీకారం సురక్షితంగా నమోదు చేయబడుతుంది.';
+  @override
+  String get standardDeduction => 'ప్రమాణ తగ్గింపు';
+  @override
+  String get label80cce => '80CCE';
+  @override
+  String get employerNps => 'యజమాని NPS';
+  @override
+  String get medicalInsurance80d => 'వైద్య బీమా (80D)';
+  @override
+  String get homeLoanInterest => 'గృహ రుణ వడ్డీ';
+  @override
+  String get oldTaxRegime => 'పాత పన్ను విధానం';
+  @override
+  String get applyTaxRegime => 'పన్ను విధానం వర్తింపజేయి';
+  @override
+  String get seeEarningDeductions => 'ఆదాయ మరియు తగ్గింపు భాగాలు చూడండి';
+  @override
+  String get reviewTaxDeclarations => 'పన్ను ప్రకటనలు సమీక్షించి అప్‌డేట్ చేయండి';
+  @override
+  String get salaryAndPayroll => 'జీతం & పే-రోల్';
+  @override
+  String get finishChatConfirmation => 'మీరు ఈ చాట్ ముగించాలనుకుంటున్నారా?';
+  @override
+  String get finish => 'ముగించు';
+  @override
+  String get typing => 'టైప్ చేస్తున్నారు...';
+  @override
+  String get ticketIsClosed => 'ఈ టిక్కెట్ మూసివేయబడింది';
+  @override
+  String get updateAvailable => 'అప్‌డేట్ అందుబాటులో ఉంది';
+  @override
+  String get updateNow => 'ఇప్పుడే అప్‌డేట్ చేయి';
+  @override
+  String get maybeLater => 'తర్వాత';
+  @override
+  String get updateRequired => 'అప్‌డేట్ అవసరం';
+  @override
+  String get completeYourProfile => 'మీ ప్రొఫైల్ పూర్తి చేయండి';
+  @override
+  String get completeNow => 'ఇప్పుడే పూర్తి చేయండి';
+  @override
+  String get hours => 'గంటలు';
+  @override
+  String get minutes => 'నిమిషాలు';
+  @override
+  String get unableToLoadFile => 'ఫైల్ లోడ్ చేయడం సాధ్యపడలేదు';
+  @override
+  String get previewNotAvailable => 'ప్రివ్యూ అందుబాటులో లేదు';
+  @override
+  String get downloadOrShareToView => 'చూడడానికి ఈ ఫైల్ డౌన్‌లోడ్ లేదా షేర్ చేయండి';
+  @override
+  String get whoops => 'అరె!';
+  @override
+  String get noInternetConnection => 'ఇంటర్నెట్ కనెక్షన్ కనుగొనబడలేదు. మీ కనెక్షన్ తనిఖీ చేయండి లేదా మళ్ళీ ప్రయత్నించండి.';
+  @override
+  String get tryAgain => 'మళ్ళీ ప్రయత్నించండి';
+  @override
+  String get noReimbursementFound => 'తిరిగి చెల్లింపు కనుగొనబడలేదు';
+  @override
+  String get pendingPolicies => 'పెండింగ్ విధానాలు';
+  @override
+  String get noPendingPolicies => 'పెండింగ్ విధానాలు లేవు';
+  @override
+  String get selectCountry => 'దేశం ఎంచుకోండి';
+  @override
+  String get elaborate => 'వివరంగా చెప్పండి';
+  @override
+  String get shorten => 'సంక్షిప్తం చేయండి';
+  @override
+  String get updateAvailableMessage => 'కొత్త అప్‌డేట్ అందుబాటులో ఉంది. కొనసాగించడానికి యాప్ అప్‌డేట్ చేయండి.';
+  @override
+  String get completeProfileMessage => 'జీతం, జీతం స్లిప్పులు మరియు ప్రయోజనాలు ఆలస్యం లేకుండా పొందేందుకు దయచేసి మీ ప్రొఫైల్ పూర్తి చేయండి.';
   @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total రోజులు';

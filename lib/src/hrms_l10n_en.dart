@@ -1158,6 +1158,101 @@ class HrmsL10nEn extends HrmsL10n {
 
   @override
   String get noRequestsFound => 'No requests found';
+
+  @override
+  String get submittedDate => 'Submitted Date';
+  @override
+  String get approvedBy => 'Approved By';
+  @override
+  String get claimedAmount => 'Claimed Amount';
+  @override
+  String get approvedAmount => 'Approved Amount';
+  @override
+  String get paymentMethod => 'Payment Method';
+  @override
+  String get payoutDate => 'Payout Date';
+  @override
+  String get labelDate => 'Date:';
+  @override
+  String get labelCategory => 'Category:';
+  @override
+  String get policyReadAcknowledgement => 'I have read and understood the above policy.';
+  @override
+  String get acknowledgeAndContinue => 'Acknowledge & Continue';
+  @override
+  String get acknowledgmentSecurelyRecorded => 'Your acknowledgment will be securely recorded.';
+  @override
+  String get standardDeduction => 'Standard Deduction';
+  @override
+  String get label80cce => '80CCE';
+  @override
+  String get employerNps => 'Employer NPS';
+  @override
+  String get medicalInsurance80d => 'Medical Insurance (80D)';
+  @override
+  String get homeLoanInterest => 'Home Loan Interest';
+  @override
+  String get oldTaxRegime => 'Old Tax Regime';
+  @override
+  String get applyTaxRegime => 'Apply Tax Regime';
+  @override
+  String get seeEarningDeductions => 'See earning and deduction components';
+  @override
+  String get reviewTaxDeclarations => 'Review and update tax declarations';
+  @override
+  String get salaryAndPayroll => 'Salary & Payroll';
+  @override
+  String get finishChatConfirmation => 'Do you want to finish this chat ?';
+  @override
+  String get finish => 'FINISH';
+  @override
+  String get typing => 'Typing...';
+  @override
+  String get ticketIsClosed => 'This ticket is closed';
+  @override
+  String get updateAvailable => 'Update Available';
+  @override
+  String get updateNow => 'Update Now';
+  @override
+  String get maybeLater => 'Maybe Later';
+  @override
+  String get updateRequired => 'Update Required';
+  @override
+  String get completeYourProfile => 'Complete Your Profile';
+  @override
+  String get completeNow => 'Complete now';
+  @override
+  String get hours => 'Hours';
+  @override
+  String get minutes => 'Minutes';
+  @override
+  String get unableToLoadFile => 'Unable to load file';
+  @override
+  String get previewNotAvailable => 'Preview not available';
+  @override
+  String get downloadOrShareToView => 'Download or share this file to view it';
+  @override
+  String get whoops => 'Whoops!';
+  @override
+  String get noInternetConnection => 'No internet connection found. Check your connection or try again.';
+  @override
+  String get tryAgain => 'Try Again';
+  @override
+  String get noReimbursementFound => 'No Reimbursement found';
+  @override
+  String get pendingPolicies => 'Pending Policies';
+  @override
+  String get noPendingPolicies => 'No pending policies';
+  @override
+  String get selectCountry => 'Select Country';
+  @override
+  String get elaborate => 'Elaborate';
+  @override
+  String get shorten => 'Shorten';
+  @override
+  String get updateAvailableMessage => 'A new update is available. Please update the app to continue.';
+  @override
+  String get completeProfileMessage => 'Please complete your profile to receive salary, payslips, and benefits without delay.';
   @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked of $total days';
