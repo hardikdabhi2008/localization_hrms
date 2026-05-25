@@ -1,4 +1,4 @@
-{
+﻿{
   "@@locale": "gu",
   "appName": "HRMS",
   "ok": "ઠીક છે",
@@ -330,5 +330,6 @@
   "noChangesFound": "કોઈ ફેરફાર નહીં",
   "withdrawRequestConfirmation": "શું તમે ખરેખર વિનંતી પાછી ખેંચવા ઇચ્છો?",
   "adminView": "એડ્મિન વ્યૂ",
-  "signingIn": "સાઇન ઇન..."
+  "signingIn": "સાઇન ઇન...",
+  "workedDaysOfTotal": "{worked}/{total} દિવસ"
 }

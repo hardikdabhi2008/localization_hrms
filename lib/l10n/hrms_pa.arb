@@ -1,4 +1,4 @@
-{
+﻿{
   "@@locale": "pa",
   "appName": "HRMS",
   "ok": "ਠੀਕ ਹੈ",
@@ -330,5 +330,6 @@
   "noChangesFound": "ਕੋਈ ਬਦਲਾਅ ਨਹੀਂ ਮਿਲਿਆ",
   "withdrawRequestConfirmation": "ਕੀ ਤੁਸੀਂ ਸੱਚਮੁੱਚ ਬੇਨਤੀ ਵਾਪਸ ਲੈਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
   "adminView": "ਐਡਮਿਨ ਵਿਊ",
-  "signingIn": "ਸਾਈਨ ਇਨ ਹੋ ਰਿਹਾ ਹੈ..."
+  "signingIn": "ਸਾਈਨ ਇਨ ਹੋ ਰਿਹਾ ਹੈ...",
+  "workedDaysOfTotal": "{worked}/{total} ਦਿਨ"
 }

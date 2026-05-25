@@ -1,4 +1,4 @@
-{
+﻿{
   "@@locale": "kn",
   "appName": "HRMS",
   "ok": "ಸರಿ",
@@ -330,5 +330,6 @@
   "noChangesFound": "ಬದಲಾವಣೆಗಳು ಕಂಡುಬಂದಿಲ್ಲ",
   "withdrawRequestConfirmation": "ನೀವು ನಿಜವಾಗಿಯೂ ವಿನಂತಿಯನ್ನು ಹಿಂಪಡೆಯಲು ಬಯಸುತ್ತೀರಾ?",
   "adminView": "ನಿರ್ವಾಹಕ ವೀಕ್ಷಣೆ",
-  "signingIn": "ಸೈನ್ ಇನ್ ಆಗುತ್ತಿದೆ..."
+  "signingIn": "ಸೈನ್ ಇನ್ ಆಗುತ್ತಿದೆ...",
+  "workedDaysOfTotal": "{worked}/{total} ದಿನಗಳು"
 }

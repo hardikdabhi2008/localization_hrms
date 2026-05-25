@@ -1,4 +1,4 @@
-{
+﻿{
   "@@locale": "mr",
   "appName": "HRMS",
   "ok": "ठीक आहे",
@@ -330,5 +330,6 @@
   "noChangesFound": "कोणतेही बदल आढळले नाहीत",
   "withdrawRequestConfirmation": "तुम्हाला नक्की विनंती मागे घ्यायची आहे का?",
   "adminView": "प्रशासक दृश्य",
-  "signingIn": "साइन इन होत आहे..."
+  "signingIn": "साइन इन होत आहे...",
+  "workedDaysOfTotal": "{worked}/{total} दिवस"
 }

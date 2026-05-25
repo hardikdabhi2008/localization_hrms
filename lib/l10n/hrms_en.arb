@@ -1,4 +1,4 @@
-{
+﻿{
   "@@locale": "en",
 
   "appName": "HRMS",
@@ -696,5 +696,13 @@
   "adminView": "Admin View",
   "@adminView": { "description": "Admin view label" },
   "signingIn": "Signing in...",
-  "@signingIn": { "description": "Signing in progress message" }
+  "@signingIn": { "description": "Signing in progress message" },
+  "workedDaysOfTotal": "{worked} of {total} days",
+  "@workedDaysOfTotal": {
+    "description": "Worked days out of total days, e.g. 5 of 30 days",
+    "placeholders": {
+      "worked": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  }
 }

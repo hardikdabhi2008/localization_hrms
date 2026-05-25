@@ -1,4 +1,4 @@
-{
+﻿{
   "@@locale": "ur",
   "appName": "HRMS",
   "ok": "ٹھیک ہے",
@@ -330,5 +330,6 @@
   "noChangesFound": "کوئی تبدیلی نہیں ملی",
   "withdrawRequestConfirmation": "کیا آپ واقعی درخواست واپس لینا چاہتے ہیں؟",
   "adminView": "ایڈمن ویو",
-  "signingIn": "سائن ان ہو رہا ہے..."
+  "signingIn": "سائن ان ہو رہا ہے...",
+  "workedDaysOfTotal": "{worked}/{total} دن"
 }

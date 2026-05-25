@@ -1,4 +1,4 @@
-// ignore: unused_import
+﻿// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'hrms_l10n.dart';
 
@@ -1032,4 +1032,9 @@ class HrmsL10nBn extends HrmsL10n {
 
   @override
   String get signingIn => 'সাইন ইন হচ্ছে...';
+
+  @override
+  String workedDaysOfTotal(int worked, int total) {
+    return '$worked/$total দিন';
+  }
 }

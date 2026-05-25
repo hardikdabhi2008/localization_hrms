@@ -1,4 +1,4 @@
-{
+﻿{
   "@@locale": "ta",
   "appName": "HRMS",
   "ok": "சரி",
@@ -330,5 +330,6 @@
   "noChangesFound": "மாற்றங்கள் எதுவும் கிடைக்கவில்லை",
   "withdrawRequestConfirmation": "நீங்கள் கோரிக்கையை திரும்பப் பெற விரும்புகிறீர்களா?",
   "adminView": "நிர்வாக பார்வை",
-  "signingIn": "உள்நுழைகிறது..."
+  "signingIn": "உள்நுழைகிறது...",
+  "workedDaysOfTotal": "{worked}/{total} நாட்கள்"
 }

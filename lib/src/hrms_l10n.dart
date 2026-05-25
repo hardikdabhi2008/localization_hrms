@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
@@ -1321,6 +1321,7 @@ abstract class HrmsL10n {
   String get withdrawRequestConfirmation;
   String get adminView;
   String get signingIn;
+  String workedDaysOfTotal(int worked, int total);
 }
 
 class _HrmsL10nDelegate extends LocalizationsDelegate<HrmsL10n> {

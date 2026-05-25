@@ -1,3 +1,8 @@
+﻿## 1.0.5
+
+* Add workedDaysOfTotal(int worked, int total) localization method across all 11 languages
+* Used for displaying worked-days progress, e.g. "5 of 30 days"
+* Total API surface: 325 localized strings/methods across 11 languages
 ## 1.0.4
 
 * Add 36 new localization keys across all 11 languages
