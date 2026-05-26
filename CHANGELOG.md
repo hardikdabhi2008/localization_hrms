@@ -1,4 +1,10 @@
-﻿## 1.0.10
+﻿## 1.0.11
+
+* Fix: correct all Gujarati translations in `hrms_gu.arb` and `hrms_l10n_gu.dart` — ~100 values were in Roman transliteration, Hindi Devanagari, or mixed scripts instead of proper Gujarati Unicode
+* All 773 ARB keys and 765 Dart getters now use correct Gujarati script (Unicode U+0A80–U+0AFF)
+* Added missing `@override` annotations to all getters in `hrms_l10n_gu.dart`
+
+## 1.0.10
 
 * Fix: add 267 missing getter implementations to all 11 Dart language classes to resolve `non_abstract_class_inherits_abstract_member` analysis error
 * All 765 abstract getters now fully implemented across all language classes
