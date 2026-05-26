@@ -434,7 +434,7 @@
   "clockOut": "நேரத்தில் போக",
   "shiftTimings": "பணி நேரங்கள்",
   "regularize": "முறைப்படுத்து",
-  "or": "அல்லது",
+  "labelOr": "அல்லது",
   "continueWithGoogle": "Google மூலம் தொடரவும்",
   "signInWithEmail": "மின்னஞ்சலில் உள்நுழையவும்",
   "signInWithPhone": "தொலைபேசியில் உள்நுழையவும்",

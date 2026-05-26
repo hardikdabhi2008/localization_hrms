@@ -434,7 +434,7 @@
   "clockOut": "ক্লক আউট",
   "shiftTimings": "শিফটের সময়",
   "regularize": "নিয়মিতকরণ",
-  "or": "অথবা",
+  "labelOr": "অথবা",
   "continueWithGoogle": "Google দিয়ে চালিয়ে যান",
   "signInWithEmail": "ইমেইল দিয়ে সাইন ইন করুন",
   "signInWithPhone": "ফোন দিয়ে সাইন ইন করুন",

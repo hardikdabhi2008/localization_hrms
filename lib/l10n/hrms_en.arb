@@ -905,8 +905,8 @@
   "regularize": "Regularize",
   "@regularize": { "description": "Regularize action label" },
 
-  "or": "OR",
-  "@or": { "description": "OR separator label" },
+  "labelOr": "OR",
+  "@labelOr": { "description": "OR separator label" },
   "continueWithGoogle": "Continue With Google",
   "@continueWithGoogle": { "description": "Continue with Google button" },
   "signInWithEmail": "Sign In With Email",

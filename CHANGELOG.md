@@ -1,4 +1,11 @@
-﻿## 1.0.11
+﻿## 1.0.12
+
+* Fix: regenerate all 12 Dart localization files via `flutter gen-l10n` to resolve VS Code analysis errors
+* Generated files are now always in sync with ARB source files
+* Renamed ARB key `"or"` → `"labelOr"` to preserve backwards-compatible `get labelOr` API
+* All 15 tests pass; `dart analyze` reports no issues
+
+## 1.0.11
 
 * Fix: correct all Gujarati translations in `hrms_gu.arb` and `hrms_l10n_gu.dart` — ~100 values were in Roman transliteration, Hindi Devanagari, or mixed scripts instead of proper Gujarati Unicode
 * All 773 ARB keys and 765 Dart getters now use correct Gujarati script (Unicode U+0A80–U+0AFF)
