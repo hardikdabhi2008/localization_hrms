@@ -1278,6 +1278,400 @@ class HrmsL10nHi extends HrmsL10n {
   @override
   String get regularize => 'नियमित करें';
   @override
+  String get labelOr => 'या';
+  @override
+  String get continueWithGoogle => 'Google के साथ जारी रखें';
+  @override
+  String get signInWithEmail => 'ईमेल से साइन इन करें';
+  @override
+  String get signInWithPhone => 'फ़ोन से साइन इन करें';
+  @override
+  String get signInWithApple => 'Apple से साइन इन करें';
+  @override
+  String get emailAndPhoneNumber => 'ईमेल और फ़ोन नंबर';
+  @override
+  String get resendOtp => 'OTP पुनः भेजें';
+  @override
+  String get resendIn => 'में भेजें';
+  @override
+  String get startFreeTrialText => 'अपना 7 दिन का मुफ्त ट्रायल शुरू करें';
+  @override
+  String get fullName => 'पूरा नाम';
+  @override
+  String get getStarted => 'शुरू करें';
+  @override
+  String get phoneNumber => 'फ़ोन नंबर';
+  @override
+  String get workEmail => 'कार्य ईमेल';
+  @override
+  String get employeeSize => 'कर्मचारी संख्या';
+  @override
+  String get profile => 'प्रोफ़ाइल';
+  @override
+  String get personalDetails => 'व्यक्तिगत विवरण';
+  @override
+  String get mobileNumber => 'मोबाइल नंबर';
+  @override
+  String get personalEmailId => 'व्यक्तिगत ईमेल आईडी';
+  @override
+  String get employeeCode => 'कर्मचारी कोड';
+  @override
+  String get nationality => 'राष्ट्रीयता';
+  @override
+  String get bloodGroup => 'रक्त समूह';
+  @override
+  String get maritalStatus => 'वैवाहिक स्थिति';
+  @override
+  String get fatherName => 'पिता का नाम';
+  @override
+  String get motherName => 'माता का नाम';
+  @override
+  String get alternateNumber => 'वैकल्पिक नंबर';
+  @override
+  String get presentAddress => 'वर्तमान पता';
+  @override
+  String get currentAddress => 'वर्तमान पता';
+  @override
+  String get homeAddress => 'घर का पता';
+  @override
+  String get zipCode => 'पिन कोड';
+  @override
+  String get country => 'देश';
+  @override
+  String get emergencyContact => 'आपातकालीन संपर्क';
+  @override
+  String get contactName => 'संपर्क का नाम';
+  @override
+  String get phone => 'फ़ोन';
+  @override
+  String get relation => 'संबंध';
+  @override
+  String get withdraw => 'वापस लें';
+  @override
+  String get identityDetails => 'पहचान विवरण';
+  @override
+  String get probationPeriod => 'परिवीक्षा अवधि';
+  @override
+  String get probationEndDate => 'परिवीक्षा समाप्ति तिथि';
+  @override
+  String get confirmationDate => 'पुष्टि तिथि';
+  @override
+  String get noticePeriod => 'नोटिस अवधि (दिन)';
+  @override
+  String get biometricId => 'बायोमेट्रिक आईडी';
+  @override
+  String get workExperience => 'कार्य अनुभव';
+  @override
+  String get organizationInformation => 'संगठन की जानकारी';
+  @override
+  String get subDepartment => 'उप-विभाग';
+  @override
+  String get employmentStatus => 'रोजगार की स्थिति';
+  @override
+  String get workLocation => 'कार्य स्थान';
+  @override
+  String get workShift => 'कार्य शिफ्ट';
+  @override
+  String get hiringSource => 'भर्ती स्रोत';
+  @override
+  String get systemAccessCredentials => 'सिस्टम एक्सेस और क्रेडेंशियल';
+  @override
+  String get officialEmailId => 'आधिकारिक ईमेल आईडी';
+  @override
+  String get branch => 'शाखा';
+  @override
+  String get leaveRulePolicy => 'छुट्टी नियम/नीति';
+  @override
+  String get roleAccessLevel => 'भूमिका/पहुंच स्तर';
+  @override
+  String get education => 'शिक्षा';
+  @override
+    String get salaryInformation => 'वेतन जानकारी';
+  String get payrollType => 'पेरोल प्रकार';
+  String get monthlyCTC => 'मासिक CTC';
+  String get annualCTC => 'वार्षिक CTC';
+  String get currentMonthOverview => 'वर्तमान माह अवलोकन';
+  String get bankInformation => 'बैंक जानकारी';
+  String get bankName => 'बैंक का नाम';
+  String get accountNumber => 'खाता नंबर';
+  String get confirmAccountNumber => 'खाता नंबर की पुष्टि करें';
+  String get accountHolderName => 'खाताधारक का नाम';
+  String get paymentType => 'भुगतान प्रकार';
+  String get allowance => 'भत्ता';
+  String get bonus => 'बोनस';
+  String get compliance => 'अनुपालन';
+  String get panNumber => 'PAN नंबर';
+  String get aadhaarNumber => 'आधार नंबर';
+  String get uan => 'UAN';
+  String get pfNumber => 'PF नंबर';
+  String get esiApplicability => 'ESI प्रयोज्यता';
+  String get esic => 'ESIC';
+  String get tdsApplicability => 'TDS प्रयोज्यता';
+  String get gratuityDate => 'ग्रेच्युटी तिथि';
+  String get gratuityApplicable => 'ग्रेच्युटी लागू होने की तिथि';
+  String get enableEmployeeStateInsurance => 'कर्मचारी राज्य बीमा सक्षम करें';
+  String get taxDeductedAtSource => 'स्रोत पर कर कटौती';
+  String get assetsAllocation => 'संपत्ति आवंटन';
+  String get educationalQualification => 'शैक्षिक योग्यता';
+  String get editEmergencyContact => 'आपातकालीन संपर्क संपादित करें';
+  String get addEmergencyContact => 'आपातकालीन संपर्क जोड़ें';
+  String get editAddress => 'पता संपादित करें';
+  String get editProfile => 'प्रोफ़ाइल संपादित करें';
+  String get editIdentityDetails => 'पहचान विवरण संपादित करें';
+  String get addExperience => 'अनुभव जोड़ें';
+  String get editExperience => 'अनुभव संपादित करें';
+  String get companyName => 'कंपनी का नाम';
+  String get yearsOfExperience => 'अनुभव के वर्ष';
+  String get startDate => 'प्रारंभ तिथि';
+  String get endDate => 'समाप्ति तिथि';
+  String get currentlyWorkingHere => 'मैं इस पद पर काम कर रहा/रही हूं।';
+  String get location => 'स्थान';
+  String get editEducation => 'शिक्षा संपादित करें';
+  String get addEducation => 'शिक्षा जोड़ें';
+  String get highSchool => 'हाई स्कूल';
+  String get yearOfInstitution => 'संस्था का वर्ष';
+  String get yearOfPassing => 'उत्तीर्ण वर्ष';
+  String get marks => 'अंक%';
+  String get seniorSecondary => 'वरिष्ठ माध्यमिक';
+  String get graduationHigherEducation => 'स्नातक/उच्च शिक्षा';
+  String get documentName => 'दस्तावेज़ का नाम';
+  String get timeAndAttendance => 'समय और उपस्थिति';
+  String get reason => 'कारण';
+  String get helpMeWrite => 'लिखने में मदद करें';
+  String get writeHere => 'यहाँ लिखें.....';
+  String get formalise => 'औपचारिक करें';
+  String get insert => 'सम्मिलित करें';
+  String get applyWfh => 'वर्क फ्रॉम होम के लिए आवेदन करें';
+  String get applyOnDutyRequest => 'ऑन ड्यूटी अनुरोध के लिए आवेदन करें';
+  String get attendanceRegularization => 'उपस्थिति नियमितीकरण';
+  String get reimbursement => 'प्रतिपूर्ति';
+  String get compOff => 'कम्प ऑफ';
+  String get redeemCompOff => 'कम्प ऑफ रिडीम करें';
+  String get summary => 'सारांश';
+  String get addTicket => 'टिकट जोड़ें';
+  String get readMore => 'और पढ़ें';
+  @override String get days => 'दिन';
+  @override String get balance => 'शेष राशि';
+  @override String get utilizedLeave => 'उपयोग की गई छुट्टी';
+  @override String get addedThisMonth => 'इस महीने जोड़ी गई';
+  @override String get fullDay => 'पूरा दिन';
+  @override String get firstHalfDay => 'पहला आधा';
+  @override String get secondHalfDay => 'दूसरा आधा';
+  @override String get remarks => 'टिप्पणी';
+  @override String get copyRequest => 'अनुरोध कॉपी करें';
+  @override String get raiseRequests => 'अनुरोध बढ़ाएं';
+  @override String get less => 'कम';
+  @override String get more => 'अधिक';
+  @override String get myAttendance => 'मेरी उपस्थिति';
+  @override String get inTime => 'इन टाइम';
+  @override String get outTime => 'आउट टाइम';
+  @override String get submitRequest => 'अनुरोध सबमिट करें';
+  @override String get selectDate => 'तारीख चुनें';
+  @override String get workRequest => 'कार्य अनुरोध';
+  @override String get expenses => 'खर्च';
+  @override String get organization => 'संगठन';
+  @override String get company => 'कंपनी';
+  @override String get manager => 'प्रबंधक';
+  @override String get noRequestFoundForDate => 'चयनित तारीख के लिए कोई अनुरोध नहीं मिला';
+  @override String get raiseRequest => 'अनुरोध बढ़ाएं';
+  @override String get myExpenses => 'मेरे खर्च';
+  @override String get myReimbursements => 'मेरी प्रतिपूर्तियां';
+  @override String get title => 'शीर्षक';
+  @override String get alerts => 'अलर्ट';
+  @override String get announcements => 'घोषणाएं';
+  @override String get celebrations => 'उत्सव';
+  @override String get viewAll => 'सभी देखें';
+  @override String get quickActions => 'त्वरित कार्रवाई';
+  @override String get sendWishes => 'शुभकामनाएं भेजें';
+  @override String get deleteConfirmation => 'क्या आप वाकई हटाना चाहते हैं?';
+  @override String get expectedWorkSummary => 'अपेक्षित कार्य सारांश';
+  @override String get billAmount => 'बिल राशि';
+  @override String get addInterval => 'अंतराल जोड़ें';
+  @override String get reportIssue => 'समस्या रिपोर्ट करें';
+  @override String get searchEmployee => 'कर्मचारी खोजें...';
+  @override String get noEmployeeFound => 'कोई कर्मचारी नहीं मिला';
+  @override String get viewPdf => 'PDF देखें';
+  @override String get sharePdf => 'PDF साझा करें';
+  @override String get whatsapp => 'व्हाट्सऐप';
+  @override String get labelPrint => 'प्रिंट';
+  @override String get noResultsFor => 'के लिए कोई परिणाम नहीं';
+  @override String get totalAmount => 'कुल राशि';
+  @override String get remaining => 'शेष';
+  @override String get emiAmount => 'ईएमआई राशि';
+  @override String get tenure => 'कार्यकाल (माह)';
+  @override String get viewLedger => 'लेजर देखें';
+  @override String get personalLoan => 'व्यक्तिगत ऋण';
+  @override String get applyLoan => 'ऋण के लिए आवेदन करें';
+  @override String get loanPolicy => 'ऋण नीति';
+  @override String get interestRate => 'ब्याज दर (%)';
+  @override String get installment => 'किश्त';
+  @override String get request => 'अनुरोध';
+  @override String get open => 'खोलें';
+  @override String get attendanceAlerts => 'उपस्थिति अलर्ट';
+  @override String get checkPendingAttendance => 'अपेक्षित, स्वीकृत, अस्वीकृत उपस्थिति जांचें।';
+  @override String get leaveApprovals => 'छुट्टी अनुमोदन';
+  @override String get checkLeaveStatus => 'छुट्टी अनुमोदन स्थिति जांचें।';
+  @override String get reimbursementUpdates => 'प्रतिपूर्ति अपडेट';
+  @override String get checkReimbursement => 'अपने प्रतिपूर्ति बिल जांचें।';
+  @override String get payrollNotifications => 'पेरोल सूचनाएं';
+  @override String get payrollFinanceText => 'पेरोल उपस्थिति वित्त।';
+  @override String get broadcastsAnnouncements => 'प्रसारण और घोषणाएं';
+  @override String get announcementNotification => 'घोषणा सूचना।';
+  @override String get emailSms => 'ईमेल/एसएमएस';
+  @override String get emailSmsStatus => 'ईमेल और एसएमएस स्थिति जांच।';
+  @override String get workDetails => 'कार्य विवरण';
+  @override String get contact => 'संपर्क';
+  @override String get bankDetails => 'बैंक विवरण';
+  @override String get appPreferences => 'ऐप प्राथमिकताएं';
+  @override String get manageNotifications => 'सूचनाएं प्रबंधित करें';
+  @override String get faq => 'अक्सर पूछे जाने वाले प्रश्न';
+  @override String get raiseTickets => 'टिकट बढ़ाएं';
+  @override String get termsAndConditions => 'नियम और शर्तें';
+  @override String get support => 'समर्थन';
+  @override String get logoutConfirmation => 'क्या आप लॉगआउट करना चाहते हैं?';
+  @override String get hris => 'HRIS';
+  @override String get confirm => 'पुष्टि करें';
+  @override String get dashboard => 'डैशबोर्ड';
+  @override String get salaryRevisionLetter => 'वेतन संशोधन पत्र';
+  @override String get addExpense => 'खर्च जोड़ें';
+  @override String get expenseCategory => 'खर्च श्रेणी';
+  @override String get estimateAmount => 'अनुमानित राशि';
+  @override String get viewHistory => 'इतिहास देखें';
+  @override String get payPeriod => 'भुगतान अवधि';
+  @override String get deduction => 'कटौती';
+  @override String get taxSummary => 'कर सारांश';
+  @override String get eligibleAmount => 'पात्र राशि';
+  @override String get declaredAmount => 'घोषित राशि';
+  @override String get financialInstitution => 'वित्तीय संस्था';
+  @override String get pfAccountNumber => 'पीएफ खाता संख्या';
+  @override String get course => 'पाठ्यक्रम';
+  @override String get institution => 'संस्था';
+  @override String get addDocuments => 'दस्तावेज़ जोड़ें';
+  @override String get type => 'प्रकार';
+  @override String get noExperienceFound => 'कोई अनुभव नहीं मिला';
+  @override String get noEducationFound => 'कोई शिक्षा नहीं मिली';
+  @override String get addAddress => 'पता जोड़ें';
+  @override String get primaryAddressConfirmation => 'प्राथमिक पता पुष्टिकरण';
+  @override String get percentage => 'प्रतिशत';
+  @override String get setPrimary => 'प्राथमिक सेट करें';
+  @override String get setPermanent => 'स्थायी सेट करें';
+  @override String get myApprovals => 'मेरी स्वीकृतियां';
+  @override String get approvalsAll => 'सभी';
+  @override String get viewAttachment => 'अनुलग्नक देखें';
+  @override String get profileRequests => 'प्रोफ़ाइल अनुरोध';
+  @override String get fieldValue => 'फ़ील्ड मूल्य';
+  @override String get oldValue => 'पुराना मूल्य';
+  @override String get newValue => 'नया मूल्य';
+  @override String get uploadFile => 'फ़ाइल अपलोड करें';
+  @override String get addBankAccount => 'बैंक खाता जोड़ें';
+  @override String get profileApprovalsNotFound => 'कोई प्रोफ़ाइल स्वीकृति नहीं मिली';
+  @override String get noAssetsFound => 'कोई संपत्ति नहीं मिली';
+  @override String get byLeave => 'छुट्टी द्वारा';
+  @override String get viewRequest => 'अनुरोध देखें';
+  @override String get thisMonth => 'इस माह';
+  @override String get myTeamOverview => 'मेरी टीम का अवलोकन';
+  @override String get attendanceApprovalsTeamStatus => 'टीम स्थिति';
+  @override String get addContacts => 'संपर्क जोड़ें';
+  @override String get addBiometric => 'बायोमेट्रिक जोड़ें';
+  @override String get manageBiometric => 'बायोमेट्रिक प्रबंधित करें';
+  @override String get tapToChangePhoto => 'फ़ोटो बदलने के लिए टैप करें';
+  @override String get helpsHrIdentify => 'HR को आपकी पहचान करने में मदद करता है';
+  @override String get personalEmail => 'व्यक्तिगत ईमेल';
+  @override String get additionalInformation => 'अतिरिक्त जानकारी';
+  @override String get saveContinue => 'सहेजें और जारी रखें';
+  @override String get continueText => 'जारी रखें';
+  @override String get skipForNow => 'अभी के लिए छोड़ें';
+  @override String get basicIdentityInfo => 'बुनियादी पहचान जानकारी';
+  @override String get addressEmergencyContact => 'पता और आपातकालीन संपर्क';
+  @override String get yourAddressEmergencyContacts => 'आपका पता और आपातकालीन संपर्क';
+  @override String get requiredForSalaryProcessing => 'वेतन प्रसंस्करण के लिए आवश्यक';
+  @override String get experienceAndEducation => 'अनुभव और शिक्षा';
+  @override String get yourProfessionalBackground => 'आपकी पेशेवर पृष्ठभूमि';
+  @override String get skip => 'छोड़ें';
+  @override String get attachment => 'अनुलग्नक';
+  @override String get noHolidayFound => 'कोई छुट्टी नहीं मिली';
+  @override String get noProfileApprovalsFound => 'कोई प्रोफ़ाइल स्वीकृतियां नहीं मिलीं';
+  @override String get noExperienceAddedYet => 'अभी तक कोई अनुभव नहीं जोड़ा गया';
+  @override String get addYourWorkExperience => 'अपना कार्य अनुभव जोड़ें';
+  @override String get noEducationAddedYet => 'अभी तक कोई शिक्षा नहीं जोड़ी गई';
+  @override String get addYourEducation => 'अपनी शिक्षा जोड़ें';
+  @override String get noBankAccountAddedYet => 'अभी तक कोई बैंक खाता नहीं जोड़ा गया';
+  @override String get addYourBankAccount => 'अपना बैंक खाता जोड़ें';
+  @override String get addBank => 'बैंक जोड़ें';
+  @override String get upcomingLeaves => 'आगामी छुट्टियां';
+  @override String get enterEmailAddress => 'ईमेल पता दर्ज करें';
+  @override String get enterValidEmailAddress => 'वैध ईमेल पता दर्ज करें';
+  @override String get enterPhoneNumber => 'फोन नंबर दर्ज करें';
+  @override String get enterValidPhoneNumber => 'वैध फोन नंबर दर्ज करें';
+  @override String get enterSixDigitOtp => '6 अंकों का OTP दर्ज करें';
+  @override String get enterTitle => 'शीर्षक दर्ज करें';
+  @override String get enterType => 'प्रकार दर्ज करें';
+  @override String get enterPresentAddress => 'वर्तमान पता दर्ज करें';
+  @override String get enterZipcode => 'ज़िप कोड दर्ज करें';
+  @override String get enterPinCode => 'पिन कोड दर्ज करें';
+  @override String get selectState => 'राज्य चुनें';
+  @override String get selectValidState => 'वैध राज्य चुनें';
+  @override String get selectCity => 'शहर चुनें';
+  @override String get selectValidCity => 'वैध शहर चुनें';
+  @override String get selectNationality => 'राष्ट्रीयता चुनें';
+  @override String get selectValidNationality => 'वैध राष्ट्रीयता चुनें';
+  @override String get selectValidCountry => 'वैध देश चुनें';
+  @override String get enterContactName => 'संपर्क नाम दर्ज करें';
+  @override String get enterPhone => 'फोन दर्ज करें';
+  @override String get enterValidPhone => 'वैध फोन दर्ज करें';
+  @override String get enterRelation => 'संबंध दर्ज करें';
+  @override String get enterDoj => 'योगदान तिथि दर्ज करें';
+  @override String get ageMustBe18 => 'आयु 18 वर्ष या अधिक होनी चाहिए';
+  @override String get enterProbationPeriod => 'परिवीक्षा अवधि दर्ज करें';
+  @override String get selectProbationEndDate => 'परिवीक्षा समाप्ति तिथि चुनें';
+  @override String get selectConfirmationEndDate => 'पुष्टि समाप्ति तिथि चुनें';
+  @override String get enterDesignation => 'पदनाम दर्ज करें';
+  @override String get enterEmployeeType => 'कर्मचारी प्रकार दर्ज करें';
+  @override String get enterNoticePeriod => 'नोटिस अवधि दर्ज करें';
+  @override String get enterBiometricId => 'बायोमेट्रिक आईडी दर्ज करें';
+  @override String get enterWorkExperience => 'कार्य अनुभव दर्ज करें';
+  @override String get enterDepartment => 'विभाग दर्ज करें';
+  @override String get enterSubDepartment => 'उप-विभाग दर्ज करें';
+  @override String get enterReportingManager => 'रिपोर्टिंग मैनेजर दर्ज करें';
+  @override String get enterEmploymentStatus => 'रोज़गार स्थिति दर्ज करें';
+  @override String get enterWorkLocation => 'कार्य स्थान दर्ज करें';
+  @override String get enterWorkShift => 'कार्य शिफ्ट दर्ज करें';
+  @override String get enterHiringSource => 'भर्ती स्रोत दर्ज करें';
+  @override String get enterOfficialEmail => 'आधिकारिक ईमेल दर्ज करें';
+  @override String get enterValidOfficialEmail => 'वैध आधिकारिक ईमेल दर्ज करें';
+  @override String get enterBranch => 'शाखा दर्ज करें';
+  @override String get enterLeaveRule => 'अवकाश नियम दर्ज करें';
+  @override String get enterRoleAccessLevel => 'भूमिका/पहुंच स्तर दर्ज करें';
+  @override String get enterCompanyName => 'कंपनी का नाम दर्ज करें';
+  @override String get selectStartDate => 'प्रारंभ तिथि चुनें';
+  @override String get selectEndDate => 'समाप्ति तिथि चुनें';
+  @override String get enterLocation => 'स्थान दर्ज करें';
+  @override String get endDateAfterStartDate => 'समाप्ति तिथि प्रारंभ तिथि के बाद होनी चाहिए';
+  @override String get invalidDateFormat => 'अमान्य तिथि प्रारूप';
+  @override String get enterExperienceType => 'अनुभव प्रकार दर्ज करें';
+  @override String get enterHighSchool => 'हाई स्कूल दर्ज करें';
+  @override String get enterCourse => 'पाठ्यक्रम दर्ज करें';
+  @override String get enterYearOfInstitution => 'संस्था वर्ष दर्ज करें';
+  @override String get enterYearOfPassing => 'उत्तीर्ण वर्ष दर्ज करें';
+  @override String get enterMarks => 'अंक दर्ज करें';
+  @override String get enterSeniorSecondarySchool => 'वरिष्ठ माध्यमिक विद्यालय दर्ज करें';
+  @override String get enterIfsc => 'IFSC कोड दर्ज करें';
+  @override String get enterBankName => 'बैंक का नाम दर्ज करें';
+  @override String get enterAccountHolderName => 'खाताधारक का नाम दर्ज करें';
+  @override String get enterAccountNumber => 'खाता संख्या दर्ज करें';
+  @override String get enterConfirmAccountNumber => 'खाता संख्या की पुष्टि करें';
+  @override String get enterBranchName => 'शाखा का नाम दर्ज करें';
+  @override String get accountNumberMismatch => 'खाता संख्याएं मेल नहीं खाती';
+  @override String get needMoreWords => 'अधिक शब्द चाहिए';
+  @override String get createTicket => 'टिकट बनाएं';
+  @override String get reports => 'रिपोर्ट';
+  @override String get finance => 'वित्त';
+  @override String get policy => 'नीति';
+  @override String get productivity => 'उत्पादकता';
+  @override String get employeeView => 'कर्मचारी दृश्य';
+  @override String get selectCompany => 'कंपनी चुनें';
+  @override String get searchCompany => 'कंपनी खोजें';
+  @override String get noCompanyFound => 'कोई कंपनी नहीं मिली';
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total दिन';
   }

@@ -1,4 +1,10 @@
-﻿## 1.0.8
+﻿## 1.0.9
+
+* Add 130 new localization keys across all 11 languages
+* New keys cover: profile completion flow (Financial Institution, PF Account Number, Course, Institution, Add Documents, Basic Identity Info, Address & Emergency Contact, Experience & Education), approval management (My Approvals, View Attachment, Profile Requests, Field/Old/New Value), asset/bank management (Add Bank Account, Add Bank, No Assets Found), team overview (My Team Overview, Team Status, This Month, Upcoming Leaves), biometric (Add/Manage Biometric), validation messages (Enter Email/Phone/OTP/Title/Address/State/City/Nationality, Age must be 18, Probation/Confirmation dates, Designation, Employee Type, Notice Period, Department, Work Location/Shift, Official Email, Branch, Leave Rule, IFSC, Bank details, Account Number Mismatch), education fields (High School, Course, Year of Institution/Passing, Marks, Senior Secondary School), admin view (Reports, Finance, Policy, Productivity, Employee View, Select/Search/No Company Found), and more
+* Total API surface: 773 localized strings/methods across 11 languages
+
+## 1.0.8
 
 * Add 12 new localization keys across all 11 languages
 * New keys cover: navigation labels (My Request, My Profile, My Team, App, Approvals, People Directory, Help Desk), attendance actions (Clock In, Clock Out, Regularize), and time management (Working Hours, Shift Timings)

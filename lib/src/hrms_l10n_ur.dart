@@ -1278,6 +1278,400 @@ class HrmsL10nUr extends HrmsL10n {
   @override
   String get regularize => 'باقاعدہ کریں';
   @override
+  String get labelOr => 'یا';
+  @override
+  String get continueWithGoogle => 'Google کے ساتھ جاری رکھیں';
+  @override
+  String get signInWithEmail => 'ای میل سے سائن ان کریں';
+  @override
+  String get signInWithPhone => 'فون سے سائن ان کریں';
+  @override
+  String get signInWithApple => 'Apple سے سائن ان کریں';
+  @override
+  String get emailAndPhoneNumber => 'ای میل اور فون نمبر';
+  @override
+  String get resendOtp => 'OTP دوبارہ بھیجیں';
+  @override
+  String get resendIn => 'میں دوبارہ بھیجیں';
+  @override
+  String get startFreeTrialText => 'اپنا 7 دن کا مفت ٹرائل شروع کریں';
+  @override
+  String get fullName => 'پورا نام';
+  @override
+  String get getStarted => 'شروع کریں';
+  @override
+  String get phoneNumber => 'فون نمبر';
+  @override
+  String get workEmail => 'کام کی ای میل';
+  @override
+  String get employeeSize => 'ملازمین کی تعداد';
+  @override
+  String get profile => 'پروفائل';
+  @override
+  String get personalDetails => 'ذاتی تفصیلات';
+  @override
+  String get mobileNumber => 'موبائل نمبر';
+  @override
+  String get personalEmailId => 'ذاتی ای میل آئی ڈی';
+  @override
+  String get employeeCode => 'ملازم کوڈ';
+  @override
+  String get nationality => 'قومیت';
+  @override
+  String get bloodGroup => 'بلڈ گروپ';
+  @override
+  String get maritalStatus => 'ازدواجی حیثیت';
+  @override
+  String get fatherName => 'والد کا نام';
+  @override
+  String get motherName => 'والدہ کا نام';
+  @override
+  String get alternateNumber => 'متبادل نمبر';
+  @override
+  String get presentAddress => 'موجودہ پتہ';
+  @override
+  String get currentAddress => 'موجودہ پتہ';
+  @override
+  String get homeAddress => 'گھر کا پتہ';
+  @override
+  String get zipCode => 'زپ کوڈ';
+  @override
+  String get country => 'ملک';
+  @override
+  String get emergencyContact => 'ہنگامی رابطہ';
+  @override
+  String get contactName => 'رابطے کا نام';
+  @override
+  String get phone => 'فون';
+  @override
+  String get relation => 'رشتہ';
+  @override
+  String get withdraw => 'واپس لیں';
+  @override
+  String get identityDetails => 'شناخت کی تفصیلات';
+  @override
+  String get probationPeriod => 'پروبیشن مدت';
+  @override
+  String get probationEndDate => 'پروبیشن اختتامی تاریخ';
+  @override
+  String get confirmationDate => 'تصدیقی تاریخ';
+  @override
+  String get noticePeriod => 'نوٹس مدت (دن)';
+  @override
+  String get biometricId => 'بایومیٹرک آئی ڈی';
+  @override
+  String get workExperience => 'کام کا تجربہ';
+  @override
+  String get organizationInformation => 'تنظیمی معلومات';
+  @override
+  String get subDepartment => 'ذیلی محکمہ';
+  @override
+  String get employmentStatus => 'روزگار کی حیثیت';
+  @override
+  String get workLocation => 'کام کی جگہ';
+  @override
+  String get workShift => 'کام کی شفٹ';
+  @override
+  String get hiringSource => 'بھرتی کا ذریعہ';
+  @override
+  String get systemAccessCredentials => 'سسٹم رسائی اور اسناد';
+  @override
+  String get officialEmailId => 'سرکاری ای میل آئی ڈی';
+  @override
+  String get branch => 'برانچ';
+  @override
+  String get leaveRulePolicy => 'رخصت قانون/پالیسی';
+  @override
+  String get roleAccessLevel => 'کردار/رسائی سطح';
+  @override
+  String get education => 'تعلیم';
+  @override
+    String get salaryInformation => 'تنخواہ کی معلومات';
+  String get payrollType => 'پے رول کی قسم';
+  String get monthlyCTC => 'ماہانہ CTC';
+  String get annualCTC => 'سالانہ CTC';
+  String get currentMonthOverview => 'موجودہ ماہ کا جائزہ';
+  String get bankInformation => 'بینک کی معلومات';
+  String get bankName => 'بینک کا نام';
+  String get accountNumber => 'اکاؤنٹ نمبر';
+  String get confirmAccountNumber => 'اکاؤنٹ نمبر کی تصدیق کریں';
+  String get accountHolderName => 'کھاتہ دار کا نام';
+  String get paymentType => 'ادائیگی کی قسم';
+  String get allowance => 'الاؤنس';
+  String get bonus => 'بونس';
+  String get compliance => 'تعمیل';
+  String get panNumber => 'PAN نمبر';
+  String get aadhaarNumber => 'آدھار نمبر';
+  String get uan => 'UAN';
+  String get pfNumber => 'PF نمبر';
+  String get esiApplicability => 'ESI قابل اطلاق';
+  String get esic => 'ESIC';
+  String get tdsApplicability => 'TDS قابل اطلاق';
+  String get gratuityDate => 'گریجویٹی تاریخ';
+  String get gratuityApplicable => 'گریجویٹی قابل اطلاق ہونے کی تاریخ';
+  String get enableEmployeeStateInsurance => 'ملازم ریاستی انشورنس فعال کریں';
+  String get taxDeductedAtSource => 'ذریعہ پر ٹیکس کٹوتی';
+  String get assetsAllocation => 'اثاثوں کی تقسیم';
+  String get educationalQualification => 'تعلیمی قابلیت';
+  String get editEmergencyContact => 'ہنگامی رابطہ ترمیم کریں';
+  String get addEmergencyContact => 'ہنگامی رابطہ شامل کریں';
+  String get editAddress => 'پتہ ترمیم کریں';
+  String get editProfile => 'پروفائل ترمیم کریں';
+  String get editIdentityDetails => 'شناخت کی تفصیلات ترمیم کریں';
+  String get addExperience => 'تجربہ شامل کریں';
+  String get editExperience => 'تجربہ ترمیم کریں';
+  String get companyName => 'کمپنی کا نام';
+  String get yearsOfExperience => 'تجربے کے سال';
+  String get startDate => 'شروعاتی تاریخ';
+  String get endDate => 'اختتامی تاریخ';
+  String get currentlyWorkingHere => 'میں فی الحال اس کردار میں کام کر رہا/رہی ہوں۔';
+  String get location => 'مقام';
+  String get editEducation => 'تعلیم ترمیم کریں';
+  String get addEducation => 'تعلیم شامل کریں';
+  String get highSchool => 'ہائی سکول';
+  String get yearOfInstitution => 'ادارے کا سال';
+  String get yearOfPassing => 'پاس کا سال';
+  String get marks => 'نمبر%';
+  String get seniorSecondary => 'سینیئر سیکنڈری';
+  String get graduationHigherEducation => 'گریجویشن/اعلی تعلیم';
+  String get documentName => 'دستاویز کا نام';
+  String get timeAndAttendance => 'وقت اور حاضری';
+  String get reason => 'وجہ';
+  String get helpMeWrite => 'لکھنے میں مدد کریں';
+  String get writeHere => 'یہاں لکھیں.....';
+  String get formalise => 'رسمی بنائیں';
+  String get insert => 'داخل کریں';
+  String get applyWfh => 'گھر سے کام کے لیے درخواست دیں';
+  String get applyOnDutyRequest => 'آن ڈیوٹی درخواست کے لیے اپلائی کریں';
+  String get attendanceRegularization => 'حاضری کا ضابطہ';
+  String get reimbursement => 'واپسی ادائیگی';
+  String get compOff => 'کمپ آف';
+  String get redeemCompOff => 'کمپ آف ریڈیم کریں';
+  String get summary => 'خلاصہ';
+  String get addTicket => 'ٹکٹ شامل کریں';
+  String get readMore => 'مزید پڑھیں';
+  @override String get days => 'دن';
+  @override String get balance => 'بیلنس';
+  @override String get utilizedLeave => 'استعمال شدہ چھٹی';
+  @override String get addedThisMonth => 'اس مہینے شامل';
+  @override String get fullDay => 'پورا دن';
+  @override String get firstHalfDay => 'پہلا نصف';
+  @override String get secondHalfDay => 'دوسرا نصف';
+  @override String get remarks => 'تبصرے';
+  @override String get copyRequest => 'درخواست کاپی کریں';
+  @override String get raiseRequests => 'درخواستیں بھیجیں';
+  @override String get less => 'کم';
+  @override String get more => 'زیادہ';
+  @override String get myAttendance => 'میری حاضری';
+  @override String get inTime => 'ان ٹائم';
+  @override String get outTime => 'آؤٹ ٹائم';
+  @override String get submitRequest => 'درخواست جمع کروائیں';
+  @override String get selectDate => 'تاریخ منتخب کریں';
+  @override String get workRequest => 'کام کی درخواست';
+  @override String get expenses => 'اخراجات';
+  @override String get organization => 'تنظیم';
+  @override String get company => 'کمپنی';
+  @override String get manager => 'مینیجر';
+  @override String get noRequestFoundForDate => 'منتخب تاریخ کے لیے کوئی درخواست نہیں ملی';
+  @override String get raiseRequest => 'درخواست بھیجیں';
+  @override String get myExpenses => 'میرے اخراجات';
+  @override String get myReimbursements => 'میری واپسی ادائیگیاں';
+  @override String get title => 'عنوان';
+  @override String get alerts => 'الرٹ';
+  @override String get announcements => 'اعلانات';
+  @override String get celebrations => 'جشن';
+  @override String get viewAll => 'سب دیکھیں';
+  @override String get quickActions => 'فوری اقدامات';
+  @override String get sendWishes => 'نیک خواہشات بھیجیں';
+  @override String get deleteConfirmation => 'کیا آپ واقعی حذف کرنا چاہتے ہیں؟';
+  @override String get expectedWorkSummary => 'متوقع کام کا خلاصہ';
+  @override String get billAmount => 'بل کی رقم';
+  @override String get addInterval => 'وقفہ شامل کریں';
+  @override String get reportIssue => 'مسئلہ رپورٹ کریں';
+  @override String get searchEmployee => 'ملازم تلاش کریں...';
+  @override String get noEmployeeFound => 'کوئی ملازم نہیں ملا';
+  @override String get viewPdf => 'PDF دیکھیں';
+  @override String get sharePdf => 'PDF شیئر کریں';
+  @override String get whatsapp => 'واٹس ایپ';
+  @override String get labelPrint => 'پرنٹ';
+  @override String get noResultsFor => 'کے لیے کوئی نتیجہ نہیں';
+  @override String get totalAmount => 'کل رقم';
+  @override String get remaining => 'باقی';
+  @override String get emiAmount => 'EMI رقم';
+  @override String get tenure => 'مدت (مہینہ)';
+  @override String get viewLedger => 'لیجر دیکھیں';
+  @override String get personalLoan => 'ذاتی قرض';
+  @override String get applyLoan => 'قرض کے لیے اپلائی کریں';
+  @override String get loanPolicy => 'قرض پالیسی';
+  @override String get interestRate => 'شرح سود (%)';
+  @override String get installment => 'قسط';
+  @override String get request => 'درخواست';
+  @override String get open => 'کھولیں';
+  @override String get attendanceAlerts => 'حاضری الرٹ';
+  @override String get checkPendingAttendance => 'زیر التواء، منظور، رد حاضری جانچیں۔';
+  @override String get leaveApprovals => 'چھٹی کی منظوریاں';
+  @override String get checkLeaveStatus => 'چھٹی کی منظوری کی حیثیت جانچیں۔';
+  @override String get reimbursementUpdates => 'واپسی ادائیگی اپڈیٹس';
+  @override String get checkReimbursement => 'اپنے ادائیگی کے بل جانچیں۔';
+  @override String get payrollNotifications => 'پے رول اطلاعات';
+  @override String get payrollFinanceText => 'پے رول حاضری مالیات۔';
+  @override String get broadcastsAnnouncements => 'نشریات اور اعلانات';
+  @override String get announcementNotification => 'اعلان کی اطلاع۔';
+  @override String get emailSms => 'ای میل/SMS';
+  @override String get emailSmsStatus => 'ای میل اور SMS حیثیت کی جانچ۔';
+  @override String get workDetails => 'کام کی تفصیلات';
+  @override String get contact => 'رابطہ';
+  @override String get bankDetails => 'بینک کی تفصیلات';
+  @override String get appPreferences => 'ایپ کی ترجیحات';
+  @override String get manageNotifications => 'اطلاعات منظم کریں';
+  @override String get faq => 'اکثر پوچھے گئے سوالات';
+  @override String get raiseTickets => 'ٹکٹ بھیجیں';
+  @override String get termsAndConditions => 'شرائط و ضوابط';
+  @override String get support => 'مدد';
+  @override String get logoutConfirmation => 'کیا آپ لاگ آؤٹ کرنا چاہتے ہیں؟';
+  @override String get hris => 'HRIS';
+  @override String get confirm => 'تصدیق کریں';
+  @override String get dashboard => 'ڈیش بورڈ';
+  @override String get salaryRevisionLetter => 'تنخواہ نظرثانی خط';
+  @override String get addExpense => 'خرچہ شامل کریں';
+  @override String get expenseCategory => 'خرچے کی قسم';
+  @override String get estimateAmount => 'تخمینی رقم';
+  @override String get viewHistory => 'تاریخ دیکھیں';
+  @override String get payPeriod => 'ادائیگی کی مدت';
+  @override String get deduction => 'کٹوتی';
+  @override String get taxSummary => 'ٹیکس خلاصہ';
+  @override String get eligibleAmount => 'اہل رقم';
+  @override String get declaredAmount => 'اعلان کردہ رقم';
+  @override String get financialInstitution => 'مالیاتی ادارہ';
+  @override String get pfAccountNumber => 'پی ایف اکاؤنٹ نمبر';
+  @override String get course => 'کورس';
+  @override String get institution => 'ادارہ';
+  @override String get addDocuments => 'دستاویزات شامل کریں';
+  @override String get type => 'قسم';
+  @override String get noExperienceFound => 'کوئی تجربہ نہیں ملا';
+  @override String get noEducationFound => 'کوئی تعلیم نہیں ملی';
+  @override String get addAddress => 'پتہ شامل کریں';
+  @override String get primaryAddressConfirmation => 'بنیادی پتہ کی تصدیق';
+  @override String get percentage => 'فیصد';
+  @override String get setPrimary => 'پرائمری سیٹ کریں';
+  @override String get setPermanent => 'مستقل سیٹ کریں';
+  @override String get myApprovals => 'میری منظوریاں';
+  @override String get approvalsAll => 'سب';
+  @override String get viewAttachment => 'منسلکہ دیکھیں';
+  @override String get profileRequests => 'پروفائل درخواستیں';
+  @override String get fieldValue => 'فیلڈ قدر';
+  @override String get oldValue => 'پرانی قدر';
+  @override String get newValue => 'نئی قدر';
+  @override String get uploadFile => 'فائل اپ لوڈ کریں';
+  @override String get addBankAccount => 'بینک اکاؤنٹ شامل کریں';
+  @override String get profileApprovalsNotFound => 'کوئی پروفائل منظوری نہیں ملی';
+  @override String get noAssetsFound => 'کوئی اثاثے نہیں ملے';
+  @override String get byLeave => 'چھٹی کے ذریعے';
+  @override String get viewRequest => 'درخواست دیکھیں';
+  @override String get thisMonth => 'اس مہینے';
+  @override String get myTeamOverview => 'میری ٹیم کا جائزہ';
+  @override String get attendanceApprovalsTeamStatus => 'ٹیم کی حیثیت';
+  @override String get addContacts => 'رابطے شامل کریں';
+  @override String get addBiometric => 'بائیومیٹرک شامل کریں';
+  @override String get manageBiometric => 'بائیومیٹرک منظم کریں';
+  @override String get tapToChangePhoto => 'تصویر تبدیل کرنے کے لیے ٹیپ کریں';
+  @override String get helpsHrIdentify => 'HR کو آپ کی شناخت کرنے میں مدد کرتا ہے';
+  @override String get personalEmail => 'ذاتی ای میل';
+  @override String get additionalInformation => 'اضافی معلومات';
+  @override String get saveContinue => 'محفوظ کریں اور جاری رکھیں';
+  @override String get continueText => 'جاری رکھیں';
+  @override String get skipForNow => 'ابھی کے لیے چھوڑیں';
+  @override String get basicIdentityInfo => 'بنیادی شناخت کی معلومات';
+  @override String get addressEmergencyContact => 'پتہ اور ہنگامی رابطہ';
+  @override String get yourAddressEmergencyContacts => 'آپ کا پتہ اور ہنگامی رابطے';
+  @override String get requiredForSalaryProcessing => 'تنخواہ کی پروسیسنگ کے لیے ضروری';
+  @override String get experienceAndEducation => 'تجربہ اور تعلیم';
+  @override String get yourProfessionalBackground => 'آپ کا پیشہ ورانہ پس منظر';
+  @override String get skip => 'چھوڑیں';
+  @override String get attachment => 'منسلکہ';
+  @override String get noHolidayFound => 'کوئی چھٹی نہیں ملی';
+  @override String get noProfileApprovalsFound => 'کوئی پروفائل منظوریاں نہیں ملیں';
+  @override String get noExperienceAddedYet => 'ابھی تک کوئی تجربہ شامل نہیں کیا گیا';
+  @override String get addYourWorkExperience => 'اپنا کام کا تجربہ شامل کریں';
+  @override String get noEducationAddedYet => 'ابھی تک کوئی تعلیم شامل نہیں کی گئی';
+  @override String get addYourEducation => 'اپنی تعلیم شامل کریں';
+  @override String get noBankAccountAddedYet => 'ابھی تک کوئی بینک اکاؤنٹ شامل نہیں کیا گیا';
+  @override String get addYourBankAccount => 'اپنا بینک اکاؤنٹ شامل کریں';
+  @override String get addBank => 'بینک شامل کریں';
+  @override String get upcomingLeaves => 'آنے والی چھٹیاں';
+  @override String get enterEmailAddress => 'ای میل پتہ درج کریں';
+  @override String get enterValidEmailAddress => 'درست ای میل پتہ درج کریں';
+  @override String get enterPhoneNumber => 'فون نمبر درج کریں';
+  @override String get enterValidPhoneNumber => 'درست فون نمبر درج کریں';
+  @override String get enterSixDigitOtp => '6 ہندسوں کا OTP درج کریں';
+  @override String get enterTitle => 'عنوان درج کریں';
+  @override String get enterType => 'قسم درج کریں';
+  @override String get enterPresentAddress => 'موجودہ پتہ درج کریں';
+  @override String get enterZipcode => 'زپ کوڈ درج کریں';
+  @override String get enterPinCode => 'پن کوڈ درج کریں';
+  @override String get selectState => 'ریاست منتخب کریں';
+  @override String get selectValidState => 'درست ریاست منتخب کریں';
+  @override String get selectCity => 'شہر منتخب کریں';
+  @override String get selectValidCity => 'درست شہر منتخب کریں';
+  @override String get selectNationality => 'قومیت منتخب کریں';
+  @override String get selectValidNationality => 'درست قومیت منتخب کریں';
+  @override String get selectValidCountry => 'درست ملک منتخب کریں';
+  @override String get enterContactName => 'رابطے کا نام درج کریں';
+  @override String get enterPhone => 'فون درج کریں';
+  @override String get enterValidPhone => 'درست فون درج کریں';
+  @override String get enterRelation => 'تعلق درج کریں';
+  @override String get enterDoj => 'شمولیت کی تاریخ درج کریں';
+  @override String get ageMustBe18 => 'عمر 18 سال یا اس سے زیادہ ہونی چاہیے';
+  @override String get enterProbationPeriod => 'پروبیشن مدت درج کریں';
+  @override String get selectProbationEndDate => 'پروبیشن ختم ہونے کی تاریخ منتخب کریں';
+  @override String get selectConfirmationEndDate => 'تصدیق ختم ہونے کی تاریخ منتخب کریں';
+  @override String get enterDesignation => 'عہدہ درج کریں';
+  @override String get enterEmployeeType => 'ملازم کی قسم درج کریں';
+  @override String get enterNoticePeriod => 'نوٹس مدت درج کریں';
+  @override String get enterBiometricId => 'بائیومیٹرک آئی ڈی درج کریں';
+  @override String get enterWorkExperience => 'کام کا تجربہ درج کریں';
+  @override String get enterDepartment => 'محکمہ درج کریں';
+  @override String get enterSubDepartment => 'ذیلی محکمہ درج کریں';
+  @override String get enterReportingManager => 'رپورٹنگ مینیجر درج کریں';
+  @override String get enterEmploymentStatus => 'روزگار کی حیثیت درج کریں';
+  @override String get enterWorkLocation => 'کام کا مقام درج کریں';
+  @override String get enterWorkShift => 'کام کی شفٹ درج کریں';
+  @override String get enterHiringSource => 'بھرتی کا ذریعہ درج کریں';
+  @override String get enterOfficialEmail => 'سرکاری ای میل درج کریں';
+  @override String get enterValidOfficialEmail => 'درست سرکاری ای میل درج کریں';
+  @override String get enterBranch => 'شاخ درج کریں';
+  @override String get enterLeaveRule => 'چھٹی کا قاعدہ درج کریں';
+  @override String get enterRoleAccessLevel => 'کردار/رسائی کی سطح درج کریں';
+  @override String get enterCompanyName => 'کمپنی کا نام درج کریں';
+  @override String get selectStartDate => 'شروع ہونے کی تاریخ منتخب کریں';
+  @override String get selectEndDate => 'اختتام کی تاریخ منتخب کریں';
+  @override String get enterLocation => 'مقام درج کریں';
+  @override String get endDateAfterStartDate => 'اختتام کی تاریخ شروع ہونے کی تاریخ کے بعد ہونی چاہیے';
+  @override String get invalidDateFormat => 'غلط تاریخ فارمیٹ';
+  @override String get enterExperienceType => 'تجربے کی قسم درج کریں';
+  @override String get enterHighSchool => 'ہائی سکول درج کریں';
+  @override String get enterCourse => 'کورس درج کریں';
+  @override String get enterYearOfInstitution => 'ادارے کا سال درج کریں';
+  @override String get enterYearOfPassing => 'پاس کا سال درج کریں';
+  @override String get enterMarks => 'نمبر درج کریں';
+  @override String get enterSeniorSecondarySchool => 'سینیئر سیکنڈری سکول درج کریں';
+  @override String get enterIfsc => 'IFSC کوڈ درج کریں';
+  @override String get enterBankName => 'بینک کا نام درج کریں';
+  @override String get enterAccountHolderName => 'اکاؤنٹ ہولڈر کا نام درج کریں';
+  @override String get enterAccountNumber => 'اکاؤنٹ نمبر درج کریں';
+  @override String get enterConfirmAccountNumber => 'اکاؤنٹ نمبر کی تصدیق کریں';
+  @override String get enterBranchName => 'شاخ کا نام درج کریں';
+  @override String get accountNumberMismatch => 'اکاؤنٹ نمبر مماثل نہیں ہیں';
+  @override String get needMoreWords => 'مزید الفاظ کی ضرورت ہے';
+  @override String get createTicket => 'ٹکٹ بنائیں';
+  @override String get reports => 'رپورٹیں';
+  @override String get finance => 'مالیات';
+  @override String get policy => 'پالیسی';
+  @override String get productivity => 'پیداواریت';
+  @override String get employeeView => 'ملازم کا منظر';
+  @override String get selectCompany => 'کمپنی منتخب کریں';
+  @override String get searchCompany => 'کمپنی تلاش کریں';
+  @override String get noCompanyFound => 'کوئی کمپنی نہیں ملی';
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total دن';
   }

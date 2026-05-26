@@ -1278,6 +1278,152 @@ class HrmsL10nEn extends HrmsL10n {
   @override
   String get regularize => 'Regularize';
   @override
+  String get enterEmailAddress => 'Enter email address';
+  @override
+  String get enterValidEmailAddress => 'Enter valid email address';
+  @override
+  String get enterPhoneNumber => 'Enter phone number';
+  @override
+  String get enterValidPhoneNumber => 'Enter valid phone number';
+  @override
+  String get enterSixDigitOtp => 'Enter 6-digit OTP';
+  @override
+  String get enterTitle => 'Enter title';
+  @override
+  String get enterType => 'Enter type';
+  @override
+  String get enterPresentAddress => 'Enter present address';
+  @override
+  String get enterZipcode => 'Enter zipcode';
+  @override
+  String get enterPinCode => 'Enter pin code';
+  @override
+  String get selectState => 'Select state';
+  @override
+  String get selectValidState => 'Select valid state';
+  @override
+  String get selectCity => 'Select city';
+  @override
+  String get selectValidCity => 'Select valid city';
+  @override
+  String get selectNationality => 'Select nationality';
+  @override
+  String get selectValidNationality => 'Select valid nationality';
+  @override
+  String get selectValidCountry => 'Select valid country';
+  @override
+  String get enterContactName => 'Enter contact name';
+  @override
+  String get enterPhone => 'Enter phone';
+  @override
+  String get enterValidPhone => 'Enter valid phone';
+  @override
+  String get enterRelation => 'Enter relation';
+  @override
+  String get enterDoj => 'Enter date of joining';
+  @override
+  String get ageMustBe18 => 'Age must be 18 or above';
+  @override
+  String get enterProbationPeriod => 'Enter probation period';
+  @override
+  String get selectProbationEndDate => 'Select probation end date';
+  @override
+  String get selectConfirmationEndDate => 'Select confirmation end date';
+  @override
+  String get enterDesignation => 'Enter designation';
+  @override
+  String get enterEmployeeType => 'Enter employee type';
+  @override
+  String get enterNoticePeriod => 'Enter notice period';
+  @override
+  String get enterBiometricId => 'Enter biometric ID';
+  @override
+  String get enterWorkExperience => 'Enter work experience';
+  @override
+  String get enterDepartment => 'Enter department';
+  @override
+  String get enterSubDepartment => 'Enter sub-department';
+  @override
+  String get enterReportingManager => 'Enter reporting manager';
+  @override
+  String get enterEmploymentStatus => 'Enter employment status';
+  @override
+  String get enterWorkLocation => 'Enter work location';
+  @override
+  String get enterWorkShift => 'Enter work shift';
+  @override
+  String get enterHiringSource => 'Enter hiring source';
+  @override
+  String get enterOfficialEmail => 'Enter official email';
+  @override
+  String get enterValidOfficialEmail => 'Enter valid official email';
+  @override
+  String get enterBranch => 'Enter branch';
+  @override
+  String get enterLeaveRule => 'Enter leave rule';
+  @override
+  String get enterRoleAccessLevel => 'Enter role/access level';
+  @override
+  String get enterCompanyName => 'Enter company name';
+  @override
+  String get selectStartDate => 'Select start date';
+  @override
+  String get selectEndDate => 'Select end date';
+  @override
+  String get enterLocation => 'Enter location';
+  @override
+  String get endDateAfterStartDate => 'End date must be after start date';
+  @override
+  String get invalidDateFormat => 'Invalid date format';
+  @override
+  String get enterExperienceType => 'Enter experience type';
+  @override
+  String get enterHighSchool => 'Enter high school';
+  @override
+  String get enterCourse => 'Enter course';
+  @override
+  String get enterYearOfInstitution => 'Enter year of institution';
+  @override
+  String get enterYearOfPassing => 'Enter year of passing';
+  @override
+  String get enterMarks => 'Enter marks';
+  @override
+  String get enterSeniorSecondarySchool => 'Enter senior secondary school';
+  @override
+  String get enterIfsc => 'Enter IFSC code';
+  @override
+  String get enterBankName => 'Enter bank name';
+  @override
+  String get enterAccountHolderName => 'Enter account holder name';
+  @override
+  String get enterAccountNumber => 'Enter account number';
+  @override
+  String get enterConfirmAccountNumber => 'Enter confirm account number';
+  @override
+  String get enterBranchName => 'Enter branch name';
+  @override
+  String get accountNumberMismatch => 'Account numbers do not match';
+  @override
+  String get needMoreWords => 'Need more words';
+  @override
+  String get createTicket => 'Create Ticket';
+  @override
+  String get reports => 'Reports';
+  @override
+  String get finance => 'Finance';
+  @override
+  String get policy => 'Policy';
+  @override
+  String get productivity => 'Productivity';
+  @override
+  String get employeeView => 'Employee View';
+  @override
+  String get selectCompany => 'Select Company';
+  @override
+  String get searchCompany => 'Search Company';
+  @override
+  String get noCompanyFound => 'No company found';
+  @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked of $total days';
   }
