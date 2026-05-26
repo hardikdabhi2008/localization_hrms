@@ -950,7 +950,7 @@ class HrmsL10nHi extends HrmsL10n {
   String get notDeclared => 'घोषित नहीं';
 
   @override
-  String get percentOfMonthEarned => 'महीने की % कमाई';
+  String get percentOfMonthEarned => '% महीने की  कमाई';
 
   @override
   String get salaryCalculationsNote => 'यह आपकी सैलरी गणना पर लागू होगा';

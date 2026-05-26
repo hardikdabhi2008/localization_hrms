@@ -951,7 +951,7 @@ class HrmsL10nGu extends HrmsL10n {
   String get notDeclared => 'જાહેર નથી';
 
   @override
-  String get percentOfMonthEarned => 'મહિનાના % ની કમાણી';
+  String get percentOfMonthEarned => '% મહિનાના  ની કમાણી';
 
   @override
   String get salaryCalculationsNote => 'આ તમારી સૅલૅરી ગણતરીઓ પર લાગુ થશે';
