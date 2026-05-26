@@ -2373,4 +2373,7 @@ class HrmsL10nHi extends HrmsL10n {
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total दिन';
   }
+
+  @override
+  String get upcoming => 'आगामी';
 }

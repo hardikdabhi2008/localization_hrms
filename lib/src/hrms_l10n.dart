@@ -4752,6 +4752,8 @@ abstract class HrmsL10n {
   /// In en, this message translates to:
   /// **'{worked} of {total} days'**
   String workedDaysOfTotal(int worked, int total);
+
+  String get upcoming;
 }
 
 class _HrmsL10nDelegate extends LocalizationsDelegate<HrmsL10n> {

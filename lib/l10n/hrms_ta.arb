@@ -773,5 +773,6 @@
   "selectCompany": "நிறுவனம் தேர்ந்தெடுக்கவும்",
   "searchCompany": "நிறுவனத்தை தேடவும்",
   "noCompanyFound": "நிறுவனம் எதுவும் கிடைக்கவில்லை",
-  "workedDaysOfTotal": "{worked}/{total} நாட்கள்"
+  "workedDaysOfTotal": "{worked}/{total} நாட்கள்",
+  "upcoming": "வரவிருக்கும்"
 }

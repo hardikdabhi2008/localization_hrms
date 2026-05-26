@@ -2378,4 +2378,7 @@ class HrmsL10nUr extends HrmsL10n {
   String workedDaysOfTotal(int worked, int total) {
     return '$worked/$total دن';
   }
+
+  @override
+  String get upcoming => 'آنے والا';
 }

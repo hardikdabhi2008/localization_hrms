@@ -1706,5 +1706,7 @@
       "worked": { "type": "int" },
       "total": { "type": "int" }
     }
-  }
+  },
+  "upcoming": "Upcoming",
+  "@upcoming": { "description": "Upcoming label" }
 }

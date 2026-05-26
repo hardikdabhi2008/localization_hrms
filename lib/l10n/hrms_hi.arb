@@ -773,5 +773,6 @@
   "selectCompany": "कंपनी चुनें",
   "searchCompany": "कंपनी खोजें",
   "noCompanyFound": "कोई कंपनी नहीं मिली",
-  "workedDaysOfTotal": "{worked}/{total} दिन"
+  "workedDaysOfTotal": "{worked}/{total} दिन",
+  "upcoming": "आगामी"
 }

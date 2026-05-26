@@ -773,5 +773,6 @@
   "selectCompany": "ਕੰਪਨੀ ਚੁਣੋ",
   "searchCompany": "ਕੰਪਨੀ ਖੋਜੋ",
   "noCompanyFound": "ਕੋਈ ਕੰਪਨੀ ਨਹੀਂ ਮਿਲੀ",
-  "workedDaysOfTotal": "{worked}/{total} ਦਿਨ"
+  "workedDaysOfTotal": "{worked}/{total} ਦਿਨ",
+  "upcoming": "ਆਉਣ ਵਾਲਾ"
 }

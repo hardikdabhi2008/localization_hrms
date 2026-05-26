@@ -773,5 +773,6 @@
   "selectCompany": "കമ്പനി തിരഞ്ഞെടുക്കുക",
   "searchCompany": "കമ്പനി തിരയുക",
   "noCompanyFound": "കമ്പനി ഒന്നും കണ്ടെത്തിയില്ല",
-  "workedDaysOfTotal": "{worked}/{total} ദിവസം"
+  "workedDaysOfTotal": "{worked}/{total} ദിവസം",
+  "upcoming": "വരാനിരിക്കുന്ന"
 }

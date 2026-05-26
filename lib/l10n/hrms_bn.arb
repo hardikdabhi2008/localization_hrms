@@ -773,5 +773,6 @@
   "selectCompany": "কোম্পানি নির্বাচন করুন",
   "searchCompany": "কোম্পানি খুঁজুন",
   "noCompanyFound": "কোনো কোম্পানি পাওয়া যায়নি",
-  "workedDaysOfTotal": "{worked}/{total} দিন"
+  "workedDaysOfTotal": "{worked}/{total} দিন",
+  "upcoming": "আসন্ন"
 }

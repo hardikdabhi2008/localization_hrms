@@ -773,5 +773,6 @@
   "selectCompany": "ಕಂಪನಿ ಆಯ್ಕೆಮಾಡಿ",
   "searchCompany": "ಕಂಪನಿ ಹುಡುಕಿ",
   "noCompanyFound": "ಯಾವುದೇ ಕಂಪನಿ ಕಂಡುಬಂದಿಲ್ಲ",
-  "workedDaysOfTotal": "{worked}/{total} ದಿನಗಳು"
+  "workedDaysOfTotal": "{worked}/{total} ದಿನಗಳು",
+  "upcoming": "ಮುಂಬರುವ"
 }
