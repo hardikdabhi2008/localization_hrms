@@ -1,4 +1,4 @@
-// ignore: unused_import
+﻿// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'hrms_l10n.dart';
 
@@ -1423,6 +1423,540 @@ class HrmsL10nEn extends HrmsL10n {
   String get searchCompany => 'Search Company';
   @override
   String get noCompanyFound => 'No company found';
+  @override
+  String get labelOr => 'OR';
+  @override
+  String get continueWithGoogle => 'Continue With Google';
+  @override
+  String get signInWithEmail => 'Sign In With Email';
+  @override
+  String get signInWithPhone => 'Sign In With Phone';
+  @override
+  String get signInWithApple => 'Sign In With Apple';
+  @override
+  String get emailAndPhoneNumber => 'Email And Phone Number';
+  @override
+  String get resendOtp => 'Resend OTP';
+  @override
+  String get resendIn => 'Resend in';
+  @override
+  String get startFreeTrialText => 'Start Your 7 Days Free Trial';
+  @override
+  String get fullName => 'Full Name';
+  @override
+  String get getStarted => 'Get Started';
+  @override
+  String get phoneNumber => 'Phone Number';
+  @override
+  String get workEmail => 'Work Email';
+  @override
+  String get employeeSize => 'Employee Size';
+  @override
+  String get profile => 'Profile';
+  @override
+  String get personalDetails => 'Personal Details';
+  @override
+  String get mobileNumber => 'Mobile Number';
+  @override
+  String get personalEmailId => 'Personal Email ID';
+  @override
+  String get employeeCode => 'Employee Code';
+  @override
+  String get nationality => 'Nationality';
+  @override
+  String get bloodGroup => 'Blood Group';
+  @override
+  String get maritalStatus => 'Marital Status';
+  @override
+  String get fatherName => 'Father\'s Name';
+  @override
+  String get motherName => 'Mother Name';
+  @override
+  String get alternateNumber => 'Alternate Number';
+  @override
+  String get presentAddress => 'Present Address';
+  @override
+  String get currentAddress => 'Current Address';
+  @override
+  String get homeAddress => 'Home Address';
+  @override
+  String get zipCode => 'ZIP Code';
+  @override
+  String get country => 'Country';
+  @override
+  String get emergencyContact => 'Emergency Contact';
+  @override
+  String get contactName => 'Contact Name';
+  @override
+  String get phone => 'Phone';
+  @override
+  String get relation => 'Relation';
+  @override
+  String get withdraw => 'Withdraw';
+  @override
+  String get identityDetails => 'Identity Details';
+  @override
+  String get probationPeriod => 'Probation Period';
+  @override
+  String get probationEndDate => 'Probation End Date';
+  @override
+  String get confirmationDate => 'Confirmation Date';
+  @override
+  String get noticePeriod => 'Notice Period (Days)';
+  @override
+  String get biometricId => 'Biometric ID';
+  @override
+  String get workExperience => 'Work Experience';
+  @override
+  String get organizationInformation => 'Organization Information';
+  @override
+  String get subDepartment => 'Sub - Department';
+  @override
+  String get employmentStatus => 'Employment Status';
+  @override
+  String get workLocation => 'Work Location';
+  @override
+  String get workShift => 'Work Shift';
+  @override
+  String get hiringSource => 'Hiring Source';
+  @override
+  String get systemAccessCredentials => 'System Access & Credentials';
+  @override
+  String get officialEmailId => 'Official Email id';
+  @override
+  String get branch => 'Branch';
+  @override
+  String get leaveRulePolicy => 'Leave Rule / Policy';
+  @override
+  String get roleAccessLevel => 'Role / Access Level';
+  @override
+  String get education => 'Education';
+  @override
+  String get salaryInformation => 'Salary Information';
+  @override
+  String get payrollType => 'Payroll Type';
+  @override
+  String get monthlyCTC => 'Monthly CTC';
+  @override
+  String get annualCTC => 'Annual CTC';
+  @override
+  String get currentMonthOverview => 'Current Month Overview';
+  @override
+  String get bankInformation => 'Bank Information';
+  @override
+  String get bankName => 'Bank Name';
+  @override
+  String get accountNumber => 'Account Number';
+  @override
+  String get confirmAccountNumber => 'Confirm Account Number';
+  @override
+  String get accountHolderName => 'Account Holder Name';
+  @override
+  String get paymentType => 'Payment Type';
+  @override
+  String get allowance => 'Allowance';
+  @override
+  String get bonus => 'Bonus';
+  @override
+  String get compliance => 'Compliance';
+  @override
+  String get panNumber => 'PAN Number';
+  @override
+  String get aadhaarNumber => 'Aadhaar Number';
+  @override
+  String get uan => 'UAN';
+  @override
+  String get pfNumber => 'PF Number';
+  @override
+  String get esiApplicability => 'ESI Applicability';
+  @override
+  String get esic => 'ESIC';
+  @override
+  String get tdsApplicability => 'TDS Applicability';
+  @override
+  String get gratuityDate => 'Gratuity Date';
+  @override
+  String get gratuityApplicable => 'Date when gratuity becomes applicable';
+  @override
+  String get enableEmployeeStateInsurance => 'Enable Employee State Insurance';
+  @override
+  String get taxDeductedAtSource => 'Tax Deducted at Source';
+  @override
+  String get assetsAllocation => 'Assets Allocation';
+  @override
+  String get educationalQualification => 'Educational Qualification';
+  @override
+  String get editEmergencyContact => 'Edit Emergency Contact';
+  @override
+  String get addEmergencyContact => 'Add Emergency Contact';
+  @override
+  String get editAddress => 'Edit Address';
+  @override
+  String get editProfile => 'Edit Profile';
+  @override
+  String get editIdentityDetails => 'Edit Identity Details';
+  @override
+  String get addExperience => 'Add Experience';
+  @override
+  String get editExperience => 'Edit Experience';
+  @override
+  String get companyName => 'Company Name';
+  @override
+  String get yearsOfExperience => 'Years of Experience';
+  @override
+  String get startDate => 'Start Date';
+  @override
+  String get endDate => 'End Date';
+  @override
+  String get currentlyWorkingHere => 'I am currently working in this role.';
+  @override
+  String get location => 'Location';
+  @override
+  String get editEducation => 'Edit Education';
+  @override
+  String get addEducation => 'Add Education';
+  @override
+  String get highSchool => 'High School';
+  @override
+  String get yearOfInstitution => 'Year of Institution';
+  @override
+  String get yearOfPassing => 'Year of Passing';
+  @override
+  String get marks => 'Marks%';
+  @override
+  String get seniorSecondary => 'Senior Secondary';
+  @override
+  String get graduationHigherEducation => 'Graduation / Higher Education';
+  @override
+  String get documentName => 'Document Name';
+  @override
+  String get timeAndAttendance => 'Time & Attendance';
+  @override
+  String get reason => 'Reason';
+  @override
+  String get helpMeWrite => 'Help me write';
+  @override
+  String get writeHere => 'Write here.....';
+  @override
+  String get formalise => 'Formalise';
+  @override
+  String get insert => 'Insert';
+  @override
+  String get applyWfh => 'Apply Work From Home';
+  @override
+  String get applyOnDutyRequest => 'Apply On Duty Request';
+  @override
+  String get attendanceRegularization => 'Attendance Regularization';
+  @override
+  String get reimbursement => 'Reimbursement';
+  @override
+  String get compOff => 'Comp Off';
+  @override
+  String get redeemCompOff => 'Redeem Comp Off';
+  @override
+  String get summary => 'Summary';
+  @override
+  String get addTicket => 'Add Ticket';
+  @override
+  String get readMore => 'Read More';
+  @override
+  String get days => 'Days';
+  @override
+  String get balance => 'Balance';
+  @override
+  String get utilizedLeave => 'Utilized Leave';
+  @override
+  String get addedThisMonth => 'Added This Month';
+  @override
+  String get fullDay => 'Full Day';
+  @override
+  String get firstHalfDay => '1st Half';
+  @override
+  String get secondHalfDay => '2nd Half';
+  @override
+  String get remarks => 'Remarks';
+  @override
+  String get copyRequest => 'Copy Request';
+  @override
+  String get raiseRequests => 'Raise Requests';
+  @override
+  String get less => 'Less';
+  @override
+  String get more => 'More';
+  @override
+  String get myAttendance => 'My Attendance';
+  @override
+  String get inTime => 'In Time';
+  @override
+  String get outTime => 'Out Time';
+  @override
+  String get submitRequest => 'Submit Request';
+  @override
+  String get selectDate => 'Select Date';
+  @override
+  String get workRequest => 'Work Request';
+  @override
+  String get expenses => 'Expenses';
+  @override
+  String get organization => 'Organization';
+  @override
+  String get company => 'Company';
+  @override
+  String get manager => 'Manager';
+  @override
+  String get noRequestFoundForDate => 'No request found for selected date';
+  @override
+  String get raiseRequest => 'Raise Request';
+  @override
+  String get myExpenses => 'My Expenses';
+  @override
+  String get myReimbursements => 'My Reimbursements';
+  @override
+  String get title => 'Title';
+  @override
+  String get alerts => 'Alerts';
+  @override
+  String get announcements => 'Announcements';
+  @override
+  String get celebrations => 'Celebrations';
+  @override
+  String get viewAll => 'View All';
+  @override
+  String get quickActions => 'Quick Actions';
+  @override
+  String get sendWishes => 'Send Wishes';
+  @override
+  String get deleteConfirmation => 'Are you sure you want to delete?';
+  @override
+  String get expectedWorkSummary => 'Expected Work Summary';
+  @override
+  String get billAmount => 'Bill Amount';
+  @override
+  String get addInterval => 'Add Interval';
+  @override
+  String get reportIssue => 'Report Issue';
+  @override
+  String get searchEmployee => 'Search Employee...';
+  @override
+  String get noEmployeeFound => 'No employees found';
+  @override
+  String get viewPdf => 'View PDF';
+  @override
+  String get sharePdf => 'Share PDF';
+  @override
+  String get whatsapp => 'Whatsapp';
+  @override
+  String get labelPrint => 'Print';
+  @override
+  String get noResultsFor => 'No results for';
+  @override
+  String get totalAmount => 'Total Amount';
+  @override
+  String get remaining => 'Remaining';
+  @override
+  String get emiAmount => 'EMI Amount';
+  @override
+  String get tenure => 'Tenure (Month)';
+  @override
+  String get viewLedger => 'View Ledger';
+  @override
+  String get personalLoan => 'Personal Loan';
+  @override
+  String get applyLoan => 'Apply Loan';
+  @override
+  String get loanPolicy => 'Loan Policy';
+  @override
+  String get interestRate => 'Interest Rate (%)';
+  @override
+  String get installment => 'Installment';
+  @override
+  String get request => 'Request';
+  @override
+  String get open => 'Open';
+  @override
+  String get attendanceAlerts => 'Attendance Alerts';
+  @override
+  String get checkPendingAttendance => 'Check Pending, Approved, Reject Attendance.';
+  @override
+  String get leaveApprovals => 'Leave Approvals';
+  @override
+  String get checkLeaveStatus => 'Check Leave approval status.';
+  @override
+  String get reimbursementUpdates => 'Reimbursement Updates';
+  @override
+  String get checkReimbursement => 'Check your reimbursement bills.';
+  @override
+  String get payrollNotifications => 'Payroll Notifications';
+  @override
+  String get payrollFinanceText => 'Payroll attendance finance.';
+  @override
+  String get broadcastsAnnouncements => 'Broadcasts & Announcements';
+  @override
+  String get announcementNotification => 'Announcement notification.';
+  @override
+  String get emailSms => 'Email/SMS';
+  @override
+  String get emailSmsStatus => 'Email and SMS status check.';
+  @override
+  String get workDetails => 'Work Details';
+  @override
+  String get contact => 'Contact';
+  @override
+  String get bankDetails => 'Bank Details';
+  @override
+  String get appPreferences => 'App Preferences';
+  @override
+  String get manageNotifications => 'Manage Notifications';
+  @override
+  String get faq => 'FAQs';
+  @override
+  String get raiseTickets => 'Raise Tickets';
+  @override
+  String get termsAndConditions => 'Terms & Conditions';
+  @override
+  String get support => 'Support';
+  @override
+  String get logoutConfirmation => 'Are you sure want to logout?';
+  @override
+  String get hris => 'HRIS';
+  @override
+  String get confirm => 'Confirm';
+  @override
+  String get dashboard => 'Dashboard';
+  @override
+  String get salaryRevisionLetter => 'Salary Revision Letter';
+  @override
+  String get addExpense => 'Add Expense';
+  @override
+  String get expenseCategory => 'Expense Category';
+  @override
+  String get estimateAmount => 'Estimate Amount';
+  @override
+  String get viewHistory => 'View History';
+  @override
+  String get payPeriod => 'Pay Period';
+  @override
+  String get deduction => 'Deduction';
+  @override
+  String get taxSummary => 'Tax Summary';
+  @override
+  String get eligibleAmount => 'Eligible Amount';
+  @override
+  String get declaredAmount => 'Declared Amount';
+  @override
+  String get financialInstitution => 'Financial Institution';
+  @override
+  String get pfAccountNumber => 'PF Account Number';
+  @override
+  String get course => 'Course';
+  @override
+  String get institution => 'Institution';
+  @override
+  String get addDocuments => 'Add Documents';
+  @override
+  String get type => 'Type';
+  @override
+  String get noExperienceFound => 'No experience found';
+  @override
+  String get noEducationFound => 'No education found';
+  @override
+  String get addAddress => 'Add Address';
+  @override
+  String get primaryAddressConfirmation => 'Primary Address Confirmation';
+  @override
+  String get percentage => 'Percentage';
+  @override
+  String get setPrimary => 'Set Primary';
+  @override
+  String get setPermanent => 'Set Permanent';
+  @override
+  String get myApprovals => 'My Approvals';
+  @override
+  String get approvalsAll => 'All';
+  @override
+  String get viewAttachment => 'View Attachment';
+  @override
+  String get profileRequests => 'Profile Requests';
+  @override
+  String get fieldValue => 'Field Value';
+  @override
+  String get oldValue => 'Old Value';
+  @override
+  String get newValue => 'New Value';
+  @override
+  String get uploadFile => 'Upload File';
+  @override
+  String get addBankAccount => 'Add Bank Account';
+  @override
+  String get profileApprovalsNotFound => 'No profile approvals found';
+  @override
+  String get noAssetsFound => 'No assets found';
+  @override
+  String get byLeave => 'By Leave';
+  @override
+  String get viewRequest => 'View Request';
+  @override
+  String get thisMonth => 'This Month';
+  @override
+  String get myTeamOverview => 'My Team Overview';
+  @override
+  String get attendanceApprovalsTeamStatus => 'Team Status';
+  @override
+  String get addContacts => 'Add Contacts';
+  @override
+  String get addBiometric => 'Add Biometric';
+  @override
+  String get manageBiometric => 'Manage Biometric';
+  @override
+  String get tapToChangePhoto => 'Tap to change photo';
+  @override
+  String get helpsHrIdentify => 'Helps HR identify you';
+  @override
+  String get personalEmail => 'Personal Email';
+  @override
+  String get additionalInformation => 'Additional Information';
+  @override
+  String get saveContinue => 'Save & Continue';
+  @override
+  String get continueText => 'Continue';
+  @override
+  String get skipForNow => 'Skip for now';
+  @override
+  String get basicIdentityInfo => 'Basic Identity Info';
+  @override
+  String get addressEmergencyContact => 'Address & Emergency Contact';
+  @override
+  String get yourAddressEmergencyContacts => 'Your Address & Emergency Contacts';
+  @override
+  String get requiredForSalaryProcessing => 'Required for salary processing';
+  @override
+  String get experienceAndEducation => 'Experience & Education';
+  @override
+  String get yourProfessionalBackground => 'Your Professional Background';
+  @override
+  String get skip => 'Skip';
+  @override
+  String get attachment => 'Attachment';
+  @override
+  String get noHolidayFound => 'No holiday found';
+  @override
+  String get noProfileApprovalsFound => 'No profile approvals found';
+  @override
+  String get noExperienceAddedYet => 'No experience added yet';
+  @override
+  String get addYourWorkExperience => 'Add your work experience';
+  @override
+  String get noEducationAddedYet => 'No education added yet';
+  @override
+  String get addYourEducation => 'Add your education';
+  @override
+  String get noBankAccountAddedYet => 'No bank account added yet';
+  @override
+  String get addYourBankAccount => 'Add your bank account';
+  @override
+  String get addBank => 'Add Bank';
+  @override
+  String get upcomingLeaves => 'Upcoming Leaves';
   @override
   String workedDaysOfTotal(int worked, int total) {
     return '$worked of $total days';
