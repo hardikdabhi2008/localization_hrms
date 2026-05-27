@@ -775,5 +775,6 @@
   "searchCompany": "కంపెనీ వెతకండి",
   "noCompanyFound": "కంపెనీ ఏదీ కనుగొనబడలేదు",
   "workedDaysOfTotal": "{worked}/{total} రోజులు",
-  "upcoming": "రాబోయే"
+  "upcoming": "రాబోయే",
+  "profileChange": "Profile Change"
 }

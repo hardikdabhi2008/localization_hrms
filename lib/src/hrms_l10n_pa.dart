@@ -2382,4 +2382,7 @@ class HrmsL10nPa extends HrmsL10n {
 
   @override
   String get upcoming => 'ਆਉਣ ਵਾਲਾ';
+
+  @override
+  String get profileChange => 'Profile Change';
 }

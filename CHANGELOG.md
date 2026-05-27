@@ -1,4 +1,8 @@
-﻿## 1.0.15
+﻿## 1.0.16
+
+* Add `profileChange` key ("Profile Change") across all 11 language ARB files and Dart localization classes
+
+## 1.0.15
 
 * Add `wfh2` key (Work From Home full text) across all 11 language ARB files and Dart localization classes
 * Hindi: घर से काम, Gujarati: ઘરેથી કામ કરો, all other languages: Work From Home

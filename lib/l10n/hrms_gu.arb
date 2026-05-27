@@ -774,5 +774,6 @@
   "searchCompany": "Company શોધો",
   "noCompanyFound": "Company મળ્યું નથી",
   "workedDaysOfTotal": "{worked}/{total} દિવસ",
-  "upcoming": "આગામી"
+  "upcoming": "આગામી",
+  "profileChange": "Profile Change"
 }

@@ -4756,6 +4756,8 @@ abstract class HrmsL10n {
   String workedDaysOfTotal(int worked, int total);
 
   String get upcoming;
+
+  String get profileChange;
 }
 
 class _HrmsL10nDelegate extends LocalizationsDelegate<HrmsL10n> {

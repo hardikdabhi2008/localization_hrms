@@ -1710,5 +1710,7 @@
     }
   },
   "upcoming": "Upcoming",
-  "@upcoming": { "description": "Upcoming label" }
+  "@upcoming": { "description": "Upcoming label" },
+  "profileChange": "Profile Change",
+  "@profileChange": { "description": "Profile change label" }
 }

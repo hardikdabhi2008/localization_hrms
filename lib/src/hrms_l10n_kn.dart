@@ -2387,4 +2387,7 @@ class HrmsL10nKn extends HrmsL10n {
 
   @override
   String get upcoming => 'ಮುಂಬರುವ';
+
+  @override
+  String get profileChange => 'Profile Change';
 }

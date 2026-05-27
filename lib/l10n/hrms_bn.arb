@@ -775,5 +775,6 @@
   "searchCompany": "কোম্পানি খুঁজুন",
   "noCompanyFound": "কোনো কোম্পানি পাওয়া যায়নি",
   "workedDaysOfTotal": "{worked}/{total} দিন",
-  "upcoming": "আসন্ন"
+  "upcoming": "আসন্ন",
+  "profileChange": "Profile Change"
 }

@@ -775,5 +775,6 @@
   "searchCompany": "کمپنی تلاش کریں",
   "noCompanyFound": "کوئی کمپنی نہیں ملی",
   "workedDaysOfTotal": "{worked}/{total} دن",
-  "upcoming": "آنے والا"
+  "upcoming": "آنے والا",
+  "profileChange": "Profile Change"
 }

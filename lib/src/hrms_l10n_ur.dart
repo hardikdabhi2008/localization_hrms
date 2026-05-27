@@ -2384,4 +2384,7 @@ class HrmsL10nUr extends HrmsL10n {
 
   @override
   String get upcoming => 'آنے والا';
+
+  @override
+  String get profileChange => 'Profile Change';
 }

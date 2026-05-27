@@ -2402,4 +2402,7 @@ class HrmsL10nTa extends HrmsL10n {
 
   @override
   String get upcoming => 'வரவிருக்கும்';
+
+  @override
+  String get profileChange => 'Profile Change';
 }

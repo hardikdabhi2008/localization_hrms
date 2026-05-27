@@ -775,5 +775,6 @@
   "searchCompany": "ಕಂಪನಿ ಹುಡುಕಿ",
   "noCompanyFound": "ಯಾವುದೇ ಕಂಪನಿ ಕಂಡುಬಂದಿಲ್ಲ",
   "workedDaysOfTotal": "{worked}/{total} ದಿನಗಳು",
-  "upcoming": "ಮುಂಬರುವ"
+  "upcoming": "ಮುಂಬರುವ",
+  "profileChange": "Profile Change"
 }

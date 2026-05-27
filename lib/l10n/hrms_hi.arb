@@ -775,5 +775,6 @@
   "searchCompany": "कंपनी खोजें",
   "noCompanyFound": "कोई कंपनी नहीं मिली",
   "workedDaysOfTotal": "{worked}/{total} दिन",
-  "upcoming": "आगामी"
+  "upcoming": "आगामी",
+  "profileChange": "Profile Change"
 }
