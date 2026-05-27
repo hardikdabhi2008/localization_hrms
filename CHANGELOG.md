@@ -1,4 +1,8 @@
-﻿## 1.0.17
+﻿## 1.0.19
+
+* Add `menu` key ("Menu") and `employeeLoan` key ("Employee Loan") across all 11 language ARB files and Dart localization classes
+
+## 1.0.17
 
 * Fix `profileChange` translations — replace English placeholder with proper native-language translations across all 10 non-English ARB files and Dart classes
 
