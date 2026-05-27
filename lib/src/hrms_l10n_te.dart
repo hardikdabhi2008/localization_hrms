@@ -2397,5 +2397,5 @@ class HrmsL10nTe extends HrmsL10n {
   String get upcoming => 'రాబోయే';
 
   @override
-  String get profileChange => 'Profile Change';
+  String get profileChange => 'ప్రొఫైల్ మార్చండి';
 }

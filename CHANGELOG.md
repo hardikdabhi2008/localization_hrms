@@ -1,4 +1,8 @@
-﻿## 1.0.16
+﻿## 1.0.17
+
+* Fix `profileChange` translations — replace English placeholder with proper native-language translations across all 10 non-English ARB files and Dart classes
+
+## 1.0.16
 
 * Add `profileChange` key ("Profile Change") across all 11 language ARB files and Dart localization classes
 

@@ -2394,5 +2394,5 @@ class HrmsL10nMl extends HrmsL10n {
   String get upcoming => 'വരാനിരിക്കുന്ന';
 
   @override
-  String get profileChange => 'Profile Change';
+  String get profileChange => 'പ്രൊഫൈൽ മാറ്റുക';
 }
