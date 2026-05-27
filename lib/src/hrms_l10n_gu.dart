@@ -721,6 +721,9 @@ class HrmsL10nGu extends HrmsL10n {
   String get wfh => 'WFH';
 
   @override
+  String get wfh2 => 'ઘરેથી કામ કરો';
+
+  @override
   String get taxDeclaration => 'કર ઘોષણા';
 
   @override

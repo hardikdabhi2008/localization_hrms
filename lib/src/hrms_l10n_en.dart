@@ -721,6 +721,9 @@ class HrmsL10nEn extends HrmsL10n {
   String get wfh => 'WFH';
 
   @override
+  String get wfh2 => 'Work From Home';
+
+  @override
   String get taxDeclaration => 'Tax Declaration';
 
   @override

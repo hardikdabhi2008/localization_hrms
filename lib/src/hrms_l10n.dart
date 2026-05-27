@@ -1471,6 +1471,8 @@ abstract class HrmsL10n {
   /// **'WFH'**
   String get wfh;
 
+  String get wfh2;
+
   /// Tax declaration section title
   ///
   /// In en, this message translates to:

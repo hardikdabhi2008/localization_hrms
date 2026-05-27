@@ -2,7 +2,7 @@
 description: >-
   Localization package for HRMS Flutter apps with 11 Indian languages, offline
   ARB strings, remote patches, and version-locked critical translations.
-version: 1.0.14
+version: 1.0.15
 homepage: https://github.com/hardikdabhi2008/localization_hrms
 repository: https://github.com/hardikdabhi2008/localization_hrms
 issue_tracker: https://github.com/hardikdabhi2008/localization_hrms/issues

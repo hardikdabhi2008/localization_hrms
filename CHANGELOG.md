@@ -1,4 +1,9 @@
-﻿## 1.0.12
+﻿## 1.0.15
+
+* Add `wfh2` key (Work From Home full text) across all 11 language ARB files and Dart localization classes
+* Hindi: घर से काम, Gujarati: ઘરેથી કામ કરો, all other languages: Work From Home
+
+## 1.0.12
 
 * Fix: regenerate all 12 Dart localization files via `flutter gen-l10n` to resolve VS Code analysis errors
 * Generated files are now always in sync with ARB source files

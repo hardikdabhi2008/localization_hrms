@@ -487,6 +487,8 @@
   "@loan": { "description": "Loan label" },
   "wfh": "WFH",
   "@wfh": { "description": "Work From Home abbreviation" },
+  "wfh2": "Work From Home",
+  "@wfh2": { "description": "Work From Home full text" },
   "taxDeclaration": "Tax Declaration",
   "@taxDeclaration": { "description": "Tax declaration section title" },
   "resignation": "Resignation",

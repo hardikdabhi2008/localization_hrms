@@ -724,6 +724,9 @@ class HrmsL10nMl extends HrmsL10n {
   String get wfh => 'WFH';
 
   @override
+  String get wfh2 => 'Work From Home';
+
+  @override
   String get taxDeclaration => 'നികുതി പ്രഖ്യാപനം';
 
   @override
