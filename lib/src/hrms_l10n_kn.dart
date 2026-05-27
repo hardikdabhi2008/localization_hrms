@@ -2390,4 +2390,10 @@ class HrmsL10nKn extends HrmsL10n {
 
   @override
   String get profileChange => 'ಪ್ರೊಫೈಲ್ ಬದಲಾಯಿಸಿ';
+
+  @override
+  String get menu => 'ಮೆನು';
+
+  @override
+  String get employeeLoan => 'ಉದ್ಯೋಗಿ ಸಾಲ';
 }

@@ -776,5 +776,7 @@
   "noCompanyFound": "ಯಾವುದೇ ಕಂಪನಿ ಕಂಡುಬಂದಿಲ್ಲ",
   "workedDaysOfTotal": "{worked}/{total} ದಿನಗಳು",
   "upcoming": "ಮುಂಬರುವ",
-  "profileChange": "ಪ್ರೊಫೈಲ್ ಬದಲಾಯಿಸಿ"
+  "profileChange": "ಪ್ರೊಫೈಲ್ ಬದಲಾಯಿಸಿ",
+  "menu": "ಮೆನು",
+  "employeeLoan": "ಉದ್ಯೋಗಿ ಸಾಲ"
 }

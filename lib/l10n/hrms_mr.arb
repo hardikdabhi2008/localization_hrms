@@ -776,5 +776,7 @@
   "noCompanyFound": "कोणतीही कंपनी आढळली नाही",
   "workedDaysOfTotal": "{worked}/{total} दिवस",
   "upcoming": "आगामी",
-  "profileChange": "प्रोफाइल बदला"
+  "profileChange": "प्रोफाइल बदला",
+  "menu": "मेनू",
+  "employeeLoan": "कर्मचारी कर्ज"
 }

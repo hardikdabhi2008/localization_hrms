@@ -2385,4 +2385,10 @@ class HrmsL10nPa extends HrmsL10n {
 
   @override
   String get profileChange => 'ਪ੍ਰੋਫਾਈਲ ਬਦਲੋ';
+
+  @override
+  String get menu => 'ਮੀਨੂ';
+
+  @override
+  String get employeeLoan => 'ਕਰਮਚਾਰੀ ਕਰਜ਼ਾ';
 }

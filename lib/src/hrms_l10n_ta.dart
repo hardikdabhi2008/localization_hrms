@@ -2405,4 +2405,10 @@ class HrmsL10nTa extends HrmsL10n {
 
   @override
   String get profileChange => 'சுயவிவரம் மாற்றவும்';
+
+  @override
+  String get menu => 'மெனு';
+
+  @override
+  String get employeeLoan => 'பணியாளர் கடன்';
 }

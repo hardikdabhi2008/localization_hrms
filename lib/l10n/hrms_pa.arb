@@ -776,5 +776,7 @@
   "noCompanyFound": "ਕੋਈ ਕੰਪਨੀ ਨਹੀਂ ਮਿਲੀ",
   "workedDaysOfTotal": "{worked}/{total} ਦਿਨ",
   "upcoming": "ਆਉਣ ਵਾਲਾ",
-  "profileChange": "ਪ੍ਰੋਫਾਈਲ ਬਦਲੋ"
+  "profileChange": "ਪ੍ਰੋਫਾਈਲ ਬਦਲੋ",
+  "menu": "ਮੀਨੂ",
+  "employeeLoan": "ਕਰਮਚਾਰੀ ਕਰਜ਼ਾ"
 }

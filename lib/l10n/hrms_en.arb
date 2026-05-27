@@ -1712,5 +1712,9 @@
   "upcoming": "Upcoming",
   "@upcoming": { "description": "Upcoming label" },
   "profileChange": "Profile Change",
-  "@profileChange": { "description": "Profile change label" }
+  "@profileChange": { "description": "Profile change label" },
+  "menu": "Menu",
+  "@menu": { "description": "Menu label" },
+  "employeeLoan": "Employee Loan",
+  "@employeeLoan": { "description": "Employee loan label" }
 }

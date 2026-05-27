@@ -2389,4 +2389,10 @@ class HrmsL10nBn extends HrmsL10n {
 
   @override
   String get profileChange => 'প্রোফাইল পরিবর্তন করুন';
+
+  @override
+  String get menu => 'মেনু';
+
+  @override
+  String get employeeLoan => 'কর্মচারী ঋণ';
 }

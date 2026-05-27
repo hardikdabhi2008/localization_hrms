@@ -4758,6 +4758,10 @@ abstract class HrmsL10n {
   String get upcoming;
 
   String get profileChange;
+
+  String get menu;
+
+  String get employeeLoan;
 }
 
 class _HrmsL10nDelegate extends LocalizationsDelegate<HrmsL10n> {

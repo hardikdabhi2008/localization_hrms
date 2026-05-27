@@ -776,5 +776,7 @@
   "noCompanyFound": "కంపెనీ ఏదీ కనుగొనబడలేదు",
   "workedDaysOfTotal": "{worked}/{total} రోజులు",
   "upcoming": "రాబోయే",
-  "profileChange": "ప్రొఫైల్ మార్చండి"
+  "profileChange": "ప్రొఫైల్ మార్చండి",
+  "menu": "మెను",
+  "employeeLoan": "ఉద్యోగి రుణం"
 }

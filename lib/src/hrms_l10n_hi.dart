@@ -2382,4 +2382,10 @@ class HrmsL10nHi extends HrmsL10n {
 
   @override
   String get profileChange => 'प्रोफ़ाइल बदलें';
+
+  @override
+  String get menu => 'मेनू';
+
+  @override
+  String get employeeLoan => 'कर्मचारी ऋण';
 }

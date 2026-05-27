@@ -776,5 +776,7 @@
   "noCompanyFound": "کوئی کمپنی نہیں ملی",
   "workedDaysOfTotal": "{worked}/{total} دن",
   "upcoming": "آنے والا",
-  "profileChange": "پروفائل تبدیل کریں"
+  "profileChange": "پروفائل تبدیل کریں",
+  "menu": "مینو",
+  "employeeLoan": "ملازم قرض"
 }

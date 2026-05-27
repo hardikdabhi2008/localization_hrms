@@ -776,5 +776,7 @@
   "noCompanyFound": "কোনো কোম্পানি পাওয়া যায়নি",
   "workedDaysOfTotal": "{worked}/{total} দিন",
   "upcoming": "আসন্ন",
-  "profileChange": "প্রোফাইল পরিবর্তন করুন"
+  "profileChange": "প্রোফাইল পরিবর্তন করুন",
+  "menu": "মেনু",
+  "employeeLoan": "কর্মচারী ঋণ"
 }

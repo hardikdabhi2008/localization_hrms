@@ -2383,4 +2383,10 @@ class HrmsL10nEn extends HrmsL10n {
 
   @override
   String get profileChange => 'Profile Change';
+
+  @override
+  String get menu => 'Menu';
+
+  @override
+  String get employeeLoan => 'Employee Loan';
 }

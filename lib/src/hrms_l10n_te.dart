@@ -2398,4 +2398,10 @@ class HrmsL10nTe extends HrmsL10n {
 
   @override
   String get profileChange => 'ప్రొఫైల్ మార్చండి';
+
+  @override
+  String get menu => 'మెను';
+
+  @override
+  String get employeeLoan => 'ఉద్యోగి రుణం';
 }
