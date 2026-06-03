@@ -2687,4 +2687,6 @@ class HrmsL10nEn extends HrmsL10n {
   String get somethingWentWrongOnServer => 'Something went wrong on the server. Please try again.';
   @override
   String get sessionExpired => 'Your session has expired. Please log in again.';
+  @override
+  String get official => 'Official';
 }

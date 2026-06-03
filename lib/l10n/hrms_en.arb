@@ -1994,5 +1994,7 @@
   "somethingWentWrongOnServer": "Something went wrong on the server. Please try again.",
   "@somethingWentWrongOnServer": { "description": "Server error message" },
   "sessionExpired": "Your session has expired. Please log in again.",
-  "@sessionExpired": { "description": "Session expired message" }
+  "@sessionExpired": { "description": "Session expired message" },
+  "official": "Official",
+  "@official": { "description": "Official label" }
 }

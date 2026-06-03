@@ -2709,4 +2709,6 @@ class HrmsL10nTa extends HrmsL10n {
   String get somethingWentWrongOnServer => 'சர்வரில் ஏதோ தவறு நடந்தது. மீண்டும் முயற்சிக்கவும்.';
   @override
   String get sessionExpired => 'உங்கள் அமர்வு காலாவதியானது. மீண்டும் உள்நுழையவும்.';
+  @override
+  String get official => 'அதிகாரப்பூர்வ';
 }

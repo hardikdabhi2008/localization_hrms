@@ -2688,4 +2688,6 @@ class HrmsL10nMr extends HrmsL10n {
   String get somethingWentWrongOnServer => 'सर्व्हरवर काहीतरी चुकले. कृपया पुन्हा प्रयत्न करा.';
   @override
   String get sessionExpired => 'तुमचे सत्र कालबाह्य झाले आहे. कृपया पुन्हा लॉग इन करा.';
+  @override
+  String get official => 'अधिकृत';
 }

@@ -2694,4 +2694,6 @@ class HrmsL10nKn extends HrmsL10n {
   String get somethingWentWrongOnServer => 'ಸರ್ವರ್‌ನಲ್ಲಿ ಏನೋ ತಪ್ಪಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.';
   @override
   String get sessionExpired => 'ನಿಮ್ಮ ಸೆಷನ್ ಅವಧಿ ಮೀರಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಲಾಗಿನ್ ಮಾಡಿ.';
+  @override
+  String get official => 'ಅಧಿಕೃತ';
 }

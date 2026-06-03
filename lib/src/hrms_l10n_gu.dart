@@ -2686,4 +2686,6 @@ class HrmsL10nGu extends HrmsL10n {
   String get somethingWentWrongOnServer => 'સર્વર પર કંઈક ખોટું થયું. કૃપા કરીને ફરી પ્રયાસ કરો.';
   @override
   String get sessionExpired => 'તમારું સત્ર સમાપ્ત થઈ ગયું છે. કૃપા કરીને ફરીથી લૉગ ઇન કરો.';
+  @override
+  String get official => 'સત્તાવાર';
 }

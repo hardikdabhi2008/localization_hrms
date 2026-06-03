@@ -2702,4 +2702,6 @@ class HrmsL10nTe extends HrmsL10n {
   String get somethingWentWrongOnServer => 'సర్వర్‌లో ఏదో తప్పు జరిగింది. దయచేసి మళ్ళీ ప్రయత్నించండి.';
   @override
   String get sessionExpired => 'మీర్ సెషన్ గడువు ముగిసింది. దయచేసి మళ్ళీ లాగిన్ అవ్వండి.';
+  @override
+  String get official => 'అధికారిక';
 }

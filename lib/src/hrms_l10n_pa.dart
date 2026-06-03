@@ -2689,4 +2689,6 @@ class HrmsL10nPa extends HrmsL10n {
   String get somethingWentWrongOnServer => 'ਸਰਵਰ \'ਤੇ ਕੁਝ ਗਲਤ ਹੋਇਆ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।';
   @override
   String get sessionExpired => 'ਤੁਹਾਡਾ ਸੈਸ਼ਨ ਖਤਮ ਹੋ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਲੌਗਇਨ ਕਰੋ।';
+  @override
+  String get official => 'ਅਧਿਕਾਰਿਕ';
 }

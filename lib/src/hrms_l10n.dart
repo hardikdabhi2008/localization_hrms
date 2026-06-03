@@ -4924,6 +4924,7 @@ abstract class HrmsL10n {
   String get appUnderMaintenance;
   String get somethingWentWrongOnServer;
   String get sessionExpired;
+  String get official;
 }
 
 class _HrmsL10nDelegate extends LocalizationsDelegate<HrmsL10n> {

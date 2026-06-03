@@ -1,4 +1,8 @@
-﻿## 1.0.21
+﻿## 1.0.22
+
+* Add `official` key ("Official") across all 11 language ARB files and Dart localization classes
+
+## 1.0.21
 
 * Add 110 new localization keys covering attendance, assets, leave ledger, reports, payroll, productivity, employee details, error messages, month abbreviations, and navigation labels across all 11 language ARB files and Dart localization classes
 

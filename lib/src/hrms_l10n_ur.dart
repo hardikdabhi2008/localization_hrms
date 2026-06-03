@@ -2691,4 +2691,6 @@ class HrmsL10nUr extends HrmsL10n {
   String get somethingWentWrongOnServer => 'سرور پر کچھ غلط ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔';
   @override
   String get sessionExpired => 'آپ کا سیشن ختم ہو گیا ہے۔ براہ کرم دوبارہ لاگ ان کریں۔';
+  @override
+  String get official => 'سرکاری';
 }
