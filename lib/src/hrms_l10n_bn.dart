@@ -2395,4 +2395,79 @@ class HrmsL10nBn extends HrmsL10n {
 
   @override
   String get employeeLoan => 'কর্মচারী ঋণ';
+
+  @override
+  String get appVersion => 'অ্যাপ ভার্সন : ';
+
+  @override
+  String get profileC => 'প্রোফাইল';
+
+  @override
+  String get system => 'সিস্টেম';
+
+  @override
+  String get workC => 'কাজ';
+
+  @override
+  String get editAccount => 'অ্যাকাউন্ট সম্পাদনা করুন';
+
+  @override
+  String get addAccount => 'অ্যাকাউন্ট যোগ করুন';
+
+  @override
+  String get saveAccount => 'অ্যাকাউন্ট সংরক্ষণ করুন';
+
+  @override
+  String get areYouSelect => 'আপনি কি এটিকে আপনার প্রাথমিক অ্যাকাউন্ট হিসেবে নির্বাচন করতে চান?';
+
+  @override
+  String get yourAccount => 'আপনার অ্যাকাউন্ট স্থায়ীভাবে মুছে ফেলা হবে। এই পদক্ষেপটি পূর্বাবস্থায় ফেরানো যাবে না।';
+
+  @override
+  String get noAddressAddedYet => 'এখনো কোনো ঠিকানা যোগ করা হয়নি';
+
+  @override
+  String get noContactAddedYet => 'এখনো কোনো যোগাযোগ যোগ করা হয়নি';
+
+  @override
+  String get noDocumentsAddedYet => 'এখনো কোনো নথি যোগ করা হয়নি';
+
+  @override
+  String get enterAddress => 'ঠিকানা লিখুন';
+
+  @override
+  String get enterGraduation => 'স্নাতক লিখুন';
+
+  @override
+  String get pinCode => 'পিন কোড';
+
+  @override
+  String get ten => 'ফাইল আপলোড করুন';
+
+  @override
+  String get dateOfJoining => 'যোগদানের তারিখ';
+
+  @override
+  String get helpsHrIdentifyYouEasily => 'এইচআর-কে আপনাকে সহজেই সনাক্ত করতে সাহায্য করে';
+
+  @override
+  String get basicIdentityContactInformation => 'মৌলিক পরিচয় ও যোগাযোগের তথ্য';
+
+  @override
+  String get yourAddressAndEmergencyContacts => 'আপনার ঠিকানা এবং জরুরি যোগাযোগ';
+
+  @override
+  String get areYouSelectAddress => 'আপনি কি এটিকে আপনার প্রাথমিক ঠিকানা হিসেবে নির্বাচন করতে চান?';
+
+  @override
+  String get perCentage => 'শতাংশ / CGPA';
+
+  @override
+  String get needMoreWord => 'আরও বিবরণ প্রয়োজন। কমপক্ষে তিনটি শব্দ দিন।';
+
+  @override
+  String get enter6Digit => 'অনুগ্রহ করে ৬ সংখ্যার OTP লিখুন।';
+
+  @override
+  String get appPreference => 'অ্যাপ পছন্দসমূহ';
 }

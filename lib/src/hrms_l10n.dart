@@ -4762,6 +4762,56 @@ abstract class HrmsL10n {
   String get menu;
 
   String get employeeLoan;
+
+  String get appVersion;
+
+  String get profileC;
+
+  String get system;
+
+  String get workC;
+
+  String get editAccount;
+
+  String get addAccount;
+
+  String get saveAccount;
+
+  String get areYouSelect;
+
+  String get yourAccount;
+
+  String get noAddressAddedYet;
+
+  String get noContactAddedYet;
+
+  String get noDocumentsAddedYet;
+
+  String get enterAddress;
+
+  String get enterGraduation;
+
+  String get pinCode;
+
+  String get ten;
+
+  String get dateOfJoining;
+
+  String get helpsHrIdentifyYouEasily;
+
+  String get basicIdentityContactInformation;
+
+  String get yourAddressAndEmergencyContacts;
+
+  String get areYouSelectAddress;
+
+  String get perCentage;
+
+  String get needMoreWord;
+
+  String get enter6Digit;
+
+  String get appPreference;
 }
 
 class _HrmsL10nDelegate extends LocalizationsDelegate<HrmsL10n> {

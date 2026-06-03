@@ -2401,4 +2401,79 @@ class HrmsL10nMl extends HrmsL10n {
 
   @override
   String get employeeLoan => 'ജീവനക്കാർ വായ്പ';
+
+  @override
+  String get appVersion => 'ആപ്പ് പതിപ്പ് : ';
+
+  @override
+  String get profileC => 'പ്രൊഫൈൽ';
+
+  @override
+  String get system => 'സിസ്റ്റം';
+
+  @override
+  String get workC => 'ജോലി';
+
+  @override
+  String get editAccount => 'അക്കൗണ്ട് എഡിറ്റ് ചെയ്യുക';
+
+  @override
+  String get addAccount => 'അക്കൗണ്ട് ചേർക്കുക';
+
+  @override
+  String get saveAccount => 'അക്കൗണ്ട് സംരക്ഷിക്കുക';
+
+  @override
+  String get areYouSelect => 'ഇത് നിങ്ങളുടെ പ്രാഥമിക അക്കൗണ്ടായി തിരഞ്ഞെടുക്കാൻ നിങ്ങൾക്ക് ഉറപ്പുണ്ടോ?';
+
+  @override
+  String get yourAccount => 'നിങ്ങളുടെ അക്കൗണ്ട് സ്ഥിരമായി നീക്കം ചെയ്യപ്പെടും. ഈ പ്രവർത്തനം പഴയപടിയാക്കാൻ കഴിയില്ല.';
+
+  @override
+  String get noAddressAddedYet => 'ഇതുവരെ വിലാസം ചേർത്തിട്ടില്ല';
+
+  @override
+  String get noContactAddedYet => 'ഇതുവരെ കോൺടാക്ട് ചേർത്തിട്ടില്ല';
+
+  @override
+  String get noDocumentsAddedYet => 'ഇതുവരെ രേഖകൾ ചേർത്തിട്ടില്ല';
+
+  @override
+  String get enterAddress => 'വിലാസം നൽകുക';
+
+  @override
+  String get enterGraduation => 'ബിരുദം നൽകുക';
+
+  @override
+  String get pinCode => 'പിൻ കോഡ്';
+
+  @override
+  String get ten => 'ഫയൽ അപ്‌ലോഡ് ചെയ്യുക';
+
+  @override
+  String get dateOfJoining => 'ചേർന്ന തീയതി';
+
+  @override
+  String get helpsHrIdentifyYouEasily => 'HR-ന് നിങ്ങളെ എളുപ്പത്തിൽ തിരിച്ചറിയാൻ സഹായിക്കുന്നു';
+
+  @override
+  String get basicIdentityContactInformation => 'അടിസ്ഥാന ഐഡന്റിറ്റിയും കോൺടാക്ട് വിവരങ്ങളും';
+
+  @override
+  String get yourAddressAndEmergencyContacts => 'നിങ്ങളുടെ വിലാസവും അടിയന്തര ബന്ധപ്പെടലും';
+
+  @override
+  String get areYouSelectAddress => 'ഇത് നിങ്ങളുടെ പ്രാഥമിക വിലാസമായി തിരഞ്ഞെടുക്കാൻ നിങ്ങൾക്ക് ഉറപ്പുണ്ടോ?';
+
+  @override
+  String get perCentage => 'ശതമാനം / CGPA';
+
+  @override
+  String get needMoreWord => 'കൂടുതൽ വിശദാംശങ്ങൾ ആവശ്യമാണ്. കുറഞ്ഞത് മൂന്ന് വാക്കുകൾ നൽകുക.';
+
+  @override
+  String get enter6Digit => 'ദയവായി 6 അക്ക OTP നൽകുക.';
+
+  @override
+  String get appPreference => 'ആപ്പ് മുൻഗണനകൾ';
 }

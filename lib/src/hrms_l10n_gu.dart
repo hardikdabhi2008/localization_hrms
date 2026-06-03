@@ -2388,4 +2388,79 @@ class HrmsL10nGu extends HrmsL10n {
 
   @override
   String get employeeLoan => 'કર્મચારી લોન';
+
+  @override
+  String get appVersion => 'એપ સંસ્કરણ : ';
+
+  @override
+  String get profileC => 'પ્રોફ઼ાઇલ';
+
+  @override
+  String get system => 'સિસ્ટમ';
+
+  @override
+  String get workC => 'કામ';
+
+  @override
+  String get editAccount => 'એકાઉન્ટ સંપાદિત કરો';
+
+  @override
+  String get addAccount => 'એકાઉન્ટ ઉમેરો';
+
+  @override
+  String get saveAccount => 'એકાઉન્ટ સાચવો';
+
+  @override
+  String get areYouSelect => 'શું તમે ખરેખર આ તમારા મુખ્ય એકાઉન્ટ તરીકે પસંદ કરવા ઇચ્છો છો?';
+
+  @override
+  String get yourAccount => 'તમારું એકાઉન્ટ કાયમ માટે દૂર કરવામાં આવશે. આ ક્રિયા પૂર્વવત કરી શકાશે નહીં.';
+
+  @override
+  String get noAddressAddedYet => 'હજુ સુધી કોઈ સરનામું ઉમેર્યું નથી';
+
+  @override
+  String get noContactAddedYet => 'હજુ સુધી કોઈ સંપર્ક ઉમેર્યો નથી';
+
+  @override
+  String get noDocumentsAddedYet => 'હજુ સુધી કોઈ દસ્તાવેજ ઉમેર્યા નથી';
+
+  @override
+  String get enterAddress => 'સરનામું દાખલ કરો';
+
+  @override
+  String get enterGraduation => 'સ્નાતક દાખલ કરો';
+
+  @override
+  String get pinCode => 'પિન કોડ';
+
+  @override
+  String get ten => 'ફ઼ાઇલ અપલોડ કરો';
+
+  @override
+  String get dateOfJoining => 'જોડાવાની તારીખ';
+
+  @override
+  String get helpsHrIdentifyYouEasily => 'HR ને તમને સરળતાથી ઓળખવામાં મદદ કરે છે';
+
+  @override
+  String get basicIdentityContactInformation => 'મૂળભૂત ઓળખ અને સંપર્ક માહિતી';
+
+  @override
+  String get yourAddressAndEmergencyContacts => 'તમારું સરનામું અને કટોકટી સંપર્ક';
+
+  @override
+  String get areYouSelectAddress => 'શું તમે ખરેખર આ તમારા મુખ્ય સરનામા તરીકે પસંદ કરવા ઇચ્છો છો?';
+
+  @override
+  String get perCentage => 'ટકાવારી / CGPA';
+
+  @override
+  String get needMoreWord => 'વધુ વિગત જરૂરી છે. ઓછામાં ઓછા ત્રણ શબ્દ દાખલ કરો.';
+
+  @override
+  String get enter6Digit => 'કૃપા કરીને 6 અંકનો OTP દાખલ કરો.';
+
+  @override
+  String get appPreference => 'એપ પ્રાધાન્યતાઓ';
 }

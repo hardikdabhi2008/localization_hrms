@@ -2391,4 +2391,79 @@ class HrmsL10nPa extends HrmsL10n {
 
   @override
   String get employeeLoan => 'ਕਰਮਚਾਰੀ ਕਰਜ਼ਾ';
+
+  @override
+  String get appVersion => 'ਐਪ ਵਰਜ਼ਨ : ';
+
+  @override
+  String get profileC => 'ਪ੍ਰੋਫਾਈਲ';
+
+  @override
+  String get system => 'ਸਿਸਟਮ';
+
+  @override
+  String get workC => 'ਕੰਮ';
+
+  @override
+  String get editAccount => 'ਖਾਤਾ ਸੰਪਾਦਿਤ ਕਰੋ';
+
+  @override
+  String get addAccount => 'ਖਾਤਾ ਜੋੜੋ';
+
+  @override
+  String get saveAccount => 'ਖਾਤਾ ਸੁਰੱਖਿਅਤ ਕਰੋ';
+
+  @override
+  String get areYouSelect => 'ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ ਤੇ ਇਸਨੂੰ ਆਪਣੇ ਮੁੱਖ ਖਾਤੇ ਵਜੋਂ ਚੁਣਨਾ ਚਾਹੁੰਦੇ ਹੋ?';
+
+  @override
+  String get yourAccount => 'ਤੁਹਾਡਾ ਖਾਤਾ ਸਥਾਈ ਤੌਰ ਤੇ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ। ਇਸ ਕਾਰਵਾਈ ਨੂੰ ਵਾਪਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।';
+
+  @override
+  String get noAddressAddedYet => 'ਅਜੇ ਤੱਕ ਕੋਈ ਪਤਾ ਨਹੀਂ ਜੋੜਿਆ ਗਿਆ';
+
+  @override
+  String get noContactAddedYet => 'ਅਜੇ ਤੱਕ ਕੋਈ ਸੰਪਰਕ ਨਹੀਂ ਜੋੜਿਆ ਗਿਆ';
+
+  @override
+  String get noDocumentsAddedYet => 'ਅਜੇ ਤੱਕ ਕੋਈ ਦਸਤਾਵੇਜ਼ ਨਹੀਂ ਜੋੜੇ ਗਏ';
+
+  @override
+  String get enterAddress => 'ਪਤਾ ਦਰਜ ਕਰੋ';
+
+  @override
+  String get enterGraduation => 'ਗ੍ਰੈਜੂਏਸ਼ਨ ਦਰਜ ਕਰੋ';
+
+  @override
+  String get pinCode => 'ਪਿਨ ਕੋਡ';
+
+  @override
+  String get ten => 'ਫਾਈਲ ਅਪਲੋਡ ਕਰੋ';
+
+  @override
+  String get dateOfJoining => 'ਸ਼ਾਮਲ ਹੋਣ ਦੀ ਮਿਤੀ';
+
+  @override
+  String get helpsHrIdentifyYouEasily => 'HR ਨੂੰ ਤੁਹਾਨੂੰ ਆਸਾਨੀ ਨਾਲ ਪਛਾਣਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ';
+
+  @override
+  String get basicIdentityContactInformation => 'ਮੂਲ ਪਛਾਣ ਅਤੇ ਸੰਪਰਕ ਜਾਣਕਾਰੀ';
+
+  @override
+  String get yourAddressAndEmergencyContacts => 'ਤੁਹਾਡਾ ਪਤਾ ਅਤੇ ਐਮਰਜੈਂਸੀ ਸੰਪਰਕ';
+
+  @override
+  String get areYouSelectAddress => 'ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ ਤੇ ਇਸਨੂੰ ਆਪਣੇ ਮੁੱਖ ਪਤੇ ਵਜੋਂ ਚੁਣਨਾ ਚਾਹੁੰਦੇ ਹੋ?';
+
+  @override
+  String get perCentage => 'ਪ੍ਰਤੀਸ਼ਤ / CGPA';
+
+  @override
+  String get needMoreWord => 'ਹੋਰ ਵੇਰਵੇ ਦੀ ਲੋੜ ਹੈ। ਘੱਟੋ ਘੱਟ ਤਿੰਨ ਸ਼ਬਦ ਦਰਜ ਕਰੋ।';
+
+  @override
+  String get enter6Digit => 'ਕਿਰਪਾ ਕਰਕੇ 6 ਅੰਕਾਂ ਦਾ OTP ਦਰਜ ਕਰੋ।';
+
+  @override
+  String get appPreference => 'ਐਪ ਤਰਜੀਹਾਂ';
 }

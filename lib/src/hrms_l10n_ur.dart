@@ -2393,4 +2393,79 @@ class HrmsL10nUr extends HrmsL10n {
 
   @override
   String get employeeLoan => 'ملازم قرض';
+
+  @override
+  String get appVersion => 'ایپ ورژن : ';
+
+  @override
+  String get profileC => 'پروفائل';
+
+  @override
+  String get system => 'نظام';
+
+  @override
+  String get workC => 'کام';
+
+  @override
+  String get editAccount => 'اکاؤنٹ ترمیم کریں';
+
+  @override
+  String get addAccount => 'اکاؤنٹ شامل کریں';
+
+  @override
+  String get saveAccount => 'اکاؤنٹ محفوظ کریں';
+
+  @override
+  String get areYouSelect => 'کیا آپ واقعی اسے اپنے بنیادی اکاؤنٹ کے طور پر منتخب کرنا چاہتے ہیں؟';
+
+  @override
+  String get yourAccount => 'آپ کا اکاؤنٹ مستقل طور پر ہٹا دیا جائے گا۔ یہ عمل واپس نہیں کیا جا سکتا۔';
+
+  @override
+  String get noAddressAddedYet => 'ابھی تک کوئی پتہ شامل نہیں کیا گیا';
+
+  @override
+  String get noContactAddedYet => 'ابھی تک کوئی رابطہ شامل نہیں کیا گیا';
+
+  @override
+  String get noDocumentsAddedYet => 'ابھی تک کوئی دستاویز شامل نہیں کی گئی';
+
+  @override
+  String get enterAddress => 'پتہ درج کریں';
+
+  @override
+  String get enterGraduation => 'گریجویشن درج کریں';
+
+  @override
+  String get pinCode => 'پن کوڈ';
+
+  @override
+  String get ten => 'فائل اپ لوڈ کریں';
+
+  @override
+  String get dateOfJoining => 'شمولیت کی تاریخ';
+
+  @override
+  String get helpsHrIdentifyYouEasily => 'HR کو آپ کو آسانی سے پہچاننے میں مدد کرتا ہے';
+
+  @override
+  String get basicIdentityContactInformation => 'بنیادی شناخت اور رابطہ معلومات';
+
+  @override
+  String get yourAddressAndEmergencyContacts => 'آپ کا پتہ اور ہنگامی رابطے';
+
+  @override
+  String get areYouSelectAddress => 'کیا آپ واقعی اسے اپنے بنیادی پتے کے طور پر منتخب کرنا چاہتے ہیں؟';
+
+  @override
+  String get perCentage => 'فیصد / CGPA';
+
+  @override
+  String get needMoreWord => 'مزید تفصیلات درکار ہیں۔ کم از کم تین الفاظ فراہم کریں۔';
+
+  @override
+  String get enter6Digit => 'براہ کرم 6 ہندسوں کا OTP درج کریں۔';
+
+  @override
+  String get appPreference => 'ایپ ترجیحات';
 }

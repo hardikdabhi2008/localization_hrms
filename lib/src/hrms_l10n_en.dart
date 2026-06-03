@@ -2389,4 +2389,79 @@ class HrmsL10nEn extends HrmsL10n {
 
   @override
   String get employeeLoan => 'Employee Loan';
+
+  @override
+  String get appVersion => 'App Version : ';
+
+  @override
+  String get profileC => 'PROFILE';
+
+  @override
+  String get system => 'SYSTEM';
+
+  @override
+  String get workC => 'WORK';
+
+  @override
+  String get editAccount => 'Edit Account';
+
+  @override
+  String get addAccount => 'Add Account';
+
+  @override
+  String get saveAccount => 'Save Account';
+
+  @override
+  String get areYouSelect => 'Are you sure you want to select this as your primary account?';
+
+  @override
+  String get yourAccount => 'Your account will be permanently removed. This action cannot be undone.';
+
+  @override
+  String get noAddressAddedYet => 'No Address Added Yet';
+
+  @override
+  String get noContactAddedYet => 'No Contact Added Yet';
+
+  @override
+  String get noDocumentsAddedYet => 'No Documents Added Yet';
+
+  @override
+  String get enterAddress => 'Enter Address';
+
+  @override
+  String get enterGraduation => 'Enter Graduation';
+
+  @override
+  String get pinCode => 'Pin Code';
+
+  @override
+  String get ten => 'Upload File';
+
+  @override
+  String get dateOfJoining => 'Date of Joining';
+
+  @override
+  String get helpsHrIdentifyYouEasily => 'Helps HR identify you easily';
+
+  @override
+  String get basicIdentityContactInformation => 'Basic identity and contact information';
+
+  @override
+  String get yourAddressAndEmergencyContacts => 'Your address and emergency contacts';
+
+  @override
+  String get areYouSelectAddress => 'Are you sure you want to select this as your primary address?';
+
+  @override
+  String get perCentage => 'Percentage/ CGPA';
+
+  @override
+  String get needMoreWord => 'More details needed. Provide at least three words.';
+
+  @override
+  String get enter6Digit => 'Please enter 6-digit OTPs.';
+
+  @override
+  String get appPreference => 'APP PREFERENCES';
 }

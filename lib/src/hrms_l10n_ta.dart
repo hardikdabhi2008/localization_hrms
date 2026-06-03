@@ -2411,4 +2411,79 @@ class HrmsL10nTa extends HrmsL10n {
 
   @override
   String get employeeLoan => 'பணியாளர் கடன்';
+
+  @override
+  String get appVersion => 'பயன்பாட்டு பதிப்பு : ';
+
+  @override
+  String get profileC => 'சுயவிவரம்';
+
+  @override
+  String get system => 'கணினி';
+
+  @override
+  String get workC => 'வேலை';
+
+  @override
+  String get editAccount => 'கணக்கை திருத்து';
+
+  @override
+  String get addAccount => 'கணக்கு சேர்';
+
+  @override
+  String get saveAccount => 'கணக்கை சேமி';
+
+  @override
+  String get areYouSelect => 'இதை உங்கள் முதன்மை கணக்காக தேர்ந்தெடுக்க விரும்புகிறீர்களா?';
+
+  @override
+  String get yourAccount => 'உங்கள் கணக்கு நிரந்தரமாக நீக்கப்படும். இந்த செயலை மீட்டெடுக்க முடியாது.';
+
+  @override
+  String get noAddressAddedYet => 'இன்னும் எந்த முகவரியும் சேர்க்கப்படவில்லை';
+
+  @override
+  String get noContactAddedYet => 'இன்னும் எந்த தொடர்பும் சேர்க்கப்படவில்லை';
+
+  @override
+  String get noDocumentsAddedYet => 'இன்னும் எந்த ஆவணமும் சேர்க்கப்படவில்லை';
+
+  @override
+  String get enterAddress => 'முகவரி உள்ளிடுக';
+
+  @override
+  String get enterGraduation => 'பட்டம் உள்ளிடுக';
+
+  @override
+  String get pinCode => 'பின் குறியீடு';
+
+  @override
+  String get ten => 'கோப்பை பதிவேற்றவும்';
+
+  @override
+  String get dateOfJoining => 'சேர்ந்த தேதி';
+
+  @override
+  String get helpsHrIdentifyYouEasily => 'HR உங்களை எளிதாக அடையாளம் காண உதவுகிறது';
+
+  @override
+  String get basicIdentityContactInformation => 'அடிப்படை அடையாளம் மற்றும் தொடர்பு தகவல்';
+
+  @override
+  String get yourAddressAndEmergencyContacts => 'உங்கள் முகவரி மற்றும் அவசர தொடர்புகள்';
+
+  @override
+  String get areYouSelectAddress => 'இதை உங்கள் முதன்மை முகவரியாக தேர்ந்தெடுக்க விரும்புகிறீர்களா?';
+
+  @override
+  String get perCentage => 'சதவீதம் / CGPA';
+
+  @override
+  String get needMoreWord => 'மேலும் விவரங்கள் தேவை. குறைந்தது மூன்று வார்த்தைகளை உள்ளிடவும்.';
+
+  @override
+  String get enter6Digit => 'தயவுசெய்து 6 இலக்க OTP ஐ உள்ளிடுக.';
+
+  @override
+  String get appPreference => 'ஆப் விருப்பங்கள்';
 }

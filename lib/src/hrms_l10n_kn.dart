@@ -2396,4 +2396,79 @@ class HrmsL10nKn extends HrmsL10n {
 
   @override
   String get employeeLoan => 'ಉದ್ಯೋಗಿ ಸಾಲ';
+
+  @override
+  String get appVersion => 'ಅಪ್ಲಿಕೇಶನ್ ಆವೃತ್ತಿ : ';
+
+  @override
+  String get profileC => 'ಪ್ರೊಫೈಲ್';
+
+  @override
+  String get system => 'ಸಿಸ್ಟಮ್';
+
+  @override
+  String get workC => 'ಕೆಲಸ';
+
+  @override
+  String get editAccount => 'ಖಾತೆ ಸಂಪಾದಿಸಿ';
+
+  @override
+  String get addAccount => 'ಖಾತೆ ಸೇರಿಸಿ';
+
+  @override
+  String get saveAccount => 'ಖಾತೆ ಉಳಿಸಿ';
+
+  @override
+  String get areYouSelect => 'ನೀವು ಇದನ್ನು ನಿಮ್ಮ ಪ್ರಾಥಮಿಕ ಖಾತೆಯಾಗಿ ಆಯ್ಕೆ ಮಾಡಲು ಖಚಿತವಾಗಿ ಬಯಸುತ್ತೀರಾ?';
+
+  @override
+  String get yourAccount => 'ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಶಾಶ್ವತವಾಗಿ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ. ಈ ಕ್ರಿಯೆಯನ್ನು ರದ್ದು ಮಾಡಲಾಗುವುದಿಲ್ಲ.';
+
+  @override
+  String get noAddressAddedYet => 'ಇನ್ನೂ ಯಾವುದೇ ವಿಳಾಸ ಸೇರಿಸಲಾಗಿಲ್ಲ';
+
+  @override
+  String get noContactAddedYet => 'ಇನ್ನೂ ಯಾವುದೇ ಸಂಪರ್ಕ ಸೇರಿಸಲಾಗಿಲ್ಲ';
+
+  @override
+  String get noDocumentsAddedYet => 'ಇನ್ನೂ ಯಾವುದೇ ದಾಖಲೆಗಳನ್ನು ಸೇರಿಸಲಾಗಿಲ್ಲ';
+
+  @override
+  String get enterAddress => 'ವಿಳಾಸ ನಮೂದಿಸಿ';
+
+  @override
+  String get enterGraduation => 'ಪದವಿ ನಮೂದಿಸಿ';
+
+  @override
+  String get pinCode => 'ಪಿನ್ ಕೋಡ್';
+
+  @override
+  String get ten => 'ಫೈಲ್ ಅಪ್ಲೋಡ್ ಮಾಡಿ';
+
+  @override
+  String get dateOfJoining => 'ಸೇರ್ಪಡೆ ದಿನಾಂಕ';
+
+  @override
+  String get helpsHrIdentifyYouEasily => 'ಎಚ್‌ಆರ್‌ಗೆ ನಿಮ್ಮನ್ನು ಸುಲಭವಾಗಿ ಗುರುತಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ';
+
+  @override
+  String get basicIdentityContactInformation => 'ಮೂಲ ಗುರುತು ಮತ್ತು ಸಂಪರ್ಕ ಮಾಹಿತಿ';
+
+  @override
+  String get yourAddressAndEmergencyContacts => 'ನಿಮ್ಮ ವಿಳಾಸ ಮತ್ತು ತುರ್ತು ಸಂಪರ್ಕಗಳು';
+
+  @override
+  String get areYouSelectAddress => 'ನೀವು ಇದನ್ನು ನಿಮ್ಮ ಪ್ರಾಥಮಿಕ ವಿಳಾಸವಾಗಿ ಆಯ್ಕೆ ಮಾಡಲು ಖಚಿತವಾಗಿ ಬಯಸುತ್ತೀರಾ?';
+
+  @override
+  String get perCentage => 'ಶೇಕಡಾ / CGPA';
+
+  @override
+  String get needMoreWord => 'ಹೆಚ್ಚಿನ ವಿವರ ಬೇಕು. ಕನಿಷ್ಠ ಮೂರು ಪದಗಳನ್ನು ನಮೂದಿಸಿ.';
+
+  @override
+  String get enter6Digit => 'ದಯವಿಟ್ಟು 6 ಅಂಕಿಯ OTP ನಮೂದಿಸಿ.';
+
+  @override
+  String get appPreference => 'ಅಪ್ಲಿಕೇಶನ್ ಆದ್ಯತೆಗಳು';
 }

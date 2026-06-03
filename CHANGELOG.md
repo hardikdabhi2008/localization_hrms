@@ -1,4 +1,8 @@
-﻿## 1.0.19
+﻿## 1.0.20
+
+* Add 25 new localization keys (`appVersion`, `profileC`, `system`, `workC`, `editAccount`, `addAccount`, `saveAccount`, `areYouSelect`, `yourAccount`, `noAddressAddedYet`, `noContactAddedYet`, `noDocumentsAddedYet`, `enterAddress`, `enterGraduation`, `pinCode`, `ten`, `dateOfJoining`, `helpsHrIdentifyYouEasily`, `basicIdentityContactInformation`, `yourAddressAndEmergencyContacts`, `areYouSelectAddress`, `perCentage`, `needMoreWord`, `enter6Digit`, `appPreference`) across all 11 language ARB files and Dart localization classes
+
+## 1.0.19
 
 * Add `menu` key ("Menu") and `employeeLoan` key ("Employee Loan") across all 11 language ARB files and Dart localization classes
 
