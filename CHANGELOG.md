@@ -1,4 +1,8 @@
-﻿## 1.0.20
+﻿## 1.0.21
+
+* Add 110 new localization keys covering attendance, assets, leave ledger, reports, payroll, productivity, employee details, error messages, month abbreviations, and navigation labels across all 11 language ARB files and Dart localization classes
+
+## 1.0.20
 
 * Add 25 new localization keys (`appVersion`, `profileC`, `system`, `workC`, `editAccount`, `addAccount`, `saveAccount`, `areYouSelect`, `yourAccount`, `noAddressAddedYet`, `noContactAddedYet`, `noDocumentsAddedYet`, `enterAddress`, `enterGraduation`, `pinCode`, `ten`, `dateOfJoining`, `helpsHrIdentifyYouEasily`, `basicIdentityContactInformation`, `yourAddressAndEmergencyContacts`, `areYouSelectAddress`, `perCentage`, `needMoreWord`, `enter6Digit`, `appPreference`) across all 11 language ARB files and Dart localization classes
 

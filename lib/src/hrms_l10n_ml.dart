@@ -2476,4 +2476,227 @@ class HrmsL10nMl extends HrmsL10n {
 
   @override
   String get appPreference => 'ആപ്പ് മുൻഗണനകൾ';
+
+  @override
+  String get employeeAttendance => 'ജീവനക്കാരുടെ ഹാജർ';
+  @override
+  String get noAttendanceDataFound => 'ഹാജർ ഡേറ്റ ഒന്നും കണ്ടെത്തിയില്ല';
+  @override
+  String get all => 'എല്ലാം';
+  @override
+  String get pendingApprovals => 'തീർപ്പാക്കാത്ത അനുമതികൾ';
+  @override
+  String get attendanceInsights => 'ഹാജർ ഇൻസൈറ്റുകൾ';
+  @override
+  String get departmentDistribution => 'വകുപ്പ് വിതരണം';
+  @override
+  String get upcomingEvents => 'വരാനിരിക്കുന്ന പരിപാടികൾ';
+  @override
+  String get noUpcomingEvents => 'വരാനിരിക്കുന്ന പരിപാടികൾ ഒന്നുമില്ല';
+  @override
+  String get employeeLeave => 'ജീവനക്കാരുടെ അവധി';
+  @override
+  String get noEmployeeLeaveDataFound => 'ജീവനക്കാരുടെ അവധി ഡേറ്റ ഒന്നും കണ്ടെത്തിയില്ല';
+  @override
+  String get noAssetCategoriesFound => 'ആസ്തി വിഭാഗങ്ങൾ ഒന്നും കണ്ടെത്തിയില്ല';
+  @override
+  String get assetTag => 'ആസ്തി ടാഗ്';
+  @override
+  String get assetCode => 'ആസ്തി കോഡ്';
+  @override
+  String get status => 'നില';
+  @override
+  String get brand => 'ബ്രാൻഡ്';
+  @override
+  String get model => 'മോഡൽ';
+  @override
+  String get serialNo => 'സീരിയൽ നം';
+  @override
+  String get vendor => 'വിൽപ്പനക്കാരൻ';
+  @override
+  String get purchaseValue => 'വാങ്ങൽ മൂല്യം';
+  @override
+  String get jan => 'ജനു';
+  @override
+  String get feb => 'ഫെബ്';
+  @override
+  String get mar => 'മാർ';
+  @override
+  String get apr => 'ഏപ്രി';
+  @override
+  String get mayMonth => 'മേയ്';
+  @override
+  String get jun => 'ജൂൺ';
+  @override
+  String get jul => 'ജൂലൈ';
+  @override
+  String get aug => 'ഓഗ';
+  @override
+  String get sep => 'സെപ്';
+  @override
+  String get oct => 'ഒക്ടോ';
+  @override
+  String get nov => 'നവം';
+  @override
+  String get dec => 'ഡിസം';
+  @override
+  String get breakdown => 'വിശദവിവരം';
+  @override
+  String get salaries => 'ശമ്പളങ്ങൾ';
+  @override
+  String get baseFixedPay => 'അടിസ്ഥാന + നിശ്ചിത വേതനം';
+  @override
+  String get noProductivityDataForToday => 'ഇന്നത്തേക്ക് ഉൽപ്പാദനക്ഷമത ഡേറ്റ ഒന്നുമില്ല.';
+  @override
+  String get noActivityDataForThisSource => 'ഈ ഉറവിടത്തിന് പ്രവർത്തന ഡേറ്റ ഒന്നുമില്ല.';
+  @override
+  String get employeeDetails => 'ജീവനക്കാരന്റെ വിവരങ്ങൾ';
+  @override
+  String get noAddressOnRecord => 'രേഖകളിൽ വിലാസം ഒന്നുമില്ല';
+  @override
+  String get noEmergencyContactsOnRecord => 'രേഖകളിൽ അടിയന്തര ബന്ധപ്പെടൽ വിവരങ്ങൾ ഒന്നുമില്ല';
+  @override
+  String get grade => 'ഗ്രേഡ്';
+  @override
+  String get pan => 'PAN';
+  @override
+  String get addEmployee => 'ജീവനക്കാരനെ ചേർക്കുക';
+  @override
+  String get email => 'ഇമെയിൽ';
+  @override
+  String get leaveAdjustment => 'അവധി ക്രമീകരണം';
+  @override
+  String get addOrDeductBalance => 'കാരണം സഹിതം ബാലൻസിൽ ചേർക്കുക അല്ലെങ്കിൽ കിഴിക്കുക';
+  @override
+  String get noLeaveTypesAvailable => 'അവധി തരങ്ങൾ ഒന്നും ലഭ്യമല്ല';
+  @override
+  String get adjustmentAmount => 'ക്രമീകരണ തുക';
+  @override
+  String get useNegativeToDeduct => 'കിഴിക്കാൻ നെഗറ്റീവ് മൂല്യം ഉപയോഗിക്കുക (ഉദാ. -2)';
+  @override
+  String get approvedDate => 'അനുമതി തീയതി';
+  @override
+  String get adjustmentHistory => 'ക്രമീകരണ ചരിത്രം';
+  @override
+  String get noAdjustmentsYet => 'ഇതുവരെ ക്രമീകരണങ്ങൾ ഒന്നുമില്ല';
+  @override
+  String get addAdjustment => 'ക്രമീകരണം ചേർക്കുക';
+  @override
+  String get leaveLedger => 'അവധി ലെഡ്ജർ';
+  @override
+  String get allTypes => 'എല്ലാ തരങ്ങളും';
+  @override
+  String get filterByLeaveType => 'അവധി തരം അനുസരിച്ച് ഫിൽട്ടർ ചെയ്യുക';
+  @override
+  String get adjust => 'ക്രമീകരിക്കുക';
+  @override
+  String get carryForwardCredit => 'കാരി ഫോർവേഡ് ക്രെഡിറ്റ്';
+  @override
+  String get annualAccrual => 'വാർഷിക സ്വരൂപണം';
+  @override
+  String get leaveUsed => 'ഉപയോഗിച്ച അവധി';
+  @override
+  String get manualAdjustment => 'മാനുവൽ ക്രമീകരണം';
+  @override
+  String get creditAdjustment => 'ക്രെഡിറ്റ് ക്രമീകരണം';
+  @override
+  String get balanceLapsed => 'ബാലൻസ് കാലഹരണപ്പെട്ടു';
+  @override
+  String get attendanceSummaryReport => 'ഹാജർ സംഗ്രഹ റിപ്പോർട്ട്';
+  @override
+  String get missedPunchReport => 'നഷ്ടമായ പഞ്ച് റിപ്പോർട്ട്';
+  @override
+  String get attendanceReconciliationReport => 'ഹാജർ അനുരഞ്ജന റിപ്പോർട്ട്';
+  @override
+  String get workForceReport => 'വർക്ക് ഫോഴ്സ് റിപ്പോർട്ട്';
+  @override
+  String get attritionReport => 'അട്രിഷൻ റിപ്പോർട്ട്';
+  @override
+  String get anniversaryReport => 'വാർഷികോത്സവ റിപ്പോർട്ട്';
+  @override
+  String get familyDetails => 'കുടുംബ വിവരങ്ങൾ';
+  @override
+  String get transitionwiseHeadcount => 'ട്രാൻസിഷൻ അനുസരിച്ചുള്ള ജീവനക്കാർ എണ്ണം';
+  @override
+  String get userAccessRights => 'ഉപയോക്തൃ ആക്സസ് അവകാശങ്ങൾ';
+  @override
+  String get loanReports => 'വായ്പ റിപ്പോർട്ടുകൾ';
+  @override
+  String get leaveBalanceReport => 'അവധി ബാലൻസ് റിപ്പോർട്ട്';
+  @override
+  String get payrollReport => 'ശമ്പള പട്ടിക റിപ്പോർട്ട്';
+  @override
+  String get reimbursementsReport => 'പ്രതിഫല റിപ്പോർട്ട്';
+  @override
+  String get professionalTaxReport => 'പ്രൊഫഷണൽ ടാക്സ് റിപ്പോർട്ട്';
+  @override
+  String get favourites => 'പ്രിയപ്പെട്ടവ';
+  @override
+  String get noReportsFound => 'റിപ്പോർട്ടുകൾ ഒന്നും കണ്ടെത്തിയില്ല.';
+  @override
+  String get failedToLoadReport => 'റിപ്പോർട്ട് ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു. വീണ്ടും ശ്രമിക്കുക.';
+  @override
+  String get viewAndDownloadPayslips => 'നിങ്ങളുടെ മാസ വേതന സ്ലിപ്പുകൾ കാണുക, ഡൗൺലോഡ് ചെയ്യുക';
+  @override
+  String get declareInvestmentsSection80C => 'Section 80C-ൽ നിക്ഷേപങ്ങൾ പ്രഖ്യാപിക്കുക';
+  @override
+  String stepOfTotalSteps(int step, int totalSteps) => '$totalSteps-ൽ $step-ാം ഘട്ടം';
+  @override
+  String get permissionDenied => 'അനുമതി നിരസിച്ചു';
+  @override
+  String get locationPermissionDenied => 'ലൊക്കേഷൻ അനുമതി നിരസിച്ചു.';
+  @override
+  String get outsideOfficeRadar => 'ഓഫീസ് റഡാറിന് പുറത്ത്';
+  @override
+  String get failedToStartPunch => 'പഞ്ച് ആരംഭിക്കുന്നതിൽ പരാജയപ്പെട്ടു';
+  @override
+  String get punchFailed => 'പഞ്ച് പരാജയപ്പെട്ടു';
+  @override
+  String get thisFeatureOnlyAndroid => 'ഈ സവിശേഷത Android ഉപകരണങ്ങളിൽ മാത്രമേ ലഭ്യമാകൂ.';
+  @override
+  String get noAppForegroundActivity => 'തിരഞ്ഞെടുത്ത ഷിഫ്റ്റ് വിൻഡോയ്ക്കുള്ളിൽ ആപ്പ് ഫോർഗ്രൗണ്ട് പ്രവർത്തനം ഒന്നും കണ്ടെത്തിയില്ല.';
+  @override
+  String get usageAccessPermission => 'ഈ ഉപകരണത്തിൽ ഏതൊക്കെ ആപ്പുകൾ ഉപയോഗിക്കുന്നുണ്ടെന്ന് കാണാൻ ഞങ്ങൾക്ക് ഉപയോഗ ആക്സസ് അനുമതി ആവശ്യമാണ്.';
+  @override
+  String get androidBackgroundWarning => 'ചില Android ഉപകരണങ്ങൾ പശ്ചാത്തല പ്രവർത്തനം ശക്തമായി പരിമിതപ്പെടുത്തുന്നു. നിങ്ങളുടെ ഉപയോഗ സ്നാപ്ഷോട്ടുകൾ അപ്ഡേറ്റ് ആകുന്നത് നിലച്ചാൽ, crew.inc-ന്റെ ബാറ്ററി ഒപ്റ്റിമൈസേഷൻ പ്രവർത്തനരഹിതമാക്കുക.';
+  @override
+  String get noInternetConnectionCheck => 'ഇന്റർനെറ്റ് കണക്ഷൻ ഇല്ല. നിങ്ങളുടെ നെറ്റ്‌വർക്ക് പരിശോധിക്കുക.';
+  @override
+  String get newJoiners => 'പുതിയ ജോലിക്കാർ';
+  @override
+  String get presentToday => 'ഇന്ന് ഹാജർ';
+  @override
+  String get requestApproved => 'അഭ്യർത്ഥന അനുമതി നൽകി';
+  @override
+  String get requestRejected => 'അഭ്യർത്ഥന നിരസിച്ചു';
+  @override
+  String get compOffBalance => 'കോംപ്-ഓഫ് ബാലൻസ്';
+  @override
+  String get home => 'ഹോം';
+  @override
+  String get employees => 'ജീവനക്കാർ';
+  @override
+  String get crewInc => 'crew.inc';
+  @override
+  String get share => 'പങ്കിടുക';
+  @override
+  String get noInternetConnectionPlease => 'ഇന്റർനെറ്റ് കണക്ഷൻ ഇല്ല. നിങ്ങളുടെ നെറ്റ്‌വർക്ക് പരിശോധിക്കുക.';
+  @override
+  String get requestTimedOut => 'അഭ്യർത്ഥനയ്ക്ക് സമയപരിധി കഴിഞ്ഞു. വീണ്ടും ശ്രമിക്കുക.';
+  @override
+  String get unauthorized => 'അനധികൃതം';
+  @override
+  String get invalidRequest => 'അസാധുവായ അഭ്യർത്ഥന. നിങ്ങളുടെ ഇൻപുട്ട് പരിശോധിക്കുക.';
+  @override
+  String get resourceNotFound => 'അഭ്യർത്ഥിച്ച വിഭവം കണ്ടെത്തിയില്ല.';
+  @override
+  String get conflictOccurred => 'ഒരു വൈരുദ്ധ്യം ഉണ്ടായി. വീണ്ടും ശ്രമിക്കുക.';
+  @override
+  String get tooManyRequests => 'അഭ്യർത്ഥനകൾ വളരെ അധികമായി. പതുക്കെ ശ്രമിക്കുക.';
+  @override
+  String get appUnderMaintenance => 'ആപ്പ് അറ്റകുറ്റ പണിക്കിടയിലാണ്';
+  @override
+  String get somethingWentWrongOnServer => 'സെർവറിൽ എന്തോ തകരാർ സംഭവിച്ചു. വീണ്ടും ശ്രമിക്കുക.';
+  @override
+  String get sessionExpired => 'നിങ്ങളുടെ സെഷൻ കാലഹരണപ്പെട്ടു. വീണ്ടും ലോഗിൻ ചെയ്യുക.';
 }

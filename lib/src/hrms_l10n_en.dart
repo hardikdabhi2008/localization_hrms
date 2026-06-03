@@ -2464,4 +2464,227 @@ class HrmsL10nEn extends HrmsL10n {
 
   @override
   String get appPreference => 'APP PREFERENCES';
+
+  @override
+  String get employeeAttendance => 'Employee Attendance';
+  @override
+  String get noAttendanceDataFound => 'No attendance data found';
+  @override
+  String get all => 'All';
+  @override
+  String get pendingApprovals => 'Pending Approvals';
+  @override
+  String get attendanceInsights => 'Attendance Insights';
+  @override
+  String get departmentDistribution => 'Department Distribution';
+  @override
+  String get upcomingEvents => 'Upcoming Events';
+  @override
+  String get noUpcomingEvents => 'No upcoming events';
+  @override
+  String get employeeLeave => 'Employee Leave';
+  @override
+  String get noEmployeeLeaveDataFound => 'No employee leave data found';
+  @override
+  String get noAssetCategoriesFound => 'No asset categories found';
+  @override
+  String get assetTag => 'Asset Tag';
+  @override
+  String get assetCode => 'Asset Code';
+  @override
+  String get status => 'Status';
+  @override
+  String get brand => 'Brand';
+  @override
+  String get model => 'Model';
+  @override
+  String get serialNo => 'Serial No';
+  @override
+  String get vendor => 'Vendor';
+  @override
+  String get purchaseValue => 'Purchase Value';
+  @override
+  String get jan => 'Jan';
+  @override
+  String get feb => 'Feb';
+  @override
+  String get mar => 'Mar';
+  @override
+  String get apr => 'Apr';
+  @override
+  String get mayMonth => 'May';
+  @override
+  String get jun => 'Jun';
+  @override
+  String get jul => 'Jul';
+  @override
+  String get aug => 'Aug';
+  @override
+  String get sep => 'Sep';
+  @override
+  String get oct => 'Oct';
+  @override
+  String get nov => 'Nov';
+  @override
+  String get dec => 'Dec';
+  @override
+  String get breakdown => 'BREAKDOWN';
+  @override
+  String get salaries => 'Salaries';
+  @override
+  String get baseFixedPay => 'Base + fixed pay';
+  @override
+  String get noProductivityDataForToday => 'No productivity data for today.';
+  @override
+  String get noActivityDataForThisSource => 'No activity data for this source.';
+  @override
+  String get employeeDetails => 'Employee Details';
+  @override
+  String get noAddressOnRecord => 'No address on record';
+  @override
+  String get noEmergencyContactsOnRecord => 'No emergency contacts on record';
+  @override
+  String get grade => 'Grade';
+  @override
+  String get pan => 'PAN';
+  @override
+  String get addEmployee => 'Add Employee';
+  @override
+  String get email => 'Email';
+  @override
+  String get leaveAdjustment => 'Leave Adjustment';
+  @override
+  String get addOrDeductBalance => 'Add or deduct from balance with a reason';
+  @override
+  String get noLeaveTypesAvailable => 'No leave types available';
+  @override
+  String get adjustmentAmount => 'Adjustment Amount';
+  @override
+  String get useNegativeToDeduct => 'Use negative value to deduct (e.g. -2)';
+  @override
+  String get approvedDate => 'Approved Date';
+  @override
+  String get adjustmentHistory => 'ADJUSTMENT HISTORY';
+  @override
+  String get noAdjustmentsYet => 'No adjustments yet';
+  @override
+  String get addAdjustment => 'Add Adjustment';
+  @override
+  String get leaveLedger => 'Leave Ledger';
+  @override
+  String get allTypes => 'All Types';
+  @override
+  String get filterByLeaveType => 'Filter by Leave Type';
+  @override
+  String get adjust => 'Adjust';
+  @override
+  String get carryForwardCredit => 'Carry forward credit';
+  @override
+  String get annualAccrual => 'Annual accrual';
+  @override
+  String get leaveUsed => 'Leave used';
+  @override
+  String get manualAdjustment => 'Manual adjustment';
+  @override
+  String get creditAdjustment => 'Credit adjustment';
+  @override
+  String get balanceLapsed => 'Balance lapsed';
+  @override
+  String get attendanceSummaryReport => 'Attendance Summary Report';
+  @override
+  String get missedPunchReport => 'Missed Punch Report';
+  @override
+  String get attendanceReconciliationReport => 'Attendance Reconciliation Report';
+  @override
+  String get workForceReport => 'Work Force Report';
+  @override
+  String get attritionReport => 'Attrition Report';
+  @override
+  String get anniversaryReport => 'Anniversary Report';
+  @override
+  String get familyDetails => 'Family Details';
+  @override
+  String get transitionwiseHeadcount => 'Transitionwise Headcount';
+  @override
+  String get userAccessRights => 'User Access Rights';
+  @override
+  String get loanReports => 'Loan Reports';
+  @override
+  String get leaveBalanceReport => 'Leave Balance Report';
+  @override
+  String get payrollReport => 'Payroll Report';
+  @override
+  String get reimbursementsReport => 'Reimbursements Report';
+  @override
+  String get professionalTaxReport => 'Professional Tax Report';
+  @override
+  String get favourites => 'Favourites';
+  @override
+  String get noReportsFound => 'No reports found.';
+  @override
+  String get failedToLoadReport => 'Failed to load report. Please try again.';
+  @override
+  String get viewAndDownloadPayslips => 'View and download your monthly payslips';
+  @override
+  String get declareInvestmentsSection80C => 'Declare investments in Section 80C';
+  @override
+  String stepOfTotalSteps(int step, int totalSteps) => 'Step $step of $totalSteps';
+  @override
+  String get permissionDenied => 'Permission Denied';
+  @override
+  String get locationPermissionDenied => 'Location permission denied.';
+  @override
+  String get outsideOfficeRadar => 'Outside Office Radar';
+  @override
+  String get failedToStartPunch => 'Failed to start punch';
+  @override
+  String get punchFailed => 'Punch failed';
+  @override
+  String get thisFeatureOnlyAndroid => 'This feature is available only on Android devices.';
+  @override
+  String get noAppForegroundActivity => 'No app foreground activity was found inside the selected shift window.';
+  @override
+  String get usageAccessPermission => 'We need Usage Access permission to see which apps are used on this device.';
+  @override
+  String get androidBackgroundWarning => 'Some Android devices limit background work aggressively. If your usage snapshots stop updating, disable battery optimization for crew.inc.';
+  @override
+  String get noInternetConnectionCheck => 'No internet connection. Please check your network.';
+  @override
+  String get newJoiners => 'New Joiners';
+  @override
+  String get presentToday => 'Present Today';
+  @override
+  String get requestApproved => 'Request approved';
+  @override
+  String get requestRejected => 'Request rejected';
+  @override
+  String get compOffBalance => 'Comp-Off Balance';
+  @override
+  String get home => 'Home';
+  @override
+  String get employees => 'Employees';
+  @override
+  String get crewInc => 'crew.inc';
+  @override
+  String get share => 'Share';
+  @override
+  String get noInternetConnectionPlease => 'No internet connection. Please check your network.';
+  @override
+  String get requestTimedOut => 'Request timed out. Please try again.';
+  @override
+  String get unauthorized => 'Unauthorized';
+  @override
+  String get invalidRequest => 'Invalid request. Please check your input.';
+  @override
+  String get resourceNotFound => 'The requested resource was not found.';
+  @override
+  String get conflictOccurred => 'A conflict occurred. Please try again.';
+  @override
+  String get tooManyRequests => 'Too many requests. Please slow down and try again.';
+  @override
+  String get appUnderMaintenance => 'App is under maintenance';
+  @override
+  String get somethingWentWrongOnServer => 'Something went wrong on the server. Please try again.';
+  @override
+  String get sessionExpired => 'Your session has expired. Please log in again.';
 }

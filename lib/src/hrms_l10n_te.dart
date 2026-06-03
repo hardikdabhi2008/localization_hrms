@@ -2479,4 +2479,227 @@ class HrmsL10nTe extends HrmsL10n {
 
   @override
   String get appPreference => 'యాప్ ప్రాధాన్యతలు';
+
+  @override
+  String get employeeAttendance => 'ఉద్యోగి హాజరు';
+  @override
+  String get noAttendanceDataFound => 'హాజరు డేటా కనుగొనబడలేదు';
+  @override
+  String get all => 'అన్నీ';
+  @override
+  String get pendingApprovals => 'పెండింగ్ ఆమోదాలు';
+  @override
+  String get attendanceInsights => 'హాజరు అంతర్దృష్టులు';
+  @override
+  String get departmentDistribution => 'విభాగ పంపిణీ';
+  @override
+  String get upcomingEvents => 'రాబోయే కార్యక్రమాలు';
+  @override
+  String get noUpcomingEvents => 'రాబోయే కార్యక్రమాలు లేవు';
+  @override
+  String get employeeLeave => 'ఉద్యోగి సెలవు';
+  @override
+  String get noEmployeeLeaveDataFound => 'ఉద్యోగి సెలవు డేటా కనుగొనబడలేదు';
+  @override
+  String get noAssetCategoriesFound => 'ఆస్తి వర్గాలు కనుగొనబడలేదు';
+  @override
+  String get assetTag => 'ఆస్తి ట్యాగ్';
+  @override
+  String get assetCode => 'ఆస్తి కోడ్';
+  @override
+  String get status => 'స్థితి';
+  @override
+  String get brand => 'బ్రాండ్';
+  @override
+  String get model => 'మోడల్';
+  @override
+  String get serialNo => 'సీరియల్ నం';
+  @override
+  String get vendor => 'విక్రేత';
+  @override
+  String get purchaseValue => 'కొనుగోలు విలువ';
+  @override
+  String get jan => 'జన';
+  @override
+  String get feb => 'ఫిబ్ర';
+  @override
+  String get mar => 'మార్చి';
+  @override
+  String get apr => 'ఏప్రి';
+  @override
+  String get mayMonth => 'మే';
+  @override
+  String get jun => 'జూన్';
+  @override
+  String get jul => 'జులై';
+  @override
+  String get aug => 'ఆగ';
+  @override
+  String get sep => 'సెప్ట';
+  @override
+  String get oct => 'అక్టో';
+  @override
+  String get nov => 'నవం';
+  @override
+  String get dec => 'డిసె';
+  @override
+  String get breakdown => 'విభజన';
+  @override
+  String get salaries => 'జీతాలు';
+  @override
+  String get baseFixedPay => 'బేస్ + ఫిక్స్డ్ వేతనం';
+  @override
+  String get noProductivityDataForToday => 'ఈరోజు కోసం ఉత్పాదకత డేటా లేదు.';
+  @override
+  String get noActivityDataForThisSource => 'ఈ మూలానికి కార్యాచరణ డేటా లేదు.';
+  @override
+  String get employeeDetails => 'ఉద్యోగి వివరాలు';
+  @override
+  String get noAddressOnRecord => 'రికార్డులో చిరునామా లేదు';
+  @override
+  String get noEmergencyContactsOnRecord => 'రికార్డులో అత్యవసర సంప్రదింపులు లేవు';
+  @override
+  String get grade => 'గ్రేడ్';
+  @override
+  String get pan => 'PAN';
+  @override
+  String get addEmployee => 'ఉద్యోగిని జోడించు';
+  @override
+  String get email => 'ఇమెయిల్';
+  @override
+  String get leaveAdjustment => 'సెలవు సర్దుబాటు';
+  @override
+  String get addOrDeductBalance => 'కారణంతో బ్యాలెన్స్ జోడించండి లేదా తీసివేయండి';
+  @override
+  String get noLeaveTypesAvailable => 'సెలవు రకాలు అందుబాటులో లేవు';
+  @override
+  String get adjustmentAmount => 'సర్దుబాటు మొత్తం';
+  @override
+  String get useNegativeToDeduct => 'తీసివేయడానికి ప్రతికూల విలువను ఉపయోగించండి (ఉదా. -2)';
+  @override
+  String get approvedDate => 'ఆమోదించిన తేదీ';
+  @override
+  String get adjustmentHistory => 'సర్దుబాటు చరిత్ర';
+  @override
+  String get noAdjustmentsYet => 'ఇంకా సర్దుబాట్లు లేవు';
+  @override
+  String get addAdjustment => 'సర్దుబాటు జోడించు';
+  @override
+  String get leaveLedger => 'సెలవు లెడ్జర్';
+  @override
+  String get allTypes => 'అన్ని రకాలు';
+  @override
+  String get filterByLeaveType => 'సెలవు రకం ద్వారా వడపోత';
+  @override
+  String get adjust => 'సర్దుబాటు చేయి';
+  @override
+  String get carryForwardCredit => 'క్యారీ ఫార్వర్డ్ క్రెడిట్';
+  @override
+  String get annualAccrual => 'వార్షిక సంచయం';
+  @override
+  String get leaveUsed => 'ఉపయోగించిన సెలవు';
+  @override
+  String get manualAdjustment => 'మాన్యువల్ సర్దుబాటు';
+  @override
+  String get creditAdjustment => 'క్రెడిట్ సర్దుబాటు';
+  @override
+  String get balanceLapsed => 'బ్యాలెన్స్ కాలపరిమితి ముగిసింది';
+  @override
+  String get attendanceSummaryReport => 'హాజరు సారాంశ నివేదిక';
+  @override
+  String get missedPunchReport => 'మిస్సైన పంచ్ నివేదిక';
+  @override
+  String get attendanceReconciliationReport => 'హాజరు సమన్వయ నివేదిక';
+  @override
+  String get workForceReport => 'వర్క్ ఫోర్స్ నివేదిక';
+  @override
+  String get attritionReport => 'అట్రిషన్ నివేదిక';
+  @override
+  String get anniversaryReport => 'వార్షికోత్సవ నివేదిక';
+  @override
+  String get familyDetails => 'కుటుంబ వివరాలు';
+  @override
+  String get transitionwiseHeadcount => 'మార్పు వారీగా హెడ్‌కౌంట్';
+  @override
+  String get userAccessRights => 'వినియోగదారు యాక్సెస్ హక్కులు';
+  @override
+  String get loanReports => 'రుణ నివేదికలు';
+  @override
+  String get leaveBalanceReport => 'సెలవు బ్యాలెన్స్ నివేదిక';
+  @override
+  String get payrollReport => 'పేరోల్ నివేదిక';
+  @override
+  String get reimbursementsReport => 'తిరిగి చెల్లింపుల నివేదిక';
+  @override
+  String get professionalTaxReport => 'వృత్తి పన్ను నివేదిక';
+  @override
+  String get favourites => 'ఇష్టమైనవి';
+  @override
+  String get noReportsFound => 'నివేదికలు కనుగొనబడలేదు.';
+  @override
+  String get failedToLoadReport => 'నివేదిక లోడ్ చేయడం విఫలమైంది. దయచేసి మళ్ళీ ప్రయత్నించండి.';
+  @override
+  String get viewAndDownloadPayslips => 'మీ నెలవారీ పే స్లిప్‌లను చూడండి మరియు డౌన్‌లోడ్ చేయండి';
+  @override
+  String get declareInvestmentsSection80C => 'సెక్షన్ 80C లో పెట్టుబడులు ప్రకటించండి';
+  @override
+  String stepOfTotalSteps(int step, int totalSteps) => '$totalSteps లో $step దశ';
+  @override
+  String get permissionDenied => 'అనుమతి నిరాకరించబడింది';
+  @override
+  String get locationPermissionDenied => 'లొకేషన్ అనుమతి నిరాకరించబడింది.';
+  @override
+  String get outsideOfficeRadar => 'కార్యాలయ రాడార్ వెలుపల';
+  @override
+  String get failedToStartPunch => 'పంచ్ ప్రారంభించడం విఫలమైంది';
+  @override
+  String get punchFailed => 'పంచ్ విఫలమైంది';
+  @override
+  String get thisFeatureOnlyAndroid => 'ఈ ఫీచర్ Android పరికరాలలో మాత్రమే అందుబాటులో ఉంటుంది.';
+  @override
+  String get noAppForegroundActivity => 'ఎంచుకున్న షిఫ్ట్ విండో లోపల యాప్ ఫోర్‌గ్రౌండ్ కార్యాచరణ ఏమీ కనుగొనబడలేదు.';
+  @override
+  String get usageAccessPermission => 'ఈ పరికరంలో ఏ యాప్‌లు ఉపయోగించబడుతున్నాయో చూడడానికి మాకు వినియోగ యాక్సెస్ అనుమతి అవసరం.';
+  @override
+  String get androidBackgroundWarning => 'కొన్ని Android పరికరాలు బ్యాక్‌గ్రౌండ్ పనిని తీవ్రంగా పరిమితం చేస్తాయి. మీ వినియోగ స్నాప్‌షాట్‌లు అప్‌డేట్ ఆగిపోతే, crew.inc కోసం బ్యాటరీ ఆప్టిమైజేషన్‌ను నిలిపివేయండి.';
+  @override
+  String get noInternetConnectionCheck => 'ఇంటర్నెట్ కనెక్షన్ లేదు. దయచేసి మీ నెట్‌వర్క్ తనిఖీ చేయండి.';
+  @override
+  String get newJoiners => 'కొత్త చేరికలు';
+  @override
+  String get presentToday => 'ఈరోజు హాజరైనవారు';
+  @override
+  String get requestApproved => 'అభ్యర్థన ఆమోదించబడింది';
+  @override
+  String get requestRejected => 'అభ్యర్థన తిరస్కరించబడింది';
+  @override
+  String get compOffBalance => 'కాంప్-ఆఫ్ బ్యాలెన్స్';
+  @override
+  String get home => 'హోమ్';
+  @override
+  String get employees => 'ఉద్యోగులు';
+  @override
+  String get crewInc => 'crew.inc';
+  @override
+  String get share => 'షేర్ చేయి';
+  @override
+  String get noInternetConnectionPlease => 'ఇంటర్నెట్ కనెక్షన్ లేదు. దయచేసి మీ నెట్‌వర్క్ తనిఖీ చేయండి.';
+  @override
+  String get requestTimedOut => 'అభ్యర్థన గడువు మించింది. దయచేసి మళ్ళీ ప్రయత్నించండి.';
+  @override
+  String get unauthorized => 'అనధికారం';
+  @override
+  String get invalidRequest => 'చెల్లని అభ్యర్థన. దయచేసి మీ ఇన్‌పుట్ తనిఖీ చేయండి.';
+  @override
+  String get resourceNotFound => 'అభ్యర్థించిన వనరు కనుగొనబడలేదు.';
+  @override
+  String get conflictOccurred => 'వైరుధ్యం సంభవించింది. దయచేసి మళ్ళీ ప్రయత్నించండి.';
+  @override
+  String get tooManyRequests => 'చాలా ఎక్కువ అభ్యర్థనలు. దయచేసి నెమ్మదించి మళ్ళీ ప్రయత్నించండి.';
+  @override
+  String get appUnderMaintenance => 'యాప్ నిర్వహణలో ఉంది';
+  @override
+  String get somethingWentWrongOnServer => 'సర్వర్‌లో ఏదో తప్పు జరిగింది. దయచేసి మళ్ళీ ప్రయత్నించండి.';
+  @override
+  String get sessionExpired => 'మీర్ సెషన్ గడువు ముగిసింది. దయచేసి మళ్ళీ లాగిన్ అవ్వండి.';
 }

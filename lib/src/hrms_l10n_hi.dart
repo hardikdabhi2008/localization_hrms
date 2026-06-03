@@ -2463,4 +2463,227 @@ class HrmsL10nHi extends HrmsL10n {
 
   @override
   String get appPreference => 'ऐप प्राथमिकताएं';
+
+  @override
+  String get employeeAttendance => 'कर्मचारी उपस्थिति';
+  @override
+  String get noAttendanceDataFound => 'कोई उपस्थिति डेटा नहीं मिला';
+  @override
+  String get all => 'सभी';
+  @override
+  String get pendingApprovals => 'लंबित अनुमोदन';
+  @override
+  String get attendanceInsights => 'उपस्थिति अंतर्दृष्टि';
+  @override
+  String get departmentDistribution => 'विभाग वितरण';
+  @override
+  String get upcomingEvents => 'आगामी कार्यक्रम';
+  @override
+  String get noUpcomingEvents => 'कोई आगामी कार्यक्रम नहीं';
+  @override
+  String get employeeLeave => 'कर्मचारी अवकाश';
+  @override
+  String get noEmployeeLeaveDataFound => 'कोई कर्मचारी अवकाश डेटा नहीं मिला';
+  @override
+  String get noAssetCategoriesFound => 'कोई संपत्ति श्रेणी नहीं मिली';
+  @override
+  String get assetTag => 'एसेट टैग';
+  @override
+  String get assetCode => 'एसेट कोड';
+  @override
+  String get status => 'स्थिति';
+  @override
+  String get brand => 'ब्रांड';
+  @override
+  String get model => 'मॉडल';
+  @override
+  String get serialNo => 'सीरियल नं';
+  @override
+  String get vendor => 'विक्रेता';
+  @override
+  String get purchaseValue => 'खरीद मूल्य';
+  @override
+  String get jan => 'Jan';
+  @override
+  String get feb => 'Feb';
+  @override
+  String get mar => 'Mar';
+  @override
+  String get apr => 'Apr';
+  @override
+  String get mayMonth => 'May';
+  @override
+  String get jun => 'Jun';
+  @override
+  String get jul => 'Jul';
+  @override
+  String get aug => 'Aug';
+  @override
+  String get sep => 'Sep';
+  @override
+  String get oct => 'Oct';
+  @override
+  String get nov => 'Nov';
+  @override
+  String get dec => 'Dec';
+  @override
+  String get breakdown => 'विवरण';
+  @override
+  String get salaries => 'वेतन';
+  @override
+  String get baseFixedPay => 'बेस + फिक्स्ड वेतन';
+  @override
+  String get noProductivityDataForToday => 'आज के लिए कोई उत्पादकता डेटा नहीं है।';
+  @override
+  String get noActivityDataForThisSource => 'इस स्रोत के लिए कोई गतिविधि डेटा नहीं है।';
+  @override
+  String get employeeDetails => 'कर्मचारी विवरण';
+  @override
+  String get noAddressOnRecord => 'रिकॉर्ड में कोई पता नहीं';
+  @override
+  String get noEmergencyContactsOnRecord => 'रिकॉर्ड में कोई आपातकालीन संपर्क नहीं';
+  @override
+  String get grade => 'ग्रेड';
+  @override
+  String get pan => 'PAN';
+  @override
+  String get addEmployee => 'कर्मचारी जोड़ें';
+  @override
+  String get email => 'ईमेल';
+  @override
+  String get leaveAdjustment => 'अवकाश समायोजन';
+  @override
+  String get addOrDeductBalance => 'कारण सहित बैलेंस में जोड़ें या कटौती करें';
+  @override
+  String get noLeaveTypesAvailable => 'कोई अवकाश प्रकार उपलब्ध नहीं';
+  @override
+  String get adjustmentAmount => 'समायोजन राशि';
+  @override
+  String get useNegativeToDeduct => 'कटौती के लिए नकारात्मक मान का उपयोग करें (जैसे -2)';
+  @override
+  String get approvedDate => 'स्वीकृति तिथि';
+  @override
+  String get adjustmentHistory => 'समायोजन इतिहास';
+  @override
+  String get noAdjustmentsYet => 'अभी तक कोई समायोजन नहीं';
+  @override
+  String get addAdjustment => 'समायोजन जोड़ें';
+  @override
+  String get leaveLedger => 'अवकाश खाता बही';
+  @override
+  String get allTypes => 'सभी प्रकार';
+  @override
+  String get filterByLeaveType => 'अवकाश प्रकार के अनुसार फ़िल्टर करें';
+  @override
+  String get adjust => 'समायोजित करें';
+  @override
+  String get carryForwardCredit => 'कैरी फॉरवर्ड क्रेडिट';
+  @override
+  String get annualAccrual => 'वार्षिक संचय';
+  @override
+  String get leaveUsed => 'उपयोग किया गया अवकाश';
+  @override
+  String get manualAdjustment => 'मैन्युअल समायोजन';
+  @override
+  String get creditAdjustment => 'क्रेडिट समायोजन';
+  @override
+  String get balanceLapsed => 'बैलेंस समाप्त';
+  @override
+  String get attendanceSummaryReport => 'उपस्थिति सारांश रिपोर्ट';
+  @override
+  String get missedPunchReport => 'मिस्ड पंच रिपोर्ट';
+  @override
+  String get attendanceReconciliationReport => 'उपस्थिति समाधान रिपोर्ट';
+  @override
+  String get workForceReport => 'कार्यबल रिपोर्ट';
+  @override
+  String get attritionReport => 'एट्रिशन रिपोर्ट';
+  @override
+  String get anniversaryReport => 'वर्षगांठ रिपोर्ट';
+  @override
+  String get familyDetails => 'पारिवारिक विवरण';
+  @override
+  String get transitionwiseHeadcount => 'ट्रांजिशनवाइज हेडकाउंट';
+  @override
+  String get userAccessRights => 'उपयोगकर्ता पहुंच अधिकार';
+  @override
+  String get loanReports => 'ऋण रिपोर्ट';
+  @override
+  String get leaveBalanceReport => 'अवकाश शेष रिपोर्ट';
+  @override
+  String get payrollReport => 'पेरोल रिपोर्ट';
+  @override
+  String get reimbursementsReport => 'प्रतिपूर्ति रिपोर्ट';
+  @override
+  String get professionalTaxReport => 'व्यावसायिक कर रिपोर्ट';
+  @override
+  String get favourites => 'पसंदीदा';
+  @override
+  String get noReportsFound => 'कोई रिपोर्ट नहीं मिली।';
+  @override
+  String get failedToLoadReport => 'रिपोर्ट लोड करने में विफल। कृपया पुनः प्रयास करें।';
+  @override
+  String get viewAndDownloadPayslips => 'अपनी मासिक पे-स्लिप देखें और डाउनलोड करें';
+  @override
+  String get declareInvestmentsSection80C => 'Section 80C में निवेश घोषित करें';
+  @override
+  String stepOfTotalSteps(int step, int totalSteps) => 'चरण $step / $totalSteps';
+  @override
+  String get permissionDenied => 'अनुमति अस्वीकृत';
+  @override
+  String get locationPermissionDenied => 'स्थान की अनुमति अस्वीकृत।';
+  @override
+  String get outsideOfficeRadar => 'ऑफिस रडार के बाहर';
+  @override
+  String get failedToStartPunch => 'पंच शुरू करने में विफल';
+  @override
+  String get punchFailed => 'पंच विफल';
+  @override
+  String get thisFeatureOnlyAndroid => 'यह सुविधा केवल Android डिवाइस पर उपलब्ध है।';
+  @override
+  String get noAppForegroundActivity => 'चयनित शिफ्ट विंडो के अंदर कोई ऐप फोरग्राउंड गतिविधि नहीं मिली।';
+  @override
+  String get usageAccessPermission => 'इस डिवाइस पर कौन से ऐप उपयोग किए जा रहे हैं यह देखने के लिए हमें उपयोग पहुंच अनुमति की आवश्यकता है।';
+  @override
+  String get androidBackgroundWarning => 'कुछ Android डिवाइस बैकग्राउंड कार्य को आक्रामक रूप से सीमित करते हैं। यदि आपके उपयोग स्नैपशॉट अपडेट होना बंद हो जाएं, तो crew.inc के लिए बैटरी ऑप्टिमाइज़ेशन अक्षम करें।';
+  @override
+  String get noInternetConnectionCheck => 'इंटरनेट कनेक्शन नहीं है। कृपया अपना नेटवर्क जांचें।';
+  @override
+  String get newJoiners => 'नए जॉइनर्स';
+  @override
+  String get presentToday => 'आज उपस्थित';
+  @override
+  String get requestApproved => 'अनुरोध स्वीकृत';
+  @override
+  String get requestRejected => 'अनुरोध अस्वीकृत';
+  @override
+  String get compOffBalance => 'कॉम्प-ऑफ बैलेंस';
+  @override
+  String get home => 'होम';
+  @override
+  String get employees => 'कर्मचारी';
+  @override
+  String get crewInc => 'crew.inc';
+  @override
+  String get share => 'शेयर करें';
+  @override
+  String get noInternetConnectionPlease => 'इंटरनेट कनेक्शन नहीं है। कृपया अपना नेटवर्क जांचें।';
+  @override
+  String get requestTimedOut => 'अनुरोध का समय समाप्त हो गया। कृपया पुनः प्रयास करें।';
+  @override
+  String get unauthorized => 'अनधिकृत';
+  @override
+  String get invalidRequest => 'अमान्य अनुरोध। कृपया अपना इनपुट जांचें।';
+  @override
+  String get resourceNotFound => 'अनुरोधित संसाधन नहीं मिला।';
+  @override
+  String get conflictOccurred => 'एक विरोध उत्पन्न हुआ। कृपया पुनः प्रयास करें।';
+  @override
+  String get tooManyRequests => 'बहुत अधिक अनुरोध। कृपया धीमे करें और पुनः प्रयास करें।';
+  @override
+  String get appUnderMaintenance => 'ऐप रखरखाव के अधीन है';
+  @override
+  String get somethingWentWrongOnServer => 'सर्वर पर कुछ गलत हो गया। कृपया पुनः प्रयास करें।';
+  @override
+  String get sessionExpired => 'आपका सत्र समाप्त हो गया है। कृपया पुनः लॉग इन करें।';
 }
