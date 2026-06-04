@@ -4925,6 +4925,11 @@ abstract class HrmsL10n {
   String get somethingWentWrongOnServer;
   String get sessionExpired;
   String get official;
+  String get ytdEarningsMessage;
+  String get crewIncTrackAppUsageMessage;
+  String get active;
+  String get workForce;
+  String get reimbursementReport;
 }
 
 class _HrmsL10nDelegate extends LocalizationsDelegate<HrmsL10n> {

@@ -1,4 +1,8 @@
-﻿## 1.0.22
+﻿## 1.0.23
+
+* Add 5 new localization keys (`ytdEarningsMessage`, `crewIncTrackAppUsageMessage`, `active`, `workForce`, `reimbursementReport`) across all 11 language ARB files and Dart localization classes
+
+## 1.0.22
 
 * Add `official` key ("Official") across all 11 language ARB files and Dart localization classes
 

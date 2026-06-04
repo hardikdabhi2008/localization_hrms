@@ -2696,4 +2696,14 @@ class HrmsL10nKn extends HrmsL10n {
   String get sessionExpired => 'ನಿಮ್ಮ ಸೆಷನ್ ಅವಧಿ ಮೀರಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಲಾಗಿನ್ ಮಾಡಿ.';
   @override
   String get official => 'ಅಧಿಕೃತ';
+  @override
+  String get ytdEarningsMessage => 'ನಿಮ್ಮ ವೇತನ ಪ್ರಕ್ರಿಯೆಗೊಂಡ ನಂತರ ವರ್ಷ-ಟು-ಡೇಟ್ ಗಳಿಕೆ ಇಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ.';
+  @override
+  String get crewIncTrackAppUsageMessage => 'crew.inc ನಿಮ್ಮ ಶಿಫ್ಟ್ ಸಮಯದಲ್ಲಿ ಅಪ್ಲಿಕೇಶನ್ ಬಳಕೆಯನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡುತ್ತದೆ, ಆದ್ದರಿಂದ ಕೆಲಸದ ಸಮಯವನ್ನು ಹೇಗೆ ಕಳೆಯುತ್ತೀರಿ ಎಂದು ಅರ್ಥ ಮಾಡಿಕೊಳ್ಳಬಹುದು.';
+  @override
+  String get active => 'ಸಕ್ರಿಯ';
+  @override
+  String get workForce => 'ಕಾರ್ಯಪಡೆ';
+  @override
+  String get reimbursementReport => 'ಮರುಪಾವತಿ ವರದಿ';
 }

@@ -1996,5 +1996,15 @@
   "sessionExpired": "Your session has expired. Please log in again.",
   "@sessionExpired": { "description": "Session expired message" },
   "official": "Official",
-  "@official": { "description": "Official label" }
+  "@official": { "description": "Official label" },
+  "ytdEarningsMessage": "Your year-to-date earnings will appear here once your salary is processed.",
+  "@ytdEarningsMessage": { "description": "YTD earnings empty state message" },
+  "crewIncTrackAppUsageMessage": "crew.inc tracks app usage during your shift hours to help you understand how you spend your work time.",
+  "@crewIncTrackAppUsageMessage": { "description": "crew.inc app usage tracking explanation message" },
+  "active": "Active",
+  "@active": { "description": "Active status label" },
+  "workForce": "Work Force",
+  "@workForce": { "description": "Work force section label" },
+  "reimbursementReport": "Reimbursement Report",
+  "@reimbursementReport": { "description": "Reimbursement report title" }
 }

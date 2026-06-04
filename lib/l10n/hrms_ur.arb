@@ -915,5 +915,10 @@
   "appUnderMaintenance": "ایپ دیکھ بھال کے تحت ہے",
   "somethingWentWrongOnServer": "سرور پر کچھ غلط ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔",
   "sessionExpired": "آپ کا سیشن ختم ہو گیا ہے۔ براہ کرم دوبارہ لاگ ان کریں۔",
-  "official": "سرکاری"
+  "official": "سرکاری",
+  "ytdEarningsMessage": "آپ کی تنخواہ پروسیس ہونے کے بعد سال-تا-آج کی کمائی یہاں ظاہر ہوگی۔",
+  "crewIncTrackAppUsageMessage": "crew.inc آپ کی شفٹ کے گھنٹوں کے دوران ایپ استعمال ٹریک کرتا ہے تاکہ آپ سمجھ سکیں کہ آپ کام کا وقت کیسے گزارتے ہیں۔",
+  "active": "فعال",
+  "workForce": "افرادی قوت",
+  "reimbursementReport": "معاوضہ رپورٹ"
 }

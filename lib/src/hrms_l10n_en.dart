@@ -2689,4 +2689,14 @@ class HrmsL10nEn extends HrmsL10n {
   String get sessionExpired => 'Your session has expired. Please log in again.';
   @override
   String get official => 'Official';
+  @override
+  String get ytdEarningsMessage => 'Your year-to-date earnings will appear here once your salary is processed.';
+  @override
+  String get crewIncTrackAppUsageMessage => 'crew.inc tracks app usage during your shift hours to help you understand how you spend your work time.';
+  @override
+  String get active => 'Active';
+  @override
+  String get workForce => 'Work Force';
+  @override
+  String get reimbursementReport => 'Reimbursement Report';
 }

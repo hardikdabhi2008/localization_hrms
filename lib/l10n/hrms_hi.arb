@@ -915,5 +915,10 @@
   "appUnderMaintenance": "ऐप रखरखाव के अधीन है",
   "somethingWentWrongOnServer": "सर्वर पर कुछ गलत हो गया। कृपया पुनः प्रयास करें।",
   "sessionExpired": "आपका सत्र समाप्त हो गया है। कृपया पुनः लॉग इन करें।",
-  "official": "आधिकारिक"
+  "official": "आधिकारिक",
+  "ytdEarningsMessage": "आपकी वर्ष-दर-तारीख कमाई यहाँ दिखाई देगी जब आपका वेतन प्रोसेस हो जाएगा।",
+  "crewIncTrackAppUsageMessage": "crew.inc आपकी शिफ्ट के दौरान ऐप उपयोग ट्रैक करता है ताकि आप समझ सकें कि आप अपना कार्य समय कैसे व्यतीत करते हैं।",
+  "active": "सक्रिय",
+  "workForce": "कार्यबल",
+  "reimbursementReport": "प्रतिपूर्ति रिपोर्ट"
 }

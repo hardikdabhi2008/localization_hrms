@@ -2693,4 +2693,14 @@ class HrmsL10nUr extends HrmsL10n {
   String get sessionExpired => 'آپ کا سیشن ختم ہو گیا ہے۔ براہ کرم دوبارہ لاگ ان کریں۔';
   @override
   String get official => 'سرکاری';
+  @override
+  String get ytdEarningsMessage => 'آپ کی تنخواہ پروسیس ہونے کے بعد سال-تا-آج کی کمائی یہاں ظاہر ہوگی۔';
+  @override
+  String get crewIncTrackAppUsageMessage => 'crew.inc آپ کی شفٹ کے گھنٹوں کے دوران ایپ استعمال ٹریک کرتا ہے تاکہ آپ سمجھ سکیں کہ آپ کام کا وقت کیسے گزارتے ہیں۔';
+  @override
+  String get active => 'فعال';
+  @override
+  String get workForce => 'افرادی قوت';
+  @override
+  String get reimbursementReport => 'معاوضہ رپورٹ';
 }

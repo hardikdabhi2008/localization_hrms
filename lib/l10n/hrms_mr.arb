@@ -915,5 +915,10 @@
   "appUnderMaintenance": "अॅप देखभालीखाली आहे",
   "somethingWentWrongOnServer": "सर्व्हरवर काहीतरी चुकले. कृपया पुन्हा प्रयत्न करा.",
   "sessionExpired": "तुमचे सत्र कालबाह्य झाले आहे. कृपया पुन्हा लॉग इन करा.",
-  "official": "अधिकृत"
+  "official": "अधिकृत",
+  "ytdEarningsMessage": "तुमचा पगार प्रक्रिया झाल्यावर वर्ष-ते-आजपर्यंतची कमाई येथे दिसेल.",
+  "crewIncTrackAppUsageMessage": "crew.inc तुमच्या शिफ्टच्या वेळात अॅप वापर ट्रॅक करते जेणेकरून तुम्हाला समजेल की तुम्ही कामाचा वेळ कसा घालवता.",
+  "active": "सक्रिय",
+  "workForce": "कार्यबल",
+  "reimbursementReport": "परतफेड अहवाल"
 }

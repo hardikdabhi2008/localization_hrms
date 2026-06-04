@@ -2695,4 +2695,14 @@ class HrmsL10nBn extends HrmsL10n {
   String get sessionExpired => 'আপনার সেশনের মেয়াদ শেষ হয়ে গেছে। অনুগ্রহ করে আবার লগ ইন করুন।';
   @override
   String get official => 'অফিশিয়াল';
+  @override
+  String get ytdEarningsMessage => 'আপনার বেতন প্রক্রিয়া হওয়ার পরে বছরের শুরু থেকে এখন পর্যন্ত উপার্জন এখানে দেখাবে।';
+  @override
+  String get crewIncTrackAppUsageMessage => 'crew.inc আপনার শিফট সময়ে অ্যাপ ব্যবহার ট্র্যাক করে যাতে আপনি বুঝতে পারেন কীভাবে আপনার কাজের সময় ব্যয় হয়।';
+  @override
+  String get active => 'সক্রিয়';
+  @override
+  String get workForce => 'কর্মশক্তি';
+  @override
+  String get reimbursementReport => 'প্রতিদান রিপোর্ট';
 }

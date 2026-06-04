@@ -2704,4 +2704,14 @@ class HrmsL10nTe extends HrmsL10n {
   String get sessionExpired => 'మీర్ సెషన్ గడువు ముగిసింది. దయచేసి మళ్ళీ లాగిన్ అవ్వండి.';
   @override
   String get official => 'అధికారిక';
+  @override
+  String get ytdEarningsMessage => 'మీ జీతం ప్రాసెస్ అయిన తర్వాత సంవత్సరం-నుండి-ఇప్పటివరకు సంపాదన ఇక్కడ కనిపిస్తుంది.';
+  @override
+  String get crewIncTrackAppUsageMessage => 'crew.inc మీ షిఫ్ట్ సమయంలో యాప్ వినియోగాన్ని ట్రాక్ చేస్తుంది, తద్వారా పని సమయాన్ని ఎలా గడుపుతున్నారో అర్థం చేసుకోవచ్చు.';
+  @override
+  String get active => 'క్రియాశీలం';
+  @override
+  String get workForce => 'కార్యబలం';
+  @override
+  String get reimbursementReport => 'తిరిగి చెల్లింపు నివేదిక';
 }

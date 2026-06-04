@@ -2711,4 +2711,14 @@ class HrmsL10nTa extends HrmsL10n {
   String get sessionExpired => 'உங்கள் அமர்வு காலாவதியானது. மீண்டும் உள்நுழையவும்.';
   @override
   String get official => 'அதிகாரப்பூர்வ';
+  @override
+  String get ytdEarningsMessage => 'உங்கள் சம்பளம் செயலாக்கப்பட்ட பிறகு ஆண்டு-முதல்-இன்று வரை வருவாய் இங்கே தோன்றும்.';
+  @override
+  String get crewIncTrackAppUsageMessage => 'crew.inc உங்கள் ஷிப்ட் நேரத்தில் ஆப் பயன்பாட்டை கண்காணித்து வேலை நேரத்தை எவ்வாறு செலவிடுகிறீர்கள் என்பதை புரிந்துகொள்ள உதவுகிறது.';
+  @override
+  String get active => 'செயலில்';
+  @override
+  String get workForce => 'பணியாளர்கள்';
+  @override
+  String get reimbursementReport => 'திரும்பப்பெறும் அறிக்கை';
 }
