@@ -2714,4 +2714,34 @@ class HrmsL10nTe extends HrmsL10n {
   String get workForce => 'కార్యబలం';
   @override
   String get reimbursementReport => 'తిరిగి చెల్లింపు నివేదిక';
+  @override
+  String get noLoanPolicyAvailable => 'ఏ రుణ విధానం అందుబాటులో లేదు.';
+  @override
+  String get enterValidAmount => 'చెల్లుబాటు అయ్యే మొత్తం నమోదు చేయండి.';
+  @override
+  String get enterValidTenure => 'చెల్లుబాటు అయ్యే కాలావధి నమోదు చేయండి.';
+  @override
+  String get unableToCalculateInstallment => 'వాయిదా మొత్తం లెక్కించడం సాధ్యపడలేదు.';
+  @override
+  String get enterAReason => 'ఒక కారణం నమోదు చేయండి.';
+  @override
+  String get missingCompanyOrEmployeeId => 'కంపెనీ లేదా ఉద్యోగి ఐడి లేదు.';
+  @override
+  String get unableToCreateWorkRequest => 'పని అభ్యర్థన సృష్టించడం సాధ్యపడలేదు.';
+  @override
+  String get failedToSubmitLoanDetails => 'రుణ వివరాలు సమర్పించడం విఫలమైంది.';
+  @override
+  String get trackFocusedTimeAndDailyActivity => 'దృష్టి కేంద్రీకరణ సమయం మరియు రోజువారీ యాప్ కార్యకలాపాలను ట్రాక్ చేయండి.';
+  @override
+  String get myRequests => 'నా అభ్యర్థనలు';
+  @override
+  String get reviewWorkRequestsMessage => 'ఈ ట్యాబ్ వదలకుండా పని అభ్యర్థనలను సమీక్షించండి.';
+  @override
+  String get checkLatestUpdatesMessage => 'పనిని ప్రభావితం చేయగల తాజా అప్‌డేట్‌లను తనిఖీ చేయండి.';
+  @override
+  String get missingCompanyContext => 'కంపెనీ సందర్భం లేదు.';
+  @override
+  String get missingCompanyId => 'కంపెనీ ఐడి లేదు';
+  @override
+  String get failedToDownloadPayslip => 'జీతం చీటి డౌన్‌లోడ్ విఫలమైంది...';
 }

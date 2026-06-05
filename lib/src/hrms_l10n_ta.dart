@@ -2721,4 +2721,34 @@ class HrmsL10nTa extends HrmsL10n {
   String get workForce => 'பணியாளர்கள்';
   @override
   String get reimbursementReport => 'திரும்பப்பெறும் அறிக்கை';
+  @override
+  String get noLoanPolicyAvailable => 'எந்த கடன் கொள்கையும் கிடைக்கவில்லை.';
+  @override
+  String get enterValidAmount => 'சரியான தொகையை உள்ளிடுக.';
+  @override
+  String get enterValidTenure => 'சரியான காலத்தை உள்ளிடுக.';
+  @override
+  String get unableToCalculateInstallment => 'தவணை தொகையை கணக்கிட முடியவில்லை.';
+  @override
+  String get enterAReason => 'ஒரு காரணம் உள்ளிடுக.';
+  @override
+  String get missingCompanyOrEmployeeId => 'நிறுவன அல்லது பணியாளர் ஐடி இல்லை.';
+  @override
+  String get unableToCreateWorkRequest => 'பணி கோரிக்கையை உருவாக்க முடியவில்லை.';
+  @override
+  String get failedToSubmitLoanDetails => 'கடன் விவரங்களை சமர்ப்பிக்க தோல்வி.';
+  @override
+  String get trackFocusedTimeAndDailyActivity => 'கவனமான நேரம் மற்றும் தினசரி ஆப் செயல்பாட்டை கண்காணிக்கவும்.';
+  @override
+  String get myRequests => 'என் கோரிக்கைகள்';
+  @override
+  String get reviewWorkRequestsMessage => 'இந்த தாவலை விடாமல் பணி கோரிக்கைகளை மதிப்பாய்வு செய்யுங்கள்.';
+  @override
+  String get checkLatestUpdatesMessage => 'வேலையை பாதிக்கக்கூடிய சமீபத்திய புதுப்பிப்புகளை சரிபாருங்கள்.';
+  @override
+  String get missingCompanyContext => 'நிறுவன சூழல் இல்லை.';
+  @override
+  String get missingCompanyId => 'நிறுவன ஐடி இல்லை';
+  @override
+  String get failedToDownloadPayslip => 'சம்பள சீட்டு பதிவிறக்கம் தோல்வியடைந்தது...';
 }

@@ -2703,4 +2703,34 @@ class HrmsL10nUr extends HrmsL10n {
   String get workForce => 'افرادی قوت';
   @override
   String get reimbursementReport => 'معاوضہ رپورٹ';
+  @override
+  String get noLoanPolicyAvailable => 'کوئی قرض پالیسی دستیاب نہیں۔';
+  @override
+  String get enterValidAmount => 'ایک درست رقم درج کریں۔';
+  @override
+  String get enterValidTenure => 'ایک درست مدت درج کریں۔';
+  @override
+  String get unableToCalculateInstallment => 'قسط کی رقم کا حساب لگانے میں ناکام۔';
+  @override
+  String get enterAReason => 'ایک وجہ درج کریں۔';
+  @override
+  String get missingCompanyOrEmployeeId => 'کمپنی یا ملازم آئی ڈی غائب ہے۔';
+  @override
+  String get unableToCreateWorkRequest => 'کام کی درخواست بنانے میں ناکام۔';
+  @override
+  String get failedToSubmitLoanDetails => 'قرض کی تفصیلات جمع کرانے میں ناکام۔';
+  @override
+  String get trackFocusedTimeAndDailyActivity => 'توجہ مرکوز وقت اور روزانہ ایپ سرگرمی ٹریک کریں۔';
+  @override
+  String get myRequests => 'میری درخواستیں';
+  @override
+  String get reviewWorkRequestsMessage => 'یہ ٹیب چھوڑے بغیر کام کی درخواستوں کا جائزہ لیں۔';
+  @override
+  String get checkLatestUpdatesMessage => 'تازہ ترین اپ ڈیٹس دیکھیں جو کام پر اثر انداز ہو سکتی ہیں۔';
+  @override
+  String get missingCompanyContext => 'کمپنی سیاق و سباق غائب ہے۔';
+  @override
+  String get missingCompanyId => 'کمپنی آئی ڈی غائب ہے';
+  @override
+  String get failedToDownloadPayslip => 'تنخواہ پرچی ڈاؤن لوڈ کرنے میں ناکام...';
 }

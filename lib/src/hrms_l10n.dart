@@ -4930,6 +4930,21 @@ abstract class HrmsL10n {
   String get active;
   String get workForce;
   String get reimbursementReport;
+  String get noLoanPolicyAvailable;
+  String get enterValidAmount;
+  String get enterValidTenure;
+  String get unableToCalculateInstallment;
+  String get enterAReason;
+  String get missingCompanyOrEmployeeId;
+  String get unableToCreateWorkRequest;
+  String get failedToSubmitLoanDetails;
+  String get trackFocusedTimeAndDailyActivity;
+  String get myRequests;
+  String get reviewWorkRequestsMessage;
+  String get checkLatestUpdatesMessage;
+  String get missingCompanyContext;
+  String get missingCompanyId;
+  String get failedToDownloadPayslip;
 }
 
 class _HrmsL10nDelegate extends LocalizationsDelegate<HrmsL10n> {

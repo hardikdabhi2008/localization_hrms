@@ -2698,4 +2698,34 @@ class HrmsL10nHi extends HrmsL10n {
   String get workForce => 'कार्यबल';
   @override
   String get reimbursementReport => 'प्रतिपूर्ति रिपोर्ट';
+  @override
+  String get noLoanPolicyAvailable => 'कोई ऋण नीति उपलब्ध नहीं है।';
+  @override
+  String get enterValidAmount => 'एक वैध राशि दर्ज करें।';
+  @override
+  String get enterValidTenure => 'एक वैध अवधि दर्ज करें।';
+  @override
+  String get unableToCalculateInstallment => 'किस्त राशि की गणना करने में असमर्थ।';
+  @override
+  String get enterAReason => 'एक कारण दर्ज करें।';
+  @override
+  String get missingCompanyOrEmployeeId => 'कंपनी या कर्मचारी आईडी गुम है।';
+  @override
+  String get unableToCreateWorkRequest => 'कार्य अनुरोध बनाने में असमर्थ।';
+  @override
+  String get failedToSubmitLoanDetails => 'ऋण विवरण सबमिट करने में विफल।';
+  @override
+  String get trackFocusedTimeAndDailyActivity => 'केंद्रित समय और दैनिक ऐप गतिविधि ट्रैक करें।';
+  @override
+  String get myRequests => 'मेरे अनुरोध';
+  @override
+  String get reviewWorkRequestsMessage => 'इस टैब को छोड़े बिना कार्य अनुरोधों की समीक्षा करें।';
+  @override
+  String get checkLatestUpdatesMessage => 'नवीनतम अपडेट देखें जो काम पर असर डाल सकते हैं।';
+  @override
+  String get missingCompanyContext => 'कंपनी संदर्भ गुम है।';
+  @override
+  String get missingCompanyId => 'कंपनी आईडी गुम है';
+  @override
+  String get failedToDownloadPayslip => 'पे स्लिप डाउनलोड करने में विफल...';
 }

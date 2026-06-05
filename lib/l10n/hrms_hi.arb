@@ -920,5 +920,20 @@
   "crewIncTrackAppUsageMessage": "crew.inc आपकी शिफ्ट के दौरान ऐप उपयोग ट्रैक करता है ताकि आप समझ सकें कि आप अपना कार्य समय कैसे व्यतीत करते हैं।",
   "active": "सक्रिय",
   "workForce": "कार्यबल",
-  "reimbursementReport": "प्रतिपूर्ति रिपोर्ट"
+  "reimbursementReport": "प्रतिपूर्ति रिपोर्ट",
+  "noLoanPolicyAvailable": "कोई ऋण नीति उपलब्ध नहीं है।",
+  "enterValidAmount": "एक वैध राशि दर्ज करें।",
+  "enterValidTenure": "एक वैध अवधि दर्ज करें।",
+  "unableToCalculateInstallment": "किस्त राशि की गणना करने में असमर्थ।",
+  "enterAReason": "एक कारण दर्ज करें।",
+  "missingCompanyOrEmployeeId": "कंपनी या कर्मचारी आईडी गुम है।",
+  "unableToCreateWorkRequest": "कार्य अनुरोध बनाने में असमर्थ।",
+  "failedToSubmitLoanDetails": "ऋण विवरण सबमिट करने में विफल।",
+  "trackFocusedTimeAndDailyActivity": "केंद्रित समय और दैनिक ऐप गतिविधि ट्रैक करें।",
+  "myRequests": "मेरे अनुरोध",
+  "reviewWorkRequestsMessage": "इस टैब को छोड़े बिना कार्य अनुरोधों की समीक्षा करें।",
+  "checkLatestUpdatesMessage": "नवीनतम अपडेट देखें जो काम पर असर डाल सकते हैं।",
+  "missingCompanyContext": "कंपनी संदर्भ गुम है।",
+  "missingCompanyId": "कंपनी आईडी गुम है",
+  "failedToDownloadPayslip": "पे स्लिप डाउनलोड करने में विफल..."
 }

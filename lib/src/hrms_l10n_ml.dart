@@ -2711,4 +2711,34 @@ class HrmsL10nMl extends HrmsL10n {
   String get workForce => 'തൊഴിൽ ശക്തി';
   @override
   String get reimbursementReport => 'റീഇംബേഴ്‌സ്‌മെന്റ് റിപ്പോർട്ട്';
+  @override
+  String get noLoanPolicyAvailable => 'ഒരു വായ്പ നയവും ലഭ്യമല്ല.';
+  @override
+  String get enterValidAmount => 'ഒരു സാധുവായ തുക നൽകുക.';
+  @override
+  String get enterValidTenure => 'ഒരു സാധുവായ കാലാവധി നൽകുക.';
+  @override
+  String get unableToCalculateInstallment => 'ഗഡുവിന്റെ തുക കണക്കാക്കാൻ കഴിയുന്നില്ല.';
+  @override
+  String get enterAReason => 'ഒരു കാരണം നൽകുക.';
+  @override
+  String get missingCompanyOrEmployeeId => 'കമ്പനി അല്ലെങ്കിൽ ജീവനക്കാരന്റെ ഐഡി ഇല്ല.';
+  @override
+  String get unableToCreateWorkRequest => 'ജോലി അഭ്യർഥന സൃഷ്ടിക്കാൻ കഴിയുന്നില്ല.';
+  @override
+  String get failedToSubmitLoanDetails => 'വായ്പ വിവരങ്ങൾ സമർപ്പിക്കുന്നതിൽ പരാജയം.';
+  @override
+  String get trackFocusedTimeAndDailyActivity => 'ശ്രദ്ധ കേന്ദ്രീകരിച്ച സമയവും ദൈനംദിന ആപ്പ് പ്രവർത്തനവും ട്രാക്ക് ചെയ്യുക.';
+  @override
+  String get myRequests => 'എന്റെ അഭ്യർഥനകൾ';
+  @override
+  String get reviewWorkRequestsMessage => 'ഈ ടാബ് വിടാതെ ജോലി അഭ്യർഥനകൾ അവലോകനം ചെയ്യുക.';
+  @override
+  String get checkLatestUpdatesMessage => 'ജോലിയെ ബാധിക്കാൻ സാധ്യതയുള്ള ഏറ്റവും പുതിയ അപ്‌ഡേറ്റുകൾ പരിശോധിക്കുക.';
+  @override
+  String get missingCompanyContext => 'കമ്പനി സന്ദർഭം ഇല്ല.';
+  @override
+  String get missingCompanyId => 'കമ്പനി ഐഡി ഇല്ല';
+  @override
+  String get failedToDownloadPayslip => 'ശമ്പള ചീട്ട് ഡൗൺലോഡ് ചെയ്യുന്നതിൽ പരാജയം...';
 }

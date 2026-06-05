@@ -920,5 +920,20 @@
   "crewIncTrackAppUsageMessage": "crew.inc तुमच्या शिफ्टच्या वेळात अॅप वापर ट्रॅक करते जेणेकरून तुम्हाला समजेल की तुम्ही कामाचा वेळ कसा घालवता.",
   "active": "सक्रिय",
   "workForce": "कार्यबल",
-  "reimbursementReport": "परतफेड अहवाल"
+  "reimbursementReport": "परतफेड अहवाल",
+  "noLoanPolicyAvailable": "कोणतीही कर्ज धोरण उपलब्ध नाही.",
+  "enterValidAmount": "एक वैध रक्कम प्रविष्ट करा.",
+  "enterValidTenure": "एक वैध कालावधी प्रविष्ट करा.",
+  "unableToCalculateInstallment": "हप्त्याची रक्कम मोजण्यास असमर्थ.",
+  "enterAReason": "एक कारण प्रविष्ट करा.",
+  "missingCompanyOrEmployeeId": "कंपनी किंवा कर्मचारी आयडी नाही.",
+  "unableToCreateWorkRequest": "कामाची विनंती तयार करण्यास असमर्थ.",
+  "failedToSubmitLoanDetails": "कर्जाचे तपशील सबमिट करण्यात अयशस्वी.",
+  "trackFocusedTimeAndDailyActivity": "लक्ष केंद्रित वेळ आणि दैनंदिन अॅप क्रियाकलाप ट्रॅक करा.",
+  "myRequests": "माझ्या विनंत्या",
+  "reviewWorkRequestsMessage": "हा टॅब न सोडता कामाच्या विनंत्यांचे पुनरावलोकन करा.",
+  "checkLatestUpdatesMessage": "कामावर परिणाम करू शकणारे नवीनतम अपडेट तपासा.",
+  "missingCompanyContext": "कंपनी संदर्भ नाही.",
+  "missingCompanyId": "कंपनी आयडी नाही",
+  "failedToDownloadPayslip": "पगारपत्ती डाउनलोड करण्यात अयशस्वी..."
 }

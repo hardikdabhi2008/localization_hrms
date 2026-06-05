@@ -920,5 +920,20 @@
   "crewIncTrackAppUsageMessage": "crew.inc ನಿಮ್ಮ ಶಿಫ್ಟ್ ಸಮಯದಲ್ಲಿ ಅಪ್ಲಿಕೇಶನ್ ಬಳಕೆಯನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡುತ್ತದೆ, ಆದ್ದರಿಂದ ಕೆಲಸದ ಸಮಯವನ್ನು ಹೇಗೆ ಕಳೆಯುತ್ತೀರಿ ಎಂದು ಅರ್ಥ ಮಾಡಿಕೊಳ್ಳಬಹುದು.",
   "active": "ಸಕ್ರಿಯ",
   "workForce": "ಕಾರ್ಯಪಡೆ",
-  "reimbursementReport": "ಮರುಪಾವತಿ ವರದಿ"
+  "reimbursementReport": "ಮರುಪಾವತಿ ವರದಿ",
+  "noLoanPolicyAvailable": "ಯಾವುದೇ ಸಾಲ ನೀತಿ ಲಭ್ಯವಿಲ್ಲ.",
+  "enterValidAmount": "ಒಂದು ಮಾನ್ಯ ಮೊತ್ತ ನಮೂದಿಸಿ.",
+  "enterValidTenure": "ಒಂದು ಮಾನ್ಯ ಅವಧಿ ನಮೂದಿಸಿ.",
+  "unableToCalculateInstallment": "ಕಂತಿನ ಮೊತ್ತ ಲೆಕ್ಕ ಹಾಕಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.",
+  "enterAReason": "ಒಂದು ಕಾರಣ ನಮೂದಿಸಿ.",
+  "missingCompanyOrEmployeeId": "ಕಂಪನಿ ಅಥವಾ ಉದ್ಯೋಗಿ ಐಡಿ ಇಲ್ಲ.",
+  "unableToCreateWorkRequest": "ಕಾರ್ಯ ವಿನಂತಿ ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.",
+  "failedToSubmitLoanDetails": "ಸಾಲದ ವಿವರಗಳು ಸಲ್ಲಿಸಲು ವಿಫಲವಾಯಿತು.",
+  "trackFocusedTimeAndDailyActivity": "ಕೇಂದ್ರಿತ ಸಮಯ ಮತ್ತು ದೈನಂದಿನ ಅಪ್ಲಿಕೇಶನ್ ಚಟುವಟಿಕೆ ಟ್ರ್ಯಾಕ್ ಮಾಡಿ.",
+  "myRequests": "ನನ್ನ ವಿನಂತಿಗಳು",
+  "reviewWorkRequestsMessage": "ಈ ಟ್ಯಾಬ್ ತೊರೆಯದೆ ಕಾರ್ಯ ವಿನಂತಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.",
+  "checkLatestUpdatesMessage": "ಕೆಲಸದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರಬಹುದಾದ ಇತ್ತೀಚಿನ ಅಪ್ಡೇಟ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.",
+  "missingCompanyContext": "ಕಂಪನಿ ಸಂದರ್ಭ ಇಲ್ಲ.",
+  "missingCompanyId": "ಕಂಪನಿ ಐಡಿ ಇಲ್ಲ",
+  "failedToDownloadPayslip": "ವೇತನ ಚೀಟಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಯಿತು..."
 }

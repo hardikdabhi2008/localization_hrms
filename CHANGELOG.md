@@ -1,4 +1,8 @@
-﻿## 1.0.23
+﻿## 1.0.24
+
+* Add 15 new localization keys (`noLoanPolicyAvailable`, `enterValidAmount`, `enterValidTenure`, `unableToCalculateInstallment`, `enterAReason`, `missingCompanyOrEmployeeId`, `unableToCreateWorkRequest`, `failedToSubmitLoanDetails`, `trackFocusedTimeAndDailyActivity`, `myRequests`, `reviewWorkRequestsMessage`, `checkLatestUpdatesMessage`, `missingCompanyContext`, `missingCompanyId`, `failedToDownloadPayslip`) across all 11 language ARB files and Dart localization classes
+
+## 1.0.23
 
 * Add 5 new localization keys (`ytdEarningsMessage`, `crewIncTrackAppUsageMessage`, `active`, `workForce`, `reimbursementReport`) across all 11 language ARB files and Dart localization classes
 

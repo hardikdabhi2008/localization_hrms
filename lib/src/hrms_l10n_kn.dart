@@ -2706,4 +2706,34 @@ class HrmsL10nKn extends HrmsL10n {
   String get workForce => 'ಕಾರ್ಯಪಡೆ';
   @override
   String get reimbursementReport => 'ಮರುಪಾವತಿ ವರದಿ';
+  @override
+  String get noLoanPolicyAvailable => 'ಯಾವುದೇ ಸಾಲ ನೀತಿ ಲಭ್ಯವಿಲ್ಲ.';
+  @override
+  String get enterValidAmount => 'ಒಂದು ಮಾನ್ಯ ಮೊತ್ತ ನಮೂದಿಸಿ.';
+  @override
+  String get enterValidTenure => 'ಒಂದು ಮಾನ್ಯ ಅವಧಿ ನಮೂದಿಸಿ.';
+  @override
+  String get unableToCalculateInstallment => 'ಕಂತಿನ ಮೊತ್ತ ಲೆಕ್ಕ ಹಾಕಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.';
+  @override
+  String get enterAReason => 'ಒಂದು ಕಾರಣ ನಮೂದಿಸಿ.';
+  @override
+  String get missingCompanyOrEmployeeId => 'ಕಂಪನಿ ಅಥವಾ ಉದ್ಯೋಗಿ ಐಡಿ ಇಲ್ಲ.';
+  @override
+  String get unableToCreateWorkRequest => 'ಕಾರ್ಯ ವಿನಂತಿ ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.';
+  @override
+  String get failedToSubmitLoanDetails => 'ಸಾಲದ ವಿವರಗಳು ಸಲ್ಲಿಸಲು ವಿಫಲವಾಯಿತು.';
+  @override
+  String get trackFocusedTimeAndDailyActivity => 'ಕೇಂದ್ರಿತ ಸಮಯ ಮತ್ತು ದೈನಂದಿನ ಅಪ್ಲಿಕೇಶನ್ ಚಟುವಟಿಕೆ ಟ್ರ್ಯಾಕ್ ಮಾಡಿ.';
+  @override
+  String get myRequests => 'ನನ್ನ ವಿನಂತಿಗಳು';
+  @override
+  String get reviewWorkRequestsMessage => 'ಈ ಟ್ಯಾಬ್ ತೊರೆಯದೆ ಕಾರ್ಯ ವಿನಂತಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.';
+  @override
+  String get checkLatestUpdatesMessage => 'ಕೆಲಸದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರಬಹುದಾದ ಇತ್ತೀಚಿನ ಅಪ್ಡೇಟ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.';
+  @override
+  String get missingCompanyContext => 'ಕಂಪನಿ ಸಂದರ್ಭ ಇಲ್ಲ.';
+  @override
+  String get missingCompanyId => 'ಕಂಪನಿ ಐಡಿ ಇಲ್ಲ';
+  @override
+  String get failedToDownloadPayslip => 'ವೇತನ ಚೀಟಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಯಿತು...';
 }

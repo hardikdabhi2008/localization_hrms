@@ -920,5 +920,20 @@
   "crewIncTrackAppUsageMessage": "crew.inc உங்கள் ஷிப்ட் நேரத்தில் ஆப் பயன்பாட்டை கண்காணித்து வேலை நேரத்தை எவ்வாறு செலவிடுகிறீர்கள் என்பதை புரிந்துகொள்ள உதவுகிறது.",
   "active": "செயலில்",
   "workForce": "பணியாளர்கள்",
-  "reimbursementReport": "திரும்பப்பெறும் அறிக்கை"
+  "reimbursementReport": "திரும்பப்பெறும் அறிக்கை",
+  "noLoanPolicyAvailable": "எந்த கடன் கொள்கையும் கிடைக்கவில்லை.",
+  "enterValidAmount": "சரியான தொகையை உள்ளிடுக.",
+  "enterValidTenure": "சரியான காலத்தை உள்ளிடுக.",
+  "unableToCalculateInstallment": "தவணை தொகையை கணக்கிட முடியவில்லை.",
+  "enterAReason": "ஒரு காரணம் உள்ளிடுக.",
+  "missingCompanyOrEmployeeId": "நிறுவன அல்லது பணியாளர் ஐடி இல்லை.",
+  "unableToCreateWorkRequest": "பணி கோரிக்கையை உருவாக்க முடியவில்லை.",
+  "failedToSubmitLoanDetails": "கடன் விவரங்களை சமர்ப்பிக்க தோல்வி.",
+  "trackFocusedTimeAndDailyActivity": "கவனமான நேரம் மற்றும் தினசரி ஆப் செயல்பாட்டை கண்காணிக்கவும்.",
+  "myRequests": "என் கோரிக்கைகள்",
+  "reviewWorkRequestsMessage": "இந்த தாவலை விடாமல் பணி கோரிக்கைகளை மதிப்பாய்வு செய்யுங்கள்.",
+  "checkLatestUpdatesMessage": "வேலையை பாதிக்கக்கூடிய சமீபத்திய புதுப்பிப்புகளை சரிபாருங்கள்.",
+  "missingCompanyContext": "நிறுவன சூழல் இல்லை.",
+  "missingCompanyId": "நிறுவன ஐடி இல்லை",
+  "failedToDownloadPayslip": "சம்பள சீட்டு பதிவிறக்கம் தோல்வியடைந்தது..."
 }

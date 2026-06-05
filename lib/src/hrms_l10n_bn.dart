@@ -2705,4 +2705,34 @@ class HrmsL10nBn extends HrmsL10n {
   String get workForce => 'কর্মশক্তি';
   @override
   String get reimbursementReport => 'প্রতিদান রিপোর্ট';
+  @override
+  String get noLoanPolicyAvailable => 'কোনো ঋণ নীতি উপলব্ধ নেই।';
+  @override
+  String get enterValidAmount => 'একটি বৈধ পরিমাণ লিখুন।';
+  @override
+  String get enterValidTenure => 'একটি বৈধ মেয়াদ লিখুন।';
+  @override
+  String get unableToCalculateInstallment => 'কিস্তির পরিমাণ গণনা করতে অক্ষম।';
+  @override
+  String get enterAReason => 'একটি কারণ লিখুন।';
+  @override
+  String get missingCompanyOrEmployeeId => 'কোম্পানি বা কর্মচারী আইডি অনুপস্থিত।';
+  @override
+  String get unableToCreateWorkRequest => 'কাজের অনুরোধ তৈরি করতে অক্ষম।';
+  @override
+  String get failedToSubmitLoanDetails => 'ঋণের বিবরণ জমা দিতে ব্যর্থ।';
+  @override
+  String get trackFocusedTimeAndDailyActivity => 'মনোযোগী সময় এবং দৈনিক অ্যাপ কার্যকলাপ ট্র্যাক করুন।';
+  @override
+  String get myRequests => 'আমার অনুরোধসমূহ';
+  @override
+  String get reviewWorkRequestsMessage => 'এই ট্যাব না ছেড়ে কাজের অনুরোধ পর্যালোচনা করুন।';
+  @override
+  String get checkLatestUpdatesMessage => 'কাজে প্রভাব ফেলতে পারে এমন সর্বশেষ আপডেট দেখুন।';
+  @override
+  String get missingCompanyContext => 'কোম্পানি প্রসঙ্গ অনুপস্থিত।';
+  @override
+  String get missingCompanyId => 'কোম্পানি আইডি অনুপস্থিত';
+  @override
+  String get failedToDownloadPayslip => 'পেস্লিপ ডাউনলোড করতে ব্যর্থ...';
 }

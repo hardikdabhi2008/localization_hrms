@@ -920,5 +920,20 @@
   "crewIncTrackAppUsageMessage": "crew.inc നിങ്ങളുടെ ഷിഫ്റ്റ് സമയത്ത് ആപ്പ് ഉപയോഗം ട്രാക്ക് ചെയ്യുന്നു, അതുവഴി ജോലി സമയം എങ്ങനെ ചെലവഴിക്കുന്നു എന്ന് മനസ്സിലാക്കാം.",
   "active": "സജീവം",
   "workForce": "തൊഴിൽ ശക്തി",
-  "reimbursementReport": "റീഇംബേഴ്‌സ്‌മെന്റ് റിപ്പോർട്ട്"
+  "reimbursementReport": "റീഇംബേഴ്‌സ്‌മെന്റ് റിപ്പോർട്ട്",
+  "noLoanPolicyAvailable": "ഒരു വായ്പ നയവും ലഭ്യമല്ല.",
+  "enterValidAmount": "ഒരു സാധുവായ തുക നൽകുക.",
+  "enterValidTenure": "ഒരു സാധുവായ കാലാവധി നൽകുക.",
+  "unableToCalculateInstallment": "ഗഡുവിന്റെ തുക കണക്കാക്കാൻ കഴിയുന്നില്ല.",
+  "enterAReason": "ഒരു കാരണം നൽകുക.",
+  "missingCompanyOrEmployeeId": "കമ്പനി അല്ലെങ്കിൽ ജീവനക്കാരന്റെ ഐഡി ഇല്ല.",
+  "unableToCreateWorkRequest": "ജോലി അഭ്യർഥന സൃഷ്ടിക്കാൻ കഴിയുന്നില്ല.",
+  "failedToSubmitLoanDetails": "വായ്പ വിവരങ്ങൾ സമർപ്പിക്കുന്നതിൽ പരാജയം.",
+  "trackFocusedTimeAndDailyActivity": "ശ്രദ്ധ കേന്ദ്രീകരിച്ച സമയവും ദൈനംദിന ആപ്പ് പ്രവർത്തനവും ട്രാക്ക് ചെയ്യുക.",
+  "myRequests": "എന്റെ അഭ്യർഥനകൾ",
+  "reviewWorkRequestsMessage": "ഈ ടാബ് വിടാതെ ജോലി അഭ്യർഥനകൾ അവലോകനം ചെയ്യുക.",
+  "checkLatestUpdatesMessage": "ജോലിയെ ബാധിക്കാൻ സാധ്യതയുള്ള ഏറ്റവും പുതിയ അപ്‌ഡേറ്റുകൾ പരിശോധിക്കുക.",
+  "missingCompanyContext": "കമ്പനി സന്ദർഭം ഇല്ല.",
+  "missingCompanyId": "കമ്പനി ഐഡി ഇല്ല",
+  "failedToDownloadPayslip": "ശമ്പള ചീട്ട് ഡൗൺലോഡ് ചെയ്യുന്നതിൽ പരാജയം..."
 }

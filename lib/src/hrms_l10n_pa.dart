@@ -2701,4 +2701,34 @@ class HrmsL10nPa extends HrmsL10n {
   String get workForce => 'ਕਾਰਜਬਲ';
   @override
   String get reimbursementReport => 'ਅਦਾਇਗੀ ਰਿਪੋਰਟ';
+  @override
+  String get noLoanPolicyAvailable => 'ਕੋਈ ਕਰਜ਼ਾ ਨੀਤੀ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।';
+  @override
+  String get enterValidAmount => 'ਇੱਕ ਵੈਧ ਰਾਸ਼ੀ ਦਾਖਲ ਕਰੋ।';
+  @override
+  String get enterValidTenure => 'ਇੱਕ ਵੈਧ ਸਮਾਂ-ਸੀਮਾ ਦਾਖਲ ਕਰੋ।';
+  @override
+  String get unableToCalculateInstallment => 'ਕਿਸ਼ਤ ਦੀ ਰਾਸ਼ੀ ਗਿਣਨ ਵਿੱਚ ਅਸਮਰੱਥ।';
+  @override
+  String get enterAReason => 'ਇੱਕ ਕਾਰਨ ਦਾਖਲ ਕਰੋ।';
+  @override
+  String get missingCompanyOrEmployeeId => 'ਕੰਪਨੀ ਜਾਂ ਕਰਮਚਾਰੀ ਆਈਡੀ ਗੁੰਮ ਹੈ।';
+  @override
+  String get unableToCreateWorkRequest => 'ਕੰਮ ਦੀ ਬੇਨਤੀ ਬਣਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ।';
+  @override
+  String get failedToSubmitLoanDetails => 'ਕਰਜ਼ੇ ਦੀ ਜਾਣਕਾਰੀ ਜਮ੍ਹਾਂ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।';
+  @override
+  String get trackFocusedTimeAndDailyActivity => 'ਧਿਆਨ ਕੇਂਦ੍ਰਿਤ ਸਮਾਂ ਅਤੇ ਰੋਜ਼ਾਨਾ ਐਪ ਗਤੀਵਿਧੀ ਟਰੈਕ ਕਰੋ।';
+  @override
+  String get myRequests => 'ਮੇਰੀਆਂ ਬੇਨਤੀਆਂ';
+  @override
+  String get reviewWorkRequestsMessage => 'ਇਹ ਟੈਬ ਛੱਡੇ ਬਿਨਾਂ ਕੰਮ ਦੀਆਂ ਬੇਨਤੀਆਂ ਦੀ ਸਮੀਖਿਆ ਕਰੋ।';
+  @override
+  String get checkLatestUpdatesMessage => 'ਨਵੀਨਤਮ ਅਪਡੇਟ ਦੇਖੋ ਜੋ ਕੰਮ \'ਤੇ ਅਸਰ ਪਾ ਸਕਦੇ ਹਨ।';
+  @override
+  String get missingCompanyContext => 'ਕੰਪਨੀ ਸੰਦਰਭ ਗੁੰਮ ਹੈ।';
+  @override
+  String get missingCompanyId => 'ਕੰਪਨੀ ਆਈਡੀ ਗੁੰਮ ਹੈ';
+  @override
+  String get failedToDownloadPayslip => 'ਤਨਖਾਹ ਪਰਚੀ ਡਾਊਨਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ...';
 }

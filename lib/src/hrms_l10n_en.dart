@@ -2699,4 +2699,34 @@ class HrmsL10nEn extends HrmsL10n {
   String get workForce => 'Work Force';
   @override
   String get reimbursementReport => 'Reimbursement Report';
+  @override
+  String get noLoanPolicyAvailable => 'No loan policy available.';
+  @override
+  String get enterValidAmount => 'Enter a valid amount.';
+  @override
+  String get enterValidTenure => 'Enter a valid tenure.';
+  @override
+  String get unableToCalculateInstallment => 'Unable to calculate installment amount.';
+  @override
+  String get enterAReason => 'Enter a reason.';
+  @override
+  String get missingCompanyOrEmployeeId => 'Missing company or employee ID.';
+  @override
+  String get unableToCreateWorkRequest => 'Unable to create work request.';
+  @override
+  String get failedToSubmitLoanDetails => 'Failed to submit loan details.';
+  @override
+  String get trackFocusedTimeAndDailyActivity => 'Track focused time and daily app activity.';
+  @override
+  String get myRequests => 'My Requests';
+  @override
+  String get reviewWorkRequestsMessage => 'Review work requests without leaving this tab.';
+  @override
+  String get checkLatestUpdatesMessage => 'Check latest updates that can impact work.';
+  @override
+  String get missingCompanyContext => 'Missing company context.';
+  @override
+  String get missingCompanyId => 'Missing company ID';
+  @override
+  String get failedToDownloadPayslip => 'Failed to download payslip...';
 }

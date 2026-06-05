@@ -920,5 +920,20 @@
   "crewIncTrackAppUsageMessage": "crew.inc మీ షిఫ్ట్ సమయంలో యాప్ వినియోగాన్ని ట్రాక్ చేస్తుంది, తద్వారా పని సమయాన్ని ఎలా గడుపుతున్నారో అర్థం చేసుకోవచ్చు.",
   "active": "క్రియాశీలం",
   "workForce": "కార్యబలం",
-  "reimbursementReport": "తిరిగి చెల్లింపు నివేదిక"
+  "reimbursementReport": "తిరిగి చెల్లింపు నివేదిక",
+  "noLoanPolicyAvailable": "ఏ రుణ విధానం అందుబాటులో లేదు.",
+  "enterValidAmount": "చెల్లుబాటు అయ్యే మొత్తం నమోదు చేయండి.",
+  "enterValidTenure": "చెల్లుబాటు అయ్యే కాలావధి నమోదు చేయండి.",
+  "unableToCalculateInstallment": "వాయిదా మొత్తం లెక్కించడం సాధ్యపడలేదు.",
+  "enterAReason": "ఒక కారణం నమోదు చేయండి.",
+  "missingCompanyOrEmployeeId": "కంపెనీ లేదా ఉద్యోగి ఐడి లేదు.",
+  "unableToCreateWorkRequest": "పని అభ్యర్థన సృష్టించడం సాధ్యపడలేదు.",
+  "failedToSubmitLoanDetails": "రుణ వివరాలు సమర్పించడం విఫలమైంది.",
+  "trackFocusedTimeAndDailyActivity": "దృష్టి కేంద్రీకరణ సమయం మరియు రోజువారీ యాప్ కార్యకలాపాలను ట్రాక్ చేయండి.",
+  "myRequests": "నా అభ్యర్థనలు",
+  "reviewWorkRequestsMessage": "ఈ ట్యాబ్ వదలకుండా పని అభ్యర్థనలను సమీక్షించండి.",
+  "checkLatestUpdatesMessage": "పనిని ప్రభావితం చేయగల తాజా అప్‌డేట్‌లను తనిఖీ చేయండి.",
+  "missingCompanyContext": "కంపెనీ సందర్భం లేదు.",
+  "missingCompanyId": "కంపెనీ ఐడి లేదు",
+  "failedToDownloadPayslip": "జీతం చీటి డౌన్‌లోడ్ విఫలమైంది..."
 }

@@ -2698,4 +2698,34 @@ class HrmsL10nGu extends HrmsL10n {
   String get workForce => 'કાર્યબળ';
   @override
   String get reimbursementReport => 'વળતર અહેવાલ';
+  @override
+  String get noLoanPolicyAvailable => 'કોઈ લોન નીતિ ઉપલબ્ધ નથી.';
+  @override
+  String get enterValidAmount => 'એક માન્ય રકમ દાખલ કરો.';
+  @override
+  String get enterValidTenure => 'એક માન્ય સમયગાળો દાખલ કરો.';
+  @override
+  String get unableToCalculateInstallment => 'હપ્તાની રકમ ગણવામાં અસમર્થ.';
+  @override
+  String get enterAReason => 'એક કારણ દાખલ કરો.';
+  @override
+  String get missingCompanyOrEmployeeId => 'કંપની અથવા કર્મચારી આઈડી ખૂટે છે.';
+  @override
+  String get unableToCreateWorkRequest => 'કામની વિનંતી બનાવવામાં અસમર્થ.';
+  @override
+  String get failedToSubmitLoanDetails => 'લોનની વિગતો સબમિટ કરવામાં નિષ્ફળ.';
+  @override
+  String get trackFocusedTimeAndDailyActivity => 'ધ્યાન કેન્દ્રિત સમય અને દૈનિક ઍપ પ્રવૃત્તિ ટ્રૅક કરો.';
+  @override
+  String get myRequests => 'મારી વિનંતીઓ';
+  @override
+  String get reviewWorkRequestsMessage => 'આ ટૅબ છોડ્યા વિના કામની વિનંતીઓ સમીક્ષા કરો.';
+  @override
+  String get checkLatestUpdatesMessage => 'નવીનતમ અપડેટ તપાસો જે કામ પર અસર કરી શકે.';
+  @override
+  String get missingCompanyContext => 'કંપની સંદર્ભ ખૂટે છે.';
+  @override
+  String get missingCompanyId => 'કંપની આઈડી ખૂટે છે';
+  @override
+  String get failedToDownloadPayslip => 'પગારપત્ર ડાઉનલોડ કરવામાં નિષ્ફળ...';
 }

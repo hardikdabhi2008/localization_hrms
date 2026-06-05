@@ -920,5 +920,20 @@
   "crewIncTrackAppUsageMessage": "crew.inc آپ کی شفٹ کے گھنٹوں کے دوران ایپ استعمال ٹریک کرتا ہے تاکہ آپ سمجھ سکیں کہ آپ کام کا وقت کیسے گزارتے ہیں۔",
   "active": "فعال",
   "workForce": "افرادی قوت",
-  "reimbursementReport": "معاوضہ رپورٹ"
+  "reimbursementReport": "معاوضہ رپورٹ",
+  "noLoanPolicyAvailable": "کوئی قرض پالیسی دستیاب نہیں۔",
+  "enterValidAmount": "ایک درست رقم درج کریں۔",
+  "enterValidTenure": "ایک درست مدت درج کریں۔",
+  "unableToCalculateInstallment": "قسط کی رقم کا حساب لگانے میں ناکام۔",
+  "enterAReason": "ایک وجہ درج کریں۔",
+  "missingCompanyOrEmployeeId": "کمپنی یا ملازم آئی ڈی غائب ہے۔",
+  "unableToCreateWorkRequest": "کام کی درخواست بنانے میں ناکام۔",
+  "failedToSubmitLoanDetails": "قرض کی تفصیلات جمع کرانے میں ناکام۔",
+  "trackFocusedTimeAndDailyActivity": "توجہ مرکوز وقت اور روزانہ ایپ سرگرمی ٹریک کریں۔",
+  "myRequests": "میری درخواستیں",
+  "reviewWorkRequestsMessage": "یہ ٹیب چھوڑے بغیر کام کی درخواستوں کا جائزہ لیں۔",
+  "checkLatestUpdatesMessage": "تازہ ترین اپ ڈیٹس دیکھیں جو کام پر اثر انداز ہو سکتی ہیں۔",
+  "missingCompanyContext": "کمپنی سیاق و سباق غائب ہے۔",
+  "missingCompanyId": "کمپنی آئی ڈی غائب ہے",
+  "failedToDownloadPayslip": "تنخواہ پرچی ڈاؤن لوڈ کرنے میں ناکام..."
 }

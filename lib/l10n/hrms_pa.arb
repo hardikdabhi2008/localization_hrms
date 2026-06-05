@@ -920,5 +920,20 @@
   "crewIncTrackAppUsageMessage": "crew.inc ਤੁਹਾਡੀ ਸ਼ਿਫਟ ਦੌਰਾਨ ਐਪ ਵਰਤੋਂ ਟਰੈਕ ਕਰਦਾ ਹੈ ਤਾਂ ਜੋ ਤੁਸੀਂ ਸਮਝ ਸਕੋ ਕਿ ਤੁਸੀਂ ਕੰਮ ਦਾ ਸਮਾਂ ਕਿਵੇਂ ਬਿਤਾਉਂਦੇ ਹੋ।",
   "active": "ਸਰਗਰਮ",
   "workForce": "ਕਾਰਜਬਲ",
-  "reimbursementReport": "ਅਦਾਇਗੀ ਰਿਪੋਰਟ"
+  "reimbursementReport": "ਅਦਾਇਗੀ ਰਿਪੋਰਟ",
+  "noLoanPolicyAvailable": "ਕੋਈ ਕਰਜ਼ਾ ਨੀਤੀ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+  "enterValidAmount": "ਇੱਕ ਵੈਧ ਰਾਸ਼ੀ ਦਾਖਲ ਕਰੋ।",
+  "enterValidTenure": "ਇੱਕ ਵੈਧ ਸਮਾਂ-ਸੀਮਾ ਦਾਖਲ ਕਰੋ।",
+  "unableToCalculateInstallment": "ਕਿਸ਼ਤ ਦੀ ਰਾਸ਼ੀ ਗਿਣਨ ਵਿੱਚ ਅਸਮਰੱਥ।",
+  "enterAReason": "ਇੱਕ ਕਾਰਨ ਦਾਖਲ ਕਰੋ।",
+  "missingCompanyOrEmployeeId": "ਕੰਪਨੀ ਜਾਂ ਕਰਮਚਾਰੀ ਆਈਡੀ ਗੁੰਮ ਹੈ।",
+  "unableToCreateWorkRequest": "ਕੰਮ ਦੀ ਬੇਨਤੀ ਬਣਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ।",
+  "failedToSubmitLoanDetails": "ਕਰਜ਼ੇ ਦੀ ਜਾਣਕਾਰੀ ਜਮ੍ਹਾਂ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+  "trackFocusedTimeAndDailyActivity": "ਧਿਆਨ ਕੇਂਦ੍ਰਿਤ ਸਮਾਂ ਅਤੇ ਰੋਜ਼ਾਨਾ ਐਪ ਗਤੀਵਿਧੀ ਟਰੈਕ ਕਰੋ।",
+  "myRequests": "ਮੇਰੀਆਂ ਬੇਨਤੀਆਂ",
+  "reviewWorkRequestsMessage": "ਇਹ ਟੈਬ ਛੱਡੇ ਬਿਨਾਂ ਕੰਮ ਦੀਆਂ ਬੇਨਤੀਆਂ ਦੀ ਸਮੀਖਿਆ ਕਰੋ।",
+  "checkLatestUpdatesMessage": "ਨਵੀਨਤਮ ਅਪਡੇਟ ਦੇਖੋ ਜੋ ਕੰਮ 'ਤੇ ਅਸਰ ਪਾ ਸਕਦੇ ਹਨ।",
+  "missingCompanyContext": "ਕੰਪਨੀ ਸੰਦਰਭ ਗੁੰਮ ਹੈ।",
+  "missingCompanyId": "ਕੰਪਨੀ ਆਈਡੀ ਗੁੰਮ ਹੈ",
+  "failedToDownloadPayslip": "ਤਨਖਾਹ ਪਰਚੀ ਡਾਊਨਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ..."
 }
